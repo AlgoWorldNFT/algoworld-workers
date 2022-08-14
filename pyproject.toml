@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "algoworld-workers"
+version = "0.1.0"
+description = "A set of cron jobs for processes that keep the algoworld ecosystem running"
+authors = ["MillionAlgosFather <info@algoworld.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+py-algorand-sdk = "^1.16.0"
+
+[tool.poetry.dev-dependencies]
+black = "isort"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
