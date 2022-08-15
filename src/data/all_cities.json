@@ -8,7 +8,7 @@
     },
     {
         "index": 66472076,
-        "influence": 15,
+        "influence": 25,
         "name": "AWC #94 - Ljubljana, Slovenia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
@@ -57,7 +57,7 @@
     },
     {
         "index": 18725946,
-        "influence": 2300,
+        "influence": 2302,
         "name": "AWC #8 - Cairo, Egypt",
         "status": "AlgoWorld Platinum City",
         "url": "www.algoworld-nft.com"
@@ -70,16 +70,16 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18725957,
-        "influence": 5000,
-        "name": "AWC #9 - Paris, France",
+        "index": 18725906,
+        "influence": 5001,
+        "name": "AWC #4 - Beijing, China",
         "status": "AlgoWorld Diamond City",
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18725906,
-        "influence": 5001,
-        "name": "AWC #4 - Beijing, China",
+        "index": 18725957,
+        "influence": 5010,
+        "name": "AWC #9 - Paris, France",
         "status": "AlgoWorld Diamond City",
         "url": "www.algoworld-nft.com"
     },
@@ -113,7 +113,7 @@
     },
     {
         "index": 22888865,
-        "influence": 100000,
+        "influence": 100018,
         "name": "AWC #15 - Dubai, UAE",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmTsU6mfaxPQvywuzJRzEf2WUchvXBm47jjuyAwScW2w4C"

@@ -27,6 +27,7 @@ from src.utils import (
     decode_note,
     get_city_status,
     load,
+    load_notes,
     save_cities,
     save_metadata,
     save_notes,
@@ -43,9 +44,9 @@ card_index = 18725886
 manager_pkey = mnemonic.to_private_key(MANAGER_PASSPHRASE)
 manager_address = mnemonic.to_public_key(MANAGER_PASSPHRASE)
 
-processed_notes = load(PROCESSED_NOTES_PATH)
+processed_notes = load_notes(PROCESSED_NOTES_PATH)
 processed_notes: dict[str, StorageProcessedNote] = (
-    [] if not processed_notes else processed_notes
+    {} if not processed_notes else processed_notes
 )
 processed_note_ids = list(processed_notes.keys())
 
@@ -196,14 +197,14 @@ def extract_update_arc_tags(
     new_status = get_city_status(new_influence)
 
     return new_influence, update_arc_tags(
-        address,
-        sender_address,
-        address_pkey,
-        influence_deposit,
-        note_id,
-        cur_arc_note,
-        new_influence,
-        new_status,
+        address=address,
+        sender_address=sender_address,
+        address_pkey=address_pkey,
+        asset_index=asset_index,
+        influence_deposit=influence_deposit,
+        cur_arc_note=cur_arc_note,
+        new_status=new_status,
+        new_influence=new_influence,
     )
 
 
@@ -253,7 +254,7 @@ def process_influence_txns():
                 )
 
             else:
-                new_influence, txid, tx_info = extract_update_arc_tags(
+                new_influence, tx = extract_update_arc_tags(
                     address=manager_address,
                     sender_address=axfer_txn["sender"],
                     address_pkey=manager_pkey,
@@ -261,20 +262,24 @@ def process_influence_txns():
                     influence_deposit=axfer_txn_note.influence_deposit,
                     note_id=axfer_txn_note.note_id,
                 )
-                confirmed_round = tx_info.get("confirmed_round")
+                confirmed_round = (
+                    tx[1]["confirmed-round"] if "confirmed-round" in tx[1] else None
+                )
 
                 if confirmed_round:
                     print(
                         f"successfully processed deposit of {axfer_txn_note.influence_deposit} for {axfer_txn_note.asset_id} from {axfer_txn['sender']} at round {confirmed_round}"
                     )
-                    processed_notes[axfer_txn_note.note_id] = StorageProcessedNote(
-                        tx_info.get("confirmed-round"),
-                        txid,
-                        axfer_txn_note.note_id,
-                        axfer_txn_note.influence_deposit,
-                        new_influence,
-                        axfer_txn_note.asset_id,
-                        manager_address,
+                    processed_notes[axfer_txn_note.note_id] = asdict(
+                        StorageProcessedNote(
+                            tx[1]["confirmed-round"],
+                            tx[0],
+                            axfer_txn_note.note_id,
+                            axfer_txn_note.influence_deposit,
+                            new_influence,
+                            axfer_txn_note.asset_id,
+                            manager_address,
+                        )
                     )
                     save_notes(PROCESSED_NOTES_PATH, processed_notes)
                     storage_metadata.last_processed_block = params.last

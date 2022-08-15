@@ -69,13 +69,13 @@ def save(path: str, data: object):
 def load_notes(path: str):
     notes = load(path)
     if not notes:
-        return []
+        return {}
     else:
-        notes
+        return notes
 
 
 def save_notes(path: str, notes: list[StorageProcessedNote]):
-    return save(path, [asdict(note) for note in notes])
+    return save(path, notes)
 
 
 def save_cities(path: str, cities: list[AlgoWorldCityAsset]):

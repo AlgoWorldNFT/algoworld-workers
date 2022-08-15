@@ -1,8 +1,8 @@
 name: Process latest city influence deposits & set new city capital
 
 on:
-  # schedule:
-  # - cron: '0 */6 * * *'
+  schedule:
+  - cron: '0 */1 * * *'
 
   workflow_dispatch:
 
@@ -16,6 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+        ref: feat/testnet
 
     - name: Set up Python
       uses: actions/setup-python@v4
