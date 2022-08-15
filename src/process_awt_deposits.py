@@ -6,7 +6,6 @@ from algosdk import mnemonic
 from algosdk.future.transaction import AssetConfigTxn
 
 from src.common import (
-    ALL_CITIES_PATH,
     LEDGER_TYPE,
     MANAGER_PASSPHRASE,
     METADATA_PATH,
@@ -29,7 +28,6 @@ from src.utils import (
     get_onchain_influence,
     load,
     load_notes,
-    save_cities,
     save_metadata,
     save_notes,
     wait_for_confirmation,
@@ -290,28 +288,5 @@ def update_capital(manager_address: str):
         print(f"Skipping {first_city.name} - no second city")
 
 
-def store_cities(manager_address: str):
-    created_assets = indexer.search_assets(
-        limit=100,
-        creator=manager_address,
-    )
-    all_assets = []
-
-    while "next-token" in created_assets:
-        all_assets.extend(
-            [asset for asset in created_assets["assets"] if asset["deleted"] == False]
-        )
-
-        created_assets = indexer.search_assets(
-            limit=100, creator=manager_address, next_page=created_assets["next-token"]
-        )
-
-    awc_prefix = "AWC #"
-    all_cities = get_all_cities(indexer, manager_address, all_assets, awc_prefix)
-    all_cities.sort(key=lambda x: x.influence, reverse=False)
-    save_cities(ALL_CITIES_PATH, all_cities)
-
-
 process_influence_txns()
 update_capital(manager_address)
-store_cities(manager_address)
