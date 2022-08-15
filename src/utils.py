@@ -208,8 +208,7 @@ def get_all_cities(
             cur_influence = get_onchain_influence(cur_arc_note)
 
             if cur_influence <= 0:
-                print(f"Skipping asset {asset_index} with influence {cur_influence}")
-                continue
+                print(f"Warning asset {asset_index} has influence {cur_influence}")
 
             cur_status = get_onchain_city_status(cur_arc_note)
             cur_status = (
