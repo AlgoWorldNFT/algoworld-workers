@@ -358,7 +358,7 @@ def update_capital(manager_address: str):
         )
 
         created_assets = indexer.search_assets(
-            limit=20, creator=manager_address, next_page=created_assets["next-token"]
+            limit=100, creator=manager_address, next_page=created_assets["next-token"]
         )
 
     awc_prefix = "AWC #"
@@ -396,12 +396,12 @@ def store_cities(manager_address: str):
         )
 
         created_assets = indexer.search_assets(
-            limit=20, creator=manager_address, next_page=created_assets["next-token"]
+            limit=100, creator=manager_address, next_page=created_assets["next-token"]
         )
 
     awc_prefix = "AWC #"
     all_cities = get_all_cities(all_assets, awc_prefix)
-    all_cities.sort(key=lambda x: x.index, reverse=False)
+    all_cities.sort(key=lambda x: x.influence, reverse=False)
     save_cities(ALL_CITIES_PATH, all_cities)
 
 
