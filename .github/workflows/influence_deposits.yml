@@ -37,9 +37,13 @@ jobs:
       with:
         extra_args: --all-files --show-diff-on-failure
 
-    - name: Create local changes
+    - name: Process AWT Deposits
       run: |
-        PYTHONPATH="." poetry run python src/city_rewards_worker.py
+        PYTHONPATH="." poetry run python src/process_awt_deposits.py
+
+    - name: Update & fetch all cities
+      run: |
+        PYTHONPATH="." poetry run python src/fetch_aw_cities.py
 
     - name: Commit files
       run: |

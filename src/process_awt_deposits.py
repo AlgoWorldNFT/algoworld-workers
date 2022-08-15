@@ -1,5 +1,3 @@
-import base64
-import json
 import string
 from dataclasses import asdict
 from json import dumps
@@ -25,7 +23,10 @@ from src.models import (
 )
 from src.utils import (
     decode_note,
+    get_all_cities,
     get_city_status,
+    get_onchain_arc,
+    get_onchain_influence,
     load,
     load_notes,
     save_cities,
@@ -58,63 +59,6 @@ storage_metadata = (
 )
 print(f"last processed block {storage_metadata.last_processed_block}")
 print(f"Running against {LEDGER_TYPE}")
-
-
-def get_onchain_arc(address: string, asset_index: int):
-    try:
-        response = indexer.search_transactions(
-            address=address,
-            txn_type="acfg",
-            asset_id=asset_index,
-        )
-
-        if response and "transactions" in response and response["transactions"]:
-            try:
-                asset_config_tx = response["transactions"][0]
-                arc_note = ARC69Record(
-                    **json.loads(
-                        base64.b64decode(asset_config_tx["note"]).decode("utf-8")
-                    )
-                )
-                arc_note.attributes = [
-                    ARC69Attribute(**attribute) for attribute in arc_note.attributes
-                ]
-
-                return arc_note
-
-            except Exception as exp:
-                print(
-                    f"ARC69 not yet configured for city stats for asset index: {asset_index} {exp}"
-                )
-                return None
-    except Exception as exp:
-        print(f"Unable to fetch city stats for {address} {exp}")
-
-    return None
-
-
-def get_onchain_influence(arc_note: ARC69Record):
-
-    if not arc_note:
-        return 0
-
-    for attribute in arc_note.attributes:
-        if attribute.trait_type.lower() == "algoworld influence":
-            return int(attribute.value)
-
-    return -1
-
-
-def get_onchain_city_status(arc_note: ARC69Record):
-
-    if not arc_note:
-        return None
-
-    for attribute in arc_note.attributes:
-        if attribute.trait_type.lower() == "city status":
-            return attribute.value
-
-    return None
 
 
 def update_arc_tags(
@@ -191,7 +135,7 @@ def extract_update_arc_tags(
     influence_deposit: int,
     note_id: string,
 ):
-    cur_arc_note = get_onchain_arc(address, asset_index)
+    cur_arc_note = get_onchain_arc(indexer, address, asset_index)
     cur_influence = get_onchain_influence(cur_arc_note)
     new_influence = cur_influence + influence_deposit
     new_status = get_city_status(new_influence)
@@ -289,7 +233,7 @@ def process_influence_txns():
 
 
 def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
-    cur_arc_note = get_onchain_arc(manager_address, rogue_city.index)
+    cur_arc_note = get_onchain_arc(indexer, manager_address, rogue_city.index)
     txid, _ = update_arc_tags(
         address=manager_address,
         sender_address=manager_address,
@@ -305,50 +249,6 @@ def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
 
     if txid:
         print(f"fixed rogue city status for {rogue_city.name} in {txid}")
-
-
-def get_all_cities(all_assets: list[AlgoWorldCityAsset], awc_prefix: str):
-    all_cities = []
-
-    for asset in all_assets:
-
-        try:
-            print(
-                f'Loading potential city asset under {asset["index"]} and {asset["params"]["name"]}'
-            )
-            asset_index = asset["index"]
-            cur_arc_note = get_onchain_arc(manager_address, asset_index)
-            cur_influence = get_onchain_influence(cur_arc_note)
-
-            if cur_influence <= 0:
-                print(f"Skipping asset {asset_index} with influence {cur_influence}")
-                continue
-
-            cur_status = get_onchain_city_status(cur_arc_note)
-            cur_status = (
-                get_city_status(cur_influence) if not cur_status else cur_status
-            )
-
-            city = AlgoWorldCityAsset(
-                **{
-                    "index": asset["index"],
-                    "name": asset["params"]["name"],
-                    "url": asset["params"]["url"],
-                    "influence": cur_influence,
-                    "status": cur_status,
-                }
-            )
-            if (
-                len(city.name) > len(awc_prefix)
-                and awc_prefix == city.name[0 : len(awc_prefix)]
-            ):
-                all_cities.append(city)
-            else:
-                print(f"Skipping {city.name} - possibly not an aw city asset")
-        except Exception as exp:
-            print(f"Unable to parse asset: {asset} {exp}. Skipping...")
-
-    return all_cities
 
 
 def update_capital(manager_address: str):
@@ -369,7 +269,7 @@ def update_capital(manager_address: str):
         )
 
     awc_prefix = "AWC #"
-    all_cities = get_all_cities(all_assets, awc_prefix)
+    all_cities = get_all_cities(indexer, manager_address, all_assets, awc_prefix)
     all_cities.sort(key=lambda x: x.influence, reverse=True)
     first_city = all_cities.pop(0)
 
@@ -407,7 +307,7 @@ def store_cities(manager_address: str):
         )
 
     awc_prefix = "AWC #"
-    all_cities = get_all_cities(all_assets, awc_prefix)
+    all_cities = get_all_cities(indexer, manager_address, all_assets, awc_prefix)
     all_cities.sort(key=lambda x: x.influence, reverse=False)
     save_cities(ALL_CITIES_PATH, all_cities)
 
