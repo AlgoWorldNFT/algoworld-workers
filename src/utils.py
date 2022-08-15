@@ -1,9 +1,15 @@
 import base64
 import json
+from dataclasses import asdict
 from os.path import exists
 from sys import maxsize
 
-from .models import AWENotePrefix
+from .models import (
+    AlgoWorldCityAsset,
+    AWENotePrefix,
+    StorageMetadata,
+    StorageProcessedNote,
+)
 
 
 class Switch(dict):
@@ -35,13 +41,17 @@ def load(path: str):
     Loads TinyBar data from a file. Returns None if file not exists.
     """
     if exists(path):
-        with open(path, "r") as f:
-            return json.load(f)
+        try:
+            with open(path, "r+") as f:
+                return json.load(f)
+        except Exception as exp:
+            print(f"Unable to load {path} {exp}")
+            return None
     else:
         return None
 
 
-def save(path: str, data: dict):
+def save(path: str, data: object):
     """
     Save TinyBar data into a file.
     """
@@ -54,6 +64,26 @@ def save(path: str, data: dict):
             sort_keys=True,
         )
         f.write("\n")
+
+
+def load_notes(path: str):
+    notes = load(path)
+    if not notes:
+        return []
+    else:
+        notes
+
+
+def save_notes(path: str, notes: list[StorageProcessedNote]):
+    return save(path, [asdict(note) for note in notes])
+
+
+def save_cities(path: str, cities: list[AlgoWorldCityAsset]):
+    return save(path, [asdict(city) for city in cities])
+
+
+def save_metadata(path: str, metadata: StorageMetadata):
+    return save(path, asdict(metadata))
 
 
 def decode_note(raw_note: str):
@@ -76,3 +106,23 @@ def decode_note(raw_note: str):
     except Exception as e:
         print(e)
         return None
+
+
+def wait_for_confirmation(client, txid):
+    """
+    Utility function to wait until the transaction is
+    confirmed before proceeding.
+    """
+    last_round = client.status().get("last-round")
+    txinfo = client.pending_transaction_info(txid)
+    while not (txinfo.get("confirmed-round") and txinfo.get("confirmed-round") > 0):
+        print("Waiting for confirmation")
+        last_round += 1
+        client.status_after_block(last_round)
+        txinfo = client.pending_transaction_info(txid)
+    print(
+        "Transaction {} confirmed in round {}.".format(
+            txid, txinfo.get("confirmed-round")
+        )
+    )
+    return txinfo
