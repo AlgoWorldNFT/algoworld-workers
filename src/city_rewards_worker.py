@@ -9,6 +9,7 @@ from algosdk.future.transaction import AssetConfigTxn
 
 from src.common import (
     ALL_CITIES_PATH,
+    LEDGER_TYPE,
     MANAGER_PASSPHRASE,
     METADATA_PATH,
     PROCESSED_NOTES_PATH,
@@ -55,6 +56,7 @@ storage_metadata = (
     else StorageMetadata(algod_client.suggested_params().last)
 )
 print(f"last processed block {storage_metadata.last_processed_block}")
+print(f"Running against {LEDGER_TYPE}")
 
 
 def get_onchain_arc(address: string, asset_index: int):
