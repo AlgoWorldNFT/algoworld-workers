@@ -55,7 +55,7 @@ last_processed_block = load(METADATA_PATH)
 storage_metadata = (
     StorageMetadata(**last_processed_block)
     if last_processed_block
-    else StorageMetadata(algod_client.suggested_params().last)
+    else StorageMetadata(algod_client.suggested_params().first)
 )
 print(f"last processed block {storage_metadata.last_processed_block}")
 print(f"Running against {LEDGER_TYPE}")
@@ -158,13 +158,13 @@ def process_influence_txns():
     latest_txns = indexer.search_transactions(
         note_prefix=awe_prefix,
         min_round=storage_metadata.last_processed_block,
-        max_round=params.last,
+        max_round=params.first,
         txn_type="axfer",
     )
 
     if len(latest_txns["transactions"]) == 0:
         print("No new transactions to process")
-        storage_metadata.last_processed_block = params.last
+        storage_metadata.last_processed_block = params.first
         save_metadata(METADATA_PATH, storage_metadata)
         return
 
@@ -226,7 +226,7 @@ def process_influence_txns():
                         )
                     )
                     save_notes(PROCESSED_NOTES_PATH, processed_notes)
-                    storage_metadata.last_processed_block = params.last
+                    storage_metadata.last_processed_block = params.first
                     save_metadata(METADATA_PATH, storage_metadata)
 
                 print(f"Skipping {axfer_txn}, unable to parse note field")
