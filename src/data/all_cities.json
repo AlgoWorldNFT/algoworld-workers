@@ -119,13 +119,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18893065,
-        "influence": 0,
-        "name": "AWC #9 - Paris, France",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18893075,
         "influence": 0,
         "name": "AWC #10 - Washington D.C., USA",
@@ -208,6 +201,13 @@
         "name": "AWC #94 - Ljubljana, Slovenia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+    },
+    {
+        "index": 18893065,
+        "influence": 2,
+        "name": "AWC #9 - Paris, France",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
     },
     {
         "index": 22889042,

@@ -8,6 +8,15 @@
         "influence": 100018,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "b1142be2-3773-4965-b9bc-662e57e76cb0": {
+        "acfg_txn": "AI2XGQXEJHYMV3TXAIXUKM4DO4OL64CIPBHDHPRH6QNM24FWO7MQ",
+        "asset_id": 18893065,
+        "block": 23485607,
+        "deposit": 2,
+        "id": "b1142be2-3773-4965-b9bc-662e57e76cb0",
+        "influence": 2,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "f5405848-7211-473f-82db-4ff3913bffc3": {
         "acfg_txn": "GU6525KDNUJ2BXROZVOVZYALMAJFVIAYNXCZI453K64G25IZCV2A",
         "asset_id": 66472076,
