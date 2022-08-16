@@ -8,6 +8,24 @@
         "influence": 100018,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "57bfbf39-1206-484c-a0fb-be8f27ad5a04": {
+        "acfg_txn": "EYO3FP6OVU5RZ5WVCBH5KPMYKEM4XYJ6UEFCEGSC3S5JTMP73ZZA",
+        "asset_id": 18725957,
+        "block": 23488193,
+        "deposit": 1,
+        "id": "57bfbf39-1206-484c-a0fb-be8f27ad5a04",
+        "influence": 5011,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "6a7c8504-e151-428d-b901-42ae323e3393": {
+        "acfg_txn": "HVQPXRBAIL2DEUBTARZDMBIS23AGXGIN5ZQCBDQV3HOBFGEBMBWA",
+        "asset_id": 18725876,
+        "block": 23488191,
+        "deposit": 1,
+        "id": "6a7c8504-e151-428d-b901-42ae323e3393",
+        "influence": 200013,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "b1142be2-3773-4965-b9bc-662e57e76cb0": {
         "acfg_txn": "AI2XGQXEJHYMV3TXAIXUKM4DO4OL64CIPBHDHPRH6QNM24FWO7MQ",
         "asset_id": 18893065,
