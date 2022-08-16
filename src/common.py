@@ -27,3 +27,4 @@ DATA_FOLDER_PATH = str(Path(Path.cwd()).joinpath("src").joinpath("data"))
 PROCESSED_NOTES_PATH = f"{DATA_FOLDER_PATH}/processed_notes.json"
 METADATA_PATH = f"{DATA_FOLDER_PATH}/metadata.json"
 ALL_CITIES_PATH = f"{DATA_FOLDER_PATH}/all_cities.json"
+CITIES_DB_PATH = f"{DATA_FOLDER_PATH}/cities_db.json"
