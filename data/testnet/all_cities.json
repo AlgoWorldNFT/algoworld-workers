@@ -42,6 +42,27 @@
         "url": "www.algoworld-nft.com"
     },
     {
+        "index": 18725957,
+        "influence": 0,
+        "name": "AWC #9 - Paris, France",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
+        "index": 18725967,
+        "influence": 0,
+        "name": "AWC #10 - Washington D.C., USA",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
+        "index": 18725977,
+        "influence": 0,
+        "name": "AWC #11 - Athens, Greece",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
         "index": 18726167,
         "influence": 0,
         "name": "AWC #1000 - Washington D.C., USA",
@@ -231,20 +252,6 @@
         "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
     },
     {
-        "index": 18725967,
-        "influence": 1007,
-        "name": "AWC #10 - Washington D.C., USA",
-        "status": "AlgoWorld Gold City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
-        "index": 18725977,
-        "influence": 1010,
-        "name": "AWC #11 - Athens, Greece",
-        "status": "AlgoWorld Gold City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 22889062,
         "influence": 1030,
         "name": "AWC #22 - Copenhagen, Denmark",
@@ -283,13 +290,6 @@
         "index": 18725906,
         "influence": 5001,
         "name": "AWC #4 - Beijing, China",
-        "status": "AlgoWorld Diamond City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
-        "index": 18725957,
-        "influence": 5011,
-        "name": "AWC #9 - Paris, France",
         "status": "AlgoWorld Diamond City",
         "url": "www.algoworld-nft.com"
     },
