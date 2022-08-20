@@ -7,6 +7,7 @@ authors = ["MillionAlgosFather <info@algoworld.io>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 py-algorand-sdk = "^1.16.0"
+tinyman-py-sdk = {git = "https://github.com/algoworldnft/tinyman-py-sdk.git", rev = "main"}
 
 [tool.poetry.dev-dependencies]
 black = "isort"

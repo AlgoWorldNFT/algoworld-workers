@@ -7,6 +7,7 @@ from algosdk.v2client import algod, indexer
 LEDGER_TYPE = environ.get("LEDGER_TYPE", "TestNet")
 
 MANAGER_PASSPHRASE = os.environ.get("MANAGER_PASSPHRASE")
+SWAP_REWARDS_PASSPHRASE = os.environ.get("SWAP_REWARDS_PASSPHRASE")
 
 INDEXER_URL = (
     "https://algoindexer.testnet.algoexplorerapi.io"

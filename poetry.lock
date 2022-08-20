@@ -88,7 +88,7 @@ docs = ["sphinx (>=4)", "sphinx-autodoc-typehints (>=1.12)", "proselint (>=0.10.
 
 [[package]]
 name = "py-algorand-sdk"
-version = "1.16.0"
+version = "1.16.1"
 description = "Algorand SDK in Python"
 category = "main"
 optional = false
@@ -131,6 +131,24 @@ docs = ["sphinx (>=1.6.5)", "sphinx-rtd-theme"]
 tests = ["pytest (>=3.2.1,!=3.3.0)", "hypothesis (>=3.27.0)"]
 
 [[package]]
+name = "tinyman-py-sdk"
+version = "0.0.6"
+description = ""
+category = "main"
+optional = false
+python-versions = ">=3.7"
+develop = false
+
+[package.dependencies]
+py-algorand-sdk = ">=1.6.0"
+
+[package.source]
+type = "git"
+url = "https://github.com/algoworldnft/tinyman-py-sdk.git"
+reference = "main"
+resolved_reference = "40ca5536b7e31d642954ed4e3e9ee773e598c28d"
+
+[[package]]
 name = "tomli"
 version = "2.0.1"
 description = "A lil' TOML parser"
@@ -149,7 +167,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "be3714833acda9b5fea1a4aa69b024062b5463092ffc9a5d06edb4d4a632f607"
+content-hash = "6e7bb8863dbaac53bea89293251bda087a31fd08e3f2050a18f0e70b10d5f442"
 
 [metadata.files]
 black = []
@@ -164,5 +182,6 @@ py-algorand-sdk = []
 pycparser = []
 pycryptodomex = []
 pynacl = []
+tinyman-py-sdk = []
 tomli = []
 typing-extensions = []
