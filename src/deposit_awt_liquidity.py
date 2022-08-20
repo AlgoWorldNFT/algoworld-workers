@@ -1,8 +1,7 @@
-from algosdk import mnemonic, account
-from algosdk.v2client.algod import AlgodClient
-from src.common import LEDGER_TYPE, SWAP_REWARDS_PASSPHRASE
+from algosdk import account, mnemonic
 from tinyman.v1.client import TinymanMainnetClient, TinymanTestnetClient
-from src.common import algod_client
+
+from src.common import LEDGER_TYPE, SWAP_REWARDS_PASSPHRASE, algod_client
 
 swap_rewards_pkey = mnemonic.to_private_key(SWAP_REWARDS_PASSPHRASE)
 swap_rewards_address = account.address_from_private_key(swap_rewards_pkey)
