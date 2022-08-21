@@ -35,6 +35,6 @@ jobs:
       with:
         extra_args: --all-files --show-diff-on-failure
 
-    - name: Update & fetch all cities
+    - name: Check and update ALGO/AWT tinyman liquditiy
       run: |
         PYTHONPATH="." LEDGER_TYPE="MainNet" poetry run python src/deposit_awt_liquidity.py
