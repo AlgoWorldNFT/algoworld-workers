@@ -9,6 +9,7 @@ from algosdk.v2client.indexer import IndexerClient
 from src.common import CITIES_DB_PATH
 
 from .models import (
+    AlgoWorldAsset,
     AlgoWorldCityAsset,
     ARC69Attribute,
     ARC69Record,
@@ -84,8 +85,8 @@ def save_notes(path: str, notes: list[StorageProcessedNote]):
     return save(path, notes)
 
 
-def save_cities(path: str, cities: list[AlgoWorldCityAsset]):
-    return save(path, [asdict(city) for city in cities])
+def save_aw_assets(path: str, assets: list[AlgoWorldAsset]):
+    return save(path, [asdict(asset) for asset in assets])
 
 
 def save_metadata(path: str, metadata: StorageMetadata):

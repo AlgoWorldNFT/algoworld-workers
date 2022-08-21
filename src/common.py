@@ -28,3 +28,6 @@ PROCESSED_NOTES_PATH = f"{DATA_FOLDER_PATH}/processed_notes.json"
 METADATA_PATH = f"{DATA_FOLDER_PATH}/metadata.json"
 ALL_CITIES_PATH = f"{DATA_FOLDER_PATH}/all_cities.json"
 CITIES_DB_PATH = f"{DATA_FOLDER_PATH}/cities_db.json"
+
+ALL_COUNTRIES_PATH = f"{DATA_FOLDER_PATH}/all_countries.json"
+COUNTRIES_DB_PATH = f"{DATA_FOLDER_PATH}/countries_db.json"

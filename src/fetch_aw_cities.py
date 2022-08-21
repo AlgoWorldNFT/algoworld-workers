@@ -2,7 +2,7 @@ from algosdk import mnemonic
 from algosdk.v2client.indexer import IndexerClient
 
 from src.common import ALL_CITIES_PATH, MANAGER_PASSPHRASE, indexer
-from src.utils import get_all_cities, save_cities
+from src.utils import get_all_cities, save_aw_assets
 
 
 def fetch_aw_cities(indexer: IndexerClient, manager_address: str):
@@ -24,7 +24,7 @@ def fetch_aw_cities(indexer: IndexerClient, manager_address: str):
     awc_prefix = "AWC #"
     all_cities = get_all_cities(indexer, manager_address, all_assets, awc_prefix)
     all_cities.sort(key=lambda x: x.influence, reverse=False)
-    save_cities(ALL_CITIES_PATH, all_cities)
+    save_aw_assets(ALL_CITIES_PATH, all_cities)
 
 
 manager_address = mnemonic.to_public_key(MANAGER_PASSPHRASE)
