@@ -1,8 +1,11 @@
+from os import environ
+
 from algosdk import account, mnemonic
 from tinyman.v1.client import TinymanMainnetClient, TinymanTestnetClient
 
-from src.common import LEDGER_TYPE, SWAP_REWARDS_PASSPHRASE, algod_client
+from src.common import LEDGER_TYPE, algod_client
 
+SWAP_REWARDS_PASSPHRASE = environ.get("SWAP_REWARDS_PASSPHRASE")
 swap_rewards_pkey = mnemonic.to_private_key(SWAP_REWARDS_PASSPHRASE)
 swap_rewards_address = account.address_from_private_key(swap_rewards_pkey)
 
