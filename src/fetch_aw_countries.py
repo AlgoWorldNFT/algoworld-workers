@@ -17,8 +17,7 @@ def fetch_country_image_url(
         min_amount=0,
         txn_type="axfer",
     )
-    if asset_index == 188042721:
-        print("stop")
+
     if "transactions" in note_txns:
         for txn in note_txns["transactions"]:
             if "note" in txn:

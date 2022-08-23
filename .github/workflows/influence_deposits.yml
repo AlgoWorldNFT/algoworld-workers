@@ -47,7 +47,7 @@ jobs:
       run: |
         git config --local user.email "millionalgos@pm.me"
         git config --local user.name "github-actions[bot]"
-        git commit -m "chore: refreshed city influence related data 🤖" -a
+        git commit -m "chore: refreshed city influence related data and deposits 🤖" -a
 
     - name: Push changes
       uses: ad-m/github-push-action@master
