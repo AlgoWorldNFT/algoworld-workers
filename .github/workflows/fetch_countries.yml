@@ -3,7 +3,7 @@ name: Fetch all country cards with manual trigger
 on:
   workflow_dispatch:
       inputs:
-        logLevel:
+        chainType:
           description: 'Chain type'
           required: true
           default: 'testnet'
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
-      LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
+      LEDGER_TYPE: ${{ github.event.inputs.chainType }}
 
     steps:
     - uses: actions/checkout@v3
