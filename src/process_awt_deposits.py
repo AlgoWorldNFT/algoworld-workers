@@ -212,6 +212,15 @@ def process_influence_txns():
                     print(
                         f"successfully processed deposit of {axfer_txn_note.influence_deposit} for {axfer_txn_note.asset_id} from {axfer_txn['sender']} at round {confirmed_round}"
                     )
+                    asset = indexer.asset_info(axfer_txn_note.asset_id)
+
+                    asset_name = "N/A"
+
+                    try:
+                        asset_name = asset["asset"]["params"]["name"]
+                    except Exception as exp:
+                        print(f"Unable to get asset name: {exp} setting to N/A")
+
                     processed_notes[axfer_txn_note.note_id] = asdict(
                         StorageProcessedNote(
                             tx[1]["confirmed-round"],
@@ -220,6 +229,7 @@ def process_influence_txns():
                             axfer_txn_note.influence_deposit,
                             new_influence,
                             axfer_txn_note.asset_id,
+                            asset_name,
                             manager_address,
                         )
                     )

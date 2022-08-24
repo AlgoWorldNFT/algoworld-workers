@@ -32,6 +32,7 @@ class StorageProcessedNote:
     deposit: int
     influence: int
     asset_id: str
+    asset_name: str
     sender_address: str
 
 
