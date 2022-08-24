@@ -49,13 +49,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18891763,
-        "influence": 0,
-        "name": "AWC #100 - Poissy, France",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18891850,
         "influence": 0,
         "name": "AWC #100 - Poissy, France",
@@ -194,6 +187,13 @@
         "name": "AWC #94 - Ljubljana, Slovenia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+    },
+    {
+        "index": 18891763,
+        "influence": 1,
+        "name": "AWC #100 - Poissy, France",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
     },
     {
         "index": 52580313,
