@@ -131,7 +131,6 @@ def extract_update_arc_tags(
     address_pkey: string,
     asset_index: int,
     influence_deposit: int,
-    note_id: string,
 ):
     cur_arc_note = get_onchain_arc(indexer, address, asset_index)
     cur_influence = get_onchain_influence(cur_arc_note)
@@ -202,7 +201,6 @@ def process_influence_txns():
                     address_pkey=manager_pkey,
                     asset_index=axfer_txn_note.asset_id,
                     influence_deposit=axfer_txn_note.influence_deposit,
-                    note_id=axfer_txn_note.note_id,
                 )
                 confirmed_round = (
                     tx[1]["confirmed-round"] if "confirmed-round" in tx[1] else None
@@ -236,8 +234,6 @@ def process_influence_txns():
                     save_notes(PROCESSED_NOTES_PATH, processed_notes)
                     storage_metadata.last_processed_block = params.first
                     save_metadata(METADATA_PATH, storage_metadata)
-
-                print(f"Skipping {axfer_txn}, unable to parse note field")
 
 
 def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):

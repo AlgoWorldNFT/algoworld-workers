@@ -1,0 +1,12 @@
+{
+    "544fda38-a4af-40eb-9c78-b35279aadf8d": {
+        "acfg_txn": "HJ3P6DRPX7FC3KYY7XFGDB75IYAE3POARNDBDXUJG5L5FNDLPJOQ",
+        "asset_id": 18891763,
+        "asset_name": "AWC #100 - Poissy, France",
+        "block": 23668705,
+        "deposit": 1,
+        "id": "544fda38-a4af-40eb-9c78-b35279aadf8d",
+        "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    }
+}
