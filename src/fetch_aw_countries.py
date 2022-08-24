@@ -25,7 +25,7 @@ def fetch_country_image_url(
                     note_content = str(base64.b64decode(txn["note"]))
                     if "ipfs://" in note_content:
                         cid = note_content.split("\\xaf3")[0].split("ipfs://")[1]
-                        return f"https://ipfs.io/ipfs/{cid}"
+                        return f"ipfs://{cid}"
                 except Exception as exp:
                     print(f"Unable to decode note for {asset_index} {exp} skipping")
     return None

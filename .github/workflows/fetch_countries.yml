@@ -10,7 +10,7 @@ on:
 
 jobs:
   process_deposits:
-    name: Run city influence worker
+    name: Run countries fetcher worker
     runs-on: ubuntu-latest
     env:
       MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
