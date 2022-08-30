@@ -4,6 +4,16 @@ from dataclasses import asdict
 from os.path import exists
 from sys import maxsize
 
+from algosdk.future.transaction import (
+    AssetTransferTxn,
+    LogicSig,
+    LogicSigTransaction,
+    PaymentTxn,
+    SignedTransaction,
+    Transaction,
+    calculate_group_id,
+)
+from algosdk.v2client.algod import AlgodClient
 from algosdk.v2client.indexer import IndexerClient
 
 from src.common import CITIES_DB_PATH
@@ -14,8 +24,11 @@ from .models import (
     ARC69Attribute,
     ARC69Record,
     AWENotePrefix,
+    CityPack,
+    LogicSigWallet,
     StorageMetadata,
     StorageProcessedNote,
+    Wallet,
 )
 
 
@@ -89,8 +102,26 @@ def save_aw_assets(path: str, assets: list[AlgoWorldAsset]):
     return save(path, [asdict(asset) for asset in assets])
 
 
+def load_aw_cities(path: str) -> list[AlgoWorldCityAsset]:
+    cities = [AlgoWorldCityAsset(**city) for city in load(path)]
+    if not cities:
+        return []
+    return cities
+
+
 def save_metadata(path: str, metadata: StorageMetadata):
     return save(path, asdict(metadata))
+
+
+def load_packs(path: str) -> list[CityPack]:
+    packs = [CityPack(**pack) for pack in load(path)]
+    if not packs:
+        return []
+    return packs
+
+
+def save_packs(path: str, packs: list[CityPack]):
+    return save(path, [asdict(pack) for pack in packs])
 
 
 def decode_note(raw_note: str):
@@ -244,3 +275,114 @@ def get_all_cities(
             print(f"Unable to parse asset: {asset} {exp}. Skipping...")
 
     return all_cities
+
+
+def _compile_source(algod: AlgodClient, source: str):
+    """Compile and return teal binary code."""
+    compile_response = algod.compile(source)
+    return base64.b64decode(compile_response["result"])
+
+
+def logic_signature(algod: AlgodClient, teal_source: str):
+    """Create and return logic signature for provided `teal_source`."""
+    compiled_binary = _compile_source(algod, teal_source)
+    return LogicSig(compiled_binary)
+
+
+def sign(wallet, txn: Transaction) -> SignedTransaction:
+    if isinstance(wallet, LogicSigWallet):
+        return LogicSigTransaction(txn, wallet.logicsig)  # type: ignore
+
+    assert wallet.private_key  # nosec
+    return txn.sign(wallet.private_key)
+
+
+def group_sign_send_wait(algod: AlgodClient, signers: list, txns: list[Transaction]):
+    """
+    Sign and send group transaction to network and wait for confirmation.
+    """
+
+    assert len(signers) == len(txns)  # nosec
+    signed_group = []
+    gid = calculate_group_id(txns)
+
+    for signer, t in zip(signers, txns):
+        t.group = gid
+        signed_group.append(sign(signer, t))
+
+    gtxn_id = algod.send_transactions(signed_group)
+    return gtxn_id
+
+
+def swapper_opt_in(
+    algod: AlgodClient,
+    swap_creator: Wallet,
+    swapper_account: LogicSigWallet,
+    assets: list[int],
+    funding_amount: int,
+):
+    params = algod.suggested_params()
+
+    signers = [swap_creator]
+    transactions = [
+        PaymentTxn(
+            sender=swap_creator.public_key,
+            sp=params,
+            receiver=swapper_account.public_key,
+            amt=funding_amount,
+        )
+    ]
+
+    for asset_id in assets:
+        signers.append(swapper_account)
+        transactions.append(
+            AssetTransferTxn(
+                sender=swapper_account.public_key,
+                sp=params,
+                receiver=swapper_account.public_key,
+                amt=0,
+                index=asset_id,
+            )
+        )
+
+    print(f"\n --- Swapper {swapper_account.public_key} opted-in ASAs {assets}.")
+
+    return group_sign_send_wait(algod, signers, transactions)
+
+
+def sign_send_wait(algod: AlgodClient, wallet: Wallet, txn: Transaction):
+    """Sign a transaction, submit it, and wait for its confirmation."""
+    signed_txn = sign(wallet, txn)
+    tx_id = signed_txn.transaction.get_txid()
+
+    algod.send_transactions([signed_txn])
+    return tx_id
+
+
+def swapper_deposit(
+    algod: AlgodClient,
+    swap_creator: Wallet,
+    swapper_account: LogicSigWallet,
+    assets: dict[str, int],
+):
+    params = algod.suggested_params()
+
+    deposit_txs = {}
+    for asset_id, asset_amount in assets.items():
+
+        deposit_asa_txn = AssetTransferTxn(
+            sender=swap_creator.public_key,
+            sp=params,
+            receiver=swapper_account.public_key,
+            amt=asset_amount,
+            index=int(asset_id),
+        )
+
+        deposit_txs[asset_id] = sign_send_wait(algod, swap_creator, deposit_asa_txn)
+
+        print(
+            f"\n --- Account {swap_creator.public_key} deposited {asset_amount} "
+            f"units of ASA {asset_id} into {swapper_account.public_key}."
+        )
+
+    return deposit_txs

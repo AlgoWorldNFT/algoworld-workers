@@ -52,3 +52,39 @@ class AlgoWorldAsset:
 class AlgoWorldCityAsset(AlgoWorldAsset):
     influence: int
     status: str
+
+
+@dataclass
+class CityPackAsa:
+    id: int
+    amount: int
+    decimals: int
+    title: str
+    url: str
+
+
+@dataclass
+class CityPack:
+    id: int
+    creator: str
+    escrow: str
+    contract: str
+    title: str
+    offered_asas: list[CityPackAsa]
+    requested_algo_amount: int
+    requested_algo_wallet: str
+    is_active: bool
+    is_closed: bool
+    last_swap_tx: str
+
+
+@dataclass
+class LogicSigWallet:
+    logicsig: str
+    public_key: str
+
+
+@dataclass
+class Wallet:
+    private_key: str
+    public_key: str
