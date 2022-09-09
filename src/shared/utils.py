@@ -114,7 +114,9 @@ def save_metadata(path: str, metadata: StorageMetadata):
 
 
 def load_packs(path: str) -> list[CityPack]:
-    packs = [CityPack(**pack) for pack in load(path)]
+    content = load(path)
+    content = content if content else []
+    packs = [CityPack(**pack) for pack in content]
     if not packs:
         return []
     return packs
