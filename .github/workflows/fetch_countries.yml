@@ -39,7 +39,7 @@ jobs:
 
     - name: Update & fetch all cities
       run: |
-        PYTHONPATH="." poetry run python src/fetch_aw_countries.py
+        PYTHONPATH="." poetry run python src/countries/fetch_all.py
 
     - name: Commit files
       run: |

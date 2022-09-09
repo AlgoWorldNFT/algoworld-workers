@@ -37,11 +37,11 @@ jobs:
 
     - name: Process AWT Deposits
       run: |
-        PYTHONPATH="." poetry run python src/process_awt_deposits.py
+        PYTHONPATH="." poetry run python src/cities/influence/process_deposits.py
 
     - name: Update & fetch all cities
       run: |
-        PYTHONPATH="." poetry run python src/fetch_aw_cities.py
+        PYTHONPATH="." poetry run python src/cities/fetch_all.py
 
     - name: Commit files
       run: |

@@ -5,22 +5,22 @@ from json import dumps
 from algosdk import mnemonic
 from algosdk.future.transaction import AssetConfigTxn
 
-from src.common import (
+from src.shared.common import (
+    CITY_INFLUENCE_METADATA_PATH,
+    CITY_INFLUENCE_PROCESSED_NOTES_PATH,
     LEDGER_TYPE,
     MANAGER_PASSPHRASE,
-    METADATA_PATH,
-    PROCESSED_NOTES_PATH,
     algod_client,
     indexer,
 )
-from src.models import (
+from src.shared.models import (
     AlgoWorldCityAsset,
     ARC69Attribute,
     ARC69Record,
     StorageMetadata,
     StorageProcessedNote,
 )
-from src.utils import (
+from src.shared.utils import (
     decode_note,
     get_all_cities,
     get_city_status,
@@ -43,13 +43,13 @@ card_index = 18725886
 manager_pkey = mnemonic.to_private_key(MANAGER_PASSPHRASE)
 manager_address = mnemonic.to_public_key(MANAGER_PASSPHRASE)
 
-processed_notes = load_notes(PROCESSED_NOTES_PATH)
+processed_notes = load_notes(CITY_INFLUENCE_PROCESSED_NOTES_PATH)
 processed_notes: dict[str, StorageProcessedNote] = (
     {} if not processed_notes else processed_notes
 )
 processed_note_ids = list(processed_notes.keys())
 
-last_processed_block = load(METADATA_PATH)
+last_processed_block = load(CITY_INFLUENCE_METADATA_PATH)
 storage_metadata = (
     StorageMetadata(**last_processed_block)
     if last_processed_block
@@ -162,7 +162,7 @@ def process_influence_txns():
     if len(latest_txns["transactions"]) == 0:
         print("No new transactions to process")
         storage_metadata.last_processed_block = params.first
-        save_metadata(METADATA_PATH, storage_metadata)
+        save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
         return
 
     for axfer_txn in latest_txns["transactions"]:
@@ -231,9 +231,9 @@ def process_influence_txns():
                             manager_address,
                         )
                     )
-                    save_notes(PROCESSED_NOTES_PATH, processed_notes)
+                    save_notes(CITY_INFLUENCE_PROCESSED_NOTES_PATH, processed_notes)
                     storage_metadata.last_processed_block = params.first
-                    save_metadata(METADATA_PATH, storage_metadata)
+                    save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
 
 
 def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):

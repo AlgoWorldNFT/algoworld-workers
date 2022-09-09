@@ -25,6 +25,14 @@ class AWENotePrefix:
 
 
 @dataclass
+class AWECityPackPurchaseNotePrefix:
+    prefix: str
+    operation: str
+    pack_id: int
+    buyer_addres: str
+
+
+@dataclass
 class StorageProcessedNote:
     block: int
     acfg_txn: str

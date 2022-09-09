@@ -2,9 +2,9 @@ import base64
 
 from algosdk.v2client.indexer import IndexerClient
 
-from models import AlgoWorldAsset
-from src.common import ALL_COUNTRIES_PATH, indexer
-from src.utils import save_aw_assets
+from src.shared.common import COUNTRY_ASSET_DB_PATH, indexer
+from src.shared.models import AlgoWorldAsset
+from src.shared.utils import save_aw_assets
 
 
 def fetch_country_image_url(
@@ -81,6 +81,6 @@ all_countries = []
 for addr in creator_addresses:
     all_countries.extend(fetch_aw_countries(indexer, addr))
 
-save_aw_assets(ALL_COUNTRIES_PATH, all_countries)
+save_aw_assets(COUNTRY_ASSET_DB_PATH, all_countries)
 
 # Save indexes (manual for now)

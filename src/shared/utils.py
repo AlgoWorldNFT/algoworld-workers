@@ -16,13 +16,13 @@ from algosdk.future.transaction import (
 from algosdk.v2client.algod import AlgodClient
 from algosdk.v2client.indexer import IndexerClient
 
-from src.common import CITIES_DB_PATH
-
-from .models import (
+from src.shared.common import CITY_ASSET_DB_PATH
+from src.shared.models import (
     AlgoWorldAsset,
     AlgoWorldCityAsset,
     ARC69Attribute,
     ARC69Record,
+    AWECityPackPurchaseNotePrefix,
     AWENotePrefix,
     CityPack,
     LogicSigWallet,
@@ -146,6 +146,27 @@ def decode_note(raw_note: str):
         return None
 
 
+def decode_city_pack_note(raw_note: str):
+    """
+    Decodes a note into a dict.
+    """
+    try:
+        decoded_note = base64.b64decode(raw_note).decode()
+
+        splitted_note = decoded_note.split("_")
+        note = {
+            "prefix": splitted_note[0],
+            "operation": splitted_note[1],
+            "pack_id": int(splitted_note[2]),
+            "buyer_addres": splitted_note[3],
+        }
+
+        return AWECityPackPurchaseNotePrefix(**note)
+    except Exception as e:
+        print(e)
+        return None
+
+
 def wait_for_confirmation(client, txid):
     """
     Utility function to wait until the transaction is
@@ -230,7 +251,7 @@ def get_all_cities(
     awc_prefix: str,
 ):
     all_cities = []
-    city_db_indexes = load(CITIES_DB_PATH)
+    city_db_indexes = load(CITY_ASSET_DB_PATH)
 
     for asset in all_assets:
 
