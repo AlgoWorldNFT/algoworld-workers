@@ -28,8 +28,8 @@ DATA_FOLDER_PATH = str(Path(Path.cwd()).joinpath("data").joinpath(LEDGER_TYPE.lo
 
 # Cities
 CITY_FOLDER_PATH = f"{DATA_FOLDER_PATH}/cities"
-CITY_ASSET_IDS_PATH = f"{DATA_FOLDER_PATH}/asset_ids.json"
-CITY_ASSET_DB_PATH = f"{DATA_FOLDER_PATH}/database.json"
+CITY_ASSET_IDS_PATH = f"{CITY_FOLDER_PATH}/asset_ids.json"
+CITY_ASSET_DB_PATH = f"{CITY_FOLDER_PATH}/database.json"
 
 ## City influence
 CITY_INFLUENCE_FOLDER_PATH = f"{CITY_FOLDER_PATH}/influence"

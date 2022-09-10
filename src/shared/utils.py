@@ -16,7 +16,7 @@ from algosdk.future.transaction import (
 from algosdk.v2client.algod import AlgodClient
 from algosdk.v2client.indexer import IndexerClient
 
-from src.shared.common import CITY_ASSET_DB_PATH
+from src.shared.common import CITY_ASSET_IDS_PATH
 from src.shared.models import (
     AlgoWorldAsset,
     AlgoWorldCityAsset,
@@ -253,7 +253,7 @@ def get_all_cities(
     awc_prefix: str,
 ):
     all_cities = []
-    city_db_indexes = load(CITY_ASSET_DB_PATH)
+    city_db_indexes = load(CITY_ASSET_IDS_PATH)
 
     for asset in all_assets:
 
