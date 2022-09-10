@@ -16,6 +16,7 @@ from src.shared.common import (
     CITY_PACK_BASE_OPTIN_FEE,
     CITY_PACK_CARD_NUMBER,
     CITY_PACK_INCENTIVE_ADDRESS,
+    CITY_PACK_PURCHASED_PATH,
     MANAGER_PASSPHRASE,
     algod_client,
 )
@@ -34,6 +35,10 @@ manager_wallet = Wallet(
     mnemonic.to_public_key(MANAGER_PASSPHRASE),
 )
 active_packs = load_packs(CITY_PACK_AVAILABLE_PATH)
+purchased_packs = load_packs(CITY_PACK_PURCHASED_PATH)
+purchased_packs.sort(key=lambda p: p.id)
+
+aw_cities = load_aw_cities(CITY_ASSET_DB_PATH)
 all_cities = load_aw_cities(CITY_ASSET_DB_PATH)
 
 
@@ -85,7 +90,14 @@ if len(active_packs) < CITY_PACK_AMOUNT_LIMIT:
 
     contract = algod_client.compile(compile_stateless(multi_asa_swapper(cfg)))
 
-    new_pack_id = active_packs[-1].id + 1
+    new_pack_id = (
+        active_packs[-1].id + 1
+        if len(active_packs) > 0
+        else purchased_packs[-1].id + 1
+        if len(purchased_packs) > 0
+        else 1
+    )
+
     new_pack = CityPack(
         id=new_pack_id,
         creator=manager_wallet.public_key,
