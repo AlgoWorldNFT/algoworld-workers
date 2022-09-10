@@ -8,7 +8,7 @@ from algoworld_contracts.swapper.asas_to_algo_swapper import (
 )
 
 from src.shared.common import (
-    CITY_ASSET_IDS_PATH,
+    CITY_ASSET_DB_PATH,
     CITY_PACK_ALGO_PRICE,
     CITY_PACK_AMOUNT_LIMIT,
     CITY_PACK_ASA_TO_ALGO_MIN_FEE,
@@ -34,7 +34,7 @@ manager_wallet = Wallet(
     mnemonic.to_public_key(MANAGER_PASSPHRASE),
 )
 active_packs = load_packs(CITY_PACK_AVAILABLE_PATH)
-all_cities = load_aw_cities(CITY_ASSET_IDS_PATH)
+all_cities = load_aw_cities(CITY_ASSET_DB_PATH)
 
 
 if len(active_packs) < CITY_PACK_AMOUNT_LIMIT:
