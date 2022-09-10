@@ -16,6 +16,7 @@ jobs:
     name: Create new packs
     runs-on: ubuntu-latest
     env:
+      CITY_PACK_AMOUNT_LIMIT: ${{ secrets.CITY_PACK_AMOUNT_LIMIT }}
       MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
       LEDGER_TYPE: ${{ github.event.inputs.chainType }}
 
