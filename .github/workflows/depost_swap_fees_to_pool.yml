@@ -37,4 +37,4 @@ jobs:
 
     - name: Check and update ALGO/AWT tinyman liquditiy
       run: |
-        PYTHONPATH="." LEDGER_TYPE="MainNet" poetry run python src/deposit_awt_liquidity.py
+        PYTHONPATH="." LEDGER_TYPE="MainNet" poetry run python src/awt/fees_to_liquidity.py
