@@ -51,15 +51,15 @@ jobs:
         git config --local user.name "github-actions[bot]"
         if [ -n "$(git status --porcelain)" ]; then
           git commit -m "chore: executed pack closeouts 🤖" -a
-          echo ::set-output name=has_commits::true
+          echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
         else
-          echo "no changes - skipping"
-          echo ::set-output name=has_commits::false
+          echo "no changes - skipping "
+          echo "HAS_COMMITS=false" >> "$GITHUB_ENV"
         fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master
-      if: steps.commit_files.outputs.has_commits == 'true'
+      if: env.HAS_COMMITS != false
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
