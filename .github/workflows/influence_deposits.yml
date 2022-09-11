@@ -52,13 +52,16 @@ jobs:
           git commit -m "chore: refreshed city influence related data and deposits 🤖" -a
           echo ::set-output name=has_commits::true
         else
-          echo "no changes - skipping"
+          echo "no changes - skipping "
           echo ::set-output name=has_commits::false
         fi
 
+        echo "test"
+        echo {{ steps.vars.outputs.has_commits }}
+
     - name: Push changes
       uses: ad-m/github-push-action@master
-      if: steps.vars.outputs.has_commits == 'true'
+      if: steps.vars.outputs.has_commits == true
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
