@@ -27,5 +27,6 @@ def fetch_aw_cities(indexer: IndexerClient, manager_address: str):
     save_aw_assets(CITY_ASSET_DB_PATH, all_cities)
 
 
-manager_address = mnemonic.to_public_key(MANAGER_PASSPHRASE)
-fetch_aw_cities(indexer, manager_address)
+if __name__ == "__main__":
+    manager_address = mnemonic.to_public_key(MANAGER_PASSPHRASE)
+    fetch_aw_cities(indexer, manager_address)
