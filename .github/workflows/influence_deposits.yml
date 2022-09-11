@@ -56,12 +56,9 @@ jobs:
           echo ::set-output name=has_commits::false
         fi
 
-        echo "test"
-        echo {{ steps.vars.outputs.has_commits }}
-
     - name: Push changes
       uses: ad-m/github-push-action@master
-      if: steps.vars.outputs.has_commits == true
+      if: steps.commit_files.outputs.has_commits == true
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
