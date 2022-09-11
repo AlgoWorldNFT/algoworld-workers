@@ -138,7 +138,9 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
     pack_purchase_note = decode_city_pack_note(pack_purchase_txn["note"])
     if pack_purchase_note:
 
-        sender_mismatch = pack_purchase_txn["sender"] != pack_purchase_note.buyer_addres
+        sender_mismatch = (
+            pack_purchase_txn["sender"] != pack_purchase_note.buyer_address
+        )
 
         pack_available = pack_purchase_note.pack_id in [
             pack.id for pack in available_packs
@@ -150,7 +152,7 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
 
         if sender_mismatch:
             print(
-                f"Sender mismatch for pack purchase {pack_purchase_txn['id']} - {pack_purchase_txn['sender']} != {pack_purchase_note.buyer_addres}"
+                f"Sender mismatch for pack purchase {pack_purchase_txn['id']} - {pack_purchase_txn['sender']} != {pack_purchase_note.buyer_address}"
             )
 
         elif pack_purchased:

@@ -29,7 +29,7 @@ class AWECityPackPurchaseNotePrefix:
     prefix: str
     operation: str
     pack_id: int
-    buyer_addres: str
+    buyer_address: str
 
 
 @dataclass

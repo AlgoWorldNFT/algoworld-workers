@@ -22,7 +22,7 @@ def fetch_country_image_url(
         for txn in note_txns["transactions"]:
             if "note" in txn:
                 try:
-                    note_content = str(base64.b64decode(txn["note"]))
+                    note_content = str(base64.b64decode(txn["note"]).decode())
                     if "ipfs://" in note_content:
                         cid = note_content.split("\\xaf3")[0].split("ipfs://")[1]
                         return f"ipfs://{cid}"
@@ -71,16 +71,15 @@ def fetch_aw_countries(indexer: IndexerClient, creator_address: str):
     return all_assets
 
 
-creator_addresses = [
-    "SXZC6IQBZNPZCOI3JR2Z7GHOHCZ2UFRH2547QDZBJ6BPIMVEJZMPZLJKWU",
-    "4SP2YJCEFOGHEXJDJU73TVVG3KG4WVQC7KI55CZTGNZZL6OE52ROJ7QRLY",
-]
+if __name__ == "__main__":
+    creator_addresses = [
+        "SXZC6IQBZNPZCOI3JR2Z7GHOHCZ2UFRH2547QDZBJ6BPIMVEJZMPZLJKWU",
+        "4SP2YJCEFOGHEXJDJU73TVVG3KG4WVQC7KI55CZTGNZZL6OE52ROJ7QRLY",
+    ]
 
-all_countries = []
+    all_countries = []
 
-for addr in creator_addresses:
-    all_countries.extend(fetch_aw_countries(indexer, addr))
+    for addr in creator_addresses:
+        all_countries.extend(fetch_aw_countries(indexer, addr))
 
-save_aw_assets(COUNTRY_ASSET_DB_PATH, all_countries)
-
-# Save indexes (manual for now)
+    save_aw_assets(COUNTRY_ASSET_DB_PATH, all_countries)

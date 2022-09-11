@@ -160,7 +160,7 @@ def decode_city_pack_note(raw_note: str):
             "prefix": splitted_note[0],
             "operation": splitted_note[1],
             "pack_id": int(splitted_note[2]),
-            "buyer_addres": splitted_note[3],
+            "buyer_address": splitted_note[3],
         }
 
         return AWECityPackPurchaseNotePrefix(**note)
