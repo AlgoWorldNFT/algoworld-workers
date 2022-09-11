@@ -105,8 +105,6 @@ storage_metadata = (
     if last_processed_block
     else StorageMetadata(algod_client.suggested_params().first)
 )
-## tmp
-storage_metadata.last_processed_block = 23932070
 
 
 params = algod_client.suggested_params()
