@@ -44,13 +44,21 @@ jobs:
         PYTHONPATH="." poetry run python src/cities/fetch_all.py
 
     - name: Commit files
+      id: commit_files
       run: |
         git config --local user.email "millionalgos@pm.me"
         git config --local user.name "github-actions[bot]"
-        git commit -m "chore: refreshed city influence related data and deposits 🤖" -a
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -m "chore: refreshed city influence related data and deposits 🤖" -a
+          run: echo ::set-output name=has_commits::false
+        else
+          echo "no changes - skipping"
+          run: echo ::set-output name=has_commits::true
+        fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master
+      if: steps.vars.outputs.has_commits == 'true'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
