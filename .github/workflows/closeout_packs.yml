@@ -1,8 +1,8 @@
 name: Periodically close purchased packs
 
 on:
-  # schedule:
-  # - cron: '0 */3 * * *'
+  schedule:
+  - cron: '0 */3 * * *'
 
   workflow_dispatch:
       inputs:
@@ -45,13 +45,21 @@ jobs:
         PYTHONPATH="." poetry run python src/cities/packs/closeout.py
 
     - name: Commit files
+      id: commit_files
       run: |
         git config --local user.email "millionalgos@pm.me"
         git config --local user.name "github-actions[bot]"
-        git commit -m "chore: executed pack closeouts 🤖" -a
+        if [ -n "$(git status --porcelain)" ]; then
+          git commit -m "chore: executed pack closeouts 🤖" -a
+          echo ::set-output name=has_commits::false
+        else
+          echo "no changes - skipping"
+          echo ::set-output name=has_commits::true
+        fi
 
     - name: Push changes
       uses: ad-m/github-push-action@master
+      if: steps.vars.outputs.has_commits == 'true'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: ${{ github.ref }}
