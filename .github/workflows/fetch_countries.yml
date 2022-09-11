@@ -48,10 +48,10 @@ jobs:
         git config --local user.name "github-actions[bot]"
         if [ -n "$(git status --porcelain)" ]; then
           git commit -m "chore: reloaded all country cards 🤖" -a
-          echo ::set-output name=has_commits::false
+          echo ::set-output name=has_commits::true
         else
           echo "no changes - skipping"
-          echo ::set-output name=has_commits::true
+          echo ::set-output name=has_commits::false
         fi
 
     - name: Push changes
