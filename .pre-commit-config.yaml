@@ -35,6 +35,7 @@ repos:
       rev: '1.7.4'
       hooks:
         - id: bandit
+          args: ["-x", "tests/*"]
     - repo: local
       hooks:
       - id: pytest-check
