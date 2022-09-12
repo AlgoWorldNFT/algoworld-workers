@@ -1,7 +1,7 @@
 name: Process latest city influence deposits & set new city capital
 
 on:
-  schedule:
+  # schedule:
   # - cron: '0 */1 * * *'
 
   workflow_dispatch:

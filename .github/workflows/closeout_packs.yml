@@ -1,7 +1,7 @@
 name: Periodically close purchased packs
 
 on:
-  schedule:
+  # schedule:
   # - cron: '0 */3 * * *'
 
   workflow_dispatch:
