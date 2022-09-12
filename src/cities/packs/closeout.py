@@ -111,7 +111,7 @@ params = algod_client.suggested_params()
 min_pack_price = 10_000_000
 latest_pack_purchase_txns = indexer.search_transactions(
     note_prefix=note_prefix,
-    min_round=storage_metadata.last_processed_block,
+    min_round=storage_metadata.last_processed_block - 100000,
     max_round=params.first,
     min_amount=min_pack_price - 1,
     txn_type="pay",
@@ -174,17 +174,24 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
                     logicsig=escrow_lsig, public_key=escrow_lsig.address()
                 )
 
-                gtxn_id = _close_swap(
-                    asset_sender=escrow_wallet,
-                    asset_receiver=manager_wallet,
-                    asset_close_to=manager_wallet,
-                    asset_ids=[asset["id"] for asset in pack_to_close.offered_asas],
-                    swapper_funds_sender=escrow_wallet,
-                    swapper_funds_receiver=manager_wallet,
-                    swapper_funds_close_to=manager_wallet,
-                    proof_sender=manager_wallet,
-                    proof_receiver=manager_wallet,
-                )
+                gtxn_id = pack_purchase_txn.get("id")
+
+                try:
+                    gtxn_id = _close_swap(
+                        asset_sender=escrow_wallet,
+                        asset_receiver=manager_wallet,
+                        asset_close_to=manager_wallet,
+                        asset_ids=[asset["id"] for asset in pack_to_close.offered_asas],
+                        swapper_funds_sender=escrow_wallet,
+                        swapper_funds_receiver=manager_wallet,
+                        swapper_funds_close_to=manager_wallet,
+                        proof_sender=manager_wallet,
+                        proof_receiver=manager_wallet,
+                    )
+                except Exception as e:
+                    print(
+                        f"Failed to close swap for {gtxn_id} - {e}. Was most probably processed but not persisted, proceeding with obtained tx id {gtxn_id}"
+                    )
 
                 tx = indexer.transaction(gtxn_id)
 
