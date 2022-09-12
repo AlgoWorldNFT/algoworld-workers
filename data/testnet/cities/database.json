@@ -42,13 +42,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18726167,
-        "influence": 0,
-        "name": "AWC #1000 - Washington D.C., USA",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18891850,
         "influence": 0,
         "name": "AWC #100 - Poissy, France",
@@ -189,6 +182,13 @@
         "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
     },
     {
+        "index": 18726167,
+        "influence": 1,
+        "name": "AWC #1000 - Washington D.C., USA",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
         "index": 18891763,
         "influence": 1,
         "name": "AWC #100 - Poissy, France",
@@ -267,7 +267,7 @@
     },
     {
         "index": 18725946,
-        "influence": 2302,
+        "influence": 2304,
         "name": "AWC #8 - Cairo, Egypt",
         "status": "AlgoWorld Platinum City",
         "url": "www.algoworld-nft.com"

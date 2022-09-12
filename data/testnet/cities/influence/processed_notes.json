@@ -1,4 +1,14 @@
 {
+    "114c7d1c-04cc-47e7-a826-6059d2f3f825": {
+        "acfg_txn": "2YRESUSCSGKEIB4MN6Y54QJEXBQUOTMMXMLXBQTISD3FWZP64ERQ",
+        "asset_id": 18725946,
+        "asset_name": "AWC #8 - Cairo, Egypt",
+        "block": 24053496,
+        "deposit": 2,
+        "id": "114c7d1c-04cc-47e7-a826-6059d2f3f825",
+        "influence": 2304,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "544fda38-a4af-40eb-9c78-b35279aadf8d": {
         "acfg_txn": "HJ3P6DRPX7FC3KYY7XFGDB75IYAE3POARNDBDXUJG5L5FNDLPJOQ",
         "asset_id": 18891763,
@@ -6,6 +16,16 @@
         "block": 23668705,
         "deposit": 1,
         "id": "544fda38-a4af-40eb-9c78-b35279aadf8d",
+        "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "63f02029-91c6-4d29-be2e-96c0694befdd": {
+        "acfg_txn": "MIO6H75KDBZ7J67EVKLC2SABJHTA7IGEMWLYZP7U2N7UJKTMRP2Q",
+        "asset_id": 18726167,
+        "asset_name": "AWC #1000 - Washington D.C., USA",
+        "block": 24053498,
+        "deposit": 1,
+        "id": "63f02029-91c6-4d29-be2e-96c0694befdd",
         "influence": 1,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
