@@ -14,13 +14,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18725105,
-        "influence": 0,
-        "name": "AWC #7 - London, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18725394,
         "influence": 0,
         "name": "AWC #7 - London, UK",
@@ -173,6 +166,13 @@
         "name": "AWC #94 - Ljubljana, Slovenia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+    },
+    {
+        "index": 18725105,
+        "influence": 1,
+        "name": "AWC #7 - London, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
     },
     {
         "index": 18726167,
