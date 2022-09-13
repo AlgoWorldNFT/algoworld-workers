@@ -28,7 +28,6 @@ DATA_FOLDER_PATH = str(Path(Path.cwd()).joinpath("data").joinpath(LEDGER_TYPE.lo
 
 # Cities
 CITY_FOLDER_PATH = f"{DATA_FOLDER_PATH}/cities"
-CITY_ASSET_IDS_PATH = f"{CITY_FOLDER_PATH}/asset_ids.json"
 CITY_ASSET_DB_PATH = f"{CITY_FOLDER_PATH}/database.json"
 
 ## City influence
@@ -56,5 +55,8 @@ CITY_PACK_METADATA_PATH = f"{CITY_PACK_FOLDER_PATH}/metadata.json"
 
 # Countries
 COUNTRY_FOLDER_PATH = f"{DATA_FOLDER_PATH}/countries"
-COUNTRY_ASSET_IDS_PATH = f"{COUNTRY_FOLDER_PATH}/asset_ids.json"
 COUNTRY_ASSET_DB_PATH = f"{COUNTRY_FOLDER_PATH}/database.json"
+
+# Special Cards
+SPECIAL_CARDS_FOLDER_PATH = f"{DATA_FOLDER_PATH}/special"
+SPECIAL_CARDS_ASSET_DB_PATH = f"{SPECIAL_CARDS_FOLDER_PATH}/database.json"

@@ -7,27 +7,43 @@ from src.shared.models import AlgoWorldAsset
 from src.shared.utils import save_aw_assets
 
 
+def fetch_country_image_txns(
+    indexer: IndexerClient,
+    creator_address: str,
+):
+    response = []
+    max_round = 13312110 + 100000
+
+    note_txns = indexer.search_transactions(
+        address=creator_address,
+        limit=100,
+        min_amount=0,
+        max_amount=2,
+        txn_type="axfer",
+        max_round=max_round,
+    )
+
+    if not note_txns or "transactions" not in note_txns:
+        return response
+
+    response.extend(note_txns["transactions"])
+
+    return [tx for tx in response if "note" in tx]
+
+
 def fetch_country_image_url(
     indexer: IndexerClient, creator_address: str, asset_index: int
 ):
-    note_txns = indexer.search_transactions(
-        address=creator_address,
-        asset_id=asset_index,
-        limit=100,
-        min_amount=0,
-        txn_type="axfer",
-    )
-
-    if "transactions" in note_txns:
-        for txn in note_txns["transactions"]:
-            if "note" in txn:
-                try:
-                    note_content = str(base64.b64decode(txn["note"]).decode())
-                    if "ipfs://" in note_content:
-                        cid = note_content.split("\\xaf3")[0].split("ipfs://")[1]
-                        return f"ipfs://{cid}"
-                except Exception as exp:
-                    print(f"Unable to decode note for {asset_index} {exp} skipping")
+    note_txns = fetch_country_image_txns(indexer, creator_address)
+    for txn in note_txns:
+        try:
+            note_content = str(base64.b64decode(txn["note"]))
+            if "ipfs://" in note_content:
+                cid = note_content.split("\\xaf3")[0].split("ipfs://")[1]
+                print(f"Found image for {asset_index} {cid}")
+                return f"ipfs://{cid}"
+        except Exception as exp:
+            print(f"Unable to decode note for {asset_index} {exp} skipping")
     return None
 
 

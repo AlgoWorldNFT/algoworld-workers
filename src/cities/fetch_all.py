@@ -1,7 +1,6 @@
-from algosdk import mnemonic
 from algosdk.v2client.indexer import IndexerClient
 
-from src.shared.common import CITY_ASSET_DB_PATH, MANAGER_PASSPHRASE, indexer
+from src.shared.common import CITY_ASSET_DB_PATH, indexer
 from src.shared.utils import get_all_cities, save_aw_assets
 
 
@@ -28,5 +27,5 @@ def fetch_aw_cities(indexer: IndexerClient, manager_address: str):
 
 
 if __name__ == "__main__":
-    manager_address = mnemonic.to_public_key(MANAGER_PASSPHRASE)
+    manager_address = "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     fetch_aw_cities(indexer, manager_address)

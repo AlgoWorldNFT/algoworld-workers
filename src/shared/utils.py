@@ -16,7 +16,6 @@ from algosdk.future.transaction import (
 from algosdk.v2client.algod import AlgodClient
 from algosdk.v2client.indexer import IndexerClient
 
-from src.shared.common import CITY_ASSET_IDS_PATH
 from src.shared.models import (
     AlgoWorldAsset,
     AlgoWorldCityAsset,
@@ -253,7 +252,6 @@ def get_all_cities(
     awc_prefix: str,
 ):
     all_cities = []
-    city_db_indexes = load(CITY_ASSET_IDS_PATH)
 
     for asset in all_assets:
 
@@ -262,10 +260,6 @@ def get_all_cities(
                 f'Loading potential city asset under {asset["index"]} and {asset["params"]["name"]}'
             )
             asset_index = asset["index"]
-
-            if asset_index not in city_db_indexes:
-                print(f"City asset {asset_index} not in city db. Skipping...")
-                continue
 
             cur_arc_note = get_onchain_arc(indexer, manager_address, asset_index)
             cur_influence = get_onchain_influence(cur_arc_note)

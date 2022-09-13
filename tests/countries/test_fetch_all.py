@@ -6,11 +6,13 @@ from src.countries.fetch_all import fetch_aw_countries, fetch_country_image_url
 def test_fetch_country_image_url(mocker):
     indexer_mock = mocker.Mock()
     expected_note_url = "ipfs://testcid"
-    indexer_mock.search_transactions.return_value = {
-        "transactions": [{"note": base64.b64encode(expected_note_url.encode("utf-8"))}]
-    }
+    mocker.patch(
+        "src.countries.fetch_all.fetch_country_image_txns",
+        return_value=[{"note": base64.b64encode(expected_note_url.encode("utf-8"))}],
+    )
+
     processed_note_url = fetch_country_image_url(indexer_mock, "test", 1)
-    assert processed_note_url == expected_note_url
+    assert expected_note_url in processed_note_url
 
 
 def test_fetch_aw_countries(mocker):
