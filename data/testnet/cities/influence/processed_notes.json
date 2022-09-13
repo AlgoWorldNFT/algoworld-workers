@@ -1,4 +1,14 @@
 {
+    "0cf4e364-5986-478a-867f-d048c89d0342": {
+        "acfg_txn": "T6WKNLDRI472ZSF6VGEOWJW5IZBUTYBUN5N4LTC7P2DVRTRNYGVQ",
+        "asset_id": 18893094,
+        "asset_name": "AWC #12 - Madrid, Spain",
+        "block": 24077695,
+        "deposit": 1,
+        "id": "0cf4e364-5986-478a-867f-d048c89d0342",
+        "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "114c7d1c-04cc-47e7-a826-6059d2f3f825": {
         "acfg_txn": "2YRESUSCSGKEIB4MN6Y54QJEXBQUOTMMXMLXBQTISD3FWZP64ERQ",
         "asset_id": 18725946,

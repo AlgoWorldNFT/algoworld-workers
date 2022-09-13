@@ -119,13 +119,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18893094,
-        "influence": 0,
-        "name": "AWC #12 - Madrid, Spain",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18986847,
         "influence": 0,
         "name": "AWC #1 - test, test",
@@ -192,6 +185,13 @@
         "index": 18891763,
         "influence": 1,
         "name": "AWC #100 - Poissy, France",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
+        "index": 18893094,
+        "influence": 1,
+        "name": "AWC #12 - Madrid, Spain",
         "status": "AlgoWorld Regular City",
         "url": "www.algoworld-nft.com"
     },
