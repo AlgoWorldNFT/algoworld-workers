@@ -2,11 +2,11 @@ name: Fetch all country cards with manual trigger
 
 on:
   workflow_dispatch:
-      inputs:
-        chainType:
-          description: 'Chain type'
-          required: true
-          default: 'testnet'
+    inputs:
+      chainType:
+        description: "Chain type"
+        required: true
+        default: "testnet"
 
 jobs:
   process_deposits:
@@ -14,49 +14,49 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
-      LEDGER_TYPE: ${{ github.event.inputs.chainType }}
+      LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.9.9
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9.9
 
-    - name: Set up Poetry
-      uses: abatilo/actions-poetry@v2.1.6
-      with:
+      - name: Set up Poetry
+        uses: abatilo/actions-poetry@v2.1.6
+        with:
           poetry-version: 1.1.6
 
-    - name: Install python dependencies
-      run: poetry install
+      - name: Install python dependencies
+        run: poetry install
 
-    - uses: pre-commit/action@v3.0.0
-      name: "Linters and formatters check"
-      with:
-        extra_args: --all-files --show-diff-on-failure
+      - uses: pre-commit/action@v3.0.0
+        name: "Linters and formatters check"
+        with:
+          extra_args: --all-files --show-diff-on-failure
 
-    - name: Update & fetch all cities
-      run: |
-        PYTHONPATH="." poetry run python src/countries/fetch_all.py
+      - name: Update & fetch all cities
+        run: |
+          PYTHONPATH="." poetry run python src/countries/fetch_all.py
 
-    - name: Commit files
-      id: commit_files
-      run: |
-        git config --local user.email "millionalgos@pm.me"
-        git config --local user.name "github-actions[bot]"
-        if [ -n "$(git status --porcelain)" ]; then
-          git commit -m "chore: reloaded all country cards 🤖" -a
-          echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
-        else
-          echo "no changes - skipping "
-          echo "HAS_COMMITS=false" >> "$GITHUB_ENV"
-        fi
+      - name: Commit files
+        id: commit_files
+        run: |
+          git config --local user.email "millionalgos@pm.me"
+          git config --local user.name "github-actions[bot]"
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: reloaded all country cards 🤖" -a
+            echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
+          else
+            echo "no changes - skipping "
+            echo "HAS_COMMITS=false" >> "$GITHUB_ENV"
+          fi
 
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      if: env.HAS_COMMITS != false
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ github.ref }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        if: env.HAS_COMMITS != false
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

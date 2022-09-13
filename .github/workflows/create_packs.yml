@@ -2,7 +2,7 @@ name: Create new packs if limit of available packs falls below threshold
 
 on:
   schedule:
-  - cron: '0 */5 * * *'
+    - cron: "0 */5 * * *"
 
   workflow_dispatch:
     inputs:
@@ -18,7 +18,7 @@ jobs:
     env:
       CITY_PACK_AMOUNT_LIMIT: ${{ secrets.CITY_PACK_AMOUNT_LIMIT }}
       MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
-      LEDGER_TYPE: ${{ github.event.inputs.chainType }}
+      LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
 
     steps:
       - uses: actions/checkout@v3
