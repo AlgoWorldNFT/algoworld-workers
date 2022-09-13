@@ -20,17 +20,6 @@ jobs:
       LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
 
     steps:
-      - name: Check secrets presence
-        shell: bash
-        run: |
-          if [ "$LEDGER_TYPE" == "" ]; then
-            echo ::set-output name=secretspresent::false
-          else
-            echo ::set-output name=secretspresent::true
-          fi
-        env:
-          MULTI_LINE_ARG: ${{ secrets.MULTI_LINE_ARG}}
-
       - uses: actions/checkout@v3
 
       - name: Set up Python
