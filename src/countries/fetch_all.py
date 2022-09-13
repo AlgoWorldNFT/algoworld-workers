@@ -10,15 +10,16 @@ from src.shared.utils import save_aw_assets
 def fetch_country_image_txns(
     indexer: IndexerClient,
     creator_address: str,
+    asset_index: int,
 ):
     response = []
-    max_round = 13312110 + 100000
+    max_round = 13312110 + 5000000
 
     note_txns = indexer.search_transactions(
         address=creator_address,
         limit=100,
         min_amount=0,
-        max_amount=2,
+        asset_id=asset_index,
         txn_type="axfer",
         max_round=max_round,
     )
@@ -34,7 +35,7 @@ def fetch_country_image_txns(
 def fetch_country_image_url(
     indexer: IndexerClient, creator_address: str, asset_index: int
 ):
-    note_txns = fetch_country_image_txns(indexer, creator_address)
+    note_txns = fetch_country_image_txns(indexer, creator_address, asset_index)
     for txn in note_txns:
         try:
             note_content = str(base64.b64decode(txn["note"]))
