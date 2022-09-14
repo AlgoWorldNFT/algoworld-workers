@@ -1,8 +1,8 @@
 from algosdk.v2client.indexer import IndexerClient
 
-from src.shared.common import CITY_ASSET_DB_PATH, SPECIAL_CARDS_ASSET_DB_PATH, indexer
+from src.shared.common import SPECIAL_CARDS_ASSET_DB_PATH, indexer
 from src.shared.models import AlgoWorldAsset
-from src.shared.utils import get_all_cities, save_aw_assets
+from src.shared.utils import save_aw_assets
 
 
 def fetch_aw_special_cards(indexer: IndexerClient, manager_address: str):
