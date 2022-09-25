@@ -45,6 +45,14 @@ def fetch_aw_special_cards(indexer: IndexerClient, manager_address: str):
     save_aw_assets(SPECIAL_CARDS_ASSET_DB_PATH, all_special)
 
 
-if __name__ == "__main__":
+def main():  # pragma: no cover
     manager_address = "HNVDQHZHQ76PDA7VQ54HFFHIYNNYTHZWJSSQVKNWMIDTDPUH7ME5W6CKIE"
     fetch_aw_special_cards(indexer, manager_address)
+
+
+def init():
+    if __name__ == "__main__":
+        main()
+
+
+init()

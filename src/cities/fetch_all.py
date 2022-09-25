@@ -26,6 +26,14 @@ def fetch_aw_cities(indexer: IndexerClient, manager_address: str):
     save_aw_assets(CITY_ASSET_DB_PATH, all_cities)
 
 
-if __name__ == "__main__":
+def main():  # pragma: no cover
     manager_address = "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     fetch_aw_cities(indexer, manager_address)
+
+
+def init():
+    if __name__ == "__main__":
+        main()
+
+
+init()

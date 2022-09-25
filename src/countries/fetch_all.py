@@ -88,7 +88,7 @@ def fetch_aw_countries(indexer: IndexerClient, creator_address: str):
     return all_assets
 
 
-if __name__ == "__main__":
+def main():  # pragma: no cover
     creator_addresses = [
         "SXZC6IQBZNPZCOI3JR2Z7GHOHCZ2UFRH2547QDZBJ6BPIMVEJZMPZLJKWU",
         "4SP2YJCEFOGHEXJDJU73TVVG3KG4WVQC7KI55CZTGNZZL6OE52ROJ7QRLY",
@@ -100,3 +100,11 @@ if __name__ == "__main__":
         all_countries.extend(fetch_aw_countries(indexer, addr))
 
     save_aw_assets(COUNTRY_ASSET_DB_PATH, all_countries)
+
+
+def init():
+    if __name__ == "__main__":
+        main()
+
+
+init()
