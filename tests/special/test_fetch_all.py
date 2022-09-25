@@ -1,6 +1,3 @@
-import base64
-
-from pytest import raises
 from src.special import fetch_all
 from src.special.fetch_all import fetch_aw_special_cards
 
