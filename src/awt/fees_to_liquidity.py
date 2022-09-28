@@ -55,7 +55,7 @@ def fees_to_awt_liquidity(
     if AWT in excess:
         amount = excess[AWT]
         print(f"Excess: {amount}")
-        # We might just let the excess accumulate rather than redeeming if its < 1 TinyUSDC
+        # We might just let the excess accumulate rather than redeeming if its < 1 AWT
         if amount > 1_000_000:
             transaction_group = pool.prepare_redeem_transactions(amount)
             transaction_group.sign_with_private_key(
@@ -67,7 +67,6 @@ def fees_to_awt_liquidity(
     info = pool.fetch_pool_position()
     share = info["share"] * 100
     print(f"Pool Tokens: {info[pool.liquidity_asset]}")
-    print(f"Assets: {info[AWT]}, {info[ALGO]}")
     print(f"Share of pool: {share:.3f}%")
 
 

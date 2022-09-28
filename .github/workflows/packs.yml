@@ -1,4 +1,4 @@
-name: Periodically close purchased packs
+name: Close old and create new packs
 
 on:
   schedule:
@@ -12,8 +12,8 @@ on:
         default: "testnet"
 
 jobs:
-  close_packs:
-    name: Close purchased packs
+  process_packs:
+    name: Close old and create new packs
     runs-on: ubuntu-latest
     env:
       MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
@@ -43,6 +43,10 @@ jobs:
       - name: Close purchased packs
         run: |
           PYTHONPATH="." poetry run python src/cities/packs/closeout.py
+
+      - name: Create new city packs
+        run: |
+          PYTHONPATH="." poetry run python src/cities/packs/create.py
 
       - name: Commit files
         id: commit_files

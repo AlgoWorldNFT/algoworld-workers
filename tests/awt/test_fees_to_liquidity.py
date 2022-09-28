@@ -1,7 +1,7 @@
-from re import A
+from pytest import raises
+
 from src.awt import fees_to_liquidity
 from src.awt.fees_to_liquidity import fees_to_awt_liquidity
-from pytest import raises
 
 
 def test_fees_to_awt_liquidity_below_trigger(mocker):
@@ -27,12 +27,26 @@ def test_fees_to_awt_liquidity_below_trigger(mocker):
     assert print_mock.call_count == 1
 
 
+# TODO: refine
 def test_fees_to_awt_liquidity_above_trigger(mocker):
 
     # Arrange
     swap_rewards_wallet_mock = mocker.Mock()
+    mint_quote_mock = mocker.Mock()
+    mint_quote_mock.amounts_in = 3 * 1e6
+    mint_quote_mock.liquidity_asset_amount_with_slippage = 1 * 1e6
+
     tinyman_client_mock = mocker.Mock()
-    tinyman_client_mock.fetch_pool.fetch_mint_quote.return_value = MintQuote()
+    tinyman_client_mock.return_value = tinyman_client_mock
+
+    pool_mock = mocker.Mock()
+    pool_mock.fetch_mint_quote.return_value = mint_quote_mock
+    pool_mock.fetch_excess_amounts.return_value = {}
+    pool_mock.liquidity_asset = "test_asset"
+    pool_mock.fetch_pool_position.return_value = {"share": 0, "test_asset": 0}
+
+    tinyman_client_mock.fetch_pool.return_value = pool_mock
+
     algod_client_mock = mocker.Mock()
     algod_client_mock.account_info.return_value = {
         "amount": 5 * 1e6,
@@ -69,7 +83,7 @@ def test_fees_to_awt_liquidity_above_trigger(mocker):
     )
 
     # Assert
-    assert print_mock.call_count == 1
+    assert print_mock.call_count == 3
 
 
 def test_name_equals_main(mocker):
