@@ -39,7 +39,7 @@ jobs:
           extra_args: --all-files --show-diff-on-failure
 
       - name: Run pytest
-        run: PYTHONPATH="." poetry run pytest --cov=src tests/
+        run: PYTHONPATH="." poetry run pytest --cov=src --cov-report xml:cov.xml
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
