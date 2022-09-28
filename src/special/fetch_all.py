@@ -12,7 +12,7 @@ def fetch_aw_special_cards(indexer: IndexerClient, manager_address: str):
     )
     all_assets = []
     all_special = []
-    name_prefix = "AW Special Card "
+    name_prefix = "AW "
 
     while "next-token" in created_assets:
         all_assets.extend(
