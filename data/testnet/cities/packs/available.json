@@ -292,5 +292,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #9"
+    },
+    {
+        "contract": "BiAKBOgHAQDZ+PYIyoiBCfPbvBeckoEJkvj2CAcmASCcsD62lU5XgO2DLmQKilcYz7yAIx0BGgwWnT6qsbU4jzIEgQYSMwAQJBIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQIhIQQAKEMgQhCRIzABAkEhAzARAkEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhAzBhAiEhBAASMyBCEJEjMAECISEDMBECISEDMCECISEDMDECISEDMEECISEDMFECQSEDMGECQSEEAAAQAzAAEjDjMBASMOEDMCASMOEDMDASMOEDMEASMOEDMAIDIDEhAzASAyAxIQMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwATMgMSEDMBEzIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBQEjDjMFIDIDEhAQMwARIQQSEDMBESEFEhAzAhEhBhIQMwMRIQcSEDMEESEIEhAzABQoEhAzARQoEhAzAhQoEhAzAxQoEhAzBBQoEhAzABUoEhAzARUoEhAzAhUoEhAzAxUoEhAzBBUoEhAzBQcoEhAzBQkoEhAzBgAoEhAzBgcoEhAzBgglEhBCAeIzAgEjDjMDASMOEDMEASMOEDMFASMOEDMGASMOEDMCIDIDEhAzAyAyAxIQMwQgMgMSEDMFIDIDEhAzBiAyAxIQMwITMgMSEDMDEzIDEhAzBBMyAxIQMwUTMgMSEDMGEzIDEhAzAhUyAxIQMwMVMgMSEDMEFTIDEhAzBRUyAxIQMwYVMgMSEDMAB4AgimsTSeaT3G/bdfoZnOggwIAbbwLrLGURzwEIjuVdTo0SEDMACCUSEDMBCIGAreIEEhAzAQcoEhAzAhEhBBIQMwMRIQUSEDMEESEGEhAzBREhBxIQMwYRIQgSEDMCEiQSEDMDEiQSEDMEEiQSEDMFEiQSEDMGEiQSEDMCFDMBABIQMwMUMwEAEhAzBBQzAQASEDMFFDMBABIQMwYUMwEAEhBCALMzAAAoEjMACIGQi0APEDMAASMOEDMAIDIDEhAzAAkyAxIQMwEAMwAHEhAzAgAzAAcSEDMDADMABxIQMwQAMwAHEhAzBQAzAAcSEDMBESEEEhAzAhEhBRIQMwMRIQYSEDMEESEHEhAzBREhCBIQMwEAMwEUEhAzAgAzAhQSEDMDADMDFBIQMwQAMwQUEhAzBQAzBRQSEDMBEiUSEDMCEiUSEDMDEiUSEDMEEiUSEDMFEiUSEEM=",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "MEA2GYS5GMHY6P5FS6KBR3SJBQCXHRYXLDGLXVODPGHNP5LOW4AHQE55ZU",
+        "id": 10,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725977,
+                "title": "AWC #11 - Athens, Greece",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18891850,
+                "title": "AWC #100 - Poissy, France",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 49229299,
+                "title": "AWC #6 - Chicago, USA",
+                "url": "ipfs://QmdNR3DtTpqLqdcP8vzU2ZUcZx4J2Eag89ejSsRLoexV2w"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18893084,
+                "title": "AWC #11 - Athens, Greece",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725906,
+                "title": "AWC #4 - Beijing, China",
+                "url": "www.algoworld-nft.com"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #10"
     }
 ]
