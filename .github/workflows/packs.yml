@@ -11,6 +11,9 @@ on:
         required: true
         default: "testnet"
 
+concurrency:
+  group: ${{ github.head_ref || github.ref_name }}
+
 jobs:
   process_packs:
     name: Close old and create new packs

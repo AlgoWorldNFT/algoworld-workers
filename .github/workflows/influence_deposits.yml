@@ -6,6 +6,9 @@ on:
 
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.head_ref || github.ref_name }}
+
 jobs:
   process_deposits:
     name: Run city influence worker
