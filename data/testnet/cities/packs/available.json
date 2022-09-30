@@ -831,5 +831,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #20"
+    },
+    {
+        "contract": "BiAKBOgHAQCMkdkfr/j2CJGX2R/z27wXkoX1CgcmASCcsD62lU5XgO2DLmQKilcYz7yAIx0BGgwWnT6qsbU4jzIEgQYSMwAQJBIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQIhIQQAKEMgQhCRIzABAkEhAzARAkEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhAzBhAiEhBAASMyBCEJEjMAECISEDMBECISEDMCECISEDMDECISEDMEECISEDMFECQSEDMGECQSEEAAAQAzAAEjDjMBASMOEDMCASMOEDMDASMOEDMEASMOEDMAIDIDEhAzASAyAxIQMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwATMgMSEDMBEzIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBQEjDjMFIDIDEhAQMwARIQQSEDMBESEFEhAzAhEhBhIQMwMRIQcSEDMEESEIEhAzABQoEhAzARQoEhAzAhQoEhAzAxQoEhAzBBQoEhAzABUoEhAzARUoEhAzAhUoEhAzAxUoEhAzBBUoEhAzBQcoEhAzBQkoEhAzBgAoEhAzBgcoEhAzBgglEhBCAeIzAgEjDjMDASMOEDMEASMOEDMFASMOEDMGASMOEDMCIDIDEhAzAyAyAxIQMwQgMgMSEDMFIDIDEhAzBiAyAxIQMwITMgMSEDMDEzIDEhAzBBMyAxIQMwUTMgMSEDMGEzIDEhAzAhUyAxIQMwMVMgMSEDMEFTIDEhAzBRUyAxIQMwYVMgMSEDMAB4AgimsTSeaT3G/bdfoZnOggwIAbbwLrLGURzwEIjuVdTo0SEDMACCUSEDMBCIGAreIEEhAzAQcoEhAzAhEhBBIQMwMRIQUSEDMEESEGEhAzBREhBxIQMwYRIQgSEDMCEiQSEDMDEiQSEDMEEiQSEDMFEiQSEDMGEiQSEDMCFDMBABIQMwMUMwEAEhAzBBQzAQASEDMFFDMBABIQMwYUMwEAEhBCALMzAAAoEjMACIGQi0APEDMAASMOEDMAIDIDEhAzAAkyAxIQMwEAMwAHEhAzAgAzAAcSEDMDADMABxIQMwQAMwAHEhAzBQAzAAcSEDMBESEEEhAzAhEhBRIQMwMRIQYSEDMEESEHEhAzBREhCBIQMwEAMwEUEhAzAgAzAhQSEDMDADMDFBIQMwQAMwQUEhAzBQAzBRQSEDMBEiUSEDMCEiUSEDMDEiUSEDMEEiUSEDMFEiUSEEM=",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "43Q7BBKKRZ4RYLBYSLQRRWL5CZOYOF4LWQ7P7AOV6IVUSKLT2N5LBJHJPU",
+        "id": 21,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 66472076,
+                "title": "AWC #94 - Ljubljana, Slovenia",
+                "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725935,
+                "title": "AWC #7 - London, UK",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 66472849,
+                "title": "AWC #94 - Ljubljana, Slovenia",
+                "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 49229299,
+                "title": "AWC #6 - Chicago, USA",
+                "url": "ipfs://QmdNR3DtTpqLqdcP8vzU2ZUcZx4J2Eag89ejSsRLoexV2w"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 22889106,
+                "title": "AWC #24 - Canberra, Australia",
+                "url": "ipfs://QmVifLfc68KtMQuZqbKZnGVeDvCWL7NLDJaRtA1UU88wce"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #21"
     }
 ]
