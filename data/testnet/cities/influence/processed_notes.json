@@ -48,5 +48,15 @@
         "id": "8e59b286-00da-4b94-b911-d593ecef3bc1",
         "influence": 1,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "a96519b2-2d07-4bdb-985b-08762bca99f9": {
+        "acfg_txn": "JDMCAQNWEG5ELPGQTEKYBKRWXTREOSSO4FOBJWJJWTDLOMBSAZCA",
+        "asset_id": 22888843,
+        "asset_name": "AWC #13 - Singapore, Singapore",
+        "block": 24494204,
+        "deposit": 1,
+        "id": "a96519b2-2d07-4bdb-985b-08762bca99f9",
+        "influence": 11004,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
 }
