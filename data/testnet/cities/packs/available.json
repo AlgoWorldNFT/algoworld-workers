@@ -978,5 +978,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #23"
+    },
+    {
+        "contract": "BiAKBOgHAQD+9/YIppKBCd/uhgnIvZUSkvj2CAcmASCcsD62lU5XgO2DLmQKilcYz7yAIx0BGgwWnT6qsbU4jzIEgQYSMwAQJBIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQIhIQQAKEMgQhCRIzABAkEhAzARAkEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhAzBhAiEhBAASMyBCEJEjMAECISEDMBECISEDMCECISEDMDECISEDMEECISEDMFECQSEDMGECQSEEAAAQAzAAEjDjMBASMOEDMCASMOEDMDASMOEDMEASMOEDMAIDIDEhAzASAyAxIQMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwATMgMSEDMBEzIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBQEjDjMFIDIDEhAQMwARIQQSEDMBESEFEhAzAhEhBhIQMwMRIQcSEDMEESEIEhAzABQoEhAzARQoEhAzAhQoEhAzAxQoEhAzBBQoEhAzABUoEhAzARUoEhAzAhUoEhAzAxUoEhAzBBUoEhAzBQcoEhAzBQkoEhAzBgAoEhAzBgcoEhAzBgglEhBCAeIzAgEjDjMDASMOEDMEASMOEDMFASMOEDMGASMOEDMCIDIDEhAzAyAyAxIQMwQgMgMSEDMFIDIDEhAzBiAyAxIQMwITMgMSEDMDEzIDEhAzBBMyAxIQMwUTMgMSEDMGEzIDEhAzAhUyAxIQMwMVMgMSEDMEFTIDEhAzBRUyAxIQMwYVMgMSEDMAB4AgimsTSeaT3G/bdfoZnOggwIAbbwLrLGURzwEIjuVdTo0SEDMACCUSEDMBCIGAreIEEhAzAQcoEhAzAhEhBBIQMwMRIQUSEDMEESEGEhAzBREhBxIQMwYRIQgSEDMCEiQSEDMDEiQSEDMEEiQSEDMFEiQSEDMGEiQSEDMCFDMBABIQMwMUMwEAEhAzBBQzAQASEDMFFDMBABIQMwYUMwEAEhBCALMzAAAoEjMACIGQi0APEDMAASMOEDMAIDIDEhAzAAkyAxIQMwEAMwAHEhAzAgAzAAcSEDMDADMABxIQMwQAMwAHEhAzBQAzAAcSEDMBESEEEhAzAhEhBRIQMwMRIQYSEDMEESEHEhAzBREhCBIQMwEAMwEUEhAzAgAzAhQSEDMDADMDFBIQMwQAMwQUEhAzBQAzBRQSEDMBEiUSEDMCEiUSEDMDEiUSEDMEEiUSEDMFEiUSEEM=",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "Y4ANFVNUXYPX6KG66OSUV6LKZ53ICSO54Z43L5ZXRBKEIPMHGTJ2BZGU5Y",
+        "id": 24,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725886,
+                "title": "AWC #2 - Bangkok, Thailand",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18893094,
+                "title": "AWC #12 - Madrid, Spain",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18986847,
+                "title": "AWC #1 - test, test",
+                "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 38100680,
+                "title": "AWC #1 - Test, TestLand",
+                "url": "ipfs://QmQhPL61v8xzJgU1F94yjkepmPV77x9BvdUqt5Pwi1QFUh"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725906,
+                "title": "AWC #4 - Beijing, China",
+                "url": "www.algoworld-nft.com"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #24"
     }
 ]
