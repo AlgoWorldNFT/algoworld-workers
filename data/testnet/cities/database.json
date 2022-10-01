@@ -119,25 +119,11 @@
         "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
     },
     {
-        "index": 18988626,
-        "influence": 0,
-        "name": "AWC #1 - New York City, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
-    },
-    {
         "index": 22888888,
         "influence": 0,
         "name": "AWC #16 - Moscow, Russia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmR67mQvRAB2Dvf5x6z1YNdmHK95YApZFmVsJH9ANq35bf"
-    },
-    {
-        "index": 22889001,
-        "influence": 0,
-        "name": "AWC #17 - Mont-St-Michel, France",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmVEin1jbKLNeZR1UWevhAW62UsrnfJDY7eH3YeYkwyhdY"
     },
     {
         "index": 38094508,
@@ -152,13 +138,6 @@
         "name": "AWC #1 - Test, TestLand",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmQhPL61v8xzJgU1F94yjkepmPV77x9BvdUqt5Pwi1QFUh"
-    },
-    {
-        "index": 66472587,
-        "influence": 0,
-        "name": "AWC #94 - Ljubljana, Slovenia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
     },
     {
         "index": 66472849,
@@ -196,6 +175,13 @@
         "url": "www.algoworld-nft.com"
     },
     {
+        "index": 18988626,
+        "influence": 1,
+        "name": "AWC #1 - New York City, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
+    },
+    {
         "index": 52580313,
         "influence": 1,
         "name": "AWC #72 - Bethlehem, Palestine",
@@ -203,11 +189,25 @@
         "url": "ipfs://QmUhvmyeG1wfgthiAK7mgr4MMaZyFN8Bu62Mew21J2n39x"
     },
     {
+        "index": 66472587,
+        "influence": 1,
+        "name": "AWC #94 - Ljubljana, Slovenia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+    },
+    {
         "index": 18893065,
         "influence": 2,
         "name": "AWC #9 - Paris, France",
         "status": "AlgoWorld Regular City",
         "url": "www.algoworld-nft.com"
+    },
+    {
+        "index": 22889001,
+        "influence": 2,
+        "name": "AWC #17 - Mont-St-Michel, France",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmVEin1jbKLNeZR1UWevhAW62UsrnfJDY7eH3YeYkwyhdY"
     },
     {
         "index": 22889042,
