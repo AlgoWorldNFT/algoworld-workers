@@ -55,7 +55,10 @@ jobs:
       - name: Commit files
         id: commit_files
         run: |
+          git stash
           git pull
+          git stash pop
+
           git config --local user.email "millionalgos@pm.me"
           git config --local user.name "github-actions[bot]"
           if [ -n "$(git status --porcelain)" ]; then
