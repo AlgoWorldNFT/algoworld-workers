@@ -1027,5 +1027,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #24"
+    },
+    {
+        "contract": "BiAKBOgHAQDf7oYJ2Z+JGfOHgQnZ+PYIi4P1CgcmASCcsD62lU5XgO2DLmQKilcYz7yAIx0BGgwWnT6qsbU4jzIEgQYSMwAQJBIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQIhIQQAKEMgQhCRIzABAkEhAzARAkEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhAzBhAiEhBAASMyBCEJEjMAECISEDMBECISEDMCECISEDMDECISEDMEECISEDMFECQSEDMGECQSEEAAAQAzAAEjDjMBASMOEDMCASMOEDMDASMOEDMEASMOEDMAIDIDEhAzASAyAxIQMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwATMgMSEDMBEzIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBQEjDjMFIDIDEhAQMwARIQQSEDMBESEFEhAzAhEhBhIQMwMRIQcSEDMEESEIEhAzABQoEhAzARQoEhAzAhQoEhAzAxQoEhAzBBQoEhAzABUoEhAzARUoEhAzAhUoEhAzAxUoEhAzBBUoEhAzBQcoEhAzBQkoEhAzBgAoEhAzBgcoEhAzBgglEhBCAeIzAgEjDjMDASMOEDMEASMOEDMFASMOEDMGASMOEDMCIDIDEhAzAyAyAxIQMwQgMgMSEDMFIDIDEhAzBiAyAxIQMwITMgMSEDMDEzIDEhAzBBMyAxIQMwUTMgMSEDMGEzIDEhAzAhUyAxIQMwMVMgMSEDMEFTIDEhAzBRUyAxIQMwYVMgMSEDMAB4AgimsTSeaT3G/bdfoZnOggwIAbbwLrLGURzwEIjuVdTo0SEDMACCUSEDMBCIGAreIEEhAzAQcoEhAzAhEhBBIQMwMRIQUSEDMEESEGEhAzBREhBxIQMwYRIQgSEDMCEiQSEDMDEiQSEDMEEiQSEDMFEiQSEDMGEiQSEDMCFDMBABIQMwMUMwEAEhAzBBQzAQASEDMFFDMBABIQMwYUMwEAEhBCALMzAAAoEjMACIGQi0APEDMAASMOEDMAIDIDEhAzAAkyAxIQMwEAMwAHEhAzAgAzAAcSEDMDADMABxIQMwQAMwAHEhAzBQAzAAcSEDMBESEEEhAzAhEhBRIQMwMRIQYSEDMEESEHEhAzBREhCBIQMwEAMwEUEhAzAgAzAhQSEDMDADMDFBIQMwQAMwQUEhAzBQAzBRQSEDMBEiUSEDMCEiUSEDMDEiUSEDMEEiUSEDMFEiUSEEM=",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "2VYKWFV4LH4OSP6OAVIZHV653XJ3VLKDODC44H7TX6H2XZM47FWCA3FY3I",
+        "id": 25,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18986847,
+                "title": "AWC #1 - test, test",
+                "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 52580313,
+                "title": "AWC #72 - Bethlehem, Palestine",
+                "url": "ipfs://QmUhvmyeG1wfgthiAK7mgr4MMaZyFN8Bu62Mew21J2n39x"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18891763,
+                "title": "AWC #100 - Poissy, France",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725977,
+                "title": "AWC #11 - Athens, Greece",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 22888843,
+                "title": "AWC #13 - Singapore, Singapore",
+                "url": "ipfs://QmU34BpNKnTYQPP4FpQjEsNrkpo5Mecf9dVf1pyn8UEc5k"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #25"
     }
 ]
