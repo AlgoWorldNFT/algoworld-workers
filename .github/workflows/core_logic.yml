@@ -1,4 +1,4 @@
-name: Process latest city influence deposits & set new city capital
+name: Process influence and packs
 
 on:
   schedule:
