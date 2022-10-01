@@ -245,10 +245,39 @@ def get_onchain_city_status(arc_note: ARC69Record):
     return None
 
 
+def filter_empty_balance_cities(
+    indexer: IndexerClient, manager_address: str, all_cities: list[AlgoWorldCityAsset]
+):
+    all_city_ids = [city.index for city in all_cities]
+    filtered_cities = []
+
+    created_assets = indexer.search_assets(
+        limit=100,
+        creator=manager_address,
+    )
+    fetched_cities = []
+
+    while "next-token" in created_assets:
+        fetched_cities.extend(
+            [asset for asset in created_assets["assets"] if asset["deleted"] == False]
+        )
+
+        created_assets = indexer.search_assets(
+            limit=100, creator=manager_address, next_page=created_assets["next-token"]
+        )
+
+    for city in fetched_cities:
+        city_balance = city["params"]["total"]
+        if city_balance > 0 and city["index"] in all_city_ids:
+            filtered_cities.append(city)
+
+    return filtered_cities
+
+
 def get_all_cities(
     indexer: IndexerClient,
     manager_address: str,
-    all_assets: list[AlgoWorldCityAsset],
+    all_assets: list[dict],
     awc_prefix: str,
 ):
     all_cities = []

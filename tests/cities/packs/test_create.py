@@ -115,9 +115,12 @@ def test_create_city_pack_below_threshold(mocker, monkeypatch):
         )
     ]
     load_packs_mock.side_effect = [active_packs_mock, purchased_packs_mock]
+    mocker.patch("src.cities.packs.create.load_aw_cities")
 
-    load_aw_cities_mock = mocker.patch("src.cities.packs.create.load_aw_cities")
-    load_aw_cities_mock.return_value = [
+    non_empty_cities_mock = mocker.patch(
+        "src.cities.packs.create.filter_empty_balance_cities"
+    )
+    non_empty_cities_mock.return_value = [
         AlgoWorldCityAsset(
             **{
                 "index": 18725876,
@@ -251,8 +254,12 @@ def test_create_city_pack_above_threshold(mocker, monkeypatch):
     ]
     load_packs_mock.side_effect = [active_packs_mock, purchased_packs_mock]
 
-    load_aw_cities_mock = mocker.patch("src.cities.packs.create.load_aw_cities")
-    load_aw_cities_mock.return_value = [
+    mocker.patch("src.cities.packs.create.load_aw_cities")
+
+    non_empty_cities_mock = mocker.patch(
+        "src.cities.packs.create.filter_empty_balance_cities"
+    )
+    non_empty_cities_mock.return_value = [
         AlgoWorldCityAsset(
             **{
                 "index": 18725876,

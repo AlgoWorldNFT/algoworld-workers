@@ -19,9 +19,11 @@ from src.shared.common import (
     CITY_PACK_PURCHASED_PATH,
     MANAGER_PASSPHRASE,
     algod_client,
+    indexer,
 )
 from src.shared.models import CityPack, CityPackAsa, LogicSigWallet, Wallet
 from src.shared.utils import (
+    filter_empty_balance_cities,
     load_aw_cities,
     load_packs,
     logic_signature,
@@ -37,13 +39,18 @@ def create_city_pack(manager_wallet: Wallet):
     purchased_packs.sort(key=lambda p: p.id)
 
     all_cities = load_aw_cities(CITY_ASSET_DB_PATH)
+    all_holding_cities = filter_empty_balance_cities(
+        indexer=indexer,
+        manager_address=manager_wallet.public_key,
+        all_cities=all_cities,
+    )
 
     if len(active_packs) < CITY_PACK_AMOUNT_LIMIT:
         all_diamond_cities = list(
-            filter(lambda x: x.status == "AlgoWorld Diamond City", all_cities)
+            filter(lambda x: x.status == "AlgoWorld Diamond City", all_holding_cities)
         )
         all_non_diamond_cities = list(
-            filter(lambda x: x.status != "AlgoWorld Diamond City", all_cities)
+            filter(lambda x: x.status != "AlgoWorld Diamond City", all_holding_cities)
         )
 
         packs_content = sample(all_non_diamond_cities, CITY_PACK_CARD_NUMBER - 1)

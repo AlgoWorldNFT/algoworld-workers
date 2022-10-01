@@ -21,6 +21,7 @@ jobs:
     env:
       MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
       LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
+      CITY_PACK_AMOUNT_LIMIT: ${{ secrets.CITY_PACK_AMOUNT_LIMIT}}
 
     steps:
       - uses: actions/checkout@v3
