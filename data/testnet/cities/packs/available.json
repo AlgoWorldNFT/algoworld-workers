@@ -1076,5 +1076,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #25"
+    },
+    {
+        "contract": "BiAKBOgHAQCS9PYI0oT1CvOHgQn09/YIxfj2CAcmASCcsD62lU5XgO2DLmQKilcYz7yAIx0BGgwWnT6qsbU4jzIEgQYSMwAQJBIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQIhIQQAKEMgQhCRIzABAkEhAzARAkEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhAzBhAiEhBAASMyBCEJEjMAECISEDMBECISEDMCECISEDMDECISEDMEECISEDMFECQSEDMGECQSEEAAAQAzAAEjDjMBASMOEDMCASMOEDMDASMOEDMEASMOEDMAIDIDEhAzASAyAxIQMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwATMgMSEDMBEzIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBQEjDjMFIDIDEhAQMwARIQQSEDMBESEFEhAzAhEhBhIQMwMRIQcSEDMEESEIEhAzABQoEhAzARQoEhAzAhQoEhAzAxQoEhAzBBQoEhAzABUoEhAzARUoEhAzAhUoEhAzAxUoEhAzBBUoEhAzBQcoEhAzBQkoEhAzBgAoEhAzBgcoEhAzBgglEhBCAeIzAgEjDjMDASMOEDMEASMOEDMFASMOEDMGASMOEDMCIDIDEhAzAyAyAxIQMwQgMgMSEDMFIDIDEhAzBiAyAxIQMwITMgMSEDMDEzIDEhAzBBMyAxIQMwUTMgMSEDMGEzIDEhAzAhUyAxIQMwMVMgMSEDMEFTIDEhAzBRUyAxIQMwYVMgMSEDMAB4AgimsTSeaT3G/bdfoZnOggwIAbbwLrLGURzwEIjuVdTo0SEDMACCUSEDMBCIGAreIEEhAzAQcoEhAzAhEhBBIQMwMRIQUSEDMEESEGEhAzBREhBxIQMwYRIQgSEDMCEiQSEDMDEiQSEDMEEiQSEDMFEiQSEDMGEiQSEDMCFDMBABIQMwMUMwEAEhAzBBQzAQASEDMFFDMBABIQMwYUMwEAEhBCALMzAAAoEjMACIGQi0APEDMAASMOEDMAIDIDEhAzAAkyAxIQMwEAMwAHEhAzAgAzAAcSEDMDADMABxIQMwQAMwAHEhAzBQAzAAcSEDMBESEEEhAzAhEhBRIQMwMRIQYSEDMEESEHEhAzBREhCBIQMwEAMwEUEhAzAgAzAhQSEDMDADMDFBIQMwQAMwQUEhAzBQAzBRQSEDMBEiUSEDMCEiUSEDMDEiUSEDMEEiUSEDMFEiUSEEM=",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "OTTPGEUXTGS66WZC35UWPXPJIIKDQNXGOAS2PDFR2LYIXKXJP5OA2KH53E",
+        "id": 26,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725394,
+                "title": "AWC #7 - London, UK",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 22889042,
+                "title": "AWC #21 - Manama, Bahrain",
+                "url": "ipfs://QmV2z9qHieGPWSZKAo6WwjV44iUKdrDfqU41mUY396jAEB"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18891763,
+                "title": "AWC #100 - Poissy, France",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725876,
+                "title": "AWC #1 - New York City, USA",
+                "url": "www.algoworld-nft.com"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 18725957,
+                "title": "AWC #9 - Paris, France",
+                "url": "www.algoworld-nft.com"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #26"
     }
 ]
