@@ -47,17 +47,21 @@ jobs:
         run: |
           PYTHONPATH="." poetry run python src/cities/fetch_all.py
 
+      - name: Close purchased packs
+        run: |
+          PYTHONPATH="." poetry run python src/cities/packs/closeout.py
+
+      - name: Create new city packs
+        run: |
+          PYTHONPATH="." poetry run python src/cities/packs/create.py
+
       - name: Commit files
         id: commit_files
         run: |
-          git stash
-          git pull
-          git stash pop
-
           git config --local user.email "millionalgos@pm.me"
           git config --local user.name "github-actions[bot]"
           if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "chore: refreshed city influence related data and deposits 🤖" -a
+            git commit -m "chore: refreshed city influence related data and processed packs 🤖" -a
             echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
           else
             echo "no changes - skipping "
