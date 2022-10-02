@@ -7,7 +7,7 @@ from src.shared.common import (
     DISCORD_WEBHOOK_URL,
     TELEGRAM_API_KEY,
 )
-from src.shared.models import AlgoWorldCityAsset, CityPack
+from src.shared.models import CityPack
 
 
 def notify_citypack_purchase(city_pack: CityPack):
@@ -47,13 +47,13 @@ def notify_citypack_purchase(city_pack: CityPack):
         logging.exception(f"Unable to report notifications {exp}")
 
 
-def notify_influence_deposit(sender_address: str, city: AlgoWorldCityAsset):
+def notify_influence_deposit(sender_address: str, influence: int, city_name: str):
     try:
         sender_wallet = sender_address[0:4] + "..." + sender_address[54:]
 
         data = {
             "chat_id": ALGOWORLD_CHANNEL_ID,
-            "text": f"🤖 <b>{sender_wallet}</b> have deposited some AWT 💰 to <b>{city.name}</b>.\nNew influence attribute value is <b>{city.influence}</b> and status <b>{city.status}</b> 🎉\n<a href='https://explorer.algoworld.io/leaderboard'>View on AlgoWorldExplorer</a>",
+            "text": f"🤖 <b>{sender_wallet}</b> have deposited some AWT 💰 to <b>{city_name}</b>.\nNew influence attribute value is <b>{influence}</b> 🎉\n<a href='https://explorer.algoworld.io/leaderboard'>View on AlgoWorldExplorer</a>",
             "parse_mode": "HTML",
         }
         requests.post(
@@ -68,7 +68,7 @@ def notify_influence_deposit(sender_address: str, city: AlgoWorldCityAsset):
                     {
                         "title": "New city influence deposit on AlgoWorldExplorer",
                         "url": f"https://explorer.algoworld.io/leaderboard",
-                        "description": f"🤖 **{sender_wallet}** have deposited some AWT 💰 to **{city.name}**.\nNew influence attribute value is **{city.influence}** and status **{city.status}** 🎉",
+                        "description": f"🤖 **{sender_wallet}** have deposited some AWT 💰 to **{city_name}**.\nNew influence attribute value is **{influence}** 🎉",
                         "color": 16724871,
                         "fields": [],
                     }

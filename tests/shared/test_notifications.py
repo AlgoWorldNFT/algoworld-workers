@@ -1,4 +1,4 @@
-from src.shared.models import AlgoWorldCityAsset, CityPack
+from src.shared.models import CityPack
 from src.shared.notifications import notify_citypack_purchase, notify_influence_deposit
 
 dummy_pack = CityPack(
@@ -71,19 +71,10 @@ def test_notify_citypack_purchase(mocker, monkeypatch):
 def test_notify_influence_deposit(mocker, monkeypatch):
     # Arrange
     dummy_sender = "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
-    dummy_city = AlgoWorldCityAsset(
-        **{
-            "index": 22889023,
-            "influence": 500,
-            "name": "AWC #18 - Jerusalem, Israel",
-            "status": "AlgoWorld Silver City",
-            "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo",
-        }
-    )
     post_mock = mocker.patch("src.shared.notifications.requests.post")
 
     # Act
-    notify_influence_deposit(dummy_sender, dummy_city)
+    notify_influence_deposit(dummy_sender, 500, "city name")
 
     # Assert
     post_mock.call_count == 2

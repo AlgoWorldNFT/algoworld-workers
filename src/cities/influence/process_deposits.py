@@ -20,6 +20,7 @@ from src.shared.models import (
     StorageMetadata,
     StorageProcessedNote,
 )
+from src.shared.notifications import notify_influence_deposit
 from src.shared.utils import (
     decode_note,
     get_all_cities,
@@ -234,6 +235,12 @@ def process_influence_txns():
                     save_notes(CITY_INFLUENCE_PROCESSED_NOTES_PATH, processed_notes)
                     storage_metadata.last_processed_block = params.first
                     save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
+                    try:
+                        notify_influence_deposit(
+                            axfer_txn["sender"], new_influence, asset_name
+                        )
+                    except Exception as exp:
+                        print(f"Unable to notify: {exp}")
 
 
 def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
