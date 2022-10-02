@@ -14,6 +14,7 @@ from src.shared.common import (
     indexer,
 )
 from src.shared.models import CityPack, LogicSigWallet, StorageMetadata, Wallet
+from src.shared.notifications import notify_citypack_purchase
 from src.shared.utils import (
     decode_city_pack_note,
     group_sign_send_wait,
@@ -111,7 +112,7 @@ params = algod_client.suggested_params()
 min_pack_price = 10_000_000
 latest_pack_purchase_txns = indexer.search_transactions(
     note_prefix=note_prefix,
-    min_round=storage_metadata.last_processed_block - 500000,
+    min_round=storage_metadata.last_processed_block - 5000000,
     max_round=params.first,
     min_amount=min_pack_price - 1,
     txn_type="pay",
@@ -209,6 +210,11 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
                     save_packs(CITY_PACK_AVAILABLE_PATH, available_packs)
                     save_packs(CITY_PACK_PURCHASED_PATH, purchased_packs)
                     save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
+
+                    try:
+                        notify_citypack_purchase(pack_to_close)
+                    except Exception as e:
+                        print(f"Failed to notify city pack purchase {e}")
 
             except Exception as exp:
                 print(f"Error processing city closeout: {exp}")

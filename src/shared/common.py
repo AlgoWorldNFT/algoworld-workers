@@ -60,3 +60,22 @@ COUNTRY_ASSET_DB_PATH = f"{COUNTRY_FOLDER_PATH}/database.json"
 # Special Cards
 SPECIAL_CARDS_FOLDER_PATH = f"{DATA_FOLDER_PATH}/special"
 SPECIAL_CARDS_ASSET_DB_PATH = f"{SPECIAL_CARDS_FOLDER_PATH}/database.json"
+
+# Notifications
+NOTIFICATIONS_FOLDER_PATH = f"{DATA_FOLDER_PATH}/notifications"
+NOTIFICATIONS_FILE_PATH = f"{NOTIFICATIONS_FOLDER_PATH}/processed.json"
+DISCORD_WEBHOOK_URL = (
+    environ.get("DISCORD_WEBHOOK_URL_TESTNET")
+    if LEDGER_TYPE.lower() == "testnet"
+    else environ.get("DISCORD_WEBHOOK_URL_MAINNET")
+)
+TELEGRAM_API_KEY = (
+    environ.get("TELEGRAM_API_KEY_TESTNET")
+    if LEDGER_TYPE.lower() == "testnet"
+    else environ.get("TELEGRAM_API_KEY_MAINNET")
+)
+ALGOWORLD_CHANNEL_ID = (
+    environ.get("ALGOWORLD_CHANNEL_ID_TESTNET")
+    if LEDGER_TYPE.lower() == "testnet"
+    else environ.get("ALGOWORLD_CHANNEL_ID_MAINNET")
+)
