@@ -14,13 +14,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18725394,
-        "influence": 0,
-        "name": "AWC #7 - London, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18725926,
         "influence": 0,
         "name": "AWC #6 - Chicago, USA",
@@ -154,6 +147,13 @@
         "url": "www.algoworld-nft.com"
     },
     {
+        "index": 18725394,
+        "influence": 1,
+        "name": "AWC #7 - London, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
         "index": 18726167,
         "influence": 1,
         "name": "AWC #1000 - Washington D.C., USA",
@@ -211,7 +211,7 @@
     },
     {
         "index": 22889042,
-        "influence": 10,
+        "influence": 11,
         "name": "AWC #21 - Manama, Bahrain",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmV2z9qHieGPWSZKAo6WwjV44iUKdrDfqU41mUY396jAEB"
@@ -295,7 +295,7 @@
     },
     {
         "index": 22889106,
-        "influence": 6001,
+        "influence": 6002,
         "name": "AWC #24 - Canberra, Australia",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmVifLfc68KtMQuZqbKZnGVeDvCWL7NLDJaRtA1UU88wce"

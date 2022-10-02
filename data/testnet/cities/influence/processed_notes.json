@@ -39,6 +39,26 @@
         "influence": 10201,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "3a81516e-78ee-494b-b6f5-79efc3057f40": {
+        "acfg_txn": "6O5VMYDL7EILOVG4HUAFICBENN25Z73TJAVMHIQIRSGG2S2F6WCA",
+        "asset_id": 18725394,
+        "asset_name": "AWC #7 - London, UK",
+        "block": 24517972,
+        "deposit": 1,
+        "id": "3a81516e-78ee-494b-b6f5-79efc3057f40",
+        "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "4a4212e4-3a34-4a4d-8017-e5075233eac1": {
+        "acfg_txn": "3OJUGAR4NZW3K2E4HJRKTYNHMVILJ3P52O56YZYTMQSMVWC7H2SA",
+        "asset_id": 22889042,
+        "asset_name": "AWC #21 - Manama, Bahrain",
+        "block": 24517970,
+        "deposit": 1,
+        "id": "4a4212e4-3a34-4a4d-8017-e5075233eac1",
+        "influence": 11,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "544fda38-a4af-40eb-9c78-b35279aadf8d": {
         "acfg_txn": "HJ3P6DRPX7FC3KYY7XFGDB75IYAE3POARNDBDXUJG5L5FNDLPJOQ",
         "asset_id": 18891763,
@@ -97,6 +117,16 @@
         "deposit": 2,
         "id": "b777b191-b493-4b2d-bb59-0dce7a5ed812",
         "influence": 2,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "d648abc7-b136-49fc-b790-291b91d95263": {
+        "acfg_txn": "QYZD54VHFQMB3QLYSSNSRXNB3A6M33JSHUOXREBGNCIBGFXJVCMA",
+        "asset_id": 22889106,
+        "asset_name": "AWC #24 - Canberra, Australia",
+        "block": 24517968,
+        "deposit": 1,
+        "id": "d648abc7-b136-49fc-b790-291b91d95263",
+        "influence": 6002,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
 }
