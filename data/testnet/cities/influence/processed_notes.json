@@ -128,5 +128,15 @@
         "id": "d648abc7-b136-49fc-b790-291b91d95263",
         "influence": 6002,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "d9978338-5e8b-442d-a0e3-e3ca16faa454": {
+        "acfg_txn": "XZSQPE2TTFUMU7STULH66ZELCFRV5LHCTM4UYMFVITTYSX223SXQ",
+        "asset_id": 22888865,
+        "asset_name": "AWC #15 - Dubai, UAE",
+        "block": 24523263,
+        "deposit": 100000,
+        "id": "d9978338-5e8b-442d-a0e3-e3ca16faa454",
+        "influence": 200018,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
 }

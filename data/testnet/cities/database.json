@@ -322,17 +322,17 @@
         "url": "ipfs://QmU34BpNKnTYQPP4FpQjEsNrkpo5Mecf9dVf1pyn8UEc5k"
     },
     {
-        "index": 22888865,
-        "influence": 100018,
-        "name": "AWC #15 - Dubai, UAE",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmTsU6mfaxPQvywuzJRzEf2WUchvXBm47jjuyAwScW2w4C"
-    },
-    {
         "index": 18725876,
         "influence": 200013,
         "name": "AWC #1 - New York City, USA",
-        "status": "AlgoWorld Capital",
+        "status": "AlgoWorld Diamond City",
         "url": "www.algoworld-nft.com"
+    },
+    {
+        "index": 22888865,
+        "influence": 200018,
+        "name": "AWC #15 - Dubai, UAE",
+        "status": "AlgoWorld Capital",
+        "url": "ipfs://QmTsU6mfaxPQvywuzJRzEf2WUchvXBm47jjuyAwScW2w4C"
     }
 ]
