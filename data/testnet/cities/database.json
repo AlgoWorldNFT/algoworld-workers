@@ -308,18 +308,18 @@
         "url": "ipfs://QmPEM7yupC9Zdn9m7hMNwffY9K6pxXK9QjRty39wzDuvgG"
     },
     {
-        "index": 18725898,
-        "influence": 10201,
-        "name": "AWC #3 - Rome, Italy",
-        "status": "AlgoWorld Diamond City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 22888843,
         "influence": 11004,
         "name": "AWC #13 - Singapore, Singapore",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmU34BpNKnTYQPP4FpQjEsNrkpo5Mecf9dVf1pyn8UEc5k"
+    },
+    {
+        "index": 18725898,
+        "influence": 13201,
+        "name": "AWC #3 - Rome, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "www.algoworld-nft.com"
     },
     {
         "index": 18725876,

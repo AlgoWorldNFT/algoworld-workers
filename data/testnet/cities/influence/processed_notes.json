@@ -109,6 +109,16 @@
         "influence": 11004,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "aa932d3c-17df-4376-9c0a-a8cff08965c1": {
+        "acfg_txn": "4TBBILIOTKJLGXFMYRNJMWEDI7MIMGSN2YCVQZDMKNXNQ2NYZUWQ",
+        "asset_id": 18725898,
+        "asset_name": "AWC #3 - Rome, Italy",
+        "block": 24632186,
+        "deposit": 3000,
+        "id": "aa932d3c-17df-4376-9c0a-a8cff08965c1",
+        "influence": 13201,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "b777b191-b493-4b2d-bb59-0dce7a5ed812": {
         "acfg_txn": "HY6TNIDUS73DZSWA45TCUNSYHPAK2BCCHOKCFM46Y2EJI4LWISDA",
         "asset_id": 22889001,
