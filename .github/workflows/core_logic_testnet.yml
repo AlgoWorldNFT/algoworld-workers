@@ -1,0 +1,81 @@
+name: Process influence and packs (TestNet)
+
+on:
+  schedule:
+  - cron: '*/30 * * * *'
+
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.head_ref || github.ref_name }}
+
+jobs:
+  process_deposits:
+    name: Run city influence worker
+    runs-on: ubuntu-latest
+    env:
+      MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
+      LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
+      CITY_PACK_AMOUNT_LIMIT: ${{ secrets.CITY_PACK_AMOUNT_LIMIT}}
+      DISCORD_WEBHOOK_URL_TESTNET: ${{ secrets.DISCORD_WEBHOOK_URL_TESTNET}}
+      TELEGRAM_API_KEY_TESTNET: ${{ secrets.TELEGRAM_API_KEY_TESTNET}}
+      ALGOWORLD_CHANNEL_ID_TESTNET: ${{ secrets.ALGOWORLD_CHANNEL_ID_TESTNET}}
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: testnet
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9.9
+
+      - name: Set up Poetry
+        uses: abatilo/actions-poetry@v2.1.6
+        with:
+          poetry-version: 1.1.6
+
+      - name: Install python dependencies
+        run: poetry install
+
+      - uses: pre-commit/action@v3.0.0
+        name: "Linters and formatters check"
+        with:
+          extra_args: --all-files --show-diff-on-failure
+
+      - name: Process AWT Deposits
+        run: |
+          PYTHONPATH="." poetry run python src/cities/influence/process_deposits.py
+
+      - name: Update & fetch all cities
+        run: |
+          PYTHONPATH="." poetry run python src/cities/fetch_all.py
+
+      - name: Close purchased packs
+        run: |
+          PYTHONPATH="." poetry run python src/cities/packs/closeout.py
+
+      - name: Create new city packs
+        run: |
+          PYTHONPATH="." poetry run python src/cities/packs/create.py
+
+      - name: Commit files
+        id: commit_files
+        run: |
+          git config --local user.email "millionalgos@pm.me"
+          git config --local user.name "github-actions[bot]"
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: refreshed city influence related data and processed packs 🤖" -a
+            echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
+          else
+            echo "no changes - skipping "
+            echo "HAS_COMMITS=false" >> "$GITHUB_ENV"
+          fi
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        if: env.HAS_COMMITS != false
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

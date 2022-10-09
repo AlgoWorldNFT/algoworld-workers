@@ -1,5 +1,3 @@
-import base64
-import json
 import string
 from dataclasses import asdict
 from json import dumps
@@ -7,26 +5,30 @@ from json import dumps
 from algosdk import mnemonic
 from algosdk.future.transaction import AssetConfigTxn
 
-from src.common import (
-    ALL_CITIES_PATH,
+from src.shared.common import (
+    CITY_INFLUENCE_METADATA_PATH,
+    CITY_INFLUENCE_PROCESSED_NOTES_PATH,
+    LEDGER_TYPE,
     MANAGER_PASSPHRASE,
-    METADATA_PATH,
-    PROCESSED_NOTES_PATH,
     algod_client,
     indexer,
 )
-from src.models import (
+from src.shared.models import (
     AlgoWorldCityAsset,
     ARC69Attribute,
     ARC69Record,
     StorageMetadata,
     StorageProcessedNote,
 )
-from src.utils import (
+from src.shared.notifications import notify_influence_deposit
+from src.shared.utils import (
     decode_note,
+    get_all_cities,
     get_city_status,
+    get_onchain_arc,
+    get_onchain_influence,
     load,
-    save_cities,
+    load_notes,
     save_metadata,
     save_notes,
     wait_for_confirmation,
@@ -42,76 +44,20 @@ card_index = 18725886
 manager_pkey = mnemonic.to_private_key(MANAGER_PASSPHRASE)
 manager_address = mnemonic.to_public_key(MANAGER_PASSPHRASE)
 
-processed_notes = load(PROCESSED_NOTES_PATH)
+processed_notes = load_notes(CITY_INFLUENCE_PROCESSED_NOTES_PATH)
 processed_notes: dict[str, StorageProcessedNote] = (
-    [] if not processed_notes else processed_notes
+    {} if not processed_notes else processed_notes
 )
 processed_note_ids = list(processed_notes.keys())
 
-last_processed_block = load(METADATA_PATH)
+last_processed_block = load(CITY_INFLUENCE_METADATA_PATH)
 storage_metadata = (
     StorageMetadata(**last_processed_block)
     if last_processed_block
-    else StorageMetadata(algod_client.suggested_params().last)
+    else StorageMetadata(algod_client.suggested_params().first)
 )
 print(f"last processed block {storage_metadata.last_processed_block}")
-
-
-def get_onchain_arc(address: string, asset_index: int):
-    try:
-        response = indexer.search_transactions(
-            address=address,
-            txn_type="acfg",
-            asset_id=asset_index,
-        )
-
-        if response and "transactions" in response and response["transactions"]:
-            try:
-                asset_config_tx = response["transactions"][0]
-                arc_note = ARC69Record(
-                    **json.loads(
-                        base64.b64decode(asset_config_tx["note"]).decode("utf-8")
-                    )
-                )
-                arc_note.attributes = [
-                    ARC69Attribute(**attribute) for attribute in arc_note.attributes
-                ]
-
-                return arc_note
-
-            except Exception as exp:
-                print(
-                    f"ARC69 not yet configured for city stats for asset index: {asset_index} {exp}"
-                )
-                return None
-    except Exception as exp:
-        print(f"Unable to fetch city stats for {address} {exp}")
-
-    return None
-
-
-def get_onchain_influence(arc_note: ARC69Record):
-
-    if not arc_note:
-        return 0
-
-    for attribute in arc_note.attributes:
-        if attribute.trait_type.lower() == "algoworld influence":
-            return int(attribute.value)
-
-    return -1
-
-
-def get_onchain_city_status(arc_note: ARC69Record):
-
-    if not arc_note:
-        return None
-
-    for attribute in arc_note.attributes:
-        if attribute.trait_type.lower() == "city status":
-            return attribute.value
-
-    return None
+print(f"Running against {LEDGER_TYPE}")
 
 
 def update_arc_tags(
@@ -186,22 +132,21 @@ def extract_update_arc_tags(
     address_pkey: string,
     asset_index: int,
     influence_deposit: int,
-    note_id: string,
 ):
-    cur_arc_note = get_onchain_arc(address, asset_index)
+    cur_arc_note = get_onchain_arc(indexer, address, asset_index)
     cur_influence = get_onchain_influence(cur_arc_note)
     new_influence = cur_influence + influence_deposit
     new_status = get_city_status(new_influence)
 
     return new_influence, update_arc_tags(
-        address,
-        sender_address,
-        address_pkey,
-        influence_deposit,
-        note_id,
-        cur_arc_note,
-        new_influence,
-        new_status,
+        address=address,
+        sender_address=sender_address,
+        address_pkey=address_pkey,
+        asset_index=asset_index,
+        influence_deposit=influence_deposit,
+        cur_arc_note=cur_arc_note,
+        new_status=new_status,
+        new_influence=new_influence,
     )
 
 
@@ -211,14 +156,14 @@ def process_influence_txns():
     latest_txns = indexer.search_transactions(
         note_prefix=awe_prefix,
         min_round=storage_metadata.last_processed_block,
-        max_round=params.last,
+        max_round=params.first,
         txn_type="axfer",
     )
 
     if len(latest_txns["transactions"]) == 0:
         print("No new transactions to process")
-        storage_metadata.last_processed_block = params.last
-        save_metadata(METADATA_PATH, storage_metadata)
+        storage_metadata.last_processed_block = params.first
+        save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
         return
 
     for axfer_txn in latest_txns["transactions"]:
@@ -251,38 +196,55 @@ def process_influence_txns():
                 )
 
             else:
-                new_influence, txid, tx_info = extract_update_arc_tags(
+                new_influence, tx = extract_update_arc_tags(
                     address=manager_address,
                     sender_address=axfer_txn["sender"],
                     address_pkey=manager_pkey,
                     asset_index=axfer_txn_note.asset_id,
                     influence_deposit=axfer_txn_note.influence_deposit,
-                    note_id=axfer_txn_note.note_id,
                 )
-                confirmed_round = tx_info.get("confirmed_round")
+                confirmed_round = (
+                    tx[1]["confirmed-round"] if "confirmed-round" in tx[1] else None
+                )
 
                 if confirmed_round:
                     print(
                         f"successfully processed deposit of {axfer_txn_note.influence_deposit} for {axfer_txn_note.asset_id} from {axfer_txn['sender']} at round {confirmed_round}"
                     )
-                    processed_notes[axfer_txn_note.note_id] = StorageProcessedNote(
-                        tx_info.get("confirmed-round"),
-                        txid,
-                        axfer_txn_note.note_id,
-                        axfer_txn_note.influence_deposit,
-                        new_influence,
-                        axfer_txn_note.asset_id,
-                        manager_address,
-                    )
-                    save_notes(PROCESSED_NOTES_PATH, processed_notes)
-                    storage_metadata.last_processed_block = params.last
-                    save_metadata(METADATA_PATH, storage_metadata)
+                    asset = indexer.asset_info(axfer_txn_note.asset_id)
 
-                print(f"Skipping {axfer_txn}, unable to parse note field")
+                    asset_name = "N/A"
+
+                    try:
+                        asset_name = asset["asset"]["params"]["name"]
+                    except Exception as exp:
+                        print(f"Unable to get asset name: {exp} setting to N/A")
+
+                    processed_notes[axfer_txn_note.note_id] = asdict(
+                        StorageProcessedNote(
+                            tx[1]["confirmed-round"],
+                            tx[0],
+                            axfer_txn_note.note_id,
+                            axfer_txn_note.influence_deposit,
+                            new_influence,
+                            axfer_txn_note.asset_id,
+                            asset_name,
+                            manager_address,
+                        )
+                    )
+                    save_notes(CITY_INFLUENCE_PROCESSED_NOTES_PATH, processed_notes)
+                    storage_metadata.last_processed_block = params.first
+                    save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
+                    try:
+                        notify_influence_deposit(
+                            axfer_txn["sender"], new_influence, asset_name
+                        )
+                    except Exception as exp:
+                        print(f"Unable to notify: {exp}")
 
 
 def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
-    cur_arc_note = get_onchain_arc(manager_address, rogue_city.index)
+    cur_arc_note = get_onchain_arc(indexer, manager_address, rogue_city.index)
     txid, _ = update_arc_tags(
         address=manager_address,
         sender_address=manager_address,
@@ -300,50 +262,6 @@ def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
         print(f"fixed rogue city status for {rogue_city.name} in {txid}")
 
 
-def get_all_cities(all_assets: list[AlgoWorldCityAsset], awc_prefix: str):
-    all_cities = []
-
-    for asset in all_assets:
-
-        try:
-            print(
-                f'Loading potential city asset under {asset["index"]} and {asset["params"]["name"]}'
-            )
-            asset_index = asset["index"]
-            cur_arc_note = get_onchain_arc(manager_address, asset_index)
-            cur_influence = get_onchain_influence(cur_arc_note)
-
-            if cur_influence <= 0:
-                print(f"Skipping asset {asset_index} with influence {cur_influence}")
-                continue
-
-            cur_status = get_onchain_city_status(cur_arc_note)
-            cur_status = (
-                get_city_status(cur_influence) if not cur_status else cur_status
-            )
-
-            city = AlgoWorldCityAsset(
-                **{
-                    "index": asset["index"],
-                    "name": asset["params"]["name"],
-                    "url": asset["params"]["url"],
-                    "influence": cur_influence,
-                    "status": cur_status,
-                }
-            )
-            if (
-                len(city.name) > len(awc_prefix)
-                and awc_prefix == city.name[0 : len(awc_prefix)]
-            ):
-                all_cities.append(city)
-            else:
-                print(f"Skipping {city.name} - possibly not an aw city asset")
-        except Exception as exp:
-            print(f"Unable to parse asset: {asset} {exp}. Skipping...")
-
-    return all_cities
-
-
 def update_capital(manager_address: str):
 
     created_assets = indexer.search_assets(
@@ -358,11 +276,11 @@ def update_capital(manager_address: str):
         )
 
         created_assets = indexer.search_assets(
-            limit=20, creator=manager_address, next_page=created_assets["next-token"]
+            limit=100, creator=manager_address, next_page=created_assets["next-token"]
         )
 
     awc_prefix = "AWC #"
-    all_cities = get_all_cities(all_assets, awc_prefix)
+    all_cities = get_all_cities(indexer, manager_address, all_assets, awc_prefix)
     all_cities.sort(key=lambda x: x.influence, reverse=True)
     first_city = all_cities.pop(0)
 
@@ -383,28 +301,5 @@ def update_capital(manager_address: str):
         print(f"Skipping {first_city.name} - no second city")
 
 
-def store_cities(manager_address: str):
-    created_assets = indexer.search_assets(
-        limit=100,
-        creator=manager_address,
-    )
-    all_assets = []
-
-    while "next-token" in created_assets:
-        all_assets.extend(
-            [asset for asset in created_assets["assets"] if asset["deleted"] == False]
-        )
-
-        created_assets = indexer.search_assets(
-            limit=20, creator=manager_address, next_page=created_assets["next-token"]
-        )
-
-    awc_prefix = "AWC #"
-    all_cities = get_all_cities(all_assets, awc_prefix)
-    all_cities.sort(key=lambda x: x.index, reverse=False)
-    save_cities(ALL_CITIES_PATH, all_cities)
-
-
 process_influence_txns()
 update_capital(manager_address)
-store_cities(manager_address)
