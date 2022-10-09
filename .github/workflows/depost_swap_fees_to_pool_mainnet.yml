@@ -1,4 +1,4 @@
-name: Check swap fees wallet and deposit to AWT liquidity if threshold reached
+name: Check swap fees wallet and deposit to AWT liquidity if threshold reached (MainNet)
 
 on:
   schedule:
@@ -16,6 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: mainnet
 
       - name: Set up Python
         uses: actions/setup-python@v4

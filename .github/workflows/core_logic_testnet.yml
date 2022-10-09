@@ -1,4 +1,4 @@
-name: Process influence and packs
+name: Process influence and packs (TestNet)
 
 on:
   schedule:
@@ -23,6 +23,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: testnet
 
       - name: Set up Python
         uses: actions/setup-python@v4
