@@ -269,7 +269,11 @@ def filter_empty_balance_cities(
     for city in fetched_cities:
         city_balance = city["params"]["total"]
         if city_balance > 0 and city["index"] in all_city_ids:
-            filtered_cities.append(city)
+            parsed_city = next(
+                (x for x in all_cities if x.index == city["index"]), None
+            )
+            if parsed_city:
+                filtered_cities.append(parsed_city)
 
     return filtered_cities
 

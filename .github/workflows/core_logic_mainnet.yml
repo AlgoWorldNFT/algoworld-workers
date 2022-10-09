@@ -62,6 +62,7 @@ jobs:
 
       - name: Commit files
         id: commit_files
+        if: always()
         run: |
           git config --local user.email "millionalgos@pm.me"
           git config --local user.name "github-actions[bot]"

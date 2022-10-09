@@ -203,6 +203,13 @@
         "url": "ipfs://bafybeiatpbh35y66riyzu6vq2smrc3aakwoapiraqennrlpgfqspjdtdpa"
     },
     {
+        "index": 882474379,
+        "influence": 0,
+        "name": "AWC #249 - Mogadishu, Somalia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
+    },
+    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -819,11 +826,11 @@
         "url": "ipfs://QmefgFgc7X1E3KK9MCyFE9C9k5GUoKwtAVth49QymJrSkK"
     },
     {
-        "index": 867856579,
-        "influence": 1800,
-        "name": "AWC #248 - Kufstein, Austria",
+        "index": 882525222,
+        "influence": 1630,
+        "name": "AWC #251 - Linz, Austria",
         "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeibssslv4c4piryioh23rvavokainyxk3n5yomvuyvbftzxmghzfbu"
+        "url": "ipfs://bafybeiazgj4e7jyfraq4uz3ywo3bzpgy7ixmexhzoom5rm2slrkerqbf4q"
     },
     {
         "index": 304986937,
@@ -838,6 +845,27 @@
         "name": "AWC #229 - Curitiba, Brazil",
         "status": "AlgoWorld Platinum City",
         "url": "ipfs://QmXJAR9hWho6NPYJVKE6Gp3G3RxPz35Md8cYZdQfmNTfYz"
+    },
+    {
+        "index": 867856579,
+        "influence": 2000,
+        "name": "AWC #248 - Kufstein, Austria",
+        "status": "AlgoWorld Platinum City",
+        "url": "ipfs://bafybeibssslv4c4piryioh23rvavokainyxk3n5yomvuyvbftzxmghzfbu"
+    },
+    {
+        "index": 890287523,
+        "influence": 2000,
+        "name": "AWC #222 - Newport News, VA, USA",
+        "status": "AlgoWorld Platinum City",
+        "url": "ipfs://bafybeidtfdk4cvo2miabgp57vj34nev7vpmnzj37khgyfcm7rqfxnnrqju"
+    },
+    {
+        "index": 890287590,
+        "influence": 2000,
+        "name": "AWC #223 - Williamsburg, VA, USA",
+        "status": "AlgoWorld Platinum City",
+        "url": "ipfs://bafybeig7sygjufyss53ejiu6hsii4qv7xdabpaie2qculi4ebjbsqlpi6m"
     },
     {
         "index": 587679910,
