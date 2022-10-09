@@ -1,1 +1,12 @@
-{}
+{
+    "11ca2aaf-a934-4bf8-abe9-c0ce65844c65": {
+        "acfg_txn": "A7V4FVQIBB3SQIEW2KLN43473R2G2F3U3JEQON4K4DZA2EUT6NIQ",
+        "asset_id": 689523661,
+        "asset_name": "AWC #162 - Istanbul, Turkey",
+        "block": 24013301,
+        "deposit": 1,
+        "id": "11ca2aaf-a934-4bf8-abe9-c0ce65844c65",
+        "influence": 3501,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    }
+}
