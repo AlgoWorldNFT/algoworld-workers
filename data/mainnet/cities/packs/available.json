@@ -390,5 +390,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #9"
+    },
+    {
+        "contract": "BiAKBOgHAQCt56+RAeemz5IDktTm4gGkksD7AvXKyLgCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "3OWZMAW2QUXFDPRJB5T25GRS5U4A434JURFGVYMQ3SGERTPMUTXNW5FJAM",
+        "id": 10,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304870317,
+                "title": "AWC #13 - Singapore, Singapore",
+                "url": "ipfs://QmU34BpNKnTYQPP4FpQjEsNrkpo5Mecf9dVf1pyn8UEc5k"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 844354407,
+                "title": "AWC #240 - Chambord, France",
+                "url": "ipfs://bafybeieeioxv3ik6bfsln366fhlgtvajdlwsso3hmkwdfpp54agng6oq4i"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 475638290,
+                "title": "AWC #82 - Pyongyang, North Korea",
+                "url": "ipfs://QmaDnhK46SCuGQfXe3AprzD1EcKuF3fdEXqwXw8qLRrRni"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 795871524,
+                "title": "AWC #229 - Curitiba, Brazil",
+                "url": "ipfs://QmXJAR9hWho6NPYJVKE6Gp3G3RxPz35Md8cYZdQfmNTfYz"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 655500661,
+                "title": "AWC #150 - Bratislava, Slovakia",
+                "url": "ipfs://QmQeUYK9PjdGSw8Z1KXRyj3TG2v5vso3qMd9UgTiGiBEKy"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #10"
     }
 ]
