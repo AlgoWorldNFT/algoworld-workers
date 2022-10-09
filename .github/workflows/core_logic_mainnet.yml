@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       MANAGER_PASSPHRASE: ${{ secrets.MANAGER_PASSPHRASE }}
-      LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
+      LEDGER_TYPE: MainNet
       CITY_PACK_AMOUNT_LIMIT: ${{ secrets.CITY_PACK_AMOUNT_LIMIT}}
       DISCORD_WEBHOOK_URL_TESTNET: ${{ secrets.DISCORD_WEBHOOK_URL_MAINNET}}
       TELEGRAM_API_KEY_TESTNET: ${{ secrets.TELEGRAM_API_KEY_MAINNET}}
