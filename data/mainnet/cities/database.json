@@ -133,13 +133,6 @@
         "url": "ipfs://QmVmXNBVJ5NtrDFTCAWgeCAc16hUBu7u7B64JhFE9DNJDA"
     },
     {
-        "index": 805072145,
-        "influence": 0,
-        "name": "AWC #230 - Stuttgart, Germany",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmXZpzgExvBSDnaWbgL4A4ztnbbZ8pjdUXMT4vyrURYPFR"
-    },
-    {
         "index": 813901504,
         "influence": 0,
         "name": "AWC #233 - Plymouth, UK",
@@ -208,6 +201,13 @@
         "name": "AWC #249 - Mogadishu, Somalia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
+    },
+    {
+        "index": 805072145,
+        "influence": 1,
+        "name": "AWC #230 - Stuttgart, Germany",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmXZpzgExvBSDnaWbgL4A4ztnbbZ8pjdUXMT4vyrURYPFR"
     },
     {
         "index": 271159971,

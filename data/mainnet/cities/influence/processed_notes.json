@@ -8,5 +8,15 @@
         "id": "11ca2aaf-a934-4bf8-abe9-c0ce65844c65",
         "influence": 3501,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16": {
+        "acfg_txn": "D5EL4RPAMB2NLH7DJI3OSVKQ6GOO6A7JBIOBTKA7W7AOOIHOVRLQ",
+        "asset_id": 805072145,
+        "asset_name": "AWC #230 - Stuttgart, Germany",
+        "block": 24013421,
+        "deposit": 1,
+        "id": "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16",
+        "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
 }
