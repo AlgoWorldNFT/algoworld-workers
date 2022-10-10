@@ -126,20 +126,6 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
-        "index": 609072964,
-        "influence": 0,
-        "name": "AWC #125 - Tallinn, Estonia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmbFpSSY6iceUKhDoZjdo8R6iKU2ePzXK43UWtMwLm2ZAC"
-    },
-    {
-        "index": 678838339,
-        "influence": 0,
-        "name": "AWC #157 - Warwick, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmSzyNb1uWirX94CzM9uJrhHY1YYHAqvhiJVxjaYfBhadY"
-    },
-    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -1498,6 +1484,13 @@
         "url": "ipfs://Qmckd3Fi9h3numf1mg2jRAnrnVMVHsH9FY8KBs8evs6C6s"
     },
     {
+        "index": 678838339,
+        "influence": 3006,
+        "name": "AWC #157 - Warwick, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmSzyNb1uWirX94CzM9uJrhHY1YYHAqvhiJVxjaYfBhadY"
+    },
+    {
         "index": 713832955,
         "influence": 3006,
         "name": "AWC #174 - Portmeirion, UK",
@@ -1559,6 +1552,13 @@
         "name": "AWC #235 - Montreal, Canada",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeifhikbl3oqknkrjfclck4j2qrtx5dcahlgxic2uyc3ukjhrqlnbge"
+    },
+    {
+        "index": 609072964,
+        "influence": 3009,
+        "name": "AWC #125 - Tallinn, Estonia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmbFpSSY6iceUKhDoZjdo8R6iKU2ePzXK43UWtMwLm2ZAC"
     },
     {
         "index": 639430324,
