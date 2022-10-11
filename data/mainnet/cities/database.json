@@ -728,41 +728,6 @@
         "url": "ipfs://QmdG55f697SqjhKd8wGgFy1QvYEsmbyGHiUetkquqE8Bv4"
     },
     {
-        "index": 795853079,
-        "influence": 1000,
-        "name": "AWC #224 - NDjamena, Chad",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://QmahFNhfJgJHZaoxeN5G8AzZu8ELwtcbnXGHEYqb6efREp"
-    },
-    {
-        "index": 795854141,
-        "influence": 1000,
-        "name": "AWC #225 - Florianopolis, Brazil",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://QmagJUVhttLZ7Y6xdpULmenGbrbxksUW6rHSkG5qbf8iMJ"
-    },
-    {
-        "index": 795855266,
-        "influence": 1000,
-        "name": "AWC #226 - Salvador, Brazil",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://Qma93DpTqna5PTBPoMy7ZhikFyM9CGPLXUhV4VkaLxV1Yf"
-    },
-    {
-        "index": 795856385,
-        "influence": 1000,
-        "name": "AWC #227 - Wiltz, Luxembourg",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://QmU44MoESPVNANG5Nmi5wYsAiSmej5zcr5SMejw7bJUbth"
-    },
-    {
-        "index": 795857701,
-        "influence": 1000,
-        "name": "AWC #228 - Vianden, Luxembourg",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://QmVzw8zRM2BH7LgAeWNFBep1FsHEtkXXFomeDDtkkpoTwc"
-    },
-    {
         "index": 854283635,
         "influence": 1000,
         "name": "AWC #245 - Munich, Germany",
@@ -1307,6 +1272,41 @@
         "name": "AWC #221 - Holzgau, Austria",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmSmhnM4v4zRrwuT9XMNJia3i7uqKUpWpqiz2ru8YUJeQ2"
+    },
+    {
+        "index": 795853079,
+        "influence": 3000,
+        "name": "AWC #224 - NDjamena, Chad",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmahFNhfJgJHZaoxeN5G8AzZu8ELwtcbnXGHEYqb6efREp"
+    },
+    {
+        "index": 795854141,
+        "influence": 3000,
+        "name": "AWC #225 - Florianopolis, Brazil",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmagJUVhttLZ7Y6xdpULmenGbrbxksUW6rHSkG5qbf8iMJ"
+    },
+    {
+        "index": 795855266,
+        "influence": 3000,
+        "name": "AWC #226 - Salvador, Brazil",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://Qma93DpTqna5PTBPoMy7ZhikFyM9CGPLXUhV4VkaLxV1Yf"
+    },
+    {
+        "index": 795856385,
+        "influence": 3000,
+        "name": "AWC #227 - Wiltz, Luxembourg",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmU44MoESPVNANG5Nmi5wYsAiSmej5zcr5SMejw7bJUbth"
+    },
+    {
+        "index": 795857701,
+        "influence": 3000,
+        "name": "AWC #228 - Vianden, Luxembourg",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmVzw8zRM2BH7LgAeWNFBep1FsHEtkXXFomeDDtkkpoTwc"
     },
     {
         "index": 809412220,

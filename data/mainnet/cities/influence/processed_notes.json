@@ -1,4 +1,14 @@
 {
+    "08b068a3-f00c-4841-a06f-32ddf15fac6e": {
+        "acfg_txn": "XTSVXPIEZUAU7LJD64XPZI3YNAAYHQBETOPM7X7UPBUJKMRN4YGQ",
+        "asset_id": 795854141,
+        "asset_name": "AWC #225 - Florianopolis, Brazil",
+        "block": 24041351,
+        "deposit": 2000,
+        "id": "08b068a3-f00c-4841-a06f-32ddf15fac6e",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "11ca2aaf-a934-4bf8-abe9-c0ce65844c65": {
         "acfg_txn": "A7V4FVQIBB3SQIEW2KLN43473R2G2F3U3JEQON4K4DZA2EUT6NIQ",
         "asset_id": 689523661,
@@ -9,6 +19,16 @@
         "influence": 3501,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "82b16a0a-2eb8-4409-81d4-3cbc2fd00f37": {
+        "acfg_txn": "6QYMBY3SNEPTWRWVX5UEPHHCFWDPBMT2RQQQPEHEORMECHJV2PTA",
+        "asset_id": 795857701,
+        "asset_name": "AWC #228 - Vianden, Luxembourg",
+        "block": 24041357,
+        "deposit": 2000,
+        "id": "82b16a0a-2eb8-4409-81d4-3cbc2fd00f37",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16": {
         "acfg_txn": "D5EL4RPAMB2NLH7DJI3OSVKQ6GOO6A7JBIOBTKA7W7AOOIHOVRLQ",
         "asset_id": 805072145,
@@ -17,6 +37,36 @@
         "deposit": 1,
         "id": "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16",
         "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "b18c2c1e-a48d-4051-9fce-6d9c280324bf": {
+        "acfg_txn": "UWZLIPAKDMYB2QFKH4FKCITNB47NRACQ4ITQLHH6ROEIEPRJQYDA",
+        "asset_id": 795856385,
+        "asset_name": "AWC #227 - Wiltz, Luxembourg",
+        "block": 24041355,
+        "deposit": 2000,
+        "id": "b18c2c1e-a48d-4051-9fce-6d9c280324bf",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "bccde204-99a1-448f-8464-619f3635d169": {
+        "acfg_txn": "DMYH3AZ7PYFEHT6WIDGQ5SDANP65MJGT5ZIQVSQFC37HZXFYX6DA",
+        "asset_id": 795853079,
+        "asset_name": "AWC #224 - NDjamena, Chad",
+        "block": 24041349,
+        "deposit": 2000,
+        "id": "bccde204-99a1-448f-8464-619f3635d169",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "ec986d6f-fa2a-478f-aeff-eee747744369": {
+        "acfg_txn": "3SDBQ5GOHO76P2O7QHX35BONICM7LNFVU5CW5TU6RWYAJH2HNFBA",
+        "asset_id": 795855266,
+        "asset_name": "AWC #226 - Salvador, Brazil",
+        "block": 24041353,
+        "deposit": 2000,
+        "id": "ec986d6f-fa2a-478f-aeff-eee747744369",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
 }
