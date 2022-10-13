@@ -126,6 +126,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 609073965,
+        "influence": 0,
+        "name": "AWC #127 - Milan, Italy",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmZA3smfYoEeFLX6XVzwsfCuRkHibE1uj4CCfiTKxkYyuW"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -537,13 +544,6 @@
         "name": "AWC #126 - Tiraspol,Transnistria",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://QmXSYJVvm6EWqUAW58PTcnTmjsBHHTud8U1p9MvDykNRKP"
-    },
-    {
-        "index": 609073965,
-        "influence": 500,
-        "name": "AWC #127 - Milan, Italy",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://QmZA3smfYoEeFLX6XVzwsfCuRkHibE1uj4CCfiTKxkYyuW"
     },
     {
         "index": 653061320,
