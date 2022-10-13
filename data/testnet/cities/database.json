@@ -77,13 +77,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18893045,
-        "influence": 0,
-        "name": "AWC #7 - London, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18893055,
         "influence": 0,
         "name": "AWC #8 - Cairo, Egypt",
@@ -94,13 +87,6 @@
         "index": 18893075,
         "influence": 0,
         "name": "AWC #10 - Washington D.C., USA",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
-        "index": 18893084,
-        "influence": 0,
-        "name": "AWC #11 - Athens, Greece",
         "status": "AlgoWorld Regular City",
         "url": "www.algoworld-nft.com"
     },
@@ -168,6 +154,13 @@
         "url": "www.algoworld-nft.com"
     },
     {
+        "index": 18893045,
+        "influence": 1,
+        "name": "AWC #7 - London, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
         "index": 18893094,
         "influence": 1,
         "name": "AWC #12 - Madrid, Spain",
@@ -199,6 +192,13 @@
         "index": 18893065,
         "influence": 2,
         "name": "AWC #9 - Paris, France",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
+        "index": 18893084,
+        "influence": 2,
+        "name": "AWC #11 - Athens, Greece",
         "status": "AlgoWorld Regular City",
         "url": "www.algoworld-nft.com"
     },
