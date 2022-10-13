@@ -19,6 +19,16 @@
         "influence": 3501,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "7322aa47-b900-4288-9536-8f37dbdbd38c": {
+        "acfg_txn": "SPCFBSNT4HRFKQJHTA2B2BZN33HY3WKQ736KJURKZ7MH476NNWHA",
+        "asset_id": 901940576,
+        "asset_name": "AWC #252 - Santiago, Chile",
+        "block": 24105875,
+        "deposit": 3600,
+        "id": "7322aa47-b900-4288-9536-8f37dbdbd38c",
+        "influence": 3600,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "82b16a0a-2eb8-4409-81d4-3cbc2fd00f37": {
         "acfg_txn": "6QYMBY3SNEPTWRWVX5UEPHHCFWDPBMT2RQQQPEHEORMECHJV2PTA",
         "asset_id": 795857701,
