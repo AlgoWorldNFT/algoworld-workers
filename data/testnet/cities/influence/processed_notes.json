@@ -39,6 +39,32 @@
         "influence": 10201,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "217e94d8-75ab-4937-8b52-cc85bd153085": {
+        "acfg_txn": "O2H5GTGE7NYPBFAVOPXC3375UNKGVTSQDPTVVUOAC2H63W65U2UA",
+        "asset_id": 18893084,
+        "asset_name": "AWC #11 - Athens, Greece",
+        "block": 24785423,
+        "deposit": 1,
+        "id": "217e94d8-75ab-4937-8b52-cc85bd153085",
+        "influence": [
+            {
+                "attributes": [
+                    {
+                        "trait_type": "AlgoWorld influence",
+                        "value": "2"
+                    },
+                    {
+                        "trait_type": "City status",
+                        "value": "AlgoWorld Regular City"
+                    }
+                ],
+                "external_url": "https://www.algoworld.io",
+                "standard": "arc69"
+            },
+            2
+        ],
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3a81516e-78ee-494b-b6f5-79efc3057f40": {
         "acfg_txn": "6O5VMYDL7EILOVG4HUAFICBENN25Z73TJAVMHIQIRSGG2S2F6WCA",
         "asset_id": 18725394,
