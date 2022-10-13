@@ -82,7 +82,7 @@ def _close_swap(
     )
     signers.append(proof_sender)
 
-    gtx_id = group_sign_send_wait(algod_client, signers, transactions)
+    gtx_id, _ = group_sign_send_wait(algod_client, signers, transactions)
 
     print(f"\n --- Account {proof_sender.public_key} closed city pack.")
 

@@ -361,8 +361,8 @@ def group_sign_send_wait(algod: AlgodClient, signers: list, txns: list[Transacti
         signed_group.append(sign(signer, t))
 
     gtxn_id = algod.send_transactions(signed_group)
-    wait_for_confirmation(algod, txid=gtxn_id)
-    return gtxn_id
+    tx_info = wait_for_confirmation(algod, txid=gtxn_id)
+    return gtxn_id, tx_info
 
 
 def swapper_opt_in(

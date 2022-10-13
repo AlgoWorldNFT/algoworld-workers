@@ -3,7 +3,7 @@ from dataclasses import asdict
 from json import dumps
 
 from algosdk import mnemonic
-from algosdk.future.transaction import AssetConfigTxn
+from algosdk.future.transaction import AssetConfigTxn, PaymentTxn
 
 from src.shared.common import (
     CITY_INFLUENCE_METADATA_PATH,
@@ -19,6 +19,7 @@ from src.shared.models import (
     ARC69Record,
     StorageMetadata,
     StorageProcessedNote,
+    Wallet,
 )
 from src.shared.notifications import notify_influence_deposit
 from src.shared.utils import (
@@ -27,11 +28,11 @@ from src.shared.utils import (
     get_city_status,
     get_onchain_arc,
     get_onchain_influence,
+    group_sign_send_wait,
     load,
     load_notes,
     save_metadata,
     save_notes,
-    wait_for_confirmation,
 )
 
 note = "awe_{manager_addr}_{asset_id}_{influence_deposit}_{tx_id}"
@@ -41,8 +42,11 @@ awt_testnet_index = 51363057
 card_index = 18725886
 
 
-manager_pkey = mnemonic.to_private_key(MANAGER_PASSPHRASE)
-manager_address = mnemonic.to_public_key(MANAGER_PASSPHRASE)
+manager_account = Wallet(
+    mnemonic.to_private_key(MANAGER_PASSPHRASE),
+    mnemonic.to_public_key(MANAGER_PASSPHRASE),
+)
+
 
 processed_notes = load_notes(CITY_INFLUENCE_PROCESSED_NOTES_PATH)
 processed_notes: dict[str, StorageProcessedNote] = (
@@ -61,14 +65,14 @@ print(f"Running against {LEDGER_TYPE}")
 
 
 def update_arc_tags(
-    address: str,
+    account: Wallet,
     sender_address: str,
-    address_pkey: str,
     asset_index: int,
     influence_deposit: int,
     cur_arc_note: ARC69Record,
     new_status: str,
     new_influence: int,
+    deposit_txn: str,
 ):
     attributes = []
 
@@ -101,57 +105,72 @@ def update_arc_tags(
 
     params = algod_client.suggested_params()
 
-    txn = AssetConfigTxn(
-        sender=address,
+    arc_update_txn = AssetConfigTxn(
+        sender=account.public_key,
         sp=params,
         index=asset_index,
-        manager=address,
+        manager=account.public_key,
         strict_empty_address_check=False,
         note=dumps(asdict(arc_note)),
     )
-
-    # Sign with secret key of creator
-    stxn = txn.sign(address_pkey)
+    validation_note = f"awe_id_{deposit_txn}"
+    validation_txn = PaymentTxn(
+        sender=account.public_key,
+        sp=params,
+        receiver=account.public_key,
+        amt=0,
+        note=validation_note.encode(),
+    )
 
     try:
-        txid = algod_client.send_transaction(stxn)
-        tx_info = wait_for_confirmation(algod_client, txid=txid)
-
-        return txid, tx_info
+        return group_sign_send_wait(
+            algod_client, [account, account], [validation_txn, arc_update_txn]
+        )
     except Exception as exp:
         print(
-            f"Unable to update city stats for receiver: {address} index: {asset_index} deposit: {influence_deposit} sender: {sender_address} {exp}"
+            f"Unable to update city stats for receiver: {account.public_key} index: {asset_index} deposit: {influence_deposit} sender: {sender_address} {exp}"
         )
 
         return None
 
 
 def extract_update_arc_tags(
-    address: string,
+    account: Wallet,
     sender_address: string,
-    address_pkey: string,
     asset_index: int,
     influence_deposit: int,
+    influence_deposit_txid: str,
 ):
-    cur_arc_note = get_onchain_arc(indexer, address, asset_index)
-    cur_influence = get_onchain_influence(cur_arc_note)
+    cur_arc_note, cur_influence = extract_arc_influence(
+        account.public_key,
+        asset_index,
+    )
     new_influence = cur_influence + influence_deposit
     new_status = get_city_status(new_influence)
 
     return new_influence, update_arc_tags(
-        address=address,
+        account=account,
         sender_address=sender_address,
-        address_pkey=address_pkey,
         asset_index=asset_index,
         influence_deposit=influence_deposit,
         cur_arc_note=cur_arc_note,
         new_status=new_status,
         new_influence=new_influence,
+        deposit_txn=influence_deposit_txid,
     )
 
 
+def extract_arc_influence(
+    address: string,
+    asset_index: int,
+):
+    cur_arc_note = get_onchain_arc(indexer, address, asset_index)
+    cur_influence = get_onchain_influence(cur_arc_note)
+    return cur_arc_note, cur_influence
+
+
 def process_influence_txns():
-    awe_prefix = f"awe_{manager_address}".encode()
+    awe_prefix = f"awe_{manager_account.public_key}".encode()
     params = algod_client.suggested_params()
     latest_txns = indexer.search_transactions(
         note_prefix=awe_prefix,
@@ -178,6 +197,19 @@ def process_influence_txns():
                 axfer_txn_note.influence_deposit
                 != axfer_txn["asset-transfer-transaction"]["amount"]
             )
+            processed_deposit_txns = indexer.search_transactions(
+                note_prefix=f"awe_id_{axfer_txn['id']}".encode(),
+                min_round=storage_metadata.last_processed_block,
+                address=manager_account.public_key,
+                limit=50,
+                txn_type="pay",
+            )
+
+            transaction_already_processed = (
+                "transactions" in processed_deposit_txns
+                and len(processed_deposit_txns["transactions"]) > 0
+            )
+
             note_id_already_processed = axfer_txn_note.note_id in processed_note_ids
 
             if receiver_mismatch:
@@ -196,19 +228,35 @@ def process_influence_txns():
                 )
 
             else:
-                new_influence, tx = extract_update_arc_tags(
-                    address=manager_address,
-                    sender_address=axfer_txn["sender"],
-                    address_pkey=manager_pkey,
-                    asset_index=axfer_txn_note.asset_id,
-                    influence_deposit=axfer_txn_note.influence_deposit,
+                new_influence, tx = (
+                    (
+                        extract_arc_influence(
+                            address=manager_account.public_key,
+                            asset_index=axfer_txn_note.asset_id,
+                        ),
+                        (
+                            processed_deposit_txns["transactions"][0]["id"],
+                            processed_deposit_txns["transactions"][0],
+                        ),
+                    )
+                    if transaction_already_processed
+                    else extract_update_arc_tags(
+                        account=manager_account,
+                        sender_address=axfer_txn["sender"],
+                        asset_index=axfer_txn_note.asset_id,
+                        influence_deposit=axfer_txn_note.influence_deposit,
+                        influence_deposit_txid=axfer_txn["id"],
+                    )
                 )
                 confirmed_round = (
                     tx[1]["confirmed-round"] if "confirmed-round" in tx[1] else None
                 )
 
                 if confirmed_round:
+
                     print(
+                        f'WARNING: already processed deposit of {axfer_txn_note.influence_deposit} for {axfer_txn_note.asset_id} from {axfer_txn["sender"]} at round {confirmed_round} with txid {axfer_txn["id"]}'
+                    ) if transaction_already_processed else print(
                         f"successfully processed deposit of {axfer_txn_note.influence_deposit} for {axfer_txn_note.asset_id} from {axfer_txn['sender']} at round {confirmed_round}"
                     )
                     asset = indexer.asset_info(axfer_txn_note.asset_id)
@@ -229,26 +277,28 @@ def process_influence_txns():
                             new_influence,
                             axfer_txn_note.asset_id,
                             asset_name,
-                            manager_address,
+                            manager_account.public_key,
                         )
                     )
                     save_notes(CITY_INFLUENCE_PROCESSED_NOTES_PATH, processed_notes)
                     storage_metadata.last_processed_block = params.first
                     save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
-                    try:
-                        notify_influence_deposit(
-                            axfer_txn["sender"], new_influence, asset_name
-                        )
-                    except Exception as exp:
-                        print(f"Unable to notify: {exp}")
+                    if not transaction_already_processed:
+                        try:
+                            notify_influence_deposit(
+                                axfer_txn["sender"], new_influence, asset_name
+                            )
+                        except Exception as exp:
+                            print(f"Unable to notify: {exp}")
 
 
 def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
-    cur_arc_note = get_onchain_arc(indexer, manager_address, rogue_city.index)
+    cur_arc_note = get_onchain_arc(
+        indexer, manager_account.public_key, rogue_city.index
+    )
     txid, _ = update_arc_tags(
-        address=manager_address,
-        sender_address=manager_address,
-        address_pkey=manager_pkey,
+        account=manager_account,
+        sender_address=manager_account.public_key,
         asset_index=rogue_city.index,
         influence_deposit=0,
         cur_arc_note=cur_arc_note,
@@ -262,11 +312,11 @@ def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
         print(f"fixed rogue city status for {rogue_city.name} in {txid}")
 
 
-def update_capital(manager_address: str):
+def update_capital(manager_account: Wallet):
 
     created_assets = indexer.search_assets(
         limit=100,
-        creator=manager_address,
+        creator=manager_account.public_key,
     )
     all_assets = []
 
@@ -276,11 +326,15 @@ def update_capital(manager_address: str):
         )
 
         created_assets = indexer.search_assets(
-            limit=100, creator=manager_address, next_page=created_assets["next-token"]
+            limit=100,
+            creator=manager_account.public_key,
+            next_page=created_assets["next-token"],
         )
 
     awc_prefix = "AWC #"
-    all_cities = get_all_cities(indexer, manager_address, all_assets, awc_prefix)
+    all_cities = get_all_cities(
+        indexer, manager_account.public_key, all_assets, awc_prefix
+    )
     all_cities.sort(key=lambda x: x.influence, reverse=True)
     first_city = all_cities.pop(0)
 
@@ -302,4 +356,4 @@ def update_capital(manager_address: str):
 
 
 process_influence_txns()
-update_capital(manager_address)
+update_capital(manager_account)
