@@ -1694,18 +1694,18 @@
         "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
     },
     {
-        "index": 560284517,
-        "influence": 14778,
-        "name": "AWC #94 - Ljubljana, Slovenia",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
-    },
-    {
         "index": 629170949,
         "influence": 15000,
         "name": "AWC #136 - Kyiv, Ukraine",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmZT78FoN6nnecebx8gRTZ41u1tXn2Dykhoh2ftgoHqEzY"
+    },
+    {
+        "index": 560284517,
+        "influence": 15078,
+        "name": "AWC #94 - Ljubljana, Slovenia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
     },
     {
         "index": 271106498,

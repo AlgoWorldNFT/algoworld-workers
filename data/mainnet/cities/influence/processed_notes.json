@@ -9,6 +9,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "0f6d50cf-85db-4ef2-8ac3-d29472ced155": {
+        "acfg_txn": "NWU7SDM3QKPORQSB2GZAXGLSYBDLO34Y5TI5QRO6R25NIK2F6MVA",
+        "asset_id": 560284517,
+        "asset_name": "AWC #94 - Ljubljana, Slovenia",
+        "block": 24106966,
+        "deposit": 300,
+        "id": "0f6d50cf-85db-4ef2-8ac3-d29472ced155",
+        "influence": 15078,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "11ca2aaf-a934-4bf8-abe9-c0ce65844c65": {
         "acfg_txn": "A7V4FVQIBB3SQIEW2KLN43473R2G2F3U3JEQON4K4DZA2EUT6NIQ",
         "asset_id": 689523661,
