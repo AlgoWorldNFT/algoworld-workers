@@ -70,13 +70,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18893035,
-        "influence": 0,
-        "name": "AWC #6 - Chicago, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18893055,
         "influence": 0,
         "name": "AWC #8 - Cairo, Egypt",
@@ -150,6 +143,13 @@
         "index": 18891763,
         "influence": 1,
         "name": "AWC #100 - Poissy, France",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
+        "index": 18893035,
+        "influence": 1,
+        "name": "AWC #6 - Chicago, USA",
         "status": "AlgoWorld Regular City",
         "url": "www.algoworld-nft.com"
     },

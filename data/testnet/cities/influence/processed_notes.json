@@ -135,6 +135,16 @@
         "influence": 1,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "9884ef6a-442b-4d67-b57f-d7bc579b345a": {
+        "acfg_txn": "ZXTUO5GPUWKKKT2PSQTWOQEVZWTBTO5OLYADBLSAEJMGKLOCT6FQ",
+        "asset_id": 18893035,
+        "asset_name": "AWC #6 - Chicago, USA",
+        "block": 24785842,
+        "deposit": 1,
+        "id": "9884ef6a-442b-4d67-b57f-d7bc579b345a",
+        "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "a96519b2-2d07-4bdb-985b-08762bca99f9": {
         "acfg_txn": "JDMCAQNWEG5ELPGQTEKYBKRWXTREOSSO4FOBJWJJWTDLOMBSAZCA",
         "asset_id": 22888843,
