@@ -75,6 +75,16 @@
         "influence": 1,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "44419c87-0fa1-4dc8-b64a-8087960b870d": {
+        "acfg_txn": "OKNQ4GFZ2VT5KC5WHEI36EB57AAGUOMO2KF65T3DYM5GBMM7XVGA",
+        "asset_id": 18893045,
+        "asset_name": "AWC #7 - London, UK",
+        "block": 24785798,
+        "deposit": 1,
+        "id": "44419c87-0fa1-4dc8-b64a-8087960b870d",
+        "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "4a4212e4-3a34-4a4d-8017-e5075233eac1": {
         "acfg_txn": "3OJUGAR4NZW3K2E4HJRKTYNHMVILJ3P52O56YZYTMQSMVWC7H2SA",
         "asset_id": 22889042,
