@@ -203,13 +203,6 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 901940576,
-        "influence": 0,
-        "name": "AWC #252 - Santiago, Chile",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeic5bess4vxob4hww6zccsmfq3oaopth6siqfvx3w74kf43xpbpi5e"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
@@ -1678,6 +1671,13 @@
         "name": "AWC #30 - Seoul, South Korea",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmR81EU9sgnsmzDfsxgHXsJ7JcG9PcuyRaHuaYSDSnawKj"
+    },
+    {
+        "index": 901940576,
+        "influence": 3600,
+        "name": "AWC #252 - Santiago, Chile",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeic5bess4vxob4hww6zccsmfq3oaopth6siqfvx3w74kf43xpbpi5e"
     },
     {
         "index": 271518216,
