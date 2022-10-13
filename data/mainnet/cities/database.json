@@ -56,13 +56,6 @@
         "url": "ipfs://QmSqn4cj6aCgosLHD1qG646D4mLuu3tYcLDP7nux1bpFi5"
     },
     {
-        "index": 320277051,
-        "influence": 0,
-        "name": "AWC #29 - Montevideo, Uruguay",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmeTMtVunRZPksovc2QVx8zr5jcT25QQQPfyvkU1QtJrQN"
-    },
-    {
         "index": 323679610,
         "influence": 0,
         "name": "AWC #27 - Mal\u00e9, Maldives",
@@ -292,6 +285,13 @@
         "name": "AWC #20 - Amsterdam, Netherlands",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmeYPiN3NFFWQRkLoPSmrJH2Ut7tDPWo58xQ23X1CKSEza"
+    },
+    {
+        "index": 320277051,
+        "influence": 100,
+        "name": "AWC #29 - Montevideo, Uruguay",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://QmeTMtVunRZPksovc2QVx8zr5jcT25QQQPfyvkU1QtJrQN"
     },
     {
         "index": 328208152,
