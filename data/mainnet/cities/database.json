@@ -203,13 +203,6 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 904792934,
-        "influence": 0,
-        "name": "AWC #253 - Radio Kootwijk, NL",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeichp2jjexenpc4bcmlgxiu2jyqknq6db4m4hu6aujx6rpsizk74iq"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
@@ -819,13 +812,6 @@
         "url": "ipfs://QmXJAR9hWho6NPYJVKE6Gp3G3RxPz35Md8cYZdQfmNTfYz"
     },
     {
-        "index": 867856579,
-        "influence": 2000,
-        "name": "AWC #248 - Kufstein, Austria",
-        "status": "AlgoWorld Platinum City",
-        "url": "ipfs://bafybeibssslv4c4piryioh23rvavokainyxk3n5yomvuyvbftzxmghzfbu"
-    },
-    {
         "index": 890287523,
         "influence": 2000,
         "name": "AWC #222 - Newport News, VA, USA",
@@ -1349,6 +1335,20 @@
         "name": "AWC #244 - Delft, Netherlands",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeigocsosqf4gvyf7wdcystqdjusveqfkxnp2lgm7guezxpbqc2gj2y"
+    },
+    {
+        "index": 867856579,
+        "influence": 3000,
+        "name": "AWC #248 - Kufstein, Austria",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeibssslv4c4piryioh23rvavokainyxk3n5yomvuyvbftzxmghzfbu"
+    },
+    {
+        "index": 904792934,
+        "influence": 3000,
+        "name": "AWC #253 - Radio Kootwijk, NL",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeichp2jjexenpc4bcmlgxiu2jyqknq6db4m4hu6aujx6rpsizk74iq"
     },
     {
         "index": 377742761,

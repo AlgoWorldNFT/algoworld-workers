@@ -29,6 +29,16 @@
         "influence": 3501,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "22f97308-923d-4485-a242-99e91c8ca373": {
+        "acfg_txn": "GMTAOEC3SWUQYE7RTYCIQUISNA3TNCY6RAIVLC2F3AAP7GWF73JQ",
+        "asset_id": 867856579,
+        "asset_name": "AWC #248 - Kufstein, Austria",
+        "block": 24150325,
+        "deposit": 100,
+        "id": "22f97308-923d-4485-a242-99e91c8ca373",
+        "influence": 2100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7322aa47-b900-4288-9536-8f37dbdbd38c": {
         "acfg_txn": "SPCFBSNT4HRFKQJHTA2B2BZN33HY3WKQ736KJURKZ7MH476NNWHA",
         "asset_id": 901940576,
@@ -46,6 +56,16 @@
         "block": 24041357,
         "deposit": 2000,
         "id": "82b16a0a-2eb8-4409-81d4-3cbc2fd00f37",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "8c677903-e5e1-4286-98c5-715133f246cc": {
+        "acfg_txn": "IKSDSRBWBRANAXGQAOHUSFYVWDGSUAADSHFGDQSX3AUEN2W4VFFA",
+        "asset_id": 904792934,
+        "asset_name": "AWC #253 - Radio Kootwijk, NL",
+        "block": 24150322,
+        "deposit": 3000,
+        "id": "8c677903-e5e1-4286-98c5-715133f246cc",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
@@ -76,6 +96,16 @@
         "block": 24041349,
         "deposit": 2000,
         "id": "bccde204-99a1-448f-8464-619f3635d169",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "dfff76de-0dcf-4f82-8ae6-f6cf3ab98cd9": {
+        "acfg_txn": "34UJ7FYHYR7WNP633GTJZFYWILLWEBGAI3EWBU4VD2QM7SS5CUFQ",
+        "asset_id": 867856579,
+        "asset_name": "AWC #248 - Kufstein, Austria",
+        "block": 24150327,
+        "deposit": 900,
+        "id": "dfff76de-0dcf-4f82-8ae6-f6cf3ab98cd9",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
