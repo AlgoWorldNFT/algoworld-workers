@@ -119,13 +119,6 @@
         "url": "ipfs://Qmf3bS93s56gMbPTxwvm4uD3HC5GtYdhw1dmEK6g4rnPUa"
     },
     {
-        "index": 584693215,
-        "influence": 0,
-        "name": "AWC #118 - Guatemala City, GT",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmdPnFePwXWRDBubxBBMHgRArxVBJNccftUDtqEnYKRYwt"
-    },
-    {
         "index": 587886470,
         "influence": 0,
         "name": "AWC #121 - Taipei, Taiwan",
@@ -712,6 +705,13 @@
         "name": "AWC #116 - Funchal, Portugal",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmetB5aA3EAogVWRrxNTvx8ZmupU23V9hx1jQ5k2wmfWLT"
+    },
+    {
+        "index": 584693215,
+        "influence": 1000,
+        "name": "AWC #118 - Guatemala City, GT",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://QmdPnFePwXWRDBubxBBMHgRArxVBJNccftUDtqEnYKRYwt"
     },
     {
         "index": 584693627,
