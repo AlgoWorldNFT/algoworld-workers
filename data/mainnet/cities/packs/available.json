@@ -390,5 +390,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #21"
+    },
+    {
+        "contract": "BiAKBOgHAQCH+/SgAebrwqgDnfzKggGj68KoA7/1q5oBByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "J4FRH2XIBH55HZVQI4WX2ANAXWTGEN7VS55JSQE3UAQY3ARRKOZDX4Y4VI",
+        "id": 22,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 337460615,
+                "title": "AWC #33 - Kabul, Afghanistan",
+                "url": "ipfs://QmZdH36CexLXZ7TPChkiZDKgAftiV3TyERMrpvoR69uBKx"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 890287590,
+                "title": "AWC #223 - Williamsburg, VA, USA",
+                "url": "ipfs://bafybeig7sygjufyss53ejiu6hsii4qv7xdabpaie2qculi4ebjbsqlpi6m"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 273858077,
+                "title": "AWC #3 - Rome, Italy",
+                "url": "ipfs://QmY9o44Jt5ewdyvQ5n8LbDMTBpTqhDCtjoKNn5H69aJoVr"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 890287523,
+                "title": "AWC #222 - Newport News, VA, USA",
+                "url": "ipfs://bafybeidtfdk4cvo2miabgp57vj34nev7vpmnzj37khgyfcm7rqfxnnrqju"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 323680959,
+                "title": "AWC #36 - Povarenka, Russia",
+                "url": "ipfs://QmSXD1ELw2tjGnTRdiZgvQvfkHaHucDyokoHMWiGdaePdJ"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #22"
     }
 ]
