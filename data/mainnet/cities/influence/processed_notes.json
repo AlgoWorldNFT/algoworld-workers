@@ -9,6 +9,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "08fc665f-ef6f-4ac1-9a1c-60c2f09c4f12": {
+        "acfg_txn": "PTWS5ADZWYF67IBR3HI5BDX3DP2S7DDEMFHI2LWO5SQY2BCRAVDA",
+        "asset_id": 911464274,
+        "asset_name": "AWC #254 - Durban, South Africa",
+        "block": 24292228,
+        "deposit": 3000,
+        "id": "08fc665f-ef6f-4ac1-9a1c-60c2f09c4f12",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "0f6d50cf-85db-4ef2-8ac3-d29472ced155": {
         "acfg_txn": "NWU7SDM3QKPORQSB2GZAXGLSYBDLO34Y5TI5QRO6R25NIK2F6MVA",
         "asset_id": 560284517,
@@ -96,6 +106,16 @@
         "block": 24041349,
         "deposit": 2000,
         "id": "bccde204-99a1-448f-8464-619f3635d169",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "de942f36-ca80-4f64-94e2-6bfa533deb0e": {
+        "acfg_txn": "62E46LMTIW7M3LH6U5IWSY5S74HZKMVWYEBIKCG3KUFQ4WYD4JFA",
+        "asset_id": 911464345,
+        "asset_name": "AWC #255 - Johannesburg, ZA",
+        "block": 24292230,
+        "deposit": 3000,
+        "id": "de942f36-ca80-4f64-94e2-6bfa533deb0e",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
