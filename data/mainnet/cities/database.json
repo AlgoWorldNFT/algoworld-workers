@@ -126,6 +126,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 603703008,
+        "influence": 0,
+        "name": "AWC #89 - Miami, FL, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmQ3tFR6B52ZgmWGM4gXt4k8KXuQ92ep2akSWb5v2F7zC8"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -1454,13 +1461,6 @@
         "name": "AWC #48 - Helsinki, Finland",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmTGtbjqgkT7hmXZdwdybgyQ5v4gsxPXJUYU7qFhGwe7rF"
-    },
-    {
-        "index": 603703008,
-        "influence": 3005,
-        "name": "AWC #89 - Miami, FL, USA",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmQ3tFR6B52ZgmWGM4gXt4k8KXuQ92ep2akSWb5v2F7zC8"
     },
     {
         "index": 680532382,
