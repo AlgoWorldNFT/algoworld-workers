@@ -439,5 +439,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #25"
+    },
+    {
+        "contract": "BiAKBOgHAQCPhLXZAaTUs5kC6Kf/zgKF7a+RAY+8huwCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "FR5CL6EGWJXRMIVQCWGRI6XLNA4SQWTILXVKNP32EXXGOWFBO2IEHLVBKU",
+        "id": 26,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 455950863,
+                "title": "AWC #67 - Bucharest, Romania",
+                "url": "ipfs://QmSeZGW7ArLFweQNGRpYBTo8xvu6dnP3R2c4PKEPXHwQdc"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 590146084,
+                "title": "AWC #122 - Pretoria, S. Africa",
+                "url": "ipfs://QmRrtjGocDVX1ZFVSEQRw6VicnMEdr9N6Gkq2E94JSmUzE"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 702534632,
+                "title": "AWC #168 - Warsaw, Poland",
+                "url": "ipfs://QmUuNg1R1NB8MHdtQ2vQAv1P7WRu9B8pXDqzGqJzNp7RNM"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304871045,
+                "title": "AWC #22 - Copenhagen, Denmark",
+                "url": "ipfs://QmdUA26gmLX4fJC6cySQitKpaX1MMq7b3LhzBhurYeWeKS"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 763469327,
+                "title": "AWC #197 - Aracaju, Brazil",
+                "url": "ipfs://QmNoRGYza1kvhgpSrRNY78gZLMrRtp8NCanmFERwn7yvz1"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #26"
     }
 ]
