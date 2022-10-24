@@ -112,13 +112,6 @@
         "url": "ipfs://QmQhPL61v8xzJgU1F94yjkepmPV77x9BvdUqt5Pwi1QFUh"
     },
     {
-        "index": 52580313,
-        "influence": 0,
-        "name": "AWC #72 - Bethlehem, Palestine",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmUhvmyeG1wfgthiAK7mgr4MMaZyFN8Bu62Mew21J2n39x"
-    },
-    {
         "index": 66472849,
         "influence": 0,
         "name": "AWC #94 - Ljubljana, Slovenia",
@@ -180,6 +173,13 @@
         "name": "AWC #1 - New York City, USA",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
+    },
+    {
+        "index": 52580313,
+        "influence": 1,
+        "name": "AWC #72 - Bethlehem, Palestine",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmUhvmyeG1wfgthiAK7mgr4MMaZyFN8Bu62Mew21J2n39x"
     },
     {
         "index": 66472587,
