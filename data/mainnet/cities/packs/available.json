@@ -390,5 +390,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #24"
+    },
+    {
+        "contract": "BiAKBOgHAQCj68KoA5iN+5UCwKvMzAG1q6epAdzyzLACByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "E7LKNA5H76H2MSQKBEQVEVU7NNN2KIAYSQFYCOYU4OTTGGAXCJXM42QVOU",
+        "id": 25,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 890287523,
+                "title": "AWC #222 - Newport News, VA, USA",
+                "url": "ipfs://bafybeidtfdk4cvo2miabgp57vj34nev7vpmnzj37khgyfcm7rqfxnnrqju"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 582928024,
+                "title": "AWC #105 - Quito, Ecuador",
+                "url": "ipfs://QmWnQ8r1H6GXzP4xKiTH58wodB8J4X9SeQYFEog4Xgoi8J"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 429069760,
+                "title": "AWC #70 - Lome, Togo",
+                "url": "ipfs://QmV49wLb8YbWELrjwDGRUMw8h5RaStQ6XroMYPHAWbpG5x"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 355063221,
+                "title": "AWC #44 - Dublin, Ireland",
+                "url": "ipfs://QmTBn9pELZDa3RVotLG53axTpe5JChrrTLRvFMEZTmXJVP"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 638794076,
+                "title": "AWC #139 - The Hague, NL",
+                "url": "ipfs://QmNckfZ3ZWt14auFQb4tKr9fE22BYVZM4kpw1sfBpYb6P2"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #25"
     }
 ]
