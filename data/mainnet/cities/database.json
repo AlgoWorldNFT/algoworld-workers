@@ -84,6 +84,13 @@
         "url": "ipfs://Qma6VhjGnLghEVkqh5ffMiHjdVs9rVVUh2Lziv6PSGk3ED"
     },
     {
+        "index": 355063850,
+        "influence": 0,
+        "name": "AWC #48 - Helsinki, Finland",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmTGtbjqgkT7hmXZdwdybgyQ5v4gsxPXJUYU7qFhGwe7rF"
+    },
+    {
         "index": 363113666,
         "influence": 0,
         "name": "AWC #49 - Edinburgh, UK",
@@ -1447,13 +1454,6 @@
         "name": "AWC #209 - Rimini, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmV78xCcXzVTcfNsXw4znRoNUWxedL8aVnKc7eWTiYqsHr"
-    },
-    {
-        "index": 355063850,
-        "influence": 3005,
-        "name": "AWC #48 - Helsinki, Finland",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmTGtbjqgkT7hmXZdwdybgyQ5v4gsxPXJUYU7qFhGwe7rF"
     },
     {
         "index": 603703008,
