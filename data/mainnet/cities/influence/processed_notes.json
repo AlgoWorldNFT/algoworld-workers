@@ -129,6 +129,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "e4d6ee4b-af2b-4808-99e6-e0d9f283c120": {
+        "acfg_txn": "6ZPB53NWQCRDPF5XLGAUZVX3D7W5XIYVWFEUPYJXQVLSE5ZZ7C7A",
+        "asset_id": 922320933,
+        "asset_name": "AWC #256 - Cork, Ireland",
+        "block": 24455326,
+        "deposit": 3000,
+        "id": "e4d6ee4b-af2b-4808-99e6-e0d9f283c120",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "ec986d6f-fa2a-478f-aeff-eee747744369": {
         "acfg_txn": "3SDBQ5GOHO76P2O7QHX35BONICM7LNFVU5CW5TU6RWYAJH2HNFBA",
         "asset_id": 795855266,

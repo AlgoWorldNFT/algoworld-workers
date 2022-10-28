@@ -203,13 +203,6 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 922320933,
-        "influence": 0,
-        "name": "AWC #256 - Cork, Ireland",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiav736femn2liujrah6gozz5cauyfxfzimaa2ibmbgog322jh6lbq"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
@@ -1370,6 +1363,13 @@
         "name": "AWC #255 - Johannesburg, ZA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeibwoti6b3hxqf6ayxzvwwha7gpjx2dvnx47pkzrpetxb3cs6aeewq"
+    },
+    {
+        "index": 922320933,
+        "influence": 3000,
+        "name": "AWC #256 - Cork, Ireland",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiav736femn2liujrah6gozz5cauyfxfzimaa2ibmbgog322jh6lbq"
     },
     {
         "index": 377742761,
