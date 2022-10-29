@@ -784,13 +784,6 @@
         "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
     },
     {
-        "index": 750529484,
-        "influence": 1500,
-        "name": "AWC #192 - Florence, Italy",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://QmefgFgc7X1E3KK9MCyFE9C9k5GUoKwtAVth49QymJrSkK"
-    },
-    {
         "index": 882525222,
         "influence": 1630,
         "name": "AWC #251 - Linz, Austria",
@@ -1713,6 +1706,13 @@
         "name": "AWC #9 - Paris, France",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmWN6EdntVzpZ1B5xwGba2bGquKHyRrGBM21jn3tRrXZQ1"
+    },
+    {
+        "index": 750529484,
+        "influence": 5100,
+        "name": "AWC #192 - Florence, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmefgFgc7X1E3KK9MCyFE9C9k5GUoKwtAVth49QymJrSkK"
     },
     {
         "index": 304870825,
