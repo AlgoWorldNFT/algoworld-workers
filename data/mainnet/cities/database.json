@@ -126,11 +126,25 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 678838339,
+        "influence": 0,
+        "name": "AWC #157 - Warwick, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmSzyNb1uWirX94CzM9uJrhHY1YYHAqvhiJVxjaYfBhadY"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmVmXNBVJ5NtrDFTCAWgeCAc16hUBu7u7B64JhFE9DNJDA"
+    },
+    {
+        "index": 795856385,
+        "influence": 0,
+        "name": "AWC #227 - Wiltz, Luxembourg",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmU44MoESPVNANG5Nmi5wYsAiSmej5zcr5SMejw7bJUbth"
     },
     {
         "index": 813901504,
@@ -1281,13 +1295,6 @@
         "url": "ipfs://Qma93DpTqna5PTBPoMy7ZhikFyM9CGPLXUhV4VkaLxV1Yf"
     },
     {
-        "index": 795856385,
-        "influence": 3000,
-        "name": "AWC #227 - Wiltz, Luxembourg",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmU44MoESPVNANG5Nmi5wYsAiSmej5zcr5SMejw7bJUbth"
-    },
-    {
         "index": 795857701,
         "influence": 3000,
         "name": "AWC #228 - Vianden, Luxembourg",
@@ -1503,13 +1510,6 @@
         "name": "AWC #151 - Caernarfon, UK",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://Qmckd3Fi9h3numf1mg2jRAnrnVMVHsH9FY8KBs8evs6C6s"
-    },
-    {
-        "index": 678838339,
-        "influence": 3006,
-        "name": "AWC #157 - Warwick, UK",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmSzyNb1uWirX94CzM9uJrhHY1YYHAqvhiJVxjaYfBhadY"
     },
     {
         "index": 713832955,
