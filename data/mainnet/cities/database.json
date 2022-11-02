@@ -147,6 +147,13 @@
         "url": "ipfs://bafybeid3hzba3curulmnag27witkxo4txnr7ncmqigqk7v7d33zuvgpapq"
     },
     {
+        "index": 842361837,
+        "influence": 0,
+        "name": "AWC #236 - Oxford, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeih2mgyn26ke2cwpldqu3sr3fkwypiflffxqfri4ctbbbn7kt46owa"
+    },
+    {
         "index": 842410324,
         "influence": 0,
         "name": "AWC #237 - Chaumont, France",
@@ -1300,13 +1307,6 @@
         "name": "AWC #231 - Veenendaal, NL",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmdzS6C1z5GK6hcPi7dothWPeyWfMFkqiVTXyKoJEeErvj"
-    },
-    {
-        "index": 842361837,
-        "influence": 3000,
-        "name": "AWC #236 - Oxford, UK",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://bafybeih2mgyn26ke2cwpldqu3sr3fkwypiflffxqfri4ctbbbn7kt46owa"
     },
     {
         "index": 844223664,
