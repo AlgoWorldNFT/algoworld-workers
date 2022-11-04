@@ -2,6 +2,7 @@ import base64
 
 from algosdk import mnemonic
 from algosdk.future.transaction import AssetTransferTxn, LogicSig, PaymentTxn
+from retry import retry
 
 from src.shared.common import (
     CITY_INFLUENCE_METADATA_PATH,
@@ -23,6 +24,19 @@ from src.shared.utils import (
     save_metadata,
     save_packs,
 )
+
+
+@retry(tries=3, delay=2)
+def _get_latest_close_txns(
+    note_prefix: str, storage_metadata: StorageMetadata, params, min_pack_price: int
+):
+    return indexer.search_transactions(
+        note_prefix=note_prefix,
+        min_round=storage_metadata.last_processed_block - 50000,
+        max_round=params.first,
+        min_amount=min_pack_price - 1,
+        txn_type="pay",
+    )
 
 
 def _close_swap(
@@ -110,13 +124,13 @@ storage_metadata = (
 
 params = algod_client.suggested_params()
 min_pack_price = 10_000_000
-latest_pack_purchase_txns = indexer.search_transactions(
+latest_pack_purchase_txns = _get_latest_close_txns(
     note_prefix=note_prefix,
-    min_round=storage_metadata.last_processed_block - 50000,
-    max_round=params.first,
-    min_amount=min_pack_price - 1,
-    txn_type="pay",
+    storage_metadata=storage_metadata,
+    params=params,
+    min_pack_price=min_pack_price,
 )
+
 
 if len(latest_pack_purchase_txns["transactions"]) == 0:
     print("No new transactions to process")
