@@ -95,6 +95,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "85ceaaae-4534-40c2-bbc0-4c2726590be5": {
+        "acfg_txn": "7BAXZ6AS4F7AXO62TJ6IMZ7LPCRRUHVZ6YIU6O5RBNTJCN3RC2EQ",
+        "asset_id": 931153112,
+        "asset_name": "AWC #257 - Tofino, Canada",
+        "block": 24618998,
+        "deposit": 1000,
+        "id": "85ceaaae-4534-40c2-bbc0-4c2726590be5",
+        "influence": 1000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "8c677903-e5e1-4286-98c5-715133f246cc": {
         "acfg_txn": "IKSDSRBWBRANAXGQAOHUSFYVWDGSUAADSHFGDQSX3AUEN2W4VFFA",
         "asset_id": 904792934,
@@ -103,6 +113,16 @@
         "deposit": 3000,
         "id": "8c677903-e5e1-4286-98c5-715133f246cc",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "968eb9d2-a9ad-401e-b5ee-a228a28db703": {
+        "acfg_txn": "ZMFBKUBR7LZMHUB4NPRVV7JYMDN3OQOY25NURLA7TGCA5O57YS7A",
+        "asset_id": 931155339,
+        "asset_name": "AWC #261 - Cardiff, UK",
+        "block": 24619002,
+        "deposit": 3006,
+        "id": "968eb9d2-a9ad-401e-b5ee-a228a28db703",
+        "influence": 3006,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16": {
@@ -143,6 +163,16 @@
         "deposit": 3600,
         "id": "c6a8f901-ee6d-44e7-9f71-c9754bbd6718",
         "influence": 5100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "dcd5063a-2088-41e2-bf4e-a0457d2b86b9": {
+        "acfg_txn": "JFZBJ7HPITN3KPWNAHMGBDHVBPUUD75O7NGFQOFNXIWPF3RT7WIQ",
+        "asset_id": 931153026,
+        "asset_name": "AWC #201 - Hollywood, FL, USA",
+        "block": 24619000,
+        "deposit": 3018,
+        "id": "dcd5063a-2088-41e2-bf4e-a0457d2b86b9",
+        "influence": 3018,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "de942f36-ca80-4f64-94e2-6bfa533deb0e": {
