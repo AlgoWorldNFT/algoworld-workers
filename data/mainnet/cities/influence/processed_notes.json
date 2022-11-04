@@ -19,6 +19,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "0f408e7c-0a9d-491a-9d4f-4bd5896b0092": {
+        "acfg_txn": "CCTPL2SALPMOERKAKMC5UGD4TLM25H3M2MX3JL44DDEG4SX5XEBA",
+        "asset_id": 931153112,
+        "asset_name": "AWC #257 - Tofino, Canada",
+        "block": 24621233,
+        "deposit": 1000,
+        "id": "0f408e7c-0a9d-491a-9d4f-4bd5896b0092",
+        "influence": 4000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "0f6d50cf-85db-4ef2-8ac3-d29472ced155": {
         "acfg_txn": "NWU7SDM3QKPORQSB2GZAXGLSYBDLO34Y5TI5QRO6R25NIK2F6MVA",
         "asset_id": 560284517,
@@ -83,6 +93,32 @@
         "deposit": 3600,
         "id": "7322aa47-b900-4288-9536-8f37dbdbd38c",
         "influence": 3600,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "7c83fab1-2253-45e0-9744-a1c8956bdbea": {
+        "acfg_txn": "YDBQQIRDPVFWI4SMOCQMA23HO24GAW4GHAZQVKG3H7Q2YUYFPRKA",
+        "asset_id": 931153112,
+        "asset_name": "AWC #257 - Tofino, Canada",
+        "block": 24620955,
+        "deposit": 1000,
+        "id": "7c83fab1-2253-45e0-9744-a1c8956bdbea",
+        "influence": [
+            {
+                "attributes": [
+                    {
+                        "trait_type": "AlgoWorld influence",
+                        "value": "3000"
+                    },
+                    {
+                        "trait_type": "City status",
+                        "value": "AlgoWorld Diamond City"
+                    }
+                ],
+                "external_url": "https://www.algoworld.io",
+                "standard": "arc69"
+            },
+            3000
+        ],
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "82b16a0a-2eb8-4409-81d4-3cbc2fd00f37": {

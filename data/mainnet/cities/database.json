@@ -749,13 +749,6 @@
         "url": "ipfs://bafybeic7tf7tifw2uzvsuqz3jv5p7rj3dr7enldq7cnm7q3rbfywx3ihbi"
     },
     {
-        "index": 931153112,
-        "influence": 1000,
-        "name": "AWC #257 - Tofino, Canada",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeicfqiqnlraeqycpjfatqy5cqnqlgc3q7ci5lsw2i7lzldk33uogry"
-    },
-    {
         "index": 444205880,
         "influence": 1001,
         "name": "AWC #62 - Bonanza, USA",
@@ -1734,6 +1727,13 @@
         "name": "AWC #252 - Santiago, Chile",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeic5bess4vxob4hww6zccsmfq3oaopth6siqfvx3w74kf43xpbpi5e"
+    },
+    {
+        "index": 931153112,
+        "influence": 4000,
+        "name": "AWC #257 - Tofino, Canada",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeicfqiqnlraeqycpjfatqy5cqnqlgc3q7ci5lsw2i7lzldk33uogry"
     },
     {
         "index": 271518216,
