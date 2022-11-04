@@ -126,6 +126,27 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 763469648,
+        "influence": 0,
+        "name": "AWC #199 - Ilheus, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmRq3c6utPoSVCpw3gdJq6ezTuHtDAkNvR4NVLCEjHjoCx"
+    },
+    {
+        "index": 766770313,
+        "influence": 0,
+        "name": "AWC #191 - Parma, Italy",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmUoM1Eq8LNttKaAtyk8NcX7okLCHNzf39ZQBDruahJjgs"
+    },
+    {
+        "index": 766770437,
+        "influence": 0,
+        "name": "AWC #203 - Bordeaux, France",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmSbZF88qAvphqaom8afEvxWsy4sNeZNgZqDqzUNbH3hWD"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -201,6 +222,27 @@
         "name": "AWC #249 - Mogadishu, Somalia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
+    },
+    {
+        "index": 931153026,
+        "influence": 0,
+        "name": "AWC #201 - Hollywood, FL, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibqa3jaau2yzwfcy6ak4iu5bh6yjxz7ojv54rqrlde6rk2xitasci"
+    },
+    {
+        "index": 931153112,
+        "influence": 0,
+        "name": "AWC #257 - Tofino, Canada",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeicfqiqnlraeqycpjfatqy5cqnqlgc3q7ci5lsw2i7lzldk33uogry"
+    },
+    {
+        "index": 931155339,
+        "influence": 0,
+        "name": "AWC #261 - Cardiff, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifchjy3fnvgrhy27rkfpytucchglduaq3jik3eobmorsvx237xkqu"
     },
     {
         "index": 805072145,
@@ -385,13 +427,6 @@
         "url": "ipfs://QmaMxwMdUb9ZGNnzKe4Sd627LaZoWZoYKbBEDjm1Jwpnvz"
     },
     {
-        "index": 576002647,
-        "influence": 100,
-        "name": "AWC #69 - Las Vegas, NV, USA",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://QmSK4B5gqx2daLiYJLKMgxhWq9czLKKQR2auj8xMkpGRiv"
-    },
-    {
         "index": 576088215,
         "influence": 100,
         "name": "AWC #103 - Hana, HI, USA",
@@ -572,13 +607,6 @@
         "name": "AWC #194 - Hamburg, Germany",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://QmPbTJ5eCEXuNsPSYwvjk7j2iUJQ9UUGMkvLyisko3zAiR"
-    },
-    {
-        "index": 766770437,
-        "influence": 500,
-        "name": "AWC #203 - Bordeaux, France",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://QmSbZF88qAvphqaom8afEvxWsy4sNeZNgZqDqzUNbH3hWD"
     },
     {
         "index": 702534632,
@@ -1148,13 +1176,6 @@
         "url": "ipfs://QmNoRGYza1kvhgpSrRNY78gZLMrRtp8NCanmFERwn7yvz1"
     },
     {
-        "index": 763469648,
-        "influence": 3000,
-        "name": "AWC #199 - Ilheus, Brazil",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmRq3c6utPoSVCpw3gdJq6ezTuHtDAkNvR4NVLCEjHjoCx"
-    },
-    {
         "index": 764609229,
         "influence": 3000,
         "name": "AWC #195 - Fort Worth, TX, USA",
@@ -1167,13 +1188,6 @@
         "name": "AWC #187 - Brescia, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmUWyJLM1s1ZJLNDzBbNwEwBWhDaDPrFHxrJZMrCDNVrKc"
-    },
-    {
-        "index": 766770313,
-        "influence": 3000,
-        "name": "AWC #191 - Parma, Italy",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmUoM1Eq8LNttKaAtyk8NcX7okLCHNzf39ZQBDruahJjgs"
     },
     {
         "index": 766770512,
@@ -1713,6 +1727,13 @@
         "name": "AWC #192 - Florence, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmefgFgc7X1E3KK9MCyFE9C9k5GUoKwtAVth49QymJrSkK"
+    },
+    {
+        "index": 576002647,
+        "influence": 6969,
+        "name": "AWC #69 - Las Vegas, NV, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmSK4B5gqx2daLiYJLKMgxhWq9czLKKQR2auj8xMkpGRiv"
     },
     {
         "index": 304870825,
