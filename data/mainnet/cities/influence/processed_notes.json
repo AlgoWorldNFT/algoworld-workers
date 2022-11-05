@@ -19,6 +19,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "0f408e7c-0a9d-491a-9d4f-4bd5896b0092": {
+        "acfg_txn": "L6MUZVUNMXZSQFXYRYCXTM336U26LBGBANDQALJOS56RHKRS7NKA",
+        "asset_id": 931153112,
+        "asset_name": "AWC #257 - Tofino, Canada",
+        "block": 24636133,
+        "deposit": 1000,
+        "id": "0f408e7c-0a9d-491a-9d4f-4bd5896b0092",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "0f6d50cf-85db-4ef2-8ac3-d29472ced155": {
         "acfg_txn": "NWU7SDM3QKPORQSB2GZAXGLSYBDLO34Y5TI5QRO6R25NIK2F6MVA",
         "asset_id": 560284517,
@@ -86,10 +96,10 @@
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "7c83fab1-2253-45e0-9744-a1c8956bdbea": {
-        "acfg_txn": "2KILDOFYGL7C2ZMPS4ACDQGMNYYSJ7G3EMSLYS4SFB7FUVBPVNCQ",
+        "acfg_txn": "PEGVRKX3XSQRMPNOKERPTL3ONOPRLLXVHIZWPMSHSZ4RJKGUIWPQ",
         "asset_id": 931153112,
         "asset_name": "AWC #257 - Tofino, Canada",
-        "block": 24634010,
+        "block": 24636097,
         "deposit": 1000,
         "id": "7c83fab1-2253-45e0-9744-a1c8956bdbea",
         "influence": 2000,
@@ -106,13 +116,13 @@
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "85ceaaae-4534-40c2-bbc0-4c2726590be5": {
-        "acfg_txn": "6Y4MZQKOI53BCEJQFIH6XDUCK7VOUI2PST3XPAGHYZVBFJ6T5IKA",
+        "acfg_txn": "RUXVVS3OHI4L2BNRWTA5GJSGMMPLSDFHZSUW5P2ZMLCHFAC7WDEA",
         "asset_id": 931153112,
         "asset_name": "AWC #257 - Tofino, Canada",
-        "block": 24634148,
+        "block": 24636069,
         "deposit": 1000,
         "id": "85ceaaae-4534-40c2-bbc0-4c2726590be5",
-        "influence": 2000,
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "8c677903-e5e1-4286-98c5-715133f246cc": {
