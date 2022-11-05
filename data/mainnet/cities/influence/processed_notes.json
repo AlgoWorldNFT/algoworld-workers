@@ -66,23 +66,7 @@
         "block": 24615120,
         "deposit": 6869,
         "id": "7006940a-c639-47a6-9041-9ee8e0105183",
-        "influence": [
-            {
-                "attributes": [
-                    {
-                        "trait_type": "AlgoWorld influence",
-                        "value": "6969"
-                    },
-                    {
-                        "trait_type": "City status",
-                        "value": "AlgoWorld Diamond City"
-                    }
-                ],
-                "external_url": "https://www.algoworld.io",
-                "standard": "arc69"
-            },
-            6969
-        ],
+        "influence": 6969,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "7322aa47-b900-4288-9536-8f37dbdbd38c": {
