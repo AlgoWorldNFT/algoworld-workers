@@ -233,7 +233,7 @@ def process_influence_txns():
                         extract_arc_influence(
                             address=manager_account.public_key,
                             asset_index=axfer_txn_note.asset_id,
-                        ),
+                        )[1],
                         (
                             processed_deposit_txns["transactions"][0]["id"],
                             processed_deposit_txns["transactions"][0],
