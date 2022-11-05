@@ -217,18 +217,18 @@
         "url": "ipfs://bafybeianjfwqbbdzzxzgzcqe4kzlwrvqm5paqem4nogxkem2znqalaynsa"
     },
     {
-        "index": 931349202,
-        "influence": 0,
-        "name": "AWC #260 - Porto Alegre, Brazil",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiff5t6x72btlv55pfxarw7wr6oq4wfb4qxhaymrign3e3ncqhxwue"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmXZpzgExvBSDnaWbgL4A4ztnbbZ8pjdUXMT4vyrURYPFR"
+    },
+    {
+        "index": 931349202,
+        "influence": 1,
+        "name": "AWC #260 - Porto Alegre, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiff5t6x72btlv55pfxarw7wr6oq4wfb4qxhaymrign3e3ncqhxwue"
     },
     {
         "index": 271159971,
@@ -1723,7 +1723,7 @@
     },
     {
         "index": 323679909,
-        "influence": 3526,
+        "influence": 3527,
         "name": "AWC #30 - Seoul, South Korea",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmR81EU9sgnsmzDfsxgHXsJ7JcG9PcuyRaHuaYSDSnawKj"
@@ -1758,7 +1758,7 @@
     },
     {
         "index": 304870825,
-        "influence": 7083,
+        "influence": 7084,
         "name": "AWC #18 - Jerusalem, Israel",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"

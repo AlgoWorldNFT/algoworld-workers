@@ -1,4 +1,14 @@
 {
+    "06f6d231-7ce1-4479-b266-303c73a601a9": {
+        "acfg_txn": "KEYYG23X3YJTVK2WXZP4EHBQLTBDAROUS32SNMTPWBGGJSVUFPTA",
+        "asset_id": 304870825,
+        "asset_name": "AWC #18 - Jerusalem, Israel",
+        "block": 24637502,
+        "deposit": 1,
+        "id": "06f6d231-7ce1-4479-b266-303c73a601a9",
+        "influence": 7084,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "08b068a3-f00c-4841-a06f-32ddf15fac6e": {
         "acfg_txn": "XTSVXPIEZUAU7LJD64XPZI3YNAAYHQBETOPM7X7UPBUJKMRN4YGQ",
         "asset_id": 795854141,
@@ -119,6 +129,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "92279cc8-3e56-4284-bf06-9a005d8ae44d": {
+        "acfg_txn": "32YUDXELTYWLDPRJMK5ZQJXWLW3GPHNFNN4WFOV7YSH4RQJBWNZA",
+        "asset_id": 323679909,
+        "asset_name": "AWC #30 - Seoul, South Korea",
+        "block": 24637504,
+        "deposit": 1,
+        "id": "92279cc8-3e56-4284-bf06-9a005d8ae44d",
+        "influence": 3527,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "968eb9d2-a9ad-401e-b5ee-a228a28db703": {
         "acfg_txn": "ZMFBKUBR7LZMHUB4NPRVV7JYMDN3OQOY25NURLA7TGCA5O57YS7A",
         "asset_id": 931155339,
@@ -207,6 +227,16 @@
         "deposit": 3000,
         "id": "e4d6ee4b-af2b-4808-99e6-e0d9f283c120",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "e98edb4b-9378-4bcb-9ea5-043f930ef686": {
+        "acfg_txn": "DFJS2WFXUKAD7JJ5NWZQ6G5EP2HIU2JEHCURZU2I64OIGYT4T4CQ",
+        "asset_id": 931349202,
+        "asset_name": "AWC #260 - Porto Alegre, Brazil",
+        "block": 24637506,
+        "deposit": 1,
+        "id": "e98edb4b-9378-4bcb-9ea5-043f930ef686",
+        "influence": 1,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "ec986d6f-fa2a-478f-aeff-eee747744369": {
