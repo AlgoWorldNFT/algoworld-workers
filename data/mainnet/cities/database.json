@@ -217,20 +217,6 @@
         "url": "ipfs://bafybeianjfwqbbdzzxzgzcqe4kzlwrvqm5paqem4nogxkem2znqalaynsa"
     },
     {
-        "index": 932637226,
-        "influence": 0,
-        "name": "AWC #262 - Feldkirch, Austria",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigkilf5ihhotizomqzbrkm3r4zfclwhf5wb2csu3maqqhohtzmozm"
-    },
-    {
-        "index": 932637324,
-        "influence": 0,
-        "name": "AWC #263 - Banff, Canada",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeicwsmbhcsrz7fvqfub53vxmbfnxlli7u5z5uqtxtnmgfxypffoqxe"
-    },
-    {
         "index": 932640475,
         "influence": 0,
         "name": "AWC #264 - Cologne, Germany",
@@ -481,6 +467,20 @@
         "name": "AWC #17 - Mont-St-Michel, France",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmVEin1jbKLNeZR1UWevhAW62UsrnfJDY7eH3YeYkwyhdY"
+    },
+    {
+        "index": 932637226,
+        "influence": 250,
+        "name": "AWC #262 - Feldkirch, Austria",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeigkilf5ihhotizomqzbrkm3r4zfclwhf5wb2csu3maqqhohtzmozm"
+    },
+    {
+        "index": 932637324,
+        "influence": 250,
+        "name": "AWC #263 - Banff, Canada",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeicwsmbhcsrz7fvqfub53vxmbfnxlli7u5z5uqtxtnmgfxypffoqxe"
     },
     {
         "index": 363114796,

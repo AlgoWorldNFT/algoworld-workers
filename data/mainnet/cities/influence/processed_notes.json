@@ -99,6 +99,16 @@
         "influence": 2000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "7ea9b66f-6925-4191-82a9-72405be41a57": {
+        "acfg_txn": "GTUV4LI2QSWGQYMJEKH47FN74YGC3T6OV4N5BTQ5CZWRRRBAP3DA",
+        "asset_id": 932637226,
+        "asset_name": "AWC #262 - Feldkirch, Austria",
+        "block": 24658011,
+        "deposit": 250,
+        "id": "7ea9b66f-6925-4191-82a9-72405be41a57",
+        "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "82b16a0a-2eb8-4409-81d4-3cbc2fd00f37": {
         "acfg_txn": "6QYMBY3SNEPTWRWVX5UEPHHCFWDPBMT2RQQQPEHEORMECHJV2PTA",
         "asset_id": 795857701,
@@ -147,6 +157,16 @@
         "deposit": 3006,
         "id": "968eb9d2-a9ad-401e-b5ee-a228a28db703",
         "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "a62d66c9-b8a8-4e32-946e-129f3f460898": {
+        "acfg_txn": "UT5SOKK4YEXF3YNEONZY3KWOE3QPJGPCLK4MNH32GWHGO6D3XH5Q",
+        "asset_id": 932637324,
+        "asset_name": "AWC #263 - Banff, Canada",
+        "block": 24658009,
+        "deposit": 250,
+        "id": "a62d66c9-b8a8-4e32-946e-129f3f460898",
+        "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16": {
