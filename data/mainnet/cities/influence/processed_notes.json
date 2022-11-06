@@ -69,6 +69,26 @@
         "influence": 2100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "3f08fccc-f26d-404a-8b5c-cc72a7a7bc7f": {
+        "acfg_txn": "D4ETAVQINW6XFWZWULC4TPZ7RM6QH3O4XBRIUJR2RVFUXNJDS36Q",
+        "asset_id": 858209726,
+        "asset_name": "AWC #246 - Stratford, UK",
+        "block": 24664716,
+        "deposit": 3000,
+        "id": "3f08fccc-f26d-404a-8b5c-cc72a7a7bc7f",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "3f84d8ac-6d57-4f31-88bc-5da6851b1e15": {
+        "acfg_txn": "NSOCRBHVM6U5EKDA3R5KE7HQ43XYXCZKAML2TMRGZWN3RH7NIL3A",
+        "asset_id": 648095401,
+        "asset_name": "AWC #146 - Porto Seguro, BR",
+        "block": 24664726,
+        "deposit": 2000,
+        "id": "3f84d8ac-6d57-4f31-88bc-5da6851b1e15",
+        "influence": 5000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "47429beb-f127-4d53-8949-134884b26cf3": {
         "acfg_txn": "DYR3OCEFPWOL74COJVWHJCBHZL2HIZRMIE3QC4D75RXTD7PCKOUA",
         "asset_id": 931349202,
@@ -219,6 +239,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "c4f9caad-0d52-4446-abd0-5d4001477d23": {
+        "acfg_txn": "Q2Q7V7TXGQMEWDCCFH33KI36DIRPURADCIBTRMVW7OZD335ORC7A",
+        "asset_id": 931348874,
+        "asset_name": "AWC #258 - Belo Horizonte, BR",
+        "block": 24664718,
+        "deposit": 3000,
+        "id": "c4f9caad-0d52-4446-abd0-5d4001477d23",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "c6a8f901-ee6d-44e7-9f71-c9754bbd6718": {
         "acfg_txn": "K6O2FBZDFR5O7IKBAGPIC3EGF4D4HL4MCG7WEWJZWQJGF5BK6YCA",
         "asset_id": 750529484,
@@ -227,6 +257,26 @@
         "deposit": 3600,
         "id": "c6a8f901-ee6d-44e7-9f71-c9754bbd6718",
         "influence": 5100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "d5dd73eb-d5f3-4bc4-854c-2e6e176754a3": {
+        "acfg_txn": "7VZVITRKD22R2P5B7HBBGJJDXMQ734F7B4MOBFF37FN2OWN2RTLQ",
+        "asset_id": 276086752,
+        "asset_name": "AWC #10 - Washington D.C., USA",
+        "block": 24664722,
+        "deposit": 15,
+        "id": "d5dd73eb-d5f3-4bc4-854c-2e6e176754a3",
+        "influence": 115,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "d763ad1f-a551-4d95-a751-c3848f976210": {
+        "acfg_txn": "FWEJSPI5IZ752VP7YCNMWWELWMCSSMFRSNKESF7NGMD5PO4WXL2A",
+        "asset_id": 795871524,
+        "asset_name": "AWC #229 - Curitiba, Brazil",
+        "block": 24664720,
+        "deposit": 1000,
+        "id": "d763ad1f-a551-4d95-a751-c3848f976210",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "dcd5063a-2088-41e2-bf4e-a0457d2b86b9": {
@@ -287,6 +337,16 @@
         "deposit": 2000,
         "id": "ec986d6f-fa2a-478f-aeff-eee747744369",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "f746887c-e052-48bd-a52c-e712976a6c42": {
+        "acfg_txn": "I3HNRINLQTLLILYCAAAST4YE4SWTGLHCI3ELPQBVGWXJFXRVQ2EQ",
+        "asset_id": 304870825,
+        "asset_name": "AWC #18 - Jerusalem, Israel",
+        "block": 24664724,
+        "deposit": 2916,
+        "id": "f746887c-e052-48bd-a52c-e712976a6c42",
+        "influence": 10000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
 }

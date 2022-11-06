@@ -189,25 +189,11 @@
         "url": "ipfs://bafybeiaygnsvkuukbhxldodkw54oqp63ynkd4r7fiyjn2ayvwu4bvpbruy"
     },
     {
-        "index": 858209726,
-        "influence": 0,
-        "name": "AWC #246 - Stratford, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiatpbh35y66riyzu6vq2smrc3aakwoapiraqennrlpgfqspjdtdpa"
-    },
-    {
         "index": 882474379,
         "influence": 0,
         "name": "AWC #249 - Mogadishu, Somalia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
-    },
-    {
-        "index": 931348874,
-        "influence": 0,
-        "name": "AWC #258 - Belo Horizonte, BR",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeid5o467fqwjsx7tqqubpkzldcfvozia23qa37lrstf34ewfqagesm"
     },
     {
         "index": 932640475,
@@ -264,13 +250,6 @@
         "name": "AWC #5 - Tokyo, Japan",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmRBmjzS3tNDARv5FQoE3wV29duet3QrDYGuXXZ8x6Y7Pq"
-    },
-    {
-        "index": 276086752,
-        "influence": 100,
-        "name": "AWC #10 - Washington D.C., USA",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://QmRGwB1EFmGurdBL6Qjx5SYZf7Tk8fxRaAVWtKftqBWeZq"
     },
     {
         "index": 276086971,
@@ -446,6 +425,13 @@
         "name": "AWC #63 - Lisbon, Portugal",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmaeEzDVe54UeKQq5vyNcqK1sR5nNc1SZ13R7Nxc154scJ"
+    },
+    {
+        "index": 276086752,
+        "influence": 115,
+        "name": "AWC #10 - Washington D.C., USA",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://QmRGwB1EFmGurdBL6Qjx5SYZf7Tk8fxRaAVWtKftqBWeZq"
     },
     {
         "index": 304870666,
@@ -826,13 +812,6 @@
         "url": "ipfs://QmdmyRE5QawNfeiWMRoB4VCk4SPgd4PKjQrXeW5eBmDyjg"
     },
     {
-        "index": 795871524,
-        "influence": 2000,
-        "name": "AWC #229 - Curitiba, Brazil",
-        "status": "AlgoWorld Platinum City",
-        "url": "ipfs://QmXJAR9hWho6NPYJVKE6Gp3G3RxPz35Md8cYZdQfmNTfYz"
-    },
-    {
         "index": 890287523,
         "influence": 2000,
         "name": "AWC #222 - Newport News, VA, USA",
@@ -992,13 +971,6 @@
         "name": "AWC #145 - Odessa, Ukraine",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmTaxxu3sYEsth937t85qA6jjTNezz4poUmMagVZRsS4Pa"
-    },
-    {
-        "index": 648095401,
-        "influence": 3000,
-        "name": "AWC #146 - Porto Seguro, BR",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmV7cm3AsKXzdbwkrAxNJTUpPJ4Jbn7KpNRrAAiLgCJJZg"
     },
     {
         "index": 655500392,
@@ -1323,6 +1295,13 @@
         "url": "ipfs://QmVzw8zRM2BH7LgAeWNFBep1FsHEtkXXFomeDDtkkpoTwc"
     },
     {
+        "index": 795871524,
+        "influence": 3000,
+        "name": "AWC #229 - Curitiba, Brazil",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmXJAR9hWho6NPYJVKE6Gp3G3RxPz35Md8cYZdQfmNTfYz"
+    },
+    {
         "index": 809412220,
         "influence": 3000,
         "name": "AWC #231 - Veenendaal, NL",
@@ -1356,6 +1335,13 @@
         "name": "AWC #244 - Delft, Netherlands",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeigocsosqf4gvyf7wdcystqdjusveqfkxnp2lgm7guezxpbqc2gj2y"
+    },
+    {
+        "index": 858209726,
+        "influence": 3000,
+        "name": "AWC #246 - Stratford, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiatpbh35y66riyzu6vq2smrc3aakwoapiraqennrlpgfqspjdtdpa"
     },
     {
         "index": 867856579,
@@ -1398,6 +1384,13 @@
         "name": "AWC #257 - Tofino, Canada",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeicfqiqnlraeqycpjfatqy5cqnqlgc3q7ci5lsw2i7lzldk33uogry"
+    },
+    {
+        "index": 931348874,
+        "influence": 3000,
+        "name": "AWC #258 - Belo Horizonte, BR",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeid5o467fqwjsx7tqqubpkzldcfvozia23qa37lrstf34ewfqagesm"
     },
     {
         "index": 931349037,
@@ -1771,6 +1764,13 @@
         "url": "ipfs://QmWN6EdntVzpZ1B5xwGba2bGquKHyRrGBM21jn3tRrXZQ1"
     },
     {
+        "index": 648095401,
+        "influence": 5000,
+        "name": "AWC #146 - Porto Seguro, BR",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmV7cm3AsKXzdbwkrAxNJTUpPJ4Jbn7KpNRrAAiLgCJJZg"
+    },
+    {
         "index": 750529484,
         "influence": 5100,
         "name": "AWC #192 - Florence, Italy",
@@ -1786,7 +1786,7 @@
     },
     {
         "index": 304870825,
-        "influence": 7084,
+        "influence": 10000,
         "name": "AWC #18 - Jerusalem, Israel",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
