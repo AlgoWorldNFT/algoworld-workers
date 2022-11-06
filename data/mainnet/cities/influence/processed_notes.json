@@ -69,6 +69,16 @@
         "influence": 2100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "47429beb-f127-4d53-8949-134884b26cf3": {
+        "acfg_txn": "DYR3OCEFPWOL74COJVWHJCBHZL2HIZRMIE3QC4D75RXTD7PCKOUA",
+        "asset_id": 931349202,
+        "asset_name": "AWC #260 - Porto Alegre, Brazil",
+        "block": 24663740,
+        "deposit": 2999,
+        "id": "47429beb-f127-4d53-8949-134884b26cf3",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7006940a-c639-47a6-9041-9ee8e0105183": {
         "acfg_txn": "AIYTAHXYAB6IECAJHH3NVXRJTUNQSIRJYUKWCRXAKSLJPHIZLOLA",
         "asset_id": 576002647,
@@ -107,6 +117,16 @@
         "deposit": 250,
         "id": "7ea9b66f-6925-4191-82a9-72405be41a57",
         "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "7fab88d2-4037-4e21-8841-05801e1d58e4": {
+        "acfg_txn": "HAKWJ4RZU37LS5NSG55L3GBUB2PFXSC6SU3J34ABH7DJNFRZ33RQ",
+        "asset_id": 931349037,
+        "asset_name": "AWC #259 - Fortaleza, Brazil",
+        "block": 24663737,
+        "deposit": 3000,
+        "id": "7fab88d2-4037-4e21-8841-05801e1d58e4",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "82b16a0a-2eb8-4409-81d4-3cbc2fd00f37": {

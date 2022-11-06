@@ -210,13 +210,6 @@
         "url": "ipfs://bafybeid5o467fqwjsx7tqqubpkzldcfvozia23qa37lrstf34ewfqagesm"
     },
     {
-        "index": 931349037,
-        "influence": 0,
-        "name": "AWC #259 - Fortaleza, Brazil",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeianjfwqbbdzzxzgzcqe4kzlwrvqm5paqem4nogxkem2znqalaynsa"
-    },
-    {
         "index": 932640475,
         "influence": 0,
         "name": "AWC #264 - Cologne, Germany",
@@ -236,13 +229,6 @@
         "name": "AWC #230 - Stuttgart, Germany",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmXZpzgExvBSDnaWbgL4A4ztnbbZ8pjdUXMT4vyrURYPFR"
-    },
-    {
-        "index": 931349202,
-        "influence": 1,
-        "name": "AWC #260 - Porto Alegre, Brazil",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiff5t6x72btlv55pfxarw7wr6oq4wfb4qxhaymrign3e3ncqhxwue"
     },
     {
         "index": 271159971,
@@ -1412,6 +1398,20 @@
         "name": "AWC #257 - Tofino, Canada",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeicfqiqnlraeqycpjfatqy5cqnqlgc3q7ci5lsw2i7lzldk33uogry"
+    },
+    {
+        "index": 931349037,
+        "influence": 3000,
+        "name": "AWC #259 - Fortaleza, Brazil",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeianjfwqbbdzzxzgzcqe4kzlwrvqm5paqem4nogxkem2znqalaynsa"
+    },
+    {
+        "index": 931349202,
+        "influence": 3000,
+        "name": "AWC #260 - Porto Alegre, Brazil",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiff5t6x72btlv55pfxarw7wr6oq4wfb4qxhaymrign3e3ncqhxwue"
     },
     {
         "index": 377742761,
