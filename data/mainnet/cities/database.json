@@ -1526,13 +1526,6 @@
         "url": "ipfs://QmdCXxnwmY9oDW4LurXBbGXmKUCZPbPKmCBUXyzsZKAuDY"
     },
     {
-        "index": 641281413,
-        "influence": 3006,
-        "name": "AWC #143 - Dili, East Timor",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://Qmb4L4vsUwDnP393vfbGiLV8xPVxHnoftD9RV44C3jhrMB"
-    },
-    {
         "index": 653862485,
         "influence": 3006,
         "name": "AWC #149 - Bangui, CF",
@@ -1624,6 +1617,13 @@
         "url": "ipfs://bafybeifchjy3fnvgrhy27rkfpytucchglduaq3jik3eobmorsvx237xkqu"
     },
     {
+        "index": 641281413,
+        "influence": 3007,
+        "name": "AWC #143 - Dili, East Timor",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://Qmb4L4vsUwDnP393vfbGiLV8xPVxHnoftD9RV44C3jhrMB"
+    },
+    {
         "index": 609072964,
         "influence": 3009,
         "name": "AWC #125 - Tallinn, Estonia",
@@ -1687,18 +1687,18 @@
         "url": "ipfs://QmWa8pap7E8bBsCXNRj8kCgb7SMqjatuq79aY58K1EtVmX"
     },
     {
-        "index": 753026847,
-        "influence": 3100,
-        "name": "AWC #186 - Turin, Italy",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmNVzAdR2dxeGgimzGTM24T8GnxkTa4xXvgvKzRsSk4jex"
-    },
-    {
         "index": 784237022,
         "influence": 3100,
         "name": "AWC #211 - Gottingen, Germany",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmX7m4oM6G4xnJ7ryFtATVdTCqJjZMZC1crFAntKyCJv2G"
+    },
+    {
+        "index": 753026847,
+        "influence": 3101,
+        "name": "AWC #186 - Turin, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmNVzAdR2dxeGgimzGTM24T8GnxkTa4xXvgvKzRsSk4jex"
     },
     {
         "index": 731936741,
@@ -1786,7 +1786,7 @@
     },
     {
         "index": 560284517,
-        "influence": 15078,
+        "influence": 15079,
         "name": "AWC #94 - Ljubljana, Slovenia",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"

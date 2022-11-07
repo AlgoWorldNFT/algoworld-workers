@@ -69,6 +69,16 @@
         "influence": 2100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "262a5f8f-20ae-43cb-a903-8a8389d12974": {
+        "acfg_txn": "ZV674GDX2ZSJ35QENKES2XVO3W7DWWCQDPQWDUOWLXNI4TAGPJYQ",
+        "asset_id": 560284517,
+        "asset_name": "AWC #94 - Ljubljana, Slovenia",
+        "block": 24681492,
+        "deposit": 1,
+        "id": "262a5f8f-20ae-43cb-a903-8a8389d12974",
+        "influence": 15079,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3f08fccc-f26d-404a-8b5c-cc72a7a7bc7f": {
         "acfg_txn": "D4ETAVQINW6XFWZWULC4TPZ7RM6QH3O4XBRIUJR2RVFUXNJDS36Q",
         "asset_id": 858209726,
@@ -169,6 +179,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "83cceed2-4a89-4810-ad24-3e118fde0622": {
+        "acfg_txn": "EOBILUNCNZDLWFKWPFFNHZPGAT7PVXV2P3JHFFKCHJRRO3KALG5A",
+        "asset_id": 641281413,
+        "asset_name": "AWC #143 - Dili, East Timor",
+        "block": 24681496,
+        "deposit": 1,
+        "id": "83cceed2-4a89-4810-ad24-3e118fde0622",
+        "influence": 3007,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "85ceaaae-4534-40c2-bbc0-4c2726590be5": {
         "acfg_txn": "RUXVVS3OHI4L2BNRWTA5GJSGMMPLSDFHZSUW5P2ZMLCHFAC7WDEA",
         "asset_id": 931153112,
@@ -207,6 +227,16 @@
         "deposit": 3006,
         "id": "968eb9d2-a9ad-401e-b5ee-a228a28db703",
         "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "a483d6fd-1213-4e5d-83eb-1ba06cb42f3a": {
+        "acfg_txn": "WYIOMQEOPAKYZSPXIHUXM2FNZQD2PQQO46D3TU5L6JGBUKTMA2DA",
+        "asset_id": 753026847,
+        "asset_name": "AWC #186 - Turin, Italy",
+        "block": 24681494,
+        "deposit": 1,
+        "id": "a483d6fd-1213-4e5d-83eb-1ba06cb42f3a",
+        "influence": 3101,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "a4f4544a-9de0-4d44-bdea-94fbaf9be8c5": {
