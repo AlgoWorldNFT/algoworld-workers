@@ -65,6 +65,16 @@
         ],
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "377ee6c2-3666-4c4d-ad61-babd572361f5": {
+        "acfg_txn": "6XYXGJROKL6LEIALGOV3UBN2CTBZPU2CKY5JDEUQCYVFBCUTJSFA",
+        "asset_id": 18725906,
+        "asset_name": "AWC #4 - Beijing, China",
+        "block": 25373054,
+        "deposit": 1,
+        "id": "377ee6c2-3666-4c4d-ad61-babd572361f5",
+        "influence": 5002,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3a81516e-78ee-494b-b6f5-79efc3057f40": {
         "acfg_txn": "6O5VMYDL7EILOVG4HUAFICBENN25Z73TJAVMHIQIRSGG2S2F6WCA",
         "asset_id": 18725394,
