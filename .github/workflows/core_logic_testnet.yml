@@ -44,11 +44,15 @@ jobs:
         with:
           extra_args: --all-files --show-diff-on-failure
 
+      - name: Fetch new cities
+        run: |
+          PYTHONPATH="." poetry run python src/cities/fetch_all.py
+
       - name: Process AWT Deposits
         run: |
           PYTHONPATH="." poetry run python src/cities/influence/process_deposits.py
 
-      - name: Update & fetch all cities
+      - name: Update all cities
         run: |
           PYTHONPATH="." poetry run python src/cities/fetch_all.py
 

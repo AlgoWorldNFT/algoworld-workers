@@ -6,6 +6,7 @@ from algosdk import mnemonic
 from algosdk.future.transaction import AssetConfigTxn, PaymentTxn
 
 from src.shared.common import (
+    CITY_ASSET_DB_PATH,
     CITY_INFLUENCE_METADATA_PATH,
     CITY_INFLUENCE_PROCESSED_NOTES_PATH,
     LEDGER_TYPE,
@@ -30,9 +31,11 @@ from src.shared.utils import (
     get_onchain_influence,
     group_sign_send_wait,
     load,
+    load_aw_cities,
     load_notes,
     save_metadata,
     save_notes,
+    sign_send_wait,
 )
 
 note = "awe_{manager_addr}_{asset_id}_{influence_deposit}_{tx_id}"
@@ -72,7 +75,7 @@ def update_arc_tags(
     cur_arc_note: ARC69Record,
     new_status: str,
     new_influence: int,
-    deposit_txn: str,
+    deposit_txn: str = None,
 ):
     attributes = []
 
@@ -113,19 +116,22 @@ def update_arc_tags(
         strict_empty_address_check=False,
         note=dumps(asdict(arc_note)),
     )
-    validation_note = f"awe_id_{deposit_txn}"
-    validation_txn = PaymentTxn(
-        sender=account.public_key,
-        sp=params,
-        receiver=account.public_key,
-        amt=0,
-        note=validation_note.encode(),
-    )
 
     try:
-        return group_sign_send_wait(
-            algod_client, [account, account], [validation_txn, arc_update_txn]
-        )
+        if deposit_txn:
+            validation_note = f"awe_id_{deposit_txn}"
+            validation_txn = PaymentTxn(
+                sender=account.public_key,
+                sp=params,
+                receiver=account.public_key,
+                amt=0,
+                note=validation_note.encode(),
+            )
+            return group_sign_send_wait(
+                algod_client, [account, account], [validation_txn, arc_update_txn]
+            )
+        else:
+            return sign_send_wait(algod_client, account, arc_update_txn)
     except Exception as exp:
         print(
             f"Unable to update city stats for receiver: {account.public_key} index: {asset_index} deposit: {influence_deposit} sender: {sender_address} {exp}"
@@ -296,45 +302,27 @@ def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
     cur_arc_note = get_onchain_arc(
         indexer, manager_account.public_key, rogue_city.index
     )
+    new_status = (
+        get_city_status(rogue_city.influence) if not is_capital else "AlgoWorld Capital"
+    )
     txid, _ = update_arc_tags(
         account=manager_account,
         sender_address=manager_account.public_key,
         asset_index=rogue_city.index,
         influence_deposit=0,
         cur_arc_note=cur_arc_note,
-        new_status=get_city_status(rogue_city.influence)
-        if not is_capital
-        else "AlgoWorld Capital",
+        new_status=new_status,
         new_influence=rogue_city.influence,
+        deposit_txn=None,
     )
 
     if txid:
         print(f"fixed rogue city status for {rogue_city.name} in {txid}")
 
 
-def update_capital(manager_account: Wallet):
+def update_capital():
+    all_cities = load_aw_cities(CITY_ASSET_DB_PATH)
 
-    created_assets = indexer.search_assets(
-        limit=100,
-        creator=manager_account.public_key,
-    )
-    all_assets = []
-
-    while "next-token" in created_assets:
-        all_assets.extend(
-            [asset for asset in created_assets["assets"] if asset["deleted"] == False]
-        )
-
-        created_assets = indexer.search_assets(
-            limit=100,
-            creator=manager_account.public_key,
-            next_page=created_assets["next-token"],
-        )
-
-    awc_prefix = "AWC #"
-    all_cities = get_all_cities(
-        indexer, manager_account.public_key, all_assets, awc_prefix
-    )
     all_cities.sort(key=lambda x: x.influence, reverse=True)
     first_city = all_cities.pop(0)
 
@@ -356,4 +344,4 @@ def update_capital(manager_account: Wallet):
 
 
 process_influence_txns()
-update_capital(manager_account)
+update_capital()

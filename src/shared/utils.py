@@ -406,8 +406,9 @@ def sign_send_wait(algod: AlgodClient, wallet: Wallet, txn: Transaction):
     signed_txn = sign(wallet, txn)
     tx_id = signed_txn.transaction.get_txid()
 
-    algod.send_transactions([signed_txn])
-    return tx_id
+    tx_id = algod.send_transactions([signed_txn])
+    tx_info = wait_for_confirmation(algod, txid=tx_id)
+    return tx_id, tx_info
 
 
 def swapper_deposit(
@@ -429,7 +430,8 @@ def swapper_deposit(
             index=int(asset_id),
         )
 
-        deposit_txs[asset_id] = sign_send_wait(algod, swap_creator, deposit_asa_txn)
+        tx_id, _ = sign_send_wait(algod, swap_creator, deposit_asa_txn)
+        deposit_txs[asset_id] = tx_id
 
         print(
             f"\n --- Account {swap_creator.public_key} deposited {asset_amount} "
