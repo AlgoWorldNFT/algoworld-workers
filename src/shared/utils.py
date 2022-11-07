@@ -51,6 +51,10 @@ CITY_INFLUENCE_MAPPING = Switch(
 )
 
 
+def pretty_print(message: str):
+    print(f"\n{message}\n")
+
+
 def get_city_status(influence: int):
     return CITY_INFLUENCE_MAPPING[influence]
 
@@ -64,7 +68,7 @@ def load(path: str):
             with open(path, "r+") as f:
                 return json.load(f)
         except Exception as exp:
-            print(f"Unable to load {path} {exp}")
+            pretty_print(f"Unable to load {path} {exp}")
             return None
     else:
         return None
@@ -75,7 +79,7 @@ def save(path: str, data: object):
     Save TinyBar data into a file.
     """
     with open(path, "w") as f:
-        print(f"Saving {data}")
+        pretty_print(f"Saving {data}")
         json.dump(
             data,
             f,
@@ -143,7 +147,7 @@ def decode_note(raw_note: str):
 
         return AWENotePrefix(**note)
     except Exception as e:
-        print(e)
+        pretty_print(e)
         return None
 
 
@@ -164,7 +168,7 @@ def decode_city_pack_note(raw_note: str):
 
         return AWECityPackPurchaseNotePrefix(**note)
     except Exception as e:
-        print(e)
+        pretty_print(e)
         return None
 
 
@@ -176,11 +180,11 @@ def wait_for_confirmation(client, txid):
     last_round = client.status().get("last-round")
     txinfo = client.pending_transaction_info(txid)
     while not (txinfo.get("confirmed-round") and txinfo.get("confirmed-round") > 0):
-        print("Waiting for confirmation")
+        pretty_print("Waiting for confirmation")
         last_round += 1
         client.status_after_block(last_round)
         txinfo = client.pending_transaction_info(txid)
-    print(
+    pretty_print(
         "Transaction {} confirmed in round {}.".format(
             txid, txinfo.get("confirmed-round")
         )
@@ -211,12 +215,12 @@ def get_onchain_arc(indexer: IndexerClient, address: str, asset_index: int):
                 return arc_note
 
             except Exception as exp:
-                print(
+                pretty_print(
                     f"ARC69 not yet configured for city stats for asset index: {asset_index} {exp}"
                 )
                 return None
     except Exception as exp:
-        print(f"Unable to fetch city stats for {address} {exp}")
+        pretty_print(f"Unable to fetch city stats for {address} {exp}")
 
     return None
 
@@ -289,7 +293,7 @@ def get_all_cities(
     for asset in all_assets:
 
         try:
-            print(
+            pretty_print(
                 f'Loading potential city asset under {asset["index"]} and {asset["params"]["name"]}'
             )
             asset_index = asset["index"]
@@ -298,7 +302,9 @@ def get_all_cities(
             cur_influence = get_onchain_influence(cur_arc_note)
 
             if cur_influence <= 0:
-                print(f"Warning asset {asset_index} has influence {cur_influence}")
+                pretty_print(
+                    f"Warning asset {asset_index} has influence {cur_influence}"
+                )
 
             cur_status = get_onchain_city_status(cur_arc_note)
             cur_status = (
@@ -320,9 +326,9 @@ def get_all_cities(
             ):
                 all_cities.append(city)
             else:
-                print(f"Skipping {city.name} - possibly not an aw city asset")
+                pretty_print(f"Skipping {city.name} - possibly not an aw city asset")
         except Exception as exp:
-            print(f"Unable to parse asset: {asset} {exp}. Skipping...")
+            pretty_print(f"Unable to parse asset: {asset} {exp}. Skipping...")
 
     return all_cities
 
@@ -396,7 +402,7 @@ def swapper_opt_in(
             )
         )
 
-    print(f"\n --- Swapper {swapper_account.public_key} opted-in ASAs {assets}.")
+    pretty_print(f"\n --- Swapper {swapper_account.public_key} opted-in ASAs {assets}.")
 
     return group_sign_send_wait(algod, signers, transactions)
 
@@ -433,7 +439,7 @@ def swapper_deposit(
         tx_id, _ = sign_send_wait(algod, swap_creator, deposit_asa_txn)
         deposit_txs[asset_id] = tx_id
 
-        print(
+        pretty_print(
             f"\n --- Account {swap_creator.public_key} deposited {asset_amount} "
             f"units of ASA {asset_id} into {swapper_account.public_key}."
         )

@@ -67,7 +67,7 @@ def test_fetch_country_image_url_exception(mocker):
         return_value=[{"note": 1234}],
     )
     print_mock = mocker.patch(
-        "src.countries.fetch_all.print",
+        "src.countries.fetch_all.pretty_print",
     )
 
     # Act

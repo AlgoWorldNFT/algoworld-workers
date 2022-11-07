@@ -4,7 +4,7 @@ from algosdk.v2client.indexer import IndexerClient
 
 from src.shared.common import COUNTRY_ASSET_DB_PATH, indexer
 from src.shared.models import AlgoWorldAsset
-from src.shared.utils import save_aw_assets
+from src.shared.utils import pretty_print, save_aw_assets
 
 
 def fetch_country_image_txns(
@@ -41,10 +41,10 @@ def fetch_country_image_url(
             note_content = str(base64.b64decode(txn["note"]))
             if "ipfs://" in note_content:
                 cid = note_content.split("\\xaf3")[0].split("ipfs://")[1]
-                print(f"Found image for {asset_index} {cid}")
+                pretty_print(f"Found image for {asset_index} {cid}")
                 return f"ipfs://{cid}"
         except Exception as exp:
-            print(f"Unable to decode note for {asset_index} {exp} skipping")
+            pretty_print(f"Unable to decode note for {asset_index} {exp} skipping")
     return None
 
 
@@ -80,9 +80,9 @@ def fetch_aw_countries(indexer: IndexerClient, creator_address: str):
         if image_url:
             asset.url = image_url
         else:
-            print(f"No image found for {asset.name} adding as is anyway")
+            pretty_print(f"No image found for {asset.name} adding as is anyway")
 
-        print(f"{asset.name} {asset.url} processed")
+        pretty_print(f"{asset.name} {asset.url} processed")
         all_assets_with_images.append(asset)
 
     return all_assets

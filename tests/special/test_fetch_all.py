@@ -12,7 +12,7 @@ def test_fetch_aw_special_cards(mocker):
     )
     fetch_country_image_url_patch.side_effect = ["ipfs://testcid", None]
     save_aw_assets_patch = mocker.patch("src.special.fetch_all.save_aw_assets")
-    print_mock = mocker.patch("src.special.fetch_all.print")
+    print_mock = mocker.patch("src.special.fetch_all.pretty_print")
 
     indexer_mock.search_assets.side_effect = [
         {
