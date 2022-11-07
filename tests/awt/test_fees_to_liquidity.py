@@ -12,7 +12,7 @@ def test_fees_to_awt_liquidity_below_trigger(mocker):
     algod_client_mock = mocker.Mock()
     algod_client_mock.account_info.return_value = {"amount": 2 * 1e6}
     print_mock = mocker.patch(
-        "src.awt.fees_to_liquidity.print",
+        "src.awt.fees_to_liquidity.pretty_print",
     )
 
     # Act
@@ -74,7 +74,7 @@ def test_fees_to_awt_liquidity_above_trigger(mocker):
         ],
     }
     print_mock = mocker.patch(
-        "src.awt.fees_to_liquidity.print",
+        "src.awt.fees_to_liquidity.pretty_print",
     )
 
     # Act
