@@ -1764,13 +1764,6 @@
         "url": "ipfs://QmWN6EdntVzpZ1B5xwGba2bGquKHyRrGBM21jn3tRrXZQ1"
     },
     {
-        "index": 648095401,
-        "influence": 5000,
-        "name": "AWC #146 - Porto Seguro, BR",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmV7cm3AsKXzdbwkrAxNJTUpPJ4Jbn7KpNRrAAiLgCJJZg"
-    },
-    {
         "index": 750529484,
         "influence": 5100,
         "name": "AWC #192 - Florence, Italy",
@@ -1783,13 +1776,6 @@
         "name": "AWC #69 - Las Vegas, NV, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmSK4B5gqx2daLiYJLKMgxhWq9czLKKQR2auj8xMkpGRiv"
-    },
-    {
-        "index": 304870825,
-        "influence": 10000,
-        "name": "AWC #18 - Jerusalem, Israel",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
     },
     {
         "index": 629170949,
@@ -1809,7 +1795,21 @@
         "index": 271106498,
         "influence": 24504,
         "name": "AWC #1 - New York City, USA",
-        "status": "AlgoWorld Capital",
+        "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
+    },
+    {
+        "index": 304870825,
+        "influence": 30000,
+        "name": "AWC #18 - Jerusalem, Israel",
+        "status": "AlgoWorld Capital",
+        "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
+    },
+    {
+        "index": 648095401,
+        "influence": 125000,
+        "name": "AWC #146 - Porto Seguro, BR",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmV7cm3AsKXzdbwkrAxNJTUpPJ4Jbn7KpNRrAAiLgCJJZg"
     }
 ]

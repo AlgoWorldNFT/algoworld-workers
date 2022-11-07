@@ -99,6 +99,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "4ee021b2-2611-4158-8e82-89af7ab93ffe": {
+        "acfg_txn": "YZJMJFCX4XIP2OPMCX523MDWXGO3SVZM2AUZNOLMLALH5JCKI5UQ",
+        "asset_id": 304870825,
+        "asset_name": "AWC #18 - Jerusalem, Israel",
+        "block": 24680111,
+        "deposit": 20000,
+        "id": "4ee021b2-2611-4158-8e82-89af7ab93ffe",
+        "influence": 30000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7006940a-c639-47a6-9041-9ee8e0105183": {
         "acfg_txn": "AIYTAHXYAB6IECAJHH3NVXRJTUNQSIRJYUKWCRXAKSLJPHIZLOLA",
         "asset_id": 576002647,
@@ -197,6 +207,16 @@
         "deposit": 3006,
         "id": "968eb9d2-a9ad-401e-b5ee-a228a28db703",
         "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "a4f4544a-9de0-4d44-bdea-94fbaf9be8c5": {
+        "acfg_txn": "LXKHOQXBNOQJ74QT24N53F2XSX32X5HK32Q4GMTQR2GR7HU5MBLQ",
+        "asset_id": 648095401,
+        "asset_name": "AWC #146 - Porto Seguro, BR",
+        "block": 24676428,
+        "deposit": 20000,
+        "id": "a4f4544a-9de0-4d44-bdea-94fbaf9be8c5",
+        "influence": 25000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "a62d66c9-b8a8-4e32-946e-129f3f460898": {
