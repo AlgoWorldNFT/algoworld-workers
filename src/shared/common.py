@@ -9,14 +9,14 @@ LEDGER_TYPE = environ.get("LEDGER_TYPE", "TestNet")
 MANAGER_PASSPHRASE = os.environ.get("MANAGER_PASSPHRASE")
 
 INDEXER_URL = (
-    "https://algoindexer.testnet.algoexplorerapi.io"
+    "https://testnet-idx.algonode.cloud"
     if LEDGER_TYPE.lower() == "testnet"
-    else "https://algoindexer.algoexplorerapi.io"
+    else "https://mainnet-idx.algonode.cloud"
 )
 ALGOD_URL = (
-    "https://node.testnet.algoexplorerapi.io"
+    "https://testnet-api.algonode.cloud"
     if LEDGER_TYPE.lower() == "testnet"
-    else "https://node.algoexplorerapi.io"
+    else "https://mainnet-api.algonode.cloud"
 )
 
 algod_client = algod.AlgodClient("", ALGOD_URL, headers={"User-Agent": "algosdk"})

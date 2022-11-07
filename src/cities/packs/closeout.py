@@ -32,7 +32,7 @@ def _get_latest_close_txns(
 ):
     return indexer.search_transactions(
         note_prefix=note_prefix,
-        min_round=storage_metadata.last_processed_block - 50000,
+        min_round=storage_metadata.last_processed_block,
         max_round=params.first,
         min_amount=min_pack_price - 1,
         txn_type="pay",
