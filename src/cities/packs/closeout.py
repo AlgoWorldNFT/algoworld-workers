@@ -21,6 +21,7 @@ from src.shared.utils import (
     group_sign_send_wait,
     load,
     load_packs,
+    pretty_print,
     save_metadata,
     save_packs,
 )
@@ -98,7 +99,7 @@ def _close_swap(
 
     gtx_id, _ = group_sign_send_wait(algod_client, signers, transactions)
 
-    print(f"\n --- Account {proof_sender.public_key} closed city pack.")
+    pretty_print(f"\n --- Account {proof_sender.public_key} closed city pack.")
 
     return gtx_id
 
@@ -133,7 +134,7 @@ latest_pack_purchase_txns = _get_latest_close_txns(
 
 
 if len(latest_pack_purchase_txns["transactions"]) == 0:
-    print("No new transactions to process")
+    pretty_print("No new transactions to process")
     storage_metadata.last_processed_block = params.first
     save_metadata(CITY_PACK_METADATA_PATH, storage_metadata)
     exit(0)
@@ -143,10 +144,10 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
     available_packs = load_packs(CITY_PACK_AVAILABLE_PATH)
     purchased_packs = load_packs(CITY_PACK_PURCHASED_PATH)
 
-    print(
+    pretty_print(
         f"last processed block for city pack closeouts {storage_metadata.last_processed_block}"
     )
-    print(f"Running against {LEDGER_TYPE}")
+    pretty_print(f"Running against {LEDGER_TYPE}")
 
     pack_purchase_note = decode_city_pack_note(pack_purchase_txn["note"])
     if pack_purchase_note:
@@ -164,15 +165,17 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
         ]
 
         if sender_mismatch:
-            print(
+            pretty_print(
                 f"Sender mismatch for pack purchase {pack_purchase_txn['id']} - {pack_purchase_txn['sender']} != {pack_purchase_note.buyer_address}"
             )
 
         elif pack_purchased:
-            print(f"Pack ${pack_purchase_note.pack_id} already purchased, skipping")
+            pretty_print(
+                f"Pack ${pack_purchase_note.pack_id} already purchased, skipping"
+            )
 
         elif not pack_available:
-            print(
+            pretty_print(
                 f"Pack {pack_purchase_note.pack_id} is not in list of available packs - verify manually"
             )
 
@@ -204,7 +207,7 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
                         proof_receiver=manager_wallet,
                     )
                 except Exception as e:
-                    print(
+                    pretty_print(
                         f"Failed to close swap for {gtxn_id} - {e}. Was most probably processed but not persisted, proceeding with obtained tx id {gtxn_id}"
                     )
 
@@ -218,7 +221,7 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
                 storage_metadata.last_processed_block = confirmed_round
 
                 if confirmed_round:
-                    print(f"Closed pack {pack_purchase_note.pack_id} {gtxn_id}")
+                    pretty_print(f"Closed pack {pack_purchase_note.pack_id} {gtxn_id}")
                     purchased_packs.append(pack_to_close)
                     available_packs.remove(pack_to_close)
                     save_packs(CITY_PACK_AVAILABLE_PATH, available_packs)
@@ -228,7 +231,7 @@ for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
                     try:
                         notify_citypack_purchase(pack_to_close)
                     except Exception as e:
-                        print(f"Failed to notify city pack purchase {e}")
+                        pretty_print(f"Failed to notify city pack purchase {e}")
 
             except Exception as exp:
-                print(f"Error processing city closeout: {exp}")
+                pretty_print(f"Error processing city closeout: {exp}")

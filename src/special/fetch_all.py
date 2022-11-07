@@ -2,7 +2,7 @@ from algosdk.v2client.indexer import IndexerClient
 
 from src.shared.common import SPECIAL_CARDS_ASSET_DB_PATH, indexer
 from src.shared.models import AlgoWorldAsset
-from src.shared.utils import save_aw_assets
+from src.shared.utils import pretty_print, save_aw_assets
 
 
 def fetch_aw_special_cards(indexer: IndexerClient, manager_address: str):
@@ -39,7 +39,7 @@ def fetch_aw_special_cards(indexer: IndexerClient, manager_address: str):
             ):
                 all_special.append(special_asset)
         except Exception as ex:
-            print("Skipping. Error parsing asset: ", ex)
+            pretty_print("Skipping. Error parsing asset: ", ex)
 
     all_special.sort(key=lambda x: x.index, reverse=False)
     save_aw_assets(SPECIAL_CARDS_ASSET_DB_PATH, all_special)

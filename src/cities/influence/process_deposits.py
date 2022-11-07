@@ -25,7 +25,6 @@ from src.shared.models import (
 from src.shared.notifications import notify_influence_deposit
 from src.shared.utils import (
     decode_note,
-    get_all_cities,
     get_city_status,
     get_onchain_arc,
     get_onchain_influence,
@@ -33,6 +32,7 @@ from src.shared.utils import (
     load,
     load_aw_cities,
     load_notes,
+    pretty_print,
     save_metadata,
     save_notes,
     sign_send_wait,
@@ -63,8 +63,8 @@ storage_metadata = (
     if last_processed_block
     else StorageMetadata(algod_client.suggested_params().first)
 )
-print(f"last processed block {storage_metadata.last_processed_block}")
-print(f"Running against {LEDGER_TYPE}")
+pretty_print(f"last processed block {storage_metadata.last_processed_block}")
+pretty_print(f"Running against {LEDGER_TYPE}")
 
 
 def update_arc_tags(
@@ -85,8 +85,8 @@ def update_arc_tags(
     )
 
     status_attribute = ARC69Attribute(trait_type="City status", value=new_status)
-    print(f"New influence {influence_deposit} for {asset_index}")
-    print(
+    pretty_print(f"New influence {influence_deposit} for {asset_index}")
+    pretty_print(
         f"New status {new_status} for {asset_index} and new influence: {new_influence} with {influence_deposit} deposit"
     )
 
@@ -133,7 +133,7 @@ def update_arc_tags(
         else:
             return sign_send_wait(algod_client, account, arc_update_txn)
     except Exception as exp:
-        print(
+        pretty_print(
             f"Unable to update city stats for receiver: {account.public_key} index: {asset_index} deposit: {influence_deposit} sender: {sender_address} {exp}"
         )
 
@@ -186,13 +186,13 @@ def process_influence_txns():
     )
 
     if len(latest_txns["transactions"]) == 0:
-        print("No new transactions to process")
+        pretty_print("No new transactions to process")
         storage_metadata.last_processed_block = params.first
         save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
         return
 
     for axfer_txn in latest_txns["transactions"]:
-        print(axfer_txn)
+        pretty_print(axfer_txn)
         axfer_txn_note = decode_note(axfer_txn["note"])
         if axfer_txn_note:
 
@@ -219,17 +219,17 @@ def process_influence_txns():
             note_id_already_processed = axfer_txn_note.note_id in processed_note_ids
 
             if receiver_mismatch:
-                print(
+                pretty_print(
                     f"Skipping execution for txid: {axfer_txn['id']}, expected receiver: {axfer_receiver_addr}, actual receiver: {axfer_txn_note.receiver}"
                 )
 
             elif deposit_amount_mismatch:
-                print(
+                pretty_print(
                     f"Skipping execution for txid: {axfer_txn['asset-transfer-transsaction']}, expected influence deposit: {axfer_txn_note.influence_deposit}, actual influence deposit: {axfer_txn}"
                 )
 
             elif note_id_already_processed:
-                print(
+                pretty_print(
                     f"Skipping execution for txid: {axfer_txn['id']}, note id: {axfer_txn_note.note_id} already processed"
                 )
 
@@ -260,9 +260,9 @@ def process_influence_txns():
 
                 if confirmed_round:
 
-                    print(
+                    pretty_print(
                         f'WARNING: already processed deposit of {axfer_txn_note.influence_deposit} for {axfer_txn_note.asset_id} from {axfer_txn["sender"]} at round {confirmed_round} with txid {axfer_txn["id"]}'
-                    ) if transaction_already_processed else print(
+                    ) if transaction_already_processed else pretty_print(
                         f"successfully processed deposit of {axfer_txn_note.influence_deposit} for {axfer_txn_note.asset_id} from {axfer_txn['sender']} at round {confirmed_round}"
                     )
                     asset = indexer.asset_info(axfer_txn_note.asset_id)
@@ -272,7 +272,7 @@ def process_influence_txns():
                     try:
                         asset_name = asset["asset"]["params"]["name"]
                     except Exception as exp:
-                        print(f"Unable to get asset name: {exp} setting to N/A")
+                        pretty_print(f"Unable to get asset name: {exp} setting to N/A")
 
                     processed_notes[axfer_txn_note.note_id] = asdict(
                         StorageProcessedNote(
@@ -295,7 +295,7 @@ def process_influence_txns():
                                 axfer_txn["sender"], new_influence, asset_name
                             )
                         except Exception as exp:
-                            print(f"Unable to notify: {exp}")
+                            pretty_print(f"Unable to notify: {exp}")
 
 
 def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
@@ -317,7 +317,7 @@ def update_city_status(rogue_city: AlgoWorldCityAsset, is_capital: bool):
     )
 
     if txid:
-        print(f"fixed rogue city status for {rogue_city.name} in {txid}")
+        pretty_print(f"fixed rogue city status for {rogue_city.name} in {txid}")
 
 
 def update_capital():
@@ -338,9 +338,9 @@ def update_capital():
         if first_city.status.lower() != "algoworld capital":
             update_city_status(first_city, True)
         else:
-            print(f"Skipping {first_city.name} - already capital")
+            pretty_print(f"Skipping {first_city.name} - already capital")
     else:
-        print(f"Skipping {first_city.name} - no second city")
+        pretty_print(f"Skipping {first_city.name} - no second city")
 
 
 process_influence_txns()

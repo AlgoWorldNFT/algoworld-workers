@@ -6,6 +6,7 @@ from tinyman.v1.client import TinymanClient, TinymanMainnetClient, TinymanTestne
 
 from src.shared.common import LEDGER_TYPE, algod_client
 from src.shared.models import Wallet
+from src.shared.utils import pretty_print
 
 
 def fees_to_awt_liquidity(
@@ -26,7 +27,7 @@ def fees_to_awt_liquidity(
     account_info_algo_balance = account_info["amount"]
 
     if account_info_algo_balance < 3 * 1e6:
-        print(
+        pretty_print(
             f"Not enough ALGO to deposit liquidity. Need at least 3 ALGO. Skipping..."
         )
         exit(0)
@@ -37,7 +38,7 @@ def fees_to_awt_liquidity(
         slippage=0.01,
     )
 
-    print(
+    pretty_print(
         f"Swapping {quote.amounts_in} to {quote.liquidity_asset_amount_with_slippage}"
     )
 
@@ -54,7 +55,7 @@ def fees_to_awt_liquidity(
     excess = pool.fetch_excess_amounts()
     if AWT in excess:
         amount = excess[AWT]
-        print(f"Excess: {amount}")
+        pretty_print(f"Excess: {amount}")
         # We might just let the excess accumulate rather than redeeming if its < 1 AWT
         if amount > 1_000_000:
             transaction_group = pool.prepare_redeem_transactions(amount)
@@ -62,12 +63,12 @@ def fees_to_awt_liquidity(
                 swap_rewards_wallet.public_key, swap_rewards_wallet.private_key
             )
             result = tinyman_client.submit(transaction_group, wait=True)
-            print(f"Redeemed excess: {amount} {result}")
+            pretty_print(f"Redeemed excess: {amount} {result}")
 
     info = pool.fetch_pool_position()
     share = info["share"] * 100
-    print(f"Pool Tokens: {info[pool.liquidity_asset]}")
-    print(f"Share of pool: {share:.3f}%")
+    pretty_print(f"Pool Tokens: {info[pool.liquidity_asset]}")
+    pretty_print(f"Share of pool: {share:.3f}%")
 
 
 def main():  # pragma: no cover
