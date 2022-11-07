@@ -1799,17 +1799,17 @@
         "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
     },
     {
+        "index": 648095401,
+        "influence": 25000,
+        "name": "AWC #146 - Porto Seguro, BR",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmV7cm3AsKXzdbwkrAxNJTUpPJ4Jbn7KpNRrAAiLgCJJZg"
+    },
+    {
         "index": 304870825,
         "influence": 30000,
         "name": "AWC #18 - Jerusalem, Israel",
         "status": "AlgoWorld Capital",
         "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
-    },
-    {
-        "index": 648095401,
-        "influence": 125000,
-        "name": "AWC #146 - Porto Seguro, BR",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmV7cm3AsKXzdbwkrAxNJTUpPJ4Jbn7KpNRrAAiLgCJJZg"
     }
 ]
