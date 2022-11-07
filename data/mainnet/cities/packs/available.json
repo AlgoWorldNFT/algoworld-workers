@@ -341,5 +341,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #27"
+    },
+    {
+        "contract": "BiAKBOgHAQC4lujTAbfgkq0B2cfjlQH6/qvXAs/sp/ICByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "CM4WDLEMSUWGCY4BRRQ6JZD6YUMBF4W76HW6XZXOF5O7DOO2JCZ62MQ4SE",
+        "id": 28,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 444205880,
+                "title": "AWC #62 - Bonanza, USA",
+                "url": "ipfs://QmZm1zxvL77w3t4q5YWYSuRRgnwySbWBopHTYhDeJB3LpW"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 363114551,
+                "title": "AWC #52 - Wellington, NZ",
+                "url": "ipfs://QmcKFv2VcXxpxByj6vvoFdJPrwTKVgVLzhUNNjnBNNccZb"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 314106841,
+                "title": "AWC #26 - Damascus, Syria",
+                "url": "ipfs://QmSqn4cj6aCgosLHD1qG646D4mLuu3tYcLDP7nux1bpFi5"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 720043898,
+                "title": "AWC #177 - Tegucigalpa, Honduras",
+                "url": "ipfs://QmZqub1Jx7JETXWJ3YNcLK2Fxa2w8WHP3qa5srhgchrSDx"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 776599119,
+                "title": "AWC #209 - Rimini, Italy",
+                "url": "ipfs://QmV78xCcXzVTcfNsXw4znRoNUWxedL8aVnKc7eWTiYqsHr"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #28"
     }
 ]
