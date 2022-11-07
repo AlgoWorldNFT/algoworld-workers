@@ -33,7 +33,7 @@ def _get_latest_close_txns(
 ):
     return indexer.search_transactions(
         note_prefix=note_prefix,
-        min_round=storage_metadata.last_processed_block,
+        min_round=storage_metadata.last_processed_block - 5_000,
         max_round=params.first,
         min_amount=min_pack_price - 1,
         txn_type="pay",
@@ -103,6 +103,25 @@ def _close_swap(
 
     return gtx_id
 
+
+def _resolve_already_purchased():
+    available_packs = load_packs(CITY_PACK_AVAILABLE_PATH)
+    available_pack_ids = [pack.id for pack in available_packs]
+    purchased_packs = load_packs(CITY_PACK_PURCHASED_PATH)
+
+    for pack in purchased_packs:
+        if pack.id in available_pack_ids:
+            pack_to_remove = [
+                pack_to_remove
+                for pack_to_remove in available_packs
+                if pack_to_remove.id == pack.id
+            ][0]
+            available_packs.remove(pack_to_remove)
+
+    save_packs(CITY_PACK_AVAILABLE_PATH, available_packs)
+
+
+_resolve_already_purchased()
 
 operation = "pp"  # 'pp' for pack purchase
 note_decoded = f"awe_{operation}_"
