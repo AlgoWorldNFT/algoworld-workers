@@ -199,6 +199,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "8a5190ba-fb72-47d9-b2d7-2944307d2d31": {
+        "acfg_txn": "NNP6CU7JWPWRAZQHJUQRT4IPLOL4K4LYSQAFAB6EP46FYU2WGA6Q",
+        "asset_id": 939521922,
+        "asset_name": "AWC #266 - Nouakchott, MR",
+        "block": 24809823,
+        "deposit": 3000,
+        "id": "8a5190ba-fb72-47d9-b2d7-2944307d2d31",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "8c677903-e5e1-4286-98c5-715133f246cc": {
         "acfg_txn": "IKSDSRBWBRANAXGQAOHUSFYVWDGSUAADSHFGDQSX3AUEN2W4VFFA",
         "asset_id": 904792934,
