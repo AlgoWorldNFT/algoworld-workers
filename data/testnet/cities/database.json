@@ -28,6 +28,13 @@
         "url": "www.algoworld-nft.com"
     },
     {
+        "index": 18725977,
+        "influence": 0,
+        "name": "AWC #11 - Athens, Greece",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
         "index": 18891850,
         "influence": 0,
         "name": "AWC #100 - Poissy, France",
@@ -234,13 +241,6 @@
         "index": 18725967,
         "influence": 1007,
         "name": "AWC #10 - Washington D.C., USA",
-        "status": "AlgoWorld Gold City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
-        "index": 18725977,
-        "influence": 1010,
-        "name": "AWC #11 - Athens, Greece",
         "status": "AlgoWorld Gold City",
         "url": "www.algoworld-nft.com"
     },
