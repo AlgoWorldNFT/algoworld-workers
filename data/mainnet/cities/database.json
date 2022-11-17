@@ -210,13 +210,6 @@
         "url": "ipfs://bafybeidhezgrxephd4ytudgx4dfhbnxak7uguvsarpp6xdywjrhyf4sgby"
     },
     {
-        "index": 945534730,
-        "influence": 0,
-        "name": "AWC #267 - Santa Cruz, CA, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeid4mqqrqvzwv6fjr3jqbgnl7v27iicczyq75qypxs73gi6quhnqlq"
-    },
-    {
         "index": 945535824,
         "influence": 0,
         "name": "AWC #268 - Willemstad, NL",
@@ -1636,6 +1629,13 @@
         "name": "AWC #261 - Cardiff, UK",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeifchjy3fnvgrhy27rkfpytucchglduaq3jik3eobmorsvx237xkqu"
+    },
+    {
+        "index": 945534730,
+        "influence": 3006,
+        "name": "AWC #267 - Santa Cruz, CA, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeid4mqqrqvzwv6fjr3jqbgnl7v27iicczyq75qypxs73gi6quhnqlq"
     },
     {
         "index": 641281413,

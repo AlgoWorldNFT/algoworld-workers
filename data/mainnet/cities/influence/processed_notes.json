@@ -119,6 +119,16 @@
         "influence": 30000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "60b2c0ee-4a64-49e5-9d1e-e116d3d2a5c0": {
+        "acfg_txn": "Z3SIK3HUOEDYLS5NH2TBNZUFY7VTCFRKL4P5OQU6CLK4EONPWJWQ",
+        "asset_id": 945534730,
+        "asset_name": "AWC #267 - Santa Cruz, CA, USA",
+        "block": 24901379,
+        "deposit": 3006,
+        "id": "60b2c0ee-4a64-49e5-9d1e-e116d3d2a5c0",
+        "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7006940a-c639-47a6-9041-9ee8e0105183": {
         "acfg_txn": "AIYTAHXYAB6IECAJHH3NVXRJTUNQSIRJYUKWCRXAKSLJPHIZLOLA",
         "asset_id": 576002647,
