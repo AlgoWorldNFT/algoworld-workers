@@ -69,6 +69,16 @@
         "influence": 3501,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "17b7a0aa-ba54-402d-8c2e-2ee026eb0b26": {
+        "acfg_txn": "SI2RFPPE5JXH2BYLC3HG3R5QWLZBANAUB6F3SB2AX54CK2KMOWVQ",
+        "asset_id": 945535824,
+        "asset_name": "AWC #268 - Willemstad, NL",
+        "block": 24922331,
+        "deposit": 150,
+        "id": "17b7a0aa-ba54-402d-8c2e-2ee026eb0b26",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "1b45b782-6e62-427c-b1fb-93dd7878237d": {
         "acfg_txn": "FJVK6PUY6YVVNYWKDAME4T2LAT3RWU5FINA355IJWWUELF2UDB3A",
         "asset_id": 945535824,

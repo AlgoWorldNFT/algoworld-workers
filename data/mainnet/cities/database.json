@@ -840,13 +840,6 @@
         "url": "ipfs://QmTgvDXvF1cPXhH64btG2hWkK1X2en7j5FwtXPGvuqb4Cr"
     },
     {
-        "index": 945535824,
-        "influence": 2850,
-        "name": "AWC #268 - Willemstad, NL",
-        "status": "AlgoWorld Platinum City",
-        "url": "ipfs://bafybeig2k42u3kxc3ktcajgr6oprzqbu2xnpvtepu6arkejljb5oyd5s54"
-    },
-    {
         "index": 353732794,
         "influence": 3000,
         "name": "AWC #45 - Zurich, Switzerland",
@@ -1419,6 +1412,13 @@
         "name": "AWC #266 - Nouakchott, MR",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeibd6qbq7itjcvlaokrogkdlpowfdepwsygpr7k4ytt3y2psrklb7u"
+    },
+    {
+        "index": 945535824,
+        "influence": 3000,
+        "name": "AWC #268 - Willemstad, NL",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeig2k42u3kxc3ktcajgr6oprzqbu2xnpvtepu6arkejljb5oyd5s54"
     },
     {
         "index": 377742761,
