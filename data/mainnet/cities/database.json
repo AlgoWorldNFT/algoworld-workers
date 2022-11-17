@@ -210,13 +210,6 @@
         "url": "ipfs://bafybeidhezgrxephd4ytudgx4dfhbnxak7uguvsarpp6xdywjrhyf4sgby"
     },
     {
-        "index": 945535824,
-        "influence": 0,
-        "name": "AWC #268 - Willemstad, NL",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeig2k42u3kxc3ktcajgr6oprzqbu2xnpvtepu6arkejljb5oyd5s54"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
@@ -845,6 +838,13 @@
         "name": "AWC #117 - Chefchaouen, Morocco",
         "status": "AlgoWorld Platinum City",
         "url": "ipfs://QmTgvDXvF1cPXhH64btG2hWkK1X2en7j5FwtXPGvuqb4Cr"
+    },
+    {
+        "index": 945535824,
+        "influence": 2850,
+        "name": "AWC #268 - Willemstad, NL",
+        "status": "AlgoWorld Platinum City",
+        "url": "ipfs://bafybeig2k42u3kxc3ktcajgr6oprzqbu2xnpvtepu6arkejljb5oyd5s54"
     },
     {
         "index": 353732794,
@@ -1823,14 +1823,14 @@
         "index": 304870825,
         "influence": 30000,
         "name": "AWC #18 - Jerusalem, Israel",
-        "status": "AlgoWorld Capital",
+        "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
     },
     {
         "index": 271106498,
         "influence": 34504,
         "name": "AWC #1 - New York City, USA",
-        "status": "AlgoWorld Diamond City",
+        "status": "AlgoWorld Capital",
         "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
     }
 ]

@@ -49,6 +49,16 @@
         "influence": 15078,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "1031fcad-5b91-4e35-8f86-8fc81e91a0b9": {
+        "acfg_txn": "Q2WKKCGZZ33HKDM5GBBDBCJ6IQMZ72AWAF5ZK547MOZWMDURDYYQ",
+        "asset_id": 945535824,
+        "asset_name": "AWC #268 - Willemstad, NL",
+        "block": 24919432,
+        "deposit": 350,
+        "id": "1031fcad-5b91-4e35-8f86-8fc81e91a0b9",
+        "influence": 2850,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "11ca2aaf-a934-4bf8-abe9-c0ce65844c65": {
         "acfg_txn": "A7V4FVQIBB3SQIEW2KLN43473R2G2F3U3JEQON4K4DZA2EUT6NIQ",
         "asset_id": 689523661,
@@ -57,6 +67,16 @@
         "deposit": 1,
         "id": "11ca2aaf-a934-4bf8-abe9-c0ce65844c65",
         "influence": 3501,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "1b45b782-6e62-427c-b1fb-93dd7878237d": {
+        "acfg_txn": "FJVK6PUY6YVVNYWKDAME4T2LAT3RWU5FINA355IJWWUELF2UDB3A",
+        "asset_id": 945535824,
+        "asset_name": "AWC #268 - Willemstad, NL",
+        "block": 24919430,
+        "deposit": 2500,
+        "id": "1b45b782-6e62-427c-b1fb-93dd7878237d",
+        "influence": 2500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "22f97308-923d-4485-a242-99e91c8ca373": {
