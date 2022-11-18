@@ -139,6 +139,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "489d35a4-8c1d-4bca-af1b-005e438d57e5": {
+        "acfg_txn": "TZJEPSNVR7TKCRCMZ5OY6BLPPYPS4UPRNV6MWJ3S36H6SEE72UPQ",
+        "asset_id": 304870825,
+        "asset_name": "AWC #18 - Jerusalem, Israel",
+        "block": 24939745,
+        "deposit": 25555,
+        "id": "489d35a4-8c1d-4bca-af1b-005e438d57e5",
+        "influence": 55555,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "4ee021b2-2611-4158-8e82-89af7ab93ffe": {
         "acfg_txn": "YZJMJFCX4XIP2OPMCX523MDWXGO3SVZM2AUZNOLMLALH5JCKI5UQ",
         "asset_id": 304870825,
