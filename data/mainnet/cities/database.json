@@ -1729,13 +1729,6 @@
         "url": "ipfs://QmTzux5HR1B2y2kZtuYQgE5wSPeBn5kH9cL6LykGEKNWMC"
     },
     {
-        "index": 323680959,
-        "influence": 3122,
-        "name": "AWC #36 - Povarenka, Russia",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmSXD1ELw2tjGnTRdiZgvQvfkHaHucDyokoHMWiGdaePdJ"
-    },
-    {
         "index": 638794076,
         "influence": 3125,
         "name": "AWC #139 - The Hague, NL",
@@ -1811,6 +1804,13 @@
         "name": "AWC #94 - Ljubljana, Slovenia",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+    },
+    {
+        "index": 323680959,
+        "influence": 17342,
+        "name": "AWC #36 - Povarenka, Russia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmSXD1ELw2tjGnTRdiZgvQvfkHaHucDyokoHMWiGdaePdJ"
     },
     {
         "index": 648095401,

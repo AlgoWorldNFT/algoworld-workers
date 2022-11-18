@@ -189,6 +189,16 @@
         "influence": 3600,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "7c7d571c-4363-4414-baa2-f9450f5837d3": {
+        "acfg_txn": "AX4B2OAFBYUDVAGZP4AJW2RQHZTHFPWC7OCDM3TMQVBSKPAVZIRQ",
+        "asset_id": 323680959,
+        "asset_name": "AWC #36 - Povarenka, Russia",
+        "block": 24933948,
+        "deposit": 14220,
+        "id": "7c7d571c-4363-4414-baa2-f9450f5837d3",
+        "influence": 17342,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7c83fab1-2253-45e0-9744-a1c8956bdbea": {
         "acfg_txn": "PEGVRKX3XSQRMPNOKERPTL3ONOPRLLXVHIZWPMSHSZ4RJKGUIWPQ",
         "asset_id": 931153112,
