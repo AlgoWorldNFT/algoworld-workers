@@ -112,13 +112,6 @@
         "url": "ipfs://QmSeZGW7ArLFweQNGRpYBTo8xvu6dnP3R2c4PKEPXHwQdc"
     },
     {
-        "index": 456390032,
-        "influence": 0,
-        "name": "AWC #75 - Beirut, Lebanon",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmSptGG5fojCCc9dSJJeGRzpHxGXA6EoMTiyvm3M5qnq8A"
-    },
-    {
         "index": 461384320,
         "influence": 0,
         "name": "AWC #77 - Conakry, Guinea",
@@ -427,20 +420,6 @@
         "url": "ipfs://Qme1zyNZjM53EBe75vDRx6d8wDTBXTXyWZ1YuGRUxAk6H3"
     },
     {
-        "index": 950717524,
-        "influence": 100,
-        "name": "AWC #272 - Oranjestad, NL",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeiaf73qt6mdgxuvninoec3weavc3eu6diwhaeows2mb6cyya626io4"
-    },
-    {
-        "index": 950717682,
-        "influence": 100,
-        "name": "AWC #273 - Kralendijk, NL",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeifqm4g5y2qb6t5xm7inivbvxlc54s6wvlrmol4vtk4njfmzdpnt6i"
-    },
-    {
         "index": 393262263,
         "influence": 101,
         "name": "AWC #64 - Naypyidaw, Myanmar",
@@ -453,6 +432,13 @@
         "name": "AWC #90 - Hong Kong, China",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://Qmcgai3r2NAryad9DVsVwtKQWAD3kXeHHNUwQRoygPi4Ho"
+    },
+    {
+        "index": 456390032,
+        "influence": 111,
+        "name": "AWC #75 - Beirut, Lebanon",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://QmSptGG5fojCCc9dSJJeGRzpHxGXA6EoMTiyvm3M5qnq8A"
     },
     {
         "index": 393261871,
@@ -481,6 +467,20 @@
         "name": "AWC #53 - Oslo, Norway",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmbS48spqM1vci343B4cMeo9TdkcgTukvcs1kN7D1e9k5H"
+    },
+    {
+        "index": 950717524,
+        "influence": 350,
+        "name": "AWC #272 - Oranjestad, NL",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeiaf73qt6mdgxuvninoec3weavc3eu6diwhaeows2mb6cyya626io4"
+    },
+    {
+        "index": 950717682,
+        "influence": 350,
+        "name": "AWC #273 - Kralendijk, NL",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeifqm4g5y2qb6t5xm7inivbvxlc54s6wvlrmol4vtk4njfmzdpnt6i"
     },
     {
         "index": 328209355,

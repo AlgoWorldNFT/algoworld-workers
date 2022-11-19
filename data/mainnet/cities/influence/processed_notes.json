@@ -179,6 +179,16 @@
         "influence": 30000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "591477b4-ebbc-4f26-81b0-b173ffb1d22d": {
+        "acfg_txn": "H7GANLBGRLCSR6QML5YIQROYU2GJXIR5KVXC73GBE3JBTFOT7I7A",
+        "asset_id": 950717682,
+        "asset_name": "AWC #273 - Kralendijk, NL",
+        "block": 24969677,
+        "deposit": 250,
+        "id": "591477b4-ebbc-4f26-81b0-b173ffb1d22d",
+        "influence": 350,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "605980c3-f967-4db6-aa0b-54fbbbf0a5bb": {
         "acfg_txn": "3X2DH5ZV4WNDSIL6PTHTPGNSSWRLGP3DL3B4BTMIABANVTE7CREQ",
         "asset_id": 271106498,
@@ -387,6 +397,16 @@
         "deposit": 1,
         "id": "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16",
         "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "af7fcc34-0c38-47e6-a5bb-ab811731ff56": {
+        "acfg_txn": "WGIFKDQG5S6BAIKXTMFWLC6JTL6NGYZ6BJFIZ2FNFB4VZY5XMVNQ",
+        "asset_id": 950717524,
+        "asset_name": "AWC #272 - Oranjestad, NL",
+        "block": 24969679,
+        "deposit": 250,
+        "id": "af7fcc34-0c38-47e6-a5bb-ab811731ff56",
+        "influence": 350,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "b18c2c1e-a48d-4051-9fce-6d9c280324bf": {
