@@ -9,6 +9,16 @@
         "influence": 7084,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "07f755e1-2b79-4845-aac6-29033e9017e6": {
+        "acfg_txn": "M2LR7PV3GESRLKBOMMAS3G6APXULPZH5TGZVJAR4GJJN5G3IX64Q",
+        "asset_id": 932637324,
+        "asset_name": "AWC #263 - Banff, Canada",
+        "block": 24968711,
+        "deposit": 2750,
+        "id": "07f755e1-2b79-4845-aac6-29033e9017e6",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "08b068a3-f00c-4841-a06f-32ddf15fac6e": {
         "acfg_txn": "XTSVXPIEZUAU7LJD64XPZI3YNAAYHQBETOPM7X7UPBUJKMRN4YGQ",
         "asset_id": 795854141,
@@ -129,6 +139,16 @@
         "influence": 5000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "42bc2e86-f975-4a97-8056-a2cf8d4ae8f0": {
+        "acfg_txn": "MGRDEWFROAT75QDKY2HPE2QFZXUX4VJIH52SUTESUV4HYOP6SUUQ",
+        "asset_id": 950717682,
+        "asset_name": "AWC #273 - Kralendijk, NL",
+        "block": 24968715,
+        "deposit": 100,
+        "id": "42bc2e86-f975-4a97-8056-a2cf8d4ae8f0",
+        "influence": 100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "47429beb-f127-4d53-8949-134884b26cf3": {
         "acfg_txn": "DYR3OCEFPWOL74COJVWHJCBHZL2HIZRMIE3QC4D75RXTD7PCKOUA",
         "asset_id": 931349202,
@@ -207,6 +227,16 @@
         "deposit": 3600,
         "id": "7322aa47-b900-4288-9536-8f37dbdbd38c",
         "influence": 3600,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "7a0a2991-7cb0-4b99-96bb-82f13426ba07": {
+        "acfg_txn": "HAJWJYXROUDPNSWLSFMWSMU34BOPWGO4X5OZ6DGEZOXHG6RWWWNQ",
+        "asset_id": 950717524,
+        "asset_name": "AWC #272 - Oranjestad, NL",
+        "block": 24968717,
+        "deposit": 100,
+        "id": "7a0a2991-7cb0-4b99-96bb-82f13426ba07",
+        "influence": 100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "7c7d571c-4363-4414-baa2-f9450f5837d3": {
@@ -416,6 +446,16 @@
         "block": 24664720,
         "deposit": 1000,
         "id": "d763ad1f-a551-4d95-a751-c3848f976210",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "d7ad1056-adc5-4ce1-8b31-430d6bba0258": {
+        "acfg_txn": "UIRWVQAJ446XNR6MFOUENFUCB7JB5R3EYBUSFIPIRTX6M5ZV53UA",
+        "asset_id": 932637226,
+        "asset_name": "AWC #262 - Feldkirch, Austria",
+        "block": 24968713,
+        "deposit": 2750,
+        "id": "d7ad1056-adc5-4ce1-8b31-430d6bba0258",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
