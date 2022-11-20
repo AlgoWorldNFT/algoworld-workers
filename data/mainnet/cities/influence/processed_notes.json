@@ -79,6 +79,16 @@
         "influence": 3501,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "13a7b533-7a08-435b-ab26-2b8ea0f98fbd": {
+        "acfg_txn": "HV6WGXQWLFHJDPDM25F4B343MSA6L5DPZSX55WXETPKB24ET5LTA",
+        "asset_id": 932640529,
+        "asset_name": "AWC #265 - Minsk, Belarus",
+        "block": 24991921,
+        "deposit": 500,
+        "id": "13a7b533-7a08-435b-ab26-2b8ea0f98fbd",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "17b7a0aa-ba54-402d-8c2e-2ee026eb0b26": {
         "acfg_txn": "SI2RFPPE5JXH2BYLC3HG3R5QWLZBANAUB6F3SB2AX54CK2KMOWVQ",
         "asset_id": 945535824,
@@ -437,6 +447,16 @@
         "deposit": 3000,
         "id": "c4f9caad-0d52-4446-abd0-5d4001477d23",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "c626a856-40ff-4559-b0a3-232ae7f88722": {
+        "acfg_txn": "VR455UHEEIGYSH6X6PTR63NSIWUTZFDV36WIBPP2NMMFX2CVKYDA",
+        "asset_id": 932640475,
+        "asset_name": "AWC #264 - Cologne, Germany",
+        "block": 24991923,
+        "deposit": 500,
+        "id": "c626a856-40ff-4559-b0a3-232ae7f88722",
+        "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "c6a8f901-ee6d-44e7-9f71-c9754bbd6718": {

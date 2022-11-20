@@ -196,20 +196,6 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 932640475,
-        "influence": 0,
-        "name": "AWC #264 - Cologne, Germany",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigatoqa3qa6i2srjowlk4goitvoy5uzng3um3au67gey2qqapcy3q"
-    },
-    {
-        "index": 932640529,
-        "influence": 0,
-        "name": "AWC #265 - Minsk, Belarus",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidhezgrxephd4ytudgx4dfhbnxak7uguvsarpp6xdywjrhyf4sgby"
-    },
-    {
         "index": 950717001,
         "influence": 0,
         "name": "AWC #269 - Antwerp, Belgium",
@@ -614,6 +600,20 @@
         "name": "AWC #203 - Bordeaux, France",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://QmSbZF88qAvphqaom8afEvxWsy4sNeZNgZqDqzUNbH3hWD"
+    },
+    {
+        "index": 932640475,
+        "influence": 500,
+        "name": "AWC #264 - Cologne, Germany",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeigatoqa3qa6i2srjowlk4goitvoy5uzng3um3au67gey2qqapcy3q"
+    },
+    {
+        "index": 932640529,
+        "influence": 500,
+        "name": "AWC #265 - Minsk, Belarus",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeidhezgrxephd4ytudgx4dfhbnxak7uguvsarpp6xdywjrhyf4sgby"
     },
     {
         "index": 702534632,
