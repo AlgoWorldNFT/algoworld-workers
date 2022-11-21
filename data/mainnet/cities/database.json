@@ -210,13 +210,6 @@
         "url": "ipfs://bafybeif6pjyqe72atpspjverlczexo2evmympawuckknumb7fulqo66aqy"
     },
     {
-        "index": 950717346,
-        "influence": 0,
-        "name": "AWC #271 - Lae, Papua New Guinea",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifc2fjbkega7s2nt4ue67gpf7lnokxe2oixcvdpzjgjfyen6qooum"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
@@ -1454,6 +1447,13 @@
         "name": "AWC #268 - Willemstad, NL",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeig2k42u3kxc3ktcajgr6oprzqbu2xnpvtepu6arkejljb5oyd5s54"
+    },
+    {
+        "index": 950717346,
+        "influence": 3000,
+        "name": "AWC #271 - Lae, Papua New Guinea",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifc2fjbkega7s2nt4ue67gpf7lnokxe2oixcvdpzjgjfyen6qooum"
     },
     {
         "index": 377742761,

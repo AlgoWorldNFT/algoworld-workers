@@ -129,6 +129,16 @@
         "influence": 15079,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "3e44e916-1eb1-428c-b916-1765655a3e15": {
+        "acfg_txn": "33DKAU4WU2LU4B2GR73S7OEIRLQWO6NT5NM22BUPPIZSJA6I6INA",
+        "asset_id": 950717346,
+        "asset_name": "AWC #271 - Lae, Papua New Guinea",
+        "block": 25001556,
+        "deposit": 3000,
+        "id": "3e44e916-1eb1-428c-b916-1765655a3e15",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3f08fccc-f26d-404a-8b5c-cc72a7a7bc7f": {
         "acfg_txn": "D4ETAVQINW6XFWZWULC4TPZ7RM6QH3O4XBRIUJR2RVFUXNJDS36Q",
         "asset_id": 858209726,
