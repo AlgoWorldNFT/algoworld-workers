@@ -129,6 +129,16 @@
         "influence": 15079,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "29278901-37d9-42c2-bcda-3db4be66b4c3": {
+        "acfg_txn": "BF7KGOZGUMSBR4B3IP7GJ6N7JDIRPAU5Z3SPOI4W7Q5SPQWU33CQ",
+        "asset_id": 950717194,
+        "asset_name": "AWC #270 - Santo Antonio, ST",
+        "block": 25002501,
+        "deposit": 3000,
+        "id": "29278901-37d9-42c2-bcda-3db4be66b4c3",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3e44e916-1eb1-428c-b916-1765655a3e15": {
         "acfg_txn": "33DKAU4WU2LU4B2GR73S7OEIRLQWO6NT5NM22BUPPIZSJA6I6INA",
         "asset_id": 950717346,
