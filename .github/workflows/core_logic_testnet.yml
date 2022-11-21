@@ -20,6 +20,7 @@ jobs:
       DISCORD_WEBHOOK_URL_TESTNET: ${{ secrets.DISCORD_WEBHOOK_URL_TESTNET}}
       TELEGRAM_API_KEY_TESTNET: ${{ secrets.TELEGRAM_API_KEY_TESTNET}}
       ALGOWORLD_CHANNEL_ID_TESTNET: ${{ secrets.ALGOWORLD_CHANNEL_ID_TESTNET}}
+      CITY_PACK_ALGO_PRICE: ${{ secrets.CITY_PACK_ALGO_PRICE}}
 
     steps:
       - uses: actions/checkout@v3
