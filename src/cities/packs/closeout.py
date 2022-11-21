@@ -33,7 +33,7 @@ def _get_latest_close_txns(
 ):
     return indexer.search_transactions(
         note_prefix=note_prefix,
-        min_round=storage_metadata.last_processed_block - 5_000,
+        min_round=storage_metadata.last_processed_block - 500,
         max_round=params.first,
         min_amount=min_pack_price - 1,
         txn_type="pay",
@@ -143,7 +143,7 @@ storage_metadata = (
 
 
 params = algod_client.suggested_params()
-min_pack_price = 10_000_000
+min_pack_price = 5_000_000
 latest_pack_purchase_txns = _get_latest_close_txns(
     note_prefix=note_prefix,
     storage_metadata=storage_metadata,
