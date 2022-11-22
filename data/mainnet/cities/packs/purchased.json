@@ -1321,5 +1321,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #30"
+    },
+    {
+        "contract": "BiAKBOgHAQCdpcCcAca89MQB0PCrmgHMsaOBAdD27sIDByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "RLXT64S4BEPONRKT6MN44J5722BC4S2AYFQW5ZF72F7WY2F2WF5A4JNSLQ",
+        "id": 37,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 328209053,
+                "title": "AWC #38 - Budapest, Hungary",
+                "url": "ipfs://QmYkjXCWoBuRuZNWtQNHa5WJE5qeGFmMc3YMhASFg2QZPP"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 412950086,
+                "title": "AWC #58 - Columbus, USA",
+                "url": "ipfs://QmZ9Nmqhw4CtxaJbtvTgtcMNi8iSHrEpvtkcSrDSiP8Arx"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 323680336,
+                "title": "AWC #31 - Juba, South Sudan",
+                "url": "ipfs://QmdCgC9Lgk6BXcfrUYV5UHHHct9EQbj7xGSEurCCCq73j6"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 271112396,
+                "title": "AWC #6 - Chicago, USA",
+                "url": "ipfs://QmdNR3DtTpqLqdcP8vzU2ZUcZx4J2Eag89ejSsRLoexV2w"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 945535824,
+                "title": "AWC #268 - Willemstad, NL",
+                "url": "ipfs://bafybeig2k42u3kxc3ktcajgr6oprzqbu2xnpvtepu6arkejljb5oyd5s54"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #37"
     }
 ]
