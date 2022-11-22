@@ -341,5 +341,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #34"
+    },
+    {
+        "contract": "BiAKBOgHAQC7gdODAfrqq5oBmI37lQKG36mYArqQjOcCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "ATH7VPNESIQ25DIXCDOUK4OENQNQNZJQULIRF6BOOA45DZDA27KO3CVC7Q",
+        "id": 35,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 276086971,
+                "title": "AWC #11 - Athens, Greece",
+                "url": "ipfs://QmPjv2yKsHxpof8dCS3rj6PLGDLPWaxvEgjdzgfEnBe48d"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 323679610,
+                "title": "AWC #27 - Mal\u00e9, Maldives",
+                "url": "ipfs://QmacTAqwjuvU2hPLintgGrSVURVyM9rrJsS2ypmLJfw8Rb"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 582928024,
+                "title": "AWC #105 - Quito, Ecuador",
+                "url": "ipfs://QmWnQ8r1H6GXzP4xKiTH58wodB8J4X9SeQYFEog4Xgoi8J"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 587886470,
+                "title": "AWC #121 - Taipei, Taiwan",
+                "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 753076282,
+                "title": "AWC #189 - T or C, NM, USA",
+                "url": "ipfs://QmU3EViiiyjtZiSwEM9PnszWUrjNtrG1hqW5u2jZNQSKAM"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #35"
     }
 ]
