@@ -33,8 +33,20 @@ from src.shared.utils import (
 )
 
 
+def _get_max_id(available, purchased):
+    if len(available) > 0 and len(purchased) > 0:
+        return max(available[-1].id, purchased[-1].id)
+    elif len(available) > 0:
+        return available[-1].id
+    elif len(purchased) > 0:
+        return purchased[-1].id
+    else:
+        return 1
+
+
 def create_city_pack(manager_wallet: Wallet):
     active_packs = load_packs(CITY_PACK_AVAILABLE_PATH)
+    active_packs.sort(key=lambda p: p.id)
     purchased_packs = load_packs(CITY_PACK_PURCHASED_PATH)
     purchased_packs.sort(key=lambda p: p.id)
 
@@ -93,13 +105,8 @@ def create_city_pack(manager_wallet: Wallet):
 
         contract = algod_client.compile(compile_stateless(multi_asa_swapper(cfg)))
 
-        new_pack_id = (
-            active_packs[-1].id + 1
-            if len(active_packs) > 0
-            else purchased_packs[-1].id + 1
-            if len(purchased_packs) > 0
-            else 1
-        )
+        last_max_id = _get_max_id(active_packs, purchased_packs)
+        new_pack_id = last_max_id if last_max_id == 1 else last_max_id + 1
 
         new_pack = CityPack(
             id=new_pack_id,
