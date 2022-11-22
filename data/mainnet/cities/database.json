@@ -133,6 +133,13 @@
         "url": "ipfs://QmVmXNBVJ5NtrDFTCAWgeCAc16hUBu7u7B64JhFE9DNJDA"
     },
     {
+        "index": 781055636,
+        "influence": 0,
+        "name": "AWC #210 - Kuala Lumpur, MY",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmWTcf7wv1w9vB5fbHYJ1E7ctQFFjPyQp3uXCURJtAs9PK"
+    },
+    {
         "index": 813901504,
         "influence": 0,
         "name": "AWC #233 - Plymouth, UK",
@@ -1706,13 +1713,6 @@
         "name": "AWC #200 - Suwon, South Korea",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmYZJzT8MH1iKcCYKtb4UpujUUZQ6sMAVgZQVAQD5Sv8Q9"
-    },
-    {
-        "index": 781055636,
-        "influence": 3006,
-        "name": "AWC #210 - Kuala Lumpur, MY",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmWTcf7wv1w9vB5fbHYJ1E7ctQFFjPyQp3uXCURJtAs9PK"
     },
     {
         "index": 805060073,
