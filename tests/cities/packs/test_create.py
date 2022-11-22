@@ -1,6 +1,64 @@
 from src.cities.packs import create
-from src.cities.packs.create import create_city_pack
+from src.cities.packs.create import _get_max_id, create_city_pack
 from src.shared.models import AlgoWorldCityAsset, CityPack
+
+
+def test_get_max_id(mocker):
+    active_packs_mock = [
+        CityPack(
+            **{
+                "contract": "dummy_contract",
+                "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+                "escrow": "GI3OQ7K66DM4RLXAVQR4LGUULN4BZH5HSFDCIVMC4BTCDCQUNAYNAGX6ZY",
+                "id": 2,
+                "is_active": True,
+                "is_closed": False,
+                "last_swap_tx": None,
+                "offered_asas": [
+                    {
+                        "amount": 1,
+                        "decimals": 0,
+                        "id": 18725926,
+                        "title": "AWC #6 - Chicago, USA",
+                        "url": "www.algoworld-nft.com",
+                    }
+                ],
+                "requested_algo_amount": 10000000,
+                "requested_algo_wallet": None,
+                "title": "AW City Pack #2",
+            },
+        )
+    ]
+    purchased_packs_mock = [
+        CityPack(
+            **{
+                "contract": "dummy_contract_2",
+                "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+                "escrow": "J75PX37FTLDLVAGS6ZTHLXZMYS5YQSFHI74SROUFXYHMZB2JKVWOBFQGWE",
+                "id": 99,
+                "is_active": True,
+                "is_closed": False,
+                "last_swap_tx": None,
+                "offered_asas": [
+                    {
+                        "amount": 1,
+                        "decimals": 0,
+                        "id": 18893065,
+                        "title": "AWC #9 - Paris, France",
+                        "url": "www.algoworld-nft.com",
+                    },
+                ],
+                "requested_algo_amount": 10000000,
+                "requested_algo_wallet": None,
+                "title": "AW City Pack #3",
+            },
+        )
+    ]
+
+    assert _get_max_id(active_packs_mock, purchased_packs_mock) == 99
+    assert _get_max_id([], purchased_packs_mock) == 99
+    assert _get_max_id(active_packs_mock, []) == 2
+    assert _get_max_id([], []) == 1
 
 
 def test_create_city_pack_below_threshold(mocker, monkeypatch):
