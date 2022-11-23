@@ -179,6 +179,16 @@
         "influence": 100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "46172730-ffac-4fa1-bd92-06a49b19ad31": {
+        "acfg_txn": "XE7FNX3NEKEVNDBXCP6DKTU7AXRB4KUAX6F5G2BFN7WUMMVTZZCA",
+        "asset_id": 954210591,
+        "asset_name": "AWC #280 - Lucerne, CH",
+        "block": 25054535,
+        "deposit": 500,
+        "id": "46172730-ffac-4fa1-bd92-06a49b19ad31",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "47429beb-f127-4d53-8949-134884b26cf3": {
         "acfg_txn": "DYR3OCEFPWOL74COJVWHJCBHZL2HIZRMIE3QC4D75RXTD7PCKOUA",
         "asset_id": 931349202,
@@ -369,6 +379,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "900a3a43-7d04-4d04-86df-138ea9235607": {
+        "acfg_txn": "MEU4E5NHM3TK5MDELDXC3DDEFGZ74QBE7CYBWEPQSMEACD6YMGCQ",
+        "asset_id": 954211318,
+        "asset_name": "AWC #281 - Leipzig, Germany",
+        "block": 25054533,
+        "deposit": 500,
+        "id": "900a3a43-7d04-4d04-86df-138ea9235607",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "92279cc8-3e56-4284-bf06-9a005d8ae44d": {
         "acfg_txn": "32YUDXELTYWLDPRJMK5ZQJXWLW3GPHNFNN4WFOV7YSH4RQJBWNZA",
         "asset_id": 323679909,
@@ -409,6 +429,16 @@
         "influence": 25000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "a5581d80-cf16-4167-ac26-a7143652151e": {
+        "acfg_txn": "Q37NWA4JKUVOVSDVKTRFR7XMTCMJTI4VKCIG3FDKXGSGUKSB3XGQ",
+        "asset_id": 954213103,
+        "asset_name": "AWC #284 - Dar es Salaam, TZ",
+        "block": 25054539,
+        "deposit": 500,
+        "id": "a5581d80-cf16-4167-ac26-a7143652151e",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "a62d66c9-b8a8-4e32-946e-129f3f460898": {
         "acfg_txn": "UT5SOKK4YEXF3YNEONZY3KWOE3QPJGPCLK4MNH32GWHGO6D3XH5Q",
         "asset_id": 932637324,
@@ -447,6 +477,16 @@
         "deposit": 2000,
         "id": "b18c2c1e-a48d-4051-9fce-6d9c280324bf",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "b2a30afd-6303-445b-bfac-7af5ad360e93": {
+        "acfg_txn": "RLEX4KFGRXQGBRBPJWYT5TWEJIBE4KADABYK4DIRAFOMNNVXULJQ",
+        "asset_id": 954212838,
+        "asset_name": "AWC #283 - Aachen, Germany",
+        "block": 25054537,
+        "deposit": 500,
+        "id": "b2a30afd-6303-445b-bfac-7af5ad360e93",
+        "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "bccde204-99a1-448f-8464-619f3635d169": {

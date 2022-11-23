@@ -252,39 +252,11 @@
         "url": "ipfs://bafybeicyftmim7y46x6dteblebipo33fsko7nbxbmw3xoiuteropw3hcbq"
     },
     {
-        "index": 954210591,
-        "influence": 0,
-        "name": "AWC #280 - Lucerne, CH",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigysbtgrzu7kliynh2cx5o5hjeui7guoggcdjqjnpxf6zxzdv4ffy"
-    },
-    {
-        "index": 954211318,
-        "influence": 0,
-        "name": "AWC #281 - Leipzig, Germany",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeibeyyeinjridrieilx4arrbp7qubl7ieozno6du3wenclrzf4xzlm"
-    },
-    {
         "index": 954212084,
         "influence": 0,
         "name": "AWC #282 - Ho Chi Minh City, VN",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeic5dtwgk33vosnn3bg5wz2yh4utezgdievi762ydkvbyz2qoleh7q"
-    },
-    {
-        "index": 954212838,
-        "influence": 0,
-        "name": "AWC #283 - Aachen, Germany",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeihna2m7dpg375vlupi4o2lwh5csdubxzj5po7yxiirl2t5beebda4"
-    },
-    {
-        "index": 954213103,
-        "influence": 0,
-        "name": "AWC #284 - Dar es Salaam, TZ",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeih6cuv3wuainqf367dso3fdk7k3cfd56twqwnxly5fy6fetlghm64"
     },
     {
         "index": 805072145,
@@ -684,6 +656,34 @@
         "name": "AWC #265 - Minsk, Belarus",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://bafybeidhezgrxephd4ytudgx4dfhbnxak7uguvsarpp6xdywjrhyf4sgby"
+    },
+    {
+        "index": 954210591,
+        "influence": 500,
+        "name": "AWC #280 - Lucerne, CH",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeigysbtgrzu7kliynh2cx5o5hjeui7guoggcdjqjnpxf6zxzdv4ffy"
+    },
+    {
+        "index": 954211318,
+        "influence": 500,
+        "name": "AWC #281 - Leipzig, Germany",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeibeyyeinjridrieilx4arrbp7qubl7ieozno6du3wenclrzf4xzlm"
+    },
+    {
+        "index": 954212838,
+        "influence": 500,
+        "name": "AWC #283 - Aachen, Germany",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeihna2m7dpg375vlupi4o2lwh5csdubxzj5po7yxiirl2t5beebda4"
+    },
+    {
+        "index": 954213103,
+        "influence": 500,
+        "name": "AWC #284 - Dar es Salaam, TZ",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeih6cuv3wuainqf367dso3fdk7k3cfd56twqwnxly5fy6fetlghm64"
     },
     {
         "index": 702534632,
