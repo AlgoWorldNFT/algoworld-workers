@@ -47,5 +47,54 @@
         "requested_algo_amount": 5000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #43"
+    },
+    {
+        "contract": "BiAKBOgHAQDs5ZKtAazikq0B8+qXkgGO6a+RAfLN2ZICByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "LIWET7QIYFV56DQGFAGR3ERM3YHEVNDWBLMNGWCLZWMG5ROZ5RSN5FM5GE",
+        "id": 44,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 363115244,
+                "title": "AWC #56 - Stockholm, Sweden",
+                "url": "ipfs://QmenjdVcN98gCBfCSwE67s9TN5w5LCeN11waktsW9x5qCs"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 363114796,
+                "title": "AWC #53 - Oslo, Norway",
+                "url": "ipfs://QmbS48spqM1vci343B4cMeo9TdkcgTukvcs1kN7D1e9k5H"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 306574707,
+                "title": "AWC #19 - Nassau, Bahamas",
+                "url": "ipfs://QmRPHRXayAEcis7oCBDQftNXk2bGnsjU83ds8VXgZN4Nbd"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304870542,
+                "title": "AWC #16 - Moscow, Russia",
+                "url": "ipfs://QmR67mQvRAB2Dvf5x6z1YNdmHK95YApZFmVsJH9ANq35bf"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 576087794,
+                "title": "AWC #71 - Ngerulmud, Palau",
+                "url": "ipfs://QmWqQHbCSAZGUZhmyctJpe6XmG7MUrq2hRw7fsp68NRiLe"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #44"
     }
 ]
