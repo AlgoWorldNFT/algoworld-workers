@@ -194,5 +194,54 @@
         "requested_algo_amount": 5000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #46"
+    },
+    {
+        "contract": "BiAKBOgHAQCmiOmkA4fKja4B79ispgKF7a+RAde01JICByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "XVIK4NOSOPNUP2ONPO37FHX4EDRADK3UBB5XSGEW5YAPHVAJLL7Z4Q5IR4",
+        "id": 47,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 882525222,
+                "title": "AWC #251 - Linz, Austria",
+                "url": "ipfs://bafybeiazgj4e7jyfraq4uz3ywo3bzpgy7ixmexhzoom5rm2slrkerqbf4q"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 365126919,
+                "title": "AWC #61 - Agra, India",
+                "url": "ipfs://QmX723UJWxkENLowhddgSJ8T67JweuSnCRhFfPJpn6YFcM"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 617294959,
+                "title": "AWC #128 - Bushmills, UK",
+                "url": "ipfs://QmUzSdVZ6KogAD7AY66Rx6eDRHro73SZG85zRQ2yym4SdC"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304871045,
+                "title": "AWC #22 - Copenhagen, Denmark",
+                "url": "ipfs://QmdUA26gmLX4fJC6cySQitKpaX1MMq7b3LhzBhurYeWeKS"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 576002647,
+                "title": "AWC #69 - Las Vegas, NV, USA",
+                "url": "ipfs://QmSK4B5gqx2daLiYJLKMgxhWq9czLKKQR2auj8xMkpGRiv"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #47"
     }
 ]
