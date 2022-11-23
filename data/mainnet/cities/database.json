@@ -203,48 +203,6 @@
         "url": "ipfs://bafybeifkz467fpyh7xptkzylxi6fwn66m5klv6xyii36otjvyybnzshsem"
     },
     {
-        "index": 954209002,
-        "influence": 0,
-        "name": "AWC #274 - Belem, Brazil",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidrdtu6xrcfzk2n7ucqlmbokki2vmuv5ubwgfbh67p2luy7k235hm"
-    },
-    {
-        "index": 954209131,
-        "influence": 0,
-        "name": "AWC #275 - Natal, Brazil",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeihatklsuzzcm4v6hj5sjvwanaa4qeray4cxgnb3xrfehylp24hl5e"
-    },
-    {
-        "index": 954209296,
-        "influence": 0,
-        "name": "AWC #276 - Sao Francisco, BR",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiexwoydt7dpsmgbz7t6ctzs56o45jibybmdwt2nshwbmvzpqbu2ky"
-    },
-    {
-        "index": 954209410,
-        "influence": 0,
-        "name": "AWC #277 - Piranhas, Brazil",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeibc4yre4pwhu3jwilcr3zaat6llfzpt6dmebl6foqkobvae4qexqa"
-    },
-    {
-        "index": 954209546,
-        "influence": 0,
-        "name": "AWC #278 - Wau, South Sudan",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifyfa6m67qijq7jezqhrxfl7uos54tj257b5wnczmvqg4zmv7bryi"
-    },
-    {
-        "index": 954210179,
-        "influence": 0,
-        "name": "AWC #279 - Yei, South Sudan",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeicyftmim7y46x6dteblebipo33fsko7nbxbmw3xoiuteropw3hcbq"
-    },
-    {
         "index": 954212084,
         "influence": 0,
         "name": "AWC #282 - Ho Chi Minh City, VN",
@@ -481,6 +439,48 @@
         "name": "AWC #17 - Mont-St-Michel, France",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmVEin1jbKLNeZR1UWevhAW62UsrnfJDY7eH3YeYkwyhdY"
+    },
+    {
+        "index": 954209002,
+        "influence": 250,
+        "name": "AWC #274 - Belem, Brazil",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeidrdtu6xrcfzk2n7ucqlmbokki2vmuv5ubwgfbh67p2luy7k235hm"
+    },
+    {
+        "index": 954209131,
+        "influence": 250,
+        "name": "AWC #275 - Natal, Brazil",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeihatklsuzzcm4v6hj5sjvwanaa4qeray4cxgnb3xrfehylp24hl5e"
+    },
+    {
+        "index": 954209296,
+        "influence": 250,
+        "name": "AWC #276 - Sao Francisco, BR",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeiexwoydt7dpsmgbz7t6ctzs56o45jibybmdwt2nshwbmvzpqbu2ky"
+    },
+    {
+        "index": 954209410,
+        "influence": 250,
+        "name": "AWC #277 - Piranhas, Brazil",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeibc4yre4pwhu3jwilcr3zaat6llfzpt6dmebl6foqkobvae4qexqa"
+    },
+    {
+        "index": 954209546,
+        "influence": 250,
+        "name": "AWC #278 - Wau, South Sudan",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeifyfa6m67qijq7jezqhrxfl7uos54tj257b5wnczmvqg4zmv7bryi"
+    },
+    {
+        "index": 954210179,
+        "influence": 250,
+        "name": "AWC #279 - Yei, South Sudan",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeicyftmim7y46x6dteblebipo33fsko7nbxbmw3xoiuteropw3hcbq"
     },
     {
         "index": 363114796,

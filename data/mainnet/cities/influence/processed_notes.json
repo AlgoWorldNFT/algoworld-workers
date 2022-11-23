@@ -19,6 +19,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "081e05bb-1e74-4abc-b926-ce5ad35d366f": {
+        "acfg_txn": "M4MGGWQ334ADGX6KCCVX5OSYWSMUKOCS2WFBRH5NWSWPIJCXD47A",
+        "asset_id": 954209410,
+        "asset_name": "AWC #277 - Piranhas, Brazil",
+        "block": 25059374,
+        "deposit": 250,
+        "id": "081e05bb-1e74-4abc-b926-ce5ad35d366f",
+        "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "08b068a3-f00c-4841-a06f-32ddf15fac6e": {
         "acfg_txn": "XTSVXPIEZUAU7LJD64XPZI3YNAAYHQBETOPM7X7UPBUJKMRN4YGQ",
         "asset_id": 795854141,
@@ -99,6 +109,16 @@
         "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "163c2475-3863-4b81-a83e-edf88b54b26d": {
+        "acfg_txn": "36K4V64GH2N7J3X47674XG44V7JPAM36XPWBV6WK455AP63BMMOQ",
+        "asset_id": 954210179,
+        "asset_name": "AWC #279 - Yei, South Sudan",
+        "block": 25059370,
+        "deposit": 250,
+        "id": "163c2475-3863-4b81-a83e-edf88b54b26d",
+        "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "17b7a0aa-ba54-402d-8c2e-2ee026eb0b26": {
         "acfg_txn": "SI2RFPPE5JXH2BYLC3HG3R5QWLZBANAUB6F3SB2AX54CK2KMOWVQ",
         "asset_id": 945535824,
@@ -147,6 +167,16 @@
         "deposit": 3000,
         "id": "29278901-37d9-42c2-bcda-3db4be66b4c3",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "29bef777-5c7d-4486-8f5e-14241561c254": {
+        "acfg_txn": "CHQH4EGSHMIH7QZ5BJFJ2BLT2PK3DINYV34KUSSD343TEVSKZBCQ",
+        "asset_id": 954209131,
+        "asset_name": "AWC #275 - Natal, Brazil",
+        "block": 25059378,
+        "deposit": 250,
+        "id": "29bef777-5c7d-4486-8f5e-14241561c254",
+        "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "3e44e916-1eb1-428c-b916-1765655a3e15": {
@@ -277,6 +307,16 @@
         "deposit": 6869,
         "id": "7006940a-c639-47a6-9041-9ee8e0105183",
         "influence": 6969,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "712e0560-40e5-46e6-8eb6-b0cc31905392": {
+        "acfg_txn": "MPSYNKQHGVOZQMIB6MVJA5GVJXW2ZSKODOB5OFBWHHWJ2MBGPF5A",
+        "asset_id": 954209002,
+        "asset_name": "AWC #274 - Belem, Brazil",
+        "block": 25059380,
+        "deposit": 250,
+        "id": "712e0560-40e5-46e6-8eb6-b0cc31905392",
+        "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "7322aa47-b900-4288-9536-8f37dbdbd38c": {
@@ -417,6 +457,16 @@
         "deposit": 3006,
         "id": "968eb9d2-a9ad-401e-b5ee-a228a28db703",
         "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "a14adec7-4deb-4cda-8030-a51623f0c4ce": {
+        "acfg_txn": "P4M6FLED5LXAZDD5IC6T7QOPZSP4A5QLN76ZXP77EXX6BB3JKQCQ",
+        "asset_id": 954209296,
+        "asset_name": "AWC #276 - Sao Francisco, BR",
+        "block": 25059376,
+        "deposit": 250,
+        "id": "a14adec7-4deb-4cda-8030-a51623f0c4ce",
+        "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "a483d6fd-1213-4e5d-83eb-1ba06cb42f3a": {
@@ -627,6 +677,16 @@
         "deposit": 2000,
         "id": "ec986d6f-fa2a-478f-aeff-eee747744369",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "f4ea11b1-fa41-41ce-82c6-e2365feedb7f": {
+        "acfg_txn": "2BDZUM7CSUUYEWQGVEQE3Z2LMMZV6BJM374H4BVIDUYRTIUZDDYA",
+        "asset_id": 954209546,
+        "asset_name": "AWC #278 - Wau, South Sudan",
+        "block": 25059372,
+        "deposit": 250,
+        "id": "f4ea11b1-fa41-41ce-82c6-e2365feedb7f",
+        "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "f746887c-e052-48bd-a52c-e712976a6c42": {
