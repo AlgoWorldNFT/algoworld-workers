@@ -196,13 +196,6 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 950717001,
-        "influence": 0,
-        "name": "AWC #269 - Antwerp, Belgium",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeibbiy5xbr74ahh7pjkeeuovvth7xkmn6tn5ogrg4ii3cezraqglna"
-    },
-    {
         "index": 954208803,
         "influence": 0,
         "name": "AWC #250 - Lafayette, LA, USA",
@@ -656,6 +649,13 @@
         "name": "AWC #265 - Minsk, Belarus",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://bafybeidhezgrxephd4ytudgx4dfhbnxak7uguvsarpp6xdywjrhyf4sgby"
+    },
+    {
+        "index": 950717001,
+        "influence": 500,
+        "name": "AWC #269 - Antwerp, Belgium",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeibbiy5xbr74ahh7pjkeeuovvth7xkmn6tn5ogrg4ii3cezraqglna"
     },
     {
         "index": 954210591,

@@ -39,6 +39,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "0bbc95f8-4ef0-471c-9bb8-52d98c3dd163": {
+        "acfg_txn": "MNLJ7SZQJAR7FKGCR3YANRIACLWKVTO4JR2XZUMP464LZZHRFLDA",
+        "asset_id": 950717001,
+        "asset_name": "AWC #269 - Antwerp, Belgium",
+        "block": 25058400,
+        "deposit": 500,
+        "id": "0bbc95f8-4ef0-471c-9bb8-52d98c3dd163",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "0f408e7c-0a9d-491a-9d4f-4bd5896b0092": {
         "acfg_txn": "L6MUZVUNMXZSQFXYRYCXTM336U26LBGBANDQALJOS56RHKRS7NKA",
         "asset_id": 931153112,
