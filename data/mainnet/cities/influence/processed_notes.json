@@ -689,6 +689,16 @@
         "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "f7220f63-68f2-4d10-acc0-c437f22a4572": {
+        "acfg_txn": "IO3UUX725XD3LRKUMTGD7RPUJAGFQADCTOFOYXOZIYSY6KZPBH2A",
+        "asset_id": 954208803,
+        "asset_name": "AWC #250 - Lafayette, LA, USA",
+        "block": 25062263,
+        "deposit": 3333,
+        "id": "f7220f63-68f2-4d10-acc0-c437f22a4572",
+        "influence": 3333,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "f746887c-e052-48bd-a52c-e712976a6c42": {
         "acfg_txn": "I3HNRINLQTLLILYCAAAST4YE4SWTGLHCI3ELPQBVGWXJFXRVQ2EQ",
         "asset_id": 304870825,

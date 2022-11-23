@@ -196,13 +196,6 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 954208803,
-        "influence": 0,
-        "name": "AWC #250 - Lafayette, LA, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifkz467fpyh7xptkzylxi6fwn66m5klv6xyii36otjvyybnzshsem"
-    },
-    {
         "index": 954212084,
         "influence": 0,
         "name": "AWC #282 - Ho Chi Minh City, VN",
@@ -1867,6 +1860,13 @@
         "name": "AWC #175 - Philadelphia, PA, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmXFv4bK4w9redRnjveQgXrBYdwvEv23PWZis67tFC1fi1"
+    },
+    {
+        "index": 954208803,
+        "influence": 3333,
+        "name": "AWC #250 - Lafayette, LA, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifkz467fpyh7xptkzylxi6fwn66m5klv6xyii36otjvyybnzshsem"
     },
     {
         "index": 689523661,
