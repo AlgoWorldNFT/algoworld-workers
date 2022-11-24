@@ -2840,5 +2840,54 @@
         "requested_algo_amount": 5000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #64"
+    },
+    {
+        "contract": "BiAKBOgHAQCUwvTEAbnYqZgCwoOjgQGI7q+RAe3X1ZEDByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "CFEWJXXOVBM5XS4L5RKB6E2PEWYYPTECDF2HXLCSTFUNC4YZIEKVPTGQBM",
+        "id": 67,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 412950804,
+                "title": "AWC #59 - Newark, USA",
+                "url": "ipfs://QmYcgTDWfFTazCiGi7HYqy7FuAyGiinGBJ1a1oVXjtaYWa"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 587885625,
+                "title": "AWC #113 - Lusaka, Zambia",
+                "url": "ipfs://QmdekkQ5kCFDhG91d791xKCceA9qYqFoeSGabda7qyuVYb"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 271106498,
+                "title": "AWC #1 - New York City, USA",
+                "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304871176,
+                "title": "AWC #23 - Mexico City, Mexico",
+                "url": "ipfs://QmPEM7yupC9Zdn9m7hMNwffY9K6pxXK9QjRty39wzDuvgG"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 842361837,
+                "title": "AWC #236 - Oxford, UK",
+                "url": "ipfs://bafybeih2mgyn26ke2cwpldqu3sr3fkwypiflffxqfri4ctbbbn7kt46owa"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #67"
     }
 ]
