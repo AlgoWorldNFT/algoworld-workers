@@ -2644,5 +2644,103 @@
         "requested_algo_amount": 5000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #58"
+    },
+    {
+        "contract": "BiAKBOgHAQD77uaWAq32tqIC+uqrmgHLoO+fApmvz7IDByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "PHXOH7DPHFPSS4JFCI6JE2RDHEJXTHRWNP2YHLHYHSLUF5EBZ3CCN4TVOM",
+        "id": 61,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 584693627,
+                "title": "AWC #120 - Valencia, Spain",
+                "url": "ipfs://QmVMbUsbx7EfjxVmQPWMJjXjCvqJfGnqHuXMjZsGSXSMnR"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 609073965,
+                "title": "AWC #127 - Milan, Italy",
+                "url": "ipfs://QmZA3smfYoEeFLX6XVzwsfCuRkHibE1uj4CCfiTKxkYyuW"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 323679610,
+                "title": "AWC #27 - Mal\u00e9, Maldives",
+                "url": "ipfs://QmacTAqwjuvU2hPLintgGrSVURVyM9rrJsS2ypmLJfw8Rb"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 603705419,
+                "title": "AWC #123 - San Marino, SM",
+                "url": "ipfs://QmRN396xTGc6LVPPsPH5jfZ9gGih8C5ek75XSyKYmMy7QE"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 911464345,
+                "title": "AWC #255 - Johannesburg, ZA",
+                "url": "ipfs://bafybeibwoti6b3hxqf6ayxzvwwha7gpjx2dvnx47pkzrpetxb3cs6aeewq"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #61"
+    },
+    {
+        "contract": "BiAKBOgHAQD5+8/tArK68Z8C34jXqwKR2vH/AoLv/78DByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "VWPIJZDKN2ANVGXMOXGOZPP2DBX7C76FL3EJU3VEFCAQPRG2WNDWR7XZ3U",
+        "id": 63,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 766770681,
+                "title": "AWC #205 - Anchorage, AK, USA",
+                "url": "ipfs://QmVmXNBVJ5NtrDFTCAWgeCAc16hUBu7u7B64JhFE9DNJDA"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 603741490,
+                "title": "AWC #126 - Tiraspol,Transnistria",
+                "url": "ipfs://QmXSYJVvm6EWqUAW58PTcnTmjsBHHTud8U1p9MvDykNRKP"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 628474975,
+                "title": "AWC #95 - SF, CA, USA",
+                "url": "ipfs://QmXNLffwdT98RbVaLSmnL1brqwAVe3USGg9Y9aQEgfrb56"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 805072145,
+                "title": "AWC #230 - Stuttgart, Germany",
+                "url": "ipfs://QmXZpzgExvBSDnaWbgL4A4ztnbbZ8pjdUXMT4vyrURYPFR"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 939521922,
+                "title": "AWC #266 - Nouakchott, MR",
+                "url": "ipfs://bafybeibd6qbq7itjcvlaokrogkdlpowfdepwsygpr7k4ytt3y2psrklb7u"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #63"
     }
 ]
