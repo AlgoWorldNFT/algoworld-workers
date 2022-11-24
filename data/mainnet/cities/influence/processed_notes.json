@@ -179,6 +179,16 @@
         "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "3000a886-c739-4105-bfc4-514dae0e8867": {
+        "acfg_txn": "T6YNWC2KOXG6VVDU3LETAAIURFCPCLPHBKJEA26GTRXEGQGVBPGQ",
+        "asset_id": 954209410,
+        "asset_name": "AWC #277 - Piranhas, Brazil",
+        "block": 25063567,
+        "deposit": 2750,
+        "id": "3000a886-c739-4105-bfc4-514dae0e8867",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3e44e916-1eb1-428c-b916-1765655a3e15": {
         "acfg_txn": "33DKAU4WU2LU4B2GR73S7OEIRLQWO6NT5NM22BUPPIZSJA6I6INA",
         "asset_id": 950717346,
@@ -509,6 +519,16 @@
         "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "a6962992-f1f6-41ec-b4a9-9e2f2dec6c11": {
+        "acfg_txn": "45A66TY3Y7BU7MKJ6NG3EOXYN2JG6FTIURILER42I2N73R2HXVAQ",
+        "asset_id": 954209131,
+        "asset_name": "AWC #275 - Natal, Brazil",
+        "block": 25063563,
+        "deposit": 2750,
+        "id": "a6962992-f1f6-41ec-b4a9-9e2f2dec6c11",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16": {
         "acfg_txn": "D5EL4RPAMB2NLH7DJI3OSVKQ6GOO6A7JBIOBTKA7W7AOOIHOVRLQ",
         "asset_id": 805072145,
@@ -619,6 +639,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "da3f3ad3-ae31-4343-a3a3-6eb509d56a3c": {
+        "acfg_txn": "762UNB5POUNIHJ6NNUXDFX6PB35ZTFT3YGA5FSRIMDYPSUR7FI6Q",
+        "asset_id": 954209296,
+        "asset_name": "AWC #276 - Sao Francisco, BR",
+        "block": 25063565,
+        "deposit": 2750,
+        "id": "da3f3ad3-ae31-4343-a3a3-6eb509d56a3c",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "dcd5063a-2088-41e2-bf4e-a0457d2b86b9": {
         "acfg_txn": "JFZBJ7HPITN3KPWNAHMGBDHVBPUUD75O7NGFQOFNXIWPF3RT7WIQ",
         "asset_id": 931153026,
@@ -659,6 +689,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "e862d4c5-5519-42a7-bde7-d6a4fb43c334": {
+        "acfg_txn": "NXYEUSEQGBJYVYPUOTLYCNKGSH4FNV64E23GG2HCVWP2ZTYVXFIQ",
+        "asset_id": 954209546,
+        "asset_name": "AWC #278 - Wau, South Sudan",
+        "block": 25063569,
+        "deposit": 2750,
+        "id": "e862d4c5-5519-42a7-bde7-d6a4fb43c334",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "e98edb4b-9378-4bcb-9ea5-043f930ef686": {
         "acfg_txn": "DFJS2WFXUKAD7JJ5NWZQ6G5EP2HIU2JEHCURZU2I64OIGYT4T4CQ",
         "asset_id": 931349202,
@@ -676,6 +716,26 @@
         "block": 24041353,
         "deposit": 2000,
         "id": "ec986d6f-fa2a-478f-aeff-eee747744369",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "ed18e1c2-5392-4f65-9e49-d9820d2ca09c": {
+        "acfg_txn": "MO7P6Z2L75TYHT36B266CBNNUHWHS7DMXZA6ZDHLPCTAHEHA2RKQ",
+        "asset_id": 954210179,
+        "asset_name": "AWC #279 - Yei, South Sudan",
+        "block": 25063571,
+        "deposit": 2750,
+        "id": "ed18e1c2-5392-4f65-9e49-d9820d2ca09c",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "f04f3a8a-c2e7-45f5-b32f-c1212dd5ac2f": {
+        "acfg_txn": "7RI6UIIIPLXQQ5OBMDKVIXI2Y4IKDNFXFMI7VBEEPXL7U5M6PROQ",
+        "asset_id": 954209002,
+        "asset_name": "AWC #274 - Belem, Brazil",
+        "block": 25063561,
+        "deposit": 2750,
+        "id": "f04f3a8a-c2e7-45f5-b32f-c1212dd5ac2f",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
