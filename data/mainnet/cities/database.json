@@ -217,13 +217,6 @@
         "url": "ipfs://QmX7HBEKUk1xR7MXmtoZcAXJzvuGjfEVRoKDU5ME5kMkiu"
     },
     {
-        "index": 272357734,
-        "influence": 100,
-        "name": "AWC #7 - London, UK",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://QmXUqgoc9uZC1KK8GqdDwpodao5tFAt7ffpXthHgWhyLvr"
-    },
-    {
         "index": 272358191,
         "influence": 100,
         "name": "AWC #8 - Cairo, Egypt",
@@ -420,13 +413,6 @@
         "url": "ipfs://QmaeEzDVe54UeKQq5vyNcqK1sR5nNc1SZ13R7Nxc154scJ"
     },
     {
-        "index": 276086752,
-        "influence": 115,
-        "name": "AWC #10 - Washington D.C., USA",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://QmRGwB1EFmGurdBL6Qjx5SYZf7Tk8fxRaAVWtKftqBWeZq"
-    },
-    {
         "index": 304870666,
         "influence": 200,
         "name": "AWC #17 - Mont-St-Michel, France",
@@ -453,6 +439,20 @@
         "name": "AWC #273 - Kralendijk, NL",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://bafybeifqm4g5y2qb6t5xm7inivbvxlc54s6wvlrmol4vtk4njfmzdpnt6i"
+    },
+    {
+        "index": 272357734,
+        "influence": 500,
+        "name": "AWC #7 - London, UK",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://QmXUqgoc9uZC1KK8GqdDwpodao5tFAt7ffpXthHgWhyLvr"
+    },
+    {
+        "index": 276086752,
+        "influence": 500,
+        "name": "AWC #10 - Washington D.C., USA",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://QmRGwB1EFmGurdBL6Qjx5SYZf7Tk8fxRaAVWtKftqBWeZq"
     },
     {
         "index": 328209355,
