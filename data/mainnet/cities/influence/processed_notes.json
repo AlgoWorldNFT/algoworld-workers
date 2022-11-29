@@ -499,6 +499,16 @@
         "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "9cf2e6f9-0028-4684-b0b3-81f5d8948f1a": {
+        "acfg_txn": "5Q353VEN5CRSWDWGI44WSCCVV4WQ2DKES3GXVJVFKQVLTS2E4TUA",
+        "asset_id": 954212084,
+        "asset_name": "AWC #282 - Ho Chi Minh City, VN",
+        "block": 25196051,
+        "deposit": 2697,
+        "id": "9cf2e6f9-0028-4684-b0b3-81f5d8948f1a",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "a14adec7-4deb-4cda-8030-a51623f0c4ce": {
         "acfg_txn": "P4M6FLED5LXAZDD5IC6T7QOPZSP4A5QLN76ZXP77EXX6BB3JKQCQ",
         "asset_id": 954209296,
@@ -626,6 +636,16 @@
         "block": 24041349,
         "deposit": 2000,
         "id": "bccde204-99a1-448f-8464-619f3635d169",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "bd83f143-2967-417f-9ce8-b18980fc5dc2": {
+        "acfg_txn": "2MQYEXSPUURBVBUD4XVS7TDNWAYGUODPQQUJAT3KA3BHRFCGVN7A",
+        "asset_id": 857139389,
+        "asset_name": "AWC #247 - Surat Thani, Thailand",
+        "block": 25196053,
+        "deposit": 2424,
+        "id": "bd83f143-2967-417f-9ce8-b18980fc5dc2",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },

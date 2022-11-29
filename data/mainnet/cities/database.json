@@ -413,13 +413,6 @@
         "url": "ipfs://QmbS48spqM1vci343B4cMeo9TdkcgTukvcs1kN7D1e9k5H"
     },
     {
-        "index": 954212084,
-        "influence": 303,
-        "name": "AWC #282 - Ho Chi Minh City, VN",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeic5dtwgk33vosnn3bg5wz2yh4utezgdievi762ydkvbyz2qoleh7q"
-    },
-    {
         "index": 950717524,
         "influence": 350,
         "name": "AWC #272 - Oranjestad, NL",
@@ -635,13 +628,6 @@
         "name": "AWC #168 - Warsaw, Poland",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://QmUuNg1R1NB8MHdtQ2vQAv1P7WRu9B8pXDqzGqJzNp7RNM"
-    },
-    {
-        "index": 857139389,
-        "influence": 576,
-        "name": "AWC #247 - Surat Thani, Thailand",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://bafybeiaygnsvkuukbhxldodkw54oqp63ynkd4r7fiyjn2ayvwu4bvpbruy"
     },
     {
         "index": 328209053,
@@ -1379,6 +1365,13 @@
         "url": "ipfs://bafybeigocsosqf4gvyf7wdcystqdjusveqfkxnp2lgm7guezxpbqc2gj2y"
     },
     {
+        "index": 857139389,
+        "influence": 3000,
+        "name": "AWC #247 - Surat Thani, Thailand",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiaygnsvkuukbhxldodkw54oqp63ynkd4r7fiyjn2ayvwu4bvpbruy"
+    },
+    {
         "index": 858209726,
         "influence": 3000,
         "name": "AWC #246 - Stratford, UK",
@@ -1531,6 +1524,13 @@
         "name": "AWC #279 - Yei, South Sudan",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeicyftmim7y46x6dteblebipo33fsko7nbxbmw3xoiuteropw3hcbq"
+    },
+    {
+        "index": 954212084,
+        "influence": 3000,
+        "name": "AWC #282 - Ho Chi Minh City, VN",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeic5dtwgk33vosnn3bg5wz2yh4utezgdievi762ydkvbyz2qoleh7q"
     },
     {
         "index": 377742761,
