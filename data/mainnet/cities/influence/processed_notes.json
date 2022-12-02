@@ -239,6 +239,16 @@
         "influence": 100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "43afda70-ff92-405f-9c13-cb49d951d132": {
+        "acfg_txn": "XLXMGINXPESKR3ZVRQIYJXXBDUPBS6MKWA6MQME5ZIMT6JMAMRTQ",
+        "asset_id": 963841881,
+        "asset_name": "AWC #288 - Porto, Portugal",
+        "block": 25266699,
+        "deposit": 3006,
+        "id": "43afda70-ff92-405f-9c13-cb49d951d132",
+        "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "46172730-ffac-4fa1-bd92-06a49b19ad31": {
         "acfg_txn": "XE7FNX3NEKEVNDBXCP6DKTU7AXRB4KUAX6F5G2BFN7WUMMVTZZCA",
         "asset_id": 954210591,

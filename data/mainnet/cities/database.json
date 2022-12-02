@@ -203,13 +203,6 @@
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
     },
     {
-        "index": 963841881,
-        "influence": 0,
-        "name": "AWC #288 - Porto, Portugal",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeieti7noaj6smuamg5t2fpxyfkok2qktamvtomz3ru6ueh2zqe4ciq"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
@@ -1769,6 +1762,13 @@
         "name": "AWC #267 - Santa Cruz, CA, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeid4mqqrqvzwv6fjr3jqbgnl7v27iicczyq75qypxs73gi6quhnqlq"
+    },
+    {
+        "index": 963841881,
+        "influence": 3006,
+        "name": "AWC #288 - Porto, Portugal",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeieti7noaj6smuamg5t2fpxyfkok2qktamvtomz3ru6ueh2zqe4ciq"
     },
     {
         "index": 641281413,
