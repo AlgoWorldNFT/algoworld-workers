@@ -189,25 +189,11 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 963841654,
-        "influence": 0,
-        "name": "AWC #286 - Manchester, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeic5w76e73yy3aji3jehfr76lp2i2dqnb7djwv5mvxf23l3tmptooq"
-    },
-    {
         "index": 963841729,
         "influence": 0,
         "name": "AWC #287 - Ninh Binh, Vietnam",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
-    },
-    {
-        "index": 964919847,
-        "influence": 0,
-        "name": "AWC #285 - Grenoble, France",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifgkzj4drzx7n6nqq5popabjek3tr7hpvwa6rfd7uockyzcl6fpjm"
     },
     {
         "index": 805072145,
@@ -628,6 +614,20 @@
         "name": "AWC #284 - Dar es Salaam, TZ",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://bafybeih6cuv3wuainqf367dso3fdk7k3cfd56twqwnxly5fy6fetlghm64"
+    },
+    {
+        "index": 963841654,
+        "influence": 500,
+        "name": "AWC #286 - Manchester, UK",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeic5w76e73yy3aji3jehfr76lp2i2dqnb7djwv5mvxf23l3tmptooq"
+    },
+    {
+        "index": 964919847,
+        "influence": 500,
+        "name": "AWC #285 - Grenoble, France",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeifgkzj4drzx7n6nqq5popabjek3tr7hpvwa6rfd7uockyzcl6fpjm"
     },
     {
         "index": 702534632,

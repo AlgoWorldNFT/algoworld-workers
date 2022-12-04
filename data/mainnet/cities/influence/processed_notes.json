@@ -459,6 +459,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "8d792af2-7f84-4d78-a14e-5dfebc7c5ab9": {
+        "acfg_txn": "C2DLXSTDLVYBOZ5DEGBJIYOFE6ETSFDLOQ5VO54HX3VVODANPQQA",
+        "asset_id": 963841654,
+        "asset_name": "AWC #286 - Manchester, UK",
+        "block": 25309262,
+        "deposit": 500,
+        "id": "8d792af2-7f84-4d78-a14e-5dfebc7c5ab9",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "8dcdbb75-d641-4d41-8cb3-e1dcfb2d70ab": {
         "acfg_txn": "FPGRAAJO6NBKMIUX3R2X23FRSMD5EKY3U72VSIH3VCRLDLPSBYIA",
         "asset_id": 276086752,
@@ -626,6 +636,16 @@
         "block": 25054537,
         "deposit": 500,
         "id": "b2a30afd-6303-445b-bfac-7af5ad360e93",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "b3b159e9-bf29-4fce-a425-c47849d22395": {
+        "acfg_txn": "FJWFYRYHM35KXHBUM4IEBCR7K2WWNWTLAWN7OLI7O55LMMOKCO7A",
+        "asset_id": 964919847,
+        "asset_name": "AWC #285 - Grenoble, France",
+        "block": 25309264,
+        "deposit": 500,
+        "id": "b3b159e9-bf29-4fce-a425-c47849d22395",
         "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
