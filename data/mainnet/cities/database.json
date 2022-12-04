@@ -434,20 +434,6 @@
         "url": "ipfs://QmbS48spqM1vci343B4cMeo9TdkcgTukvcs1kN7D1e9k5H"
     },
     {
-        "index": 950717524,
-        "influence": 350,
-        "name": "AWC #272 - Oranjestad, NL",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeiaf73qt6mdgxuvninoec3weavc3eu6diwhaeows2mb6cyya626io4"
-    },
-    {
-        "index": 950717682,
-        "influence": 350,
-        "name": "AWC #273 - Kralendijk, NL",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeifqm4g5y2qb6t5xm7inivbvxlc54s6wvlrmol4vtk4njfmzdpnt6i"
-    },
-    {
         "index": 272357734,
         "influence": 500,
         "name": "AWC #7 - London, UK",
@@ -1503,6 +1489,20 @@
         "name": "AWC #271 - Lae, Papua New Guinea",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeifc2fjbkega7s2nt4ue67gpf7lnokxe2oixcvdpzjgjfyen6qooum"
+    },
+    {
+        "index": 950717524,
+        "influence": 3000,
+        "name": "AWC #272 - Oranjestad, NL",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiaf73qt6mdgxuvninoec3weavc3eu6diwhaeows2mb6cyya626io4"
+    },
+    {
+        "index": 950717682,
+        "influence": 3000,
+        "name": "AWC #273 - Kralendijk, NL",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifqm4g5y2qb6t5xm7inivbvxlc54s6wvlrmol4vtk4njfmzdpnt6i"
     },
     {
         "index": 954209002,
