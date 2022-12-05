@@ -411,7 +411,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "ccf2d9ce9e07f99d4ffa32ca8c11d3f3a5fc1d837bbd78f97b8d8f20755c1a09"
+content-hash = "834f50bafb998b990bb79897b947ef2b3086572a648b5ccd70592590da3fb238"
 
 [metadata.files]
 algoworld-contracts = []
