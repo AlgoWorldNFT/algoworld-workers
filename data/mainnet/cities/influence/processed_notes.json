@@ -289,6 +289,16 @@
         "influence": 30000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "58c00561-d483-4a33-ad5b-1b2e118db152": {
+        "acfg_txn": "CH5SIIGDQCRU45MYI73O57XY6CHJCYQCWPUZT4WECLK2QYI7J5UQ",
+        "asset_id": 971627738,
+        "asset_name": "AWC #289 - Innsbruck, Austria",
+        "block": 25472412,
+        "deposit": 1000,
+        "id": "58c00561-d483-4a33-ad5b-1b2e118db152",
+        "influence": 1000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "591477b4-ebbc-4f26-81b0-b173ffb1d22d": {
         "acfg_txn": "H7GANLBGRLCSR6QML5YIQROYU2GJXIR5KVXC73GBE3JBTFOT7I7A",
         "asset_id": 950717682,
