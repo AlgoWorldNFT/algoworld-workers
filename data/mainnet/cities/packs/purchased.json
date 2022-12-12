@@ -3085,5 +3085,54 @@
         "requested_algo_amount": 5000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #71"
+    },
+    {
+        "contract": "BiAKBOgHAQDk873bAfDY5pYC8vDY/wGd/MqCAeu/pYUCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "R4TNBHQWF6HNCG2XWW4S3NOAQE6HILPFHJXQWPMHKL4NSWUZ2BYFORVGYM",
+        "id": 62,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 460290532,
+                "title": "AWC #80 - Santo Domingo, DO",
+                "url": "ipfs://QmR7MGfTswpm7tjkCYRYfz8XgUzCHxdibUaNzSaX9LTVRY"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 584690800,
+                "title": "AWC #114 - Seville, Spain",
+                "url": "ipfs://Qma1C21NoFaVvnH6ptVmtCdTqxVRyJJveJ7DTupS8eLd2Q"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 536230002,
+                "title": "AWC #87 - San Salvador, SV",
+                "url": "ipfs://QmXTczSGuRgcBfVpyxCDwAU2W2QqevUFkKX1efN1yhXfNL"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 273858077,
+                "title": "AWC #3 - Rome, Italy",
+                "url": "ipfs://QmY9o44Jt5ewdyvQ5n8LbDMTBpTqhDCtjoKNn5H69aJoVr"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 547971051,
+                "title": "AWC #92 - Seydisfjordur, Iceland",
+                "url": "ipfs://QmWdugRPPjA9Cu4kkL7QxKwwH9Q9TawExgVNv2UnngvxsA"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #62"
     }
 ]
