@@ -112,13 +112,6 @@
         "url": "ipfs://QmSeZGW7ArLFweQNGRpYBTo8xvu6dnP3R2c4PKEPXHwQdc"
     },
     {
-        "index": 461384320,
-        "influence": 0,
-        "name": "AWC #77 - Conakry, Guinea",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://Qmf3bS93s56gMbPTxwvm4uD3HC5GtYdhw1dmEK6g4rnPUa"
-    },
-    {
         "index": 587886470,
         "influence": 0,
         "name": "AWC #121 - Taipei, Taiwan",
@@ -497,13 +490,6 @@
         "url": "ipfs://QmYfKVqCNt2AC2ZKwJYtZk4X221Go62XeaLSjx6TMvq25S"
     },
     {
-        "index": 587885625,
-        "influence": 500,
-        "name": "AWC #113 - Lusaka, Zambia",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://QmdekkQ5kCFDhG91d791xKCceA9qYqFoeSGabda7qyuVYb"
-    },
-    {
         "index": 590146084,
         "influence": 500,
         "name": "AWC #122 - Pretoria, S. Africa",
@@ -698,13 +684,6 @@
         "name": "AWC #44 - Dublin, Ireland",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmTBn9pELZDa3RVotLG53axTpe5JChrrTLRvFMEZTmXJVP"
-    },
-    {
-        "index": 429069760,
-        "influence": 1000,
-        "name": "AWC #70 - Lome, Togo",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://QmV49wLb8YbWELrjwDGRUMw8h5RaStQ6XroMYPHAWbpG5x"
     },
     {
         "index": 450733783,
@@ -903,6 +882,20 @@
         "url": "ipfs://QmNTBVUMpUqXcyKYaFCML3d2oAcEYWGkug159xY4fdKshX"
     },
     {
+        "index": 429069760,
+        "influence": 3000,
+        "name": "AWC #70 - Lome, Togo",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmV49wLb8YbWELrjwDGRUMw8h5RaStQ6XroMYPHAWbpG5x"
+    },
+    {
+        "index": 461384320,
+        "influence": 3000,
+        "name": "AWC #77 - Conakry, Guinea",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://Qmf3bS93s56gMbPTxwvm4uD3HC5GtYdhw1dmEK6g4rnPUa"
+    },
+    {
         "index": 512463384,
         "influence": 3000,
         "name": "AWC #83 - Port Moresby, PNG",
@@ -950,6 +943,13 @@
         "name": "AWC #108 - Haifa, Israel",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmTa5k9Dd13p1gMxRZ1kLqU9j258VdqdafkxPKgh7YMUxB"
+    },
+    {
+        "index": 587885625,
+        "influence": 3000,
+        "name": "AWC #113 - Lusaka, Zambia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmdekkQ5kCFDhG91d791xKCceA9qYqFoeSGabda7qyuVYb"
     },
     {
         "index": 590143459,

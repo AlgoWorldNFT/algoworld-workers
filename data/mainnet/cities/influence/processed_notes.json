@@ -269,6 +269,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "47fa6199-f0ef-4705-80fa-6ea8b2fa1652": {
+        "acfg_txn": "CC6RLWJ5MHCLHPVA4BRQNLAM2ZI3KV4UAXUNSYOLEBPYS7JOUHFA",
+        "asset_id": 429069760,
+        "asset_name": "AWC #70 - Lome, Togo",
+        "block": 25559527,
+        "deposit": 2000,
+        "id": "47fa6199-f0ef-4705-80fa-6ea8b2fa1652",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "489d35a4-8c1d-4bca-af1b-005e438d57e5": {
         "acfg_txn": "TZJEPSNVR7TKCRCMZ5OY6BLPPYPS4UPRNV6MWJ3S36H6SEE72UPQ",
         "asset_id": 304870825,
@@ -357,6 +367,16 @@
         "deposit": 250,
         "id": "712e0560-40e5-46e6-8eb6-b0cc31905392",
         "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "71c58a05-4182-409a-b43a-9a5b8dd6e4fb": {
+        "acfg_txn": "4M576ZAQBN6CSEHPCR3GFSCLOZFFA7WEABOG2BW6DVI2FVPLQLBQ",
+        "asset_id": 587885625,
+        "asset_name": "AWC #113 - Lusaka, Zambia",
+        "block": 25559531,
+        "deposit": 2500,
+        "id": "71c58a05-4182-409a-b43a-9a5b8dd6e4fb",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "7322aa47-b900-4288-9536-8f37dbdbd38c": {
@@ -517,6 +537,16 @@
         "deposit": 3006,
         "id": "968eb9d2-a9ad-401e-b5ee-a228a28db703",
         "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "97c0a563-6505-4ed4-9f93-5c14fd720775": {
+        "acfg_txn": "D3BQ4GAV6ZM75JQEZXGERUESS7YGJDS2FLQ3SE75W5XGE3Q4ADPA",
+        "asset_id": 461384320,
+        "asset_name": "AWC #77 - Conakry, Guinea",
+        "block": 25559529,
+        "deposit": 3000,
+        "id": "97c0a563-6505-4ed4-9f93-5c14fd720775",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "99cd6532-a6d9-47ec-a4e6-fdc4bc174752": {
