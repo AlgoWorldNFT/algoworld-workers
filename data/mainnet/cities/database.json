@@ -112,6 +112,13 @@
         "url": "ipfs://QmSeZGW7ArLFweQNGRpYBTo8xvu6dnP3R2c4PKEPXHwQdc"
     },
     {
+        "index": 459234279,
+        "influence": 0,
+        "name": "AWC #79 - Bocas del Toro, Panama",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmSTR3N3jcguTPWvJqwjCwm8vb6nAwGPfF45j5MzH6wrmu"
+    },
+    {
         "index": 587886470,
         "influence": 0,
         "name": "AWC #121 - Taipei, Taiwan",
@@ -1657,13 +1664,6 @@
         "name": "AWC #97 - San Diego, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmVb8JNMGtqW574sxnTQfkGJVTWNpHiLTpp5Y4BhjHKR8E"
-    },
-    {
-        "index": 459234279,
-        "influence": 3003,
-        "name": "AWC #79 - Bocas del Toro, Panama",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmSTR3N3jcguTPWvJqwjCwm8vb6nAwGPfF45j5MzH6wrmu"
     },
     {
         "index": 776599119,
