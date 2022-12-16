@@ -439,5 +439,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #76"
+    },
+    {
+        "contract": "BiAKBOgHAQCK6q+RAYjur5EBzLGjgQGL++WkA7Xlm98BByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "BAGIXNKSNIOOWPYFORCA7QLT5AO5FEICZNKQP3PHZLKVJVRLJXZK5GKFZM",
+        "id": 77,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304870666,
+                "title": "AWC #17 - Mont-St-Michel, France",
+                "url": "ipfs://QmVEin1jbKLNeZR1UWevhAW62UsrnfJDY7eH3YeYkwyhdY"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304871176,
+                "title": "AWC #23 - Mexico City, Mexico",
+                "url": "ipfs://QmPEM7yupC9Zdn9m7hMNwffY9K6pxXK9QjRty39wzDuvgG"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 271112396,
+                "title": "AWC #6 - Chicago, USA",
+                "url": "ipfs://QmdNR3DtTpqLqdcP8vzU2ZUcZx4J2Eag89ejSsRLoexV2w"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 882474379,
+                "title": "AWC #249 - Mogadishu, Somalia",
+                "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 468120245,
+                "title": "AWC #74 - Minneapolis, USA",
+                "url": "ipfs://QmPjcXDKumzoX8Qut6foLDafMyENgFQx14k7UnoMjp4dQ6"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #77"
     }
 ]
