@@ -189,20 +189,6 @@
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
     },
     {
-        "index": 977485556,
-        "influence": 0,
-        "name": "AWC #290 - Medellin, Colombia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidsjfrusbdjfksnwkhrdpzgk3tcwqtngj4atflpai6chpxwqycfha"
-    },
-    {
-        "index": 977485811,
-        "influence": 0,
-        "name": "AWC #291 - Alice Springs, AU",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeibtq5qselr7hxzn3fihpsbccvnw2vd5zcxa7zod5pdhqanprcjhny"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
@@ -1573,6 +1559,20 @@
         "name": "AWC #282 - Ho Chi Minh City, VN",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeic5dtwgk33vosnn3bg5wz2yh4utezgdievi762ydkvbyz2qoleh7q"
+    },
+    {
+        "index": 977485556,
+        "influence": 3000,
+        "name": "AWC #290 - Medellin, Colombia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeidsjfrusbdjfksnwkhrdpzgk3tcwqtngj4atflpai6chpxwqycfha"
+    },
+    {
+        "index": 977485811,
+        "influence": 3000,
+        "name": "AWC #291 - Alice Springs, AU",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeibtq5qselr7hxzn3fihpsbccvnw2vd5zcxa7zod5pdhqanprcjhny"
     },
     {
         "index": 377742761,

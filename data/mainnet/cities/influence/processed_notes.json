@@ -289,6 +289,16 @@
         "influence": 55555,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "4c09fdaf-6a20-403f-8fd4-230b8b21dbbf": {
+        "acfg_txn": "4NDY6FTD5Z6FQ3OLIVX7W5JGK5I7J2SQDKW6ZMQAIHA3RZUX7QRA",
+        "asset_id": 977485556,
+        "asset_name": "AWC #290 - Medellin, Colombia",
+        "block": 25579913,
+        "deposit": 3000,
+        "id": "4c09fdaf-6a20-403f-8fd4-230b8b21dbbf",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "4ee021b2-2611-4158-8e82-89af7ab93ffe": {
         "acfg_txn": "YZJMJFCX4XIP2OPMCX523MDWXGO3SVZM2AUZNOLMLALH5JCKI5UQ",
         "asset_id": 304870825,
@@ -566,6 +576,16 @@
         "block": 25196051,
         "deposit": 2697,
         "id": "9cf2e6f9-0028-4684-b0b3-81f5d8948f1a",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "9f6f47d9-1439-40ae-8d2f-48f14ddef29c": {
+        "acfg_txn": "OIQRETQDPG6MEFJSXUMUHFD4YL3L6EP6TMBDACL4ERO3HM6OML4Q",
+        "asset_id": 977485811,
+        "asset_name": "AWC #291 - Alice Springs, AU",
+        "block": 25579915,
+        "deposit": 3000,
+        "id": "9f6f47d9-1439-40ae-8d2f-48f14ddef29c",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
