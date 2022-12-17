@@ -189,20 +189,6 @@
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
     },
     {
-        "index": 978590837,
-        "influence": 0,
-        "name": "AWC #292 - Mantua, Italy",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidqvdzkrykjfeghm7ekymecjmgtk3urbkinifax5dg5amv6dcj7oq"
-    },
-    {
-        "index": 978590908,
-        "influence": 0,
-        "name": "AWC #293 - Bologna, Italy",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigxcnbtwnudngyozz6nbf6hf6i6cssct2g5menzkwb3ctf6stdzgu"
-    },
-    {
         "index": 805072145,
         "influence": 1,
         "name": "AWC #230 - Stuttgart, Germany",
@@ -1895,6 +1881,20 @@
         "name": "AWC #186 - Turin, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmNVzAdR2dxeGgimzGTM24T8GnxkTa4xXvgvKzRsSk4jex"
+    },
+    {
+        "index": 978590908,
+        "influence": 3111,
+        "name": "AWC #293 - Bologna, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeigxcnbtwnudngyozz6nbf6hf6i6cssct2g5menzkwb3ctf6stdzgu"
+    },
+    {
+        "index": 978590837,
+        "influence": 3112,
+        "name": "AWC #292 - Mantua, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeidqvdzkrykjfeghm7ekymecjmgtk3urbkinifax5dg5amv6dcj7oq"
     },
     {
         "index": 731936741,

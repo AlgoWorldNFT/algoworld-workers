@@ -109,6 +109,16 @@
         "influence": 3501,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "12d16c66-2d96-4409-b390-46a41472749f": {
+        "acfg_txn": "6IMEBLGRLB42SXDE6KQY44CGPH7COMZLORJUPXGFGA2JBVZA56NA",
+        "asset_id": 978590837,
+        "asset_name": "AWC #292 - Mantua, Italy",
+        "block": 25615836,
+        "deposit": 3112,
+        "id": "12d16c66-2d96-4409-b390-46a41472749f",
+        "influence": 3112,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "13a7b533-7a08-435b-ab26-2b8ea0f98fbd": {
         "acfg_txn": "HV6WGXQWLFHJDPDM25F4B343MSA6L5DPZSX55WXETPKB24ET5LTA",
         "asset_id": 932640529,
@@ -287,6 +297,16 @@
         "deposit": 25555,
         "id": "489d35a4-8c1d-4bca-af1b-005e438d57e5",
         "influence": 55555,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "49b404b3-8f98-4d40-9ae0-6f45f00f37da": {
+        "acfg_txn": "LS2Y6EN5E4XLRI3EUNCEAGL6JX42FNV6OBE76DIVF7JKCKBPJJZA",
+        "asset_id": 978590908,
+        "asset_name": "AWC #293 - Bologna, Italy",
+        "block": 25615834,
+        "deposit": 3111,
+        "id": "49b404b3-8f98-4d40-9ae0-6f45f00f37da",
+        "influence": 3111,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "4c09fdaf-6a20-403f-8fd4-230b8b21dbbf": {
