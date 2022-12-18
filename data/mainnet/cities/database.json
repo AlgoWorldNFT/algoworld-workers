@@ -182,6 +182,13 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
+        "index": 931155339,
+        "influence": 0,
+        "name": "AWC #261 - Cardiff, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifchjy3fnvgrhy27rkfpytucchglduaq3jik3eobmorsvx237xkqu"
+    },
+    {
         "index": 963841729,
         "influence": 0,
         "name": "AWC #287 - Ninh Binh, Vietnam",
@@ -1776,13 +1783,6 @@
         "name": "AWC #235 - Montreal, Canada",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeifhikbl3oqknkrjfclck4j2qrtx5dcahlgxic2uyc3ukjhrqlnbge"
-    },
-    {
-        "index": 931155339,
-        "influence": 3006,
-        "name": "AWC #261 - Cardiff, UK",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://bafybeifchjy3fnvgrhy27rkfpytucchglduaq3jik3eobmorsvx237xkqu"
     },
     {
         "index": 945534730,
