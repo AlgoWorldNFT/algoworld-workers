@@ -28,16 +28,43 @@ from src.shared.utils import (
 
 
 @retry(tries=3, delay=2)
-def _get_latest_close_txns(
-    note_prefix: str, storage_metadata: StorageMetadata, params, min_pack_price: int
+def _get_transactions_between_rounds(
+    note_prefix: str, min_round, max_round, min_pack_price
 ):
+    print(f"Searching transactions between rounds {min_round} and {max_round}...")
     return indexer.search_transactions(
         note_prefix=note_prefix,
-        min_round=storage_metadata.last_processed_block - 500,
-        max_round=params.first,
+        min_round=min_round,
+        max_round=max_round,
         min_amount=min_pack_price - 1,
         txn_type="pay",
     )
+
+
+def search_transactions(
+    note_prefix: str,
+    storage_metadata: StorageMetadata,
+    params,
+    min_pack_price: int,
+    chunk_size: int = 10000,
+):
+    # Initialize variables
+    min_round = storage_metadata.last_processed_block
+    max_round = params.first
+    transactions = []
+
+    # Iterate through the rounds in chunks
+    for start in range(min_round, max_round + 1, chunk_size):
+        end = start + chunk_size - 1
+        response = _get_transactions_between_rounds(
+            note_prefix, start, end, min_pack_price
+        )
+        chunk_transactions = (
+            response["transactions"] if "transactions" in response else []
+        )
+        transactions.extend(chunk_transactions)
+
+    return transactions
 
 
 def _close_swap(
@@ -144,7 +171,7 @@ storage_metadata = (
 
 params = algod_client.suggested_params()
 min_pack_price = 5_000_000
-latest_pack_purchase_txns = _get_latest_close_txns(
+latest_pack_purchase_txns = search_transactions(
     note_prefix=note_prefix,
     storage_metadata=storage_metadata,
     params=params,
@@ -152,14 +179,14 @@ latest_pack_purchase_txns = _get_latest_close_txns(
 )
 
 
-if len(latest_pack_purchase_txns["transactions"]) == 0:
+if len(latest_pack_purchase_txns) == 0:
     pretty_print("No new transactions to process")
     storage_metadata.last_processed_block = params.first
     save_metadata(CITY_PACK_METADATA_PATH, storage_metadata)
     exit(0)
 
 
-for pack_purchase_txn in latest_pack_purchase_txns["transactions"]:
+for pack_purchase_txn in latest_pack_purchase_txns:
     available_packs = load_packs(CITY_PACK_AVAILABLE_PATH)
     purchased_packs = load_packs(CITY_PACK_PURCHASED_PATH)
 
