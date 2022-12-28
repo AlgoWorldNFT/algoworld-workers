@@ -98,6 +98,13 @@
         "url": "ipfs://QmVB4CATKwjYbh9jVemhXZTyLrqAHa31PBvccTGcBv1czp"
     },
     {
+        "index": 377742761,
+        "influence": 0,
+        "name": "AWC #50 - Ottawa, Canada",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmTBFusMoRAYuf7c52k8gowyaWzCAraBk4g6L2BfWPuwvr"
+    },
+    {
         "index": 412950804,
         "influence": 0,
         "name": "AWC #59 - Newark, USA",
@@ -1580,13 +1587,6 @@
         "name": "AWC #291 - Alice Springs, AU",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeibtq5qselr7hxzn3fihpsbccvnw2vd5zcxa7zod5pdhqanprcjhny"
-    },
-    {
-        "index": 377742761,
-        "influence": 3001,
-        "name": "AWC #50 - Ottawa, Canada",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmTBFusMoRAYuf7c52k8gowyaWzCAraBk4g6L2BfWPuwvr"
     },
     {
         "index": 393262597,
