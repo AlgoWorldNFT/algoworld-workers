@@ -859,6 +859,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "df904c5d-0f96-4682-87c5-8960df2651cf": {
+        "acfg_txn": "KWOBPG2WQXSKN6PGNNWOS6UDXUIOYV6KBQLCYCP7KGLAUKGO5JCQ",
+        "asset_id": 750529484,
+        "asset_name": "AWC #192 - Florence, Italy",
+        "block": 25980499,
+        "deposit": 1,
+        "id": "df904c5d-0f96-4682-87c5-8960df2651cf",
+        "influence": 5101,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "dfff76de-0dcf-4f82-8ae6-f6cf3ab98cd9": {
         "acfg_txn": "34UJ7FYHYR7WNP633GTJZFYWILLWEBGAI3EWBU4VD2QM7SS5CUFQ",
         "asset_id": 867856579,
