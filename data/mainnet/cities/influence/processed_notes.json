@@ -169,6 +169,16 @@
         "influence": 2500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "222d0822-3566-4caa-b207-21079a12cfa3": {
+        "acfg_txn": "TPJFXDVLVJ5G374Y22YTEHYNWK2TBK4S6PO6Y3RIIS2YXBWU2FQA",
+        "asset_id": 805072145,
+        "asset_name": "AWC #230 - Stuttgart, Germany",
+        "block": 25989274,
+        "deposit": 3000,
+        "id": "222d0822-3566-4caa-b207-21079a12cfa3",
+        "influence": 3001,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "22f97308-923d-4485-a242-99e91c8ca373": {
         "acfg_txn": "GMTAOEC3SWUQYE7RTYCIQUISNA3TNCY6RAIVLC2F3AAP7GWF73JQ",
         "asset_id": 867856579,
@@ -389,6 +399,16 @@
         "influence": 69420,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "67e76e11-6ba5-4b54-aec0-285e1ac11474": {
+        "acfg_txn": "M45VKZQHNGGEEC5G4KIRNVOI3ZM7VSGEWWEVLAADRRIR3O5KLXPA",
+        "asset_id": 996513685,
+        "asset_name": "AWC #301 - Balboa, Panama",
+        "block": 25989272,
+        "deposit": 3000,
+        "id": "67e76e11-6ba5-4b54-aec0-285e1ac11474",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7006940a-c639-47a6-9041-9ee8e0105183": {
         "acfg_txn": "AIYTAHXYAB6IECAJHH3NVXRJTUNQSIRJYUKWCRXAKSLJPHIZLOLA",
         "asset_id": 576002647,
@@ -549,6 +569,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "8c1401cc-9255-452f-b3e2-fe9734cb2a15": {
+        "acfg_txn": "A2P3FPYIV27TNFC6CTIAOGL7SIG3OKE3DJCICHOAWKD25NYNEKKQ",
+        "asset_id": 996513110,
+        "asset_name": "AWC #296 - El Valle de Anton, PA",
+        "block": 25989276,
+        "deposit": 3000,
+        "id": "8c1401cc-9255-452f-b3e2-fe9734cb2a15",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "8c677903-e5e1-4286-98c5-715133f246cc": {
         "acfg_txn": "IKSDSRBWBRANAXGQAOHUSFYVWDGSUAADSHFGDQSX3AUEN2W4VFFA",
         "asset_id": 904792934,
@@ -587,6 +617,16 @@
         "deposit": 500,
         "id": "900a3a43-7d04-4d04-86df-138ea9235607",
         "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "915721aa-e4a4-41e2-b230-73b2e06e56cc": {
+        "acfg_txn": "7NJMPBG3MMHIW7GZHR5X7AUQOQ7CCJ74ORH3A2ZPE4JVTQQFOZPQ",
+        "asset_id": 996513685,
+        "asset_name": "AWC #301 - Balboa, Panama",
+        "block": 25989278,
+        "deposit": 3000,
+        "id": "915721aa-e4a4-41e2-b230-73b2e06e56cc",
+        "influence": 6000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "92279cc8-3e56-4284-bf06-9a005d8ae44d": {

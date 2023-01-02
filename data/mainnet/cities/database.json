@@ -203,27 +203,6 @@
         "url": "ipfs://bafybeieqe3gwpybuea2y2cpsswmtv3hfrlgs3o3bu22hluqhiwgttebrdm"
     },
     {
-        "index": 996513110,
-        "influence": 0,
-        "name": "AWC #296 - El Valle de Anton, PA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigu2v6jbfiuojncf2niwk2n3wiqps5wrsytw2v77m5zc5hvz5cria"
-    },
-    {
-        "index": 996513685,
-        "influence": 0,
-        "name": "AWC #301 - Balboa, Panama",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeie2c2pb5qnwlcftm5kt43lw3e3ai5eperabolypuwj5b5vgg7fjku"
-    },
-    {
-        "index": 805072145,
-        "influence": 1,
-        "name": "AWC #230 - Stuttgart, Germany",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmXZpzgExvBSDnaWbgL4A4ztnbbZ8pjdUXMT4vyrURYPFR"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -1603,6 +1582,13 @@
         "url": "ipfs://bafybeibtq5qselr7hxzn3fihpsbccvnw2vd5zcxa7zod5pdhqanprcjhny"
     },
     {
+        "index": 996513110,
+        "influence": 3000,
+        "name": "AWC #296 - El Valle de Anton, PA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeigu2v6jbfiuojncf2niwk2n3wiqps5wrsytw2v77m5zc5hvz5cria"
+    },
+    {
         "index": 996513225,
         "influence": 3000,
         "name": "AWC #297 - Nashville, USA",
@@ -1692,6 +1678,13 @@
         "name": "AWC #164 - Denver, CO, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmPeQfpoDU1CistPqNKmXqiNe5kXtCMKDVm9BR3NZxJv6A"
+    },
+    {
+        "index": 805072145,
+        "influence": 3001,
+        "name": "AWC #230 - Stuttgart, Germany",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmXZpzgExvBSDnaWbgL4A4ztnbbZ8pjdUXMT4vyrURYPFR"
     },
     {
         "index": 561994071,
@@ -2021,6 +2014,13 @@
         "name": "AWC #192 - Florence, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmefgFgc7X1E3KK9MCyFE9C9k5GUoKwtAVth49QymJrSkK"
+    },
+    {
+        "index": 996513685,
+        "influence": 6000,
+        "name": "AWC #301 - Balboa, Panama",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeie2c2pb5qnwlcftm5kt43lw3e3ai5eperabolypuwj5b5vgg7fjku"
     },
     {
         "index": 576002647,
