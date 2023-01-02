@@ -204,5 +204,25 @@
         "id": "d9978338-5e8b-442d-a0e3-e3ca16faa454",
         "influence": 200018,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "e6ef4c1c-7564-481e-9217-0f9e197661d0": {
+        "acfg_txn": "FSXPNGJUOMEXI76S7FUF5UGXR4OVOPXDIB6K37E5VA2PNHS6XGPQ",
+        "asset_id": 22888865,
+        "asset_name": "AWC #15 - Dubai, UAE",
+        "block": 26716724,
+        "deposit": 1,
+        "id": "e6ef4c1c-7564-481e-9217-0f9e197661d0",
+        "influence": 200020,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "f63c7750-14d6-4121-81b6-6382d2831eb7": {
+        "acfg_txn": "OINVL6OSMBVQ67BNQQETPZ343PHOSF6LRFTBZJSM5546WKRBEZLA",
+        "asset_id": 22888865,
+        "asset_name": "AWC #15 - Dubai, UAE",
+        "block": 26716722,
+        "deposit": 1,
+        "id": "f63c7750-14d6-4121-81b6-6382d2831eb7",
+        "influence": 200019,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
 }
