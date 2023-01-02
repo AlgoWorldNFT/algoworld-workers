@@ -149,6 +149,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "1a6c2061-fb4d-40ef-a9e1-3b7761125a11": {
+        "acfg_txn": "QRAATCWHD4CQDA4MM5XWFUHUAHM33FTJLORBZ3VJYYX355ABNDGQ",
+        "asset_id": 996513437,
+        "asset_name": "AWC #299 - Vientiane, Laos",
+        "block": 25988309,
+        "deposit": 3000,
+        "id": "1a6c2061-fb4d-40ef-a9e1-3b7761125a11",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "1b45b782-6e62-427c-b1fb-93dd7878237d": {
         "acfg_txn": "FJVK6PUY6YVVNYWKDAME4T2LAT3RWU5FINA355IJWWUELF2UDB3A",
         "asset_id": 945535824,
@@ -419,6 +429,16 @@
         "influence": 3600,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "73f9257e-97b5-4809-9812-8a1e1bc7e8fd": {
+        "acfg_txn": "GOFLZPFENXAN4YBK2HB3HQ2MMDHFUDZ5BJ6B63ZUH234E6VYS4KQ",
+        "asset_id": 996513225,
+        "asset_name": "AWC #297 - Nashville, USA",
+        "block": 25988305,
+        "deposit": 3000,
+        "id": "73f9257e-97b5-4809-9812-8a1e1bc7e8fd",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7a0a2991-7cb0-4b99-96bb-82f13426ba07": {
         "acfg_txn": "HAJWJYXROUDPNSWLSFMWSMU34BOPWGO4X5OZ6DGEZOXHG6RWWWNQ",
         "asset_id": 950717524,
@@ -427,6 +447,16 @@
         "deposit": 100,
         "id": "7a0a2991-7cb0-4b99-96bb-82f13426ba07",
         "influence": 100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "7c6fd423-d6fa-480c-a9bd-6625b16ae3f1": {
+        "acfg_txn": "FC6PL4AVXIYNNNEN3LOOMXA22X6T3UP4J2BV5TAIUGJJQODTUGTQ",
+        "asset_id": 996513555,
+        "asset_name": "AWC #300 - Sparta, Greece",
+        "block": 25988311,
+        "deposit": 3000,
+        "id": "7c6fd423-d6fa-480c-a9bd-6625b16ae3f1",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "7c7d571c-4363-4414-baa2-f9450f5837d3": {
@@ -487,6 +517,16 @@
         "deposit": 1,
         "id": "83cceed2-4a89-4810-ad24-3e118fde0622",
         "influence": 3007,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "846e21bf-bd2c-43b1-b759-9115ee220d9b": {
+        "acfg_txn": "HSQCP6YIRUJPEAYMYODZBAWZN4SN5KNPOR43VVC4TROS2CGG5X4A",
+        "asset_id": 996513322,
+        "asset_name": "AWC #298 - Busan, South Korea",
+        "block": 25988307,
+        "deposit": 3000,
+        "id": "846e21bf-bd2c-43b1-b759-9115ee220d9b",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "85ceaaae-4534-40c2-bbc0-4c2726590be5": {

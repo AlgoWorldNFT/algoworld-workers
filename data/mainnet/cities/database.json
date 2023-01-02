@@ -210,34 +210,6 @@
         "url": "ipfs://bafybeigu2v6jbfiuojncf2niwk2n3wiqps5wrsytw2v77m5zc5hvz5cria"
     },
     {
-        "index": 996513225,
-        "influence": 0,
-        "name": "AWC #297 - Nashville, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiatijgic4o34g6j7r3djllf3nen7fsm3t7nnqzqckpcjwxwezbt3e"
-    },
-    {
-        "index": 996513322,
-        "influence": 0,
-        "name": "AWC #298 - Busan, South Korea",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiavier373eqnmjrndlzgo6dvwyhpasuwfrzcehhw5ebbh7s5xg5fu"
-    },
-    {
-        "index": 996513437,
-        "influence": 0,
-        "name": "AWC #299 - Vientiane, Laos",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidikocimxghxqexmue67pkfqillhb4osa6dpx4mkq5qcmsim7jmgq"
-    },
-    {
-        "index": 996513555,
-        "influence": 0,
-        "name": "AWC #300 - Sparta, Greece",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeieaqrqung6sxpluo3227lyk6cd6wcwu47xgg3zbpgqgmcmqtwxhzy"
-    },
-    {
         "index": 996513685,
         "influence": 0,
         "name": "AWC #301 - Balboa, Panama",
@@ -1629,6 +1601,34 @@
         "name": "AWC #291 - Alice Springs, AU",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeibtq5qselr7hxzn3fihpsbccvnw2vd5zcxa7zod5pdhqanprcjhny"
+    },
+    {
+        "index": 996513225,
+        "influence": 3000,
+        "name": "AWC #297 - Nashville, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiatijgic4o34g6j7r3djllf3nen7fsm3t7nnqzqckpcjwxwezbt3e"
+    },
+    {
+        "index": 996513322,
+        "influence": 3000,
+        "name": "AWC #298 - Busan, South Korea",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiavier373eqnmjrndlzgo6dvwyhpasuwfrzcehhw5ebbh7s5xg5fu"
+    },
+    {
+        "index": 996513437,
+        "influence": 3000,
+        "name": "AWC #299 - Vientiane, Laos",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeidikocimxghxqexmue67pkfqillhb4osa6dpx4mkq5qcmsim7jmgq"
+    },
+    {
+        "index": 996513555,
+        "influence": 3000,
+        "name": "AWC #300 - Sparta, Greece",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeieaqrqung6sxpluo3227lyk6cd6wcwu47xgg3zbpgqgmcmqtwxhzy"
     },
     {
         "index": 377742761,
