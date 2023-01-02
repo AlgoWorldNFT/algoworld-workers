@@ -196,13 +196,6 @@
         "url": "ipfs://bafybeihcfs2ldzbiddpy6vpmqas56t2l7ix5ycbylarqzwrb3bwsubqy3q"
     },
     {
-        "index": 996513056,
-        "influence": 0,
-        "name": "AWC #295 - Altos de Campana, PA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeieqe3gwpybuea2y2cpsswmtv3hfrlgs3o3bu22hluqhiwgttebrdm"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -1580,6 +1573,13 @@
         "name": "AWC #291 - Alice Springs, AU",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeibtq5qselr7hxzn3fihpsbccvnw2vd5zcxa7zod5pdhqanprcjhny"
+    },
+    {
+        "index": 996513056,
+        "influence": 3000,
+        "name": "AWC #295 - Altos de Campana, PA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeieqe3gwpybuea2y2cpsswmtv3hfrlgs3o3bu22hluqhiwgttebrdm"
     },
     {
         "index": 996513110,
