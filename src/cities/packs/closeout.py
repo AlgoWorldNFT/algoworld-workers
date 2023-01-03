@@ -1,4 +1,5 @@
 import base64
+import math
 
 from algosdk import mnemonic
 from algosdk.future.transaction import AssetTransferTxn, LogicSig, PaymentTxn
@@ -27,9 +28,9 @@ from src.shared.utils import (
 )
 
 
-@retry(tries=3, delay=2)
+@retry(tries=3, delay=1, backoff=2)
 def _get_transactions_between_rounds(
-    note_prefix: str, min_round, max_round, min_pack_price
+    note_prefix: str, min_round, max_round, min_pack_price, chunk_size
 ):
     print(f"Searching transactions between rounds {min_round} and {max_round}...")
     return indexer.search_transactions(
@@ -46,23 +47,51 @@ def search_transactions(
     storage_metadata: StorageMetadata,
     params,
     min_pack_price: int,
-    chunk_size: int = 5000,
+    chunk_size: int = 10000,
 ):
     # Initialize variables
     min_round = storage_metadata.last_processed_block
     max_round = params.first
-    transactions = []
 
-    # Iterate through the rounds in chunks
-    for start in range(min_round, max_round + 1, chunk_size):
-        end = start + chunk_size - 1
-        response = _get_transactions_between_rounds(
-            note_prefix, start, end, min_pack_price
-        )
-        chunk_transactions = (
-            response["transactions"] if "transactions" in response else []
-        )
-        transactions.extend(chunk_transactions)
+    if min_round == max_round:
+        return []
+
+    if min_round > max_round:
+        raise ValueError(f"min_round ({min_round}) > max_round ({max_round})")
+
+    transactions = []
+    last_min = min_round
+
+    while True:
+        try:
+            # Iterate through the rounds in chunks
+            for start in range(min_round, max_round + 1, chunk_size):
+                end = start + chunk_size - 1
+                response = _get_transactions_between_rounds(
+                    note_prefix, start, end, min_pack_price, chunk_size
+                )
+                chunk_transactions = (
+                    response["transactions"] if "transactions" in response else []
+                )
+
+                last_min = start
+
+                if len(chunk_transactions) == 0:
+                    continue
+                else:
+                    transactions.extend(chunk_transactions)
+
+            break
+
+        except Exception as e:
+
+            if chunk_size <= 10:
+                raise e
+
+            chunk_size = math.ceil(chunk_size // 2)  # Decrease the chunk size
+            min_round = last_min
+
+            continue  # Retry with the smaller chunk size
 
     return transactions
 
