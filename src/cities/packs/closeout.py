@@ -46,7 +46,7 @@ def search_transactions(
     storage_metadata: StorageMetadata,
     params,
     min_pack_price: int,
-    chunk_size: int = 10000,
+    chunk_size: int = 5000,
 ):
     # Initialize variables
     min_round = storage_metadata.last_processed_block
