@@ -14,13 +14,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18725906,
-        "influence": 0,
-        "name": "AWC #4 - Beijing, China",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 18725926,
         "influence": 0,
         "name": "AWC #6 - Chicago, USA",
@@ -283,6 +276,13 @@
         "index": 18725916,
         "influence": 4521,
         "name": "AWC #5 - Tokyo, Japan",
+        "status": "AlgoWorld Diamond City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
+        "index": 18725906,
+        "influence": 5002,
+        "name": "AWC #4 - Beijing, China",
         "status": "AlgoWorld Diamond City",
         "url": "www.algoworld-nft.com"
     },
