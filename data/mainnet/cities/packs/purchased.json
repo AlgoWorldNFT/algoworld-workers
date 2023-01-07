@@ -3526,5 +3526,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #77"
+    },
+    {
+        "contract": "BiAKBOgHAQCQkJ2YAtLT2JEDnpuG7AKZ9Pe4AuCKiq4DByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgcCWsQISEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "S5NG6OMV4ZKFDWE7VBHZVKPTPCFIVRMJA37SUYEDRUD3KJFXJCGNHPKS4A",
+        "id": 65,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 587679760,
+                "title": "AWC #111 - Camembert, France",
+                "url": "ipfs://QmYfKVqCNt2AC2ZKwJYtZk4X221Go62XeaLSjx6TMvq25S"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 842410450,
+                "title": "AWC #238 - Blois, France",
+                "url": "ipfs://bafybeignboqzp6pjv4lxezxzakss6bnf4wyelh2ojrv6tlykiiyejnvw7a"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 763465118,
+                "title": "AWC #194 - Hamburg, Germany",
+                "url": "ipfs://QmPbTJ5eCEXuNsPSYwvjk7j2iUJQ9UUGMkvLyisko3zAiR"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 656275993,
+                "title": "AWC #148 - Buenos Aires, AR",
+                "url": "ipfs://QmQhu8d7LScx6VRcbuLcjSpWVb8XUcqKLdpeP3gRnoehew"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 901940576,
+                "title": "AWC #252 - Santiago, Chile",
+                "url": "ipfs://bafybeic5bess4vxob4hww6zccsmfq3oaopth6siqfvx3w74kf43xpbpi5e"
+            }
+        ],
+        "requested_algo_amount": 5000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #65"
     }
 ]
