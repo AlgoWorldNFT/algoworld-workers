@@ -203,13 +203,6 @@
         "url": "ipfs://bafybeifhc55uxzy6i7wuyj5ulgo4mdh4tn5zcr5wa7tvlwzygukuhm452e"
     },
     {
-        "index": 1004681367,
-        "influence": 0,
-        "name": "AWC #304 - Riga, Latvia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeif3o2osd5s2zw4b3pjsdzvv65zvmb7vhxef6bdzumkjcgcfil7p5q"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -1867,6 +1860,13 @@
         "name": "AWC #294 - Kyoto, Japan",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeihcfs2ldzbiddpy6vpmqas56t2l7ix5ycbylarqzwrb3bwsubqy3q"
+    },
+    {
+        "index": 1004681367,
+        "influence": 3006,
+        "name": "AWC #304 - Riga, Latvia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeif3o2osd5s2zw4b3pjsdzvv65zvmb7vhxef6bdzumkjcgcfil7p5q"
     },
     {
         "index": 641281413,

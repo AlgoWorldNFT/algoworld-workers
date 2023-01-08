@@ -739,6 +739,16 @@
         "influence": 25000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "a5031362-d6bc-41b8-aafb-58f71b50ec79": {
+        "acfg_txn": "KZAY6YFWJIAPKALNUTY3KVKRWNK6YZLGBIIXUB7Z4V5S2FDSJ5OA",
+        "asset_id": 1004681367,
+        "asset_name": "AWC #304 - Riga, Latvia",
+        "block": 26110427,
+        "deposit": 3006,
+        "id": "a5031362-d6bc-41b8-aafb-58f71b50ec79",
+        "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "a5581d80-cf16-4167-ac26-a7143652151e": {
         "acfg_txn": "Q37NWA4JKUVOVSDVKTRFR7XMTCMJTI4VKCIG3FDKXGSGUKSB3XGQ",
         "asset_id": 954213103,
