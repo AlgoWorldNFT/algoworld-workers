@@ -189,20 +189,6 @@
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
     },
     {
-        "index": 1003568488,
-        "influence": 0,
-        "name": "AWC #303 - Dakar, Senegal",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidinelazh3up7m6zbq6z5wfhllukkjcjtr2kszsssbdyaqfiix2gq"
-    },
-    {
-        "index": 1004681267,
-        "influence": 0,
-        "name": "AWC #302 - Hanover, Germany",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifhc55uxzy6i7wuyj5ulgo4mdh4tn5zcr5wa7tvlwzygukuhm452e"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -824,6 +810,13 @@
         "name": "AWC #129 - Lissone, Italy",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
+    },
+    {
+        "index": 1003568488,
+        "influence": 1500,
+        "name": "AWC #303 - Dakar, Senegal",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeidinelazh3up7m6zbq6z5wfhllukkjcjtr2kszsssbdyaqfiix2gq"
     },
     {
         "index": 882525222,
@@ -1713,6 +1706,13 @@
         "name": "AWC #209 - Rimini, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmV78xCcXzVTcfNsXw4znRoNUWxedL8aVnKc7eWTiYqsHr"
+    },
+    {
+        "index": 1004681267,
+        "influence": 3003,
+        "name": "AWC #302 - Hanover, Germany",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifhc55uxzy6i7wuyj5ulgo4mdh4tn5zcr5wa7tvlwzygukuhm452e"
     },
     {
         "index": 355063850,

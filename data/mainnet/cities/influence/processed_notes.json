@@ -369,6 +369,16 @@
         "influence": 30000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "554c13dc-b017-43b1-b554-a24bd66e4d45": {
+        "acfg_txn": "MF7I2B2S5PQX2W6JIPJS3O2HX3MBSCRFIDPBKPLK3DXHPK7JSN2A",
+        "asset_id": 1003568488,
+        "asset_name": "AWC #303 - Dakar, Senegal",
+        "block": 26119013,
+        "deposit": 1500,
+        "id": "554c13dc-b017-43b1-b554-a24bd66e4d45",
+        "influence": 1500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "58c00561-d483-4a33-ad5b-1b2e118db152": {
         "acfg_txn": "CH5SIIGDQCRU45MYI73O57XY6CHJCYQCWPUZT4WECLK2QYI7J5UQ",
         "asset_id": 971627738,
@@ -907,6 +917,16 @@
         "deposit": 3600,
         "id": "c6a8f901-ee6d-44e7-9f71-c9754bbd6718",
         "influence": 5100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "cfb53dab-39dd-4210-a803-be9cf01e1805": {
+        "acfg_txn": "JYJSTHQK7XLFUYC7QVW7HR47ZJYD2JH4E3AAWNELJZDW3MYPCG5A",
+        "asset_id": 1004681267,
+        "asset_name": "AWC #302 - Hanover, Germany",
+        "block": 26119015,
+        "deposit": 3003,
+        "id": "cfb53dab-39dd-4210-a803-be9cf01e1805",
+        "influence": 3003,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "d5dd73eb-d5f3-4bc4-854c-2e6e176754a3": {
