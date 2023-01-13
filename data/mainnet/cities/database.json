@@ -189,13 +189,6 @@
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
     },
     {
-        "index": 1009557337,
-        "influence": 0,
-        "name": "AWC #305 - Tripoli, Libya",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiaxd4vpeqd3qbr4mctjbdxpxajnjbeqye7jt5k6kfykr6uvfkp7ga"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -1622,6 +1615,13 @@
         "name": "AWC #300 - Sparta, Greece",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeieaqrqung6sxpluo3227lyk6cd6wcwu47xgg3zbpgqgmcmqtwxhzy"
+    },
+    {
+        "index": 1009557337,
+        "influence": 3000,
+        "name": "AWC #305 - Tripoli, Libya",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiaxd4vpeqd3qbr4mctjbdxpxajnjbeqye7jt5k6kfykr6uvfkp7ga"
     },
     {
         "index": 377742761,
