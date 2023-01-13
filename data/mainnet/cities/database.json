@@ -189,13 +189,6 @@
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
     },
     {
-        "index": 1010430364,
-        "influence": 0,
-        "name": "AWC #306 - Bruges, Belgium",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeid2ooqrhwq3awbumpkdblx57jvf5kf323fze4ltkxltgmtxpvwhee"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -817,13 +810,6 @@
         "name": "AWC #129 - Lissone, Italy",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
-    },
-    {
-        "index": 1003568488,
-        "influence": 1500,
-        "name": "AWC #303 - Dakar, Senegal",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeidinelazh3up7m6zbq6z5wfhllukkjcjtr2kszsssbdyaqfiix2gq"
     },
     {
         "index": 882525222,
@@ -1624,6 +1610,13 @@
         "url": "ipfs://bafybeieaqrqung6sxpluo3227lyk6cd6wcwu47xgg3zbpgqgmcmqtwxhzy"
     },
     {
+        "index": 1003568488,
+        "influence": 3000,
+        "name": "AWC #303 - Dakar, Senegal",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeidinelazh3up7m6zbq6z5wfhllukkjcjtr2kszsssbdyaqfiix2gq"
+    },
+    {
         "index": 1009557337,
         "influence": 3000,
         "name": "AWC #305 - Tripoli, Libya",
@@ -1881,6 +1874,13 @@
         "name": "AWC #304 - Riga, Latvia",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeif3o2osd5s2zw4b3pjsdzvv65zvmb7vhxef6bdzumkjcgcfil7p5q"
+    },
+    {
+        "index": 1010430364,
+        "influence": 3006,
+        "name": "AWC #306 - Bruges, Belgium",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeid2ooqrhwq3awbumpkdblx57jvf5kf323fze4ltkxltgmtxpvwhee"
     },
     {
         "index": 641281413,

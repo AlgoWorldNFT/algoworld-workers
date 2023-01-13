@@ -1,4 +1,14 @@
 {
+    "040a767d-9a4f-44bd-b8e0-c3ccb9d27ef4": {
+        "acfg_txn": "BY7O7KYDITP62BAH7APXGCYVOYYKG5O5PGVNAGPXZN56XSJJW46A",
+        "asset_id": 1010430364,
+        "asset_name": "AWC #306 - Bruges, Belgium",
+        "block": 26242503,
+        "deposit": 3006,
+        "id": "040a767d-9a4f-44bd-b8e0-c3ccb9d27ef4",
+        "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "06f6d231-7ce1-4479-b266-303c73a601a9": {
         "acfg_txn": "KEYYG23X3YJTVK2WXZP4EHBQLTBDAROUS32SNMTPWBGGJSVUFPTA",
         "asset_id": 304870825,
@@ -886,6 +896,16 @@
         "block": 25196053,
         "deposit": 2424,
         "id": "bd83f143-2967-417f-9ce8-b18980fc5dc2",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "c1e69000-c67f-4b55-a3b0-03fe791303d6": {
+        "acfg_txn": "3PN7SAJHKJE44AYLVZZBS6MIXPBVHGFYEFEH7T6EEK2FM22C2JWQ",
+        "asset_id": 1003568488,
+        "asset_name": "AWC #303 - Dakar, Senegal",
+        "block": 26242505,
+        "deposit": 1500,
+        "id": "c1e69000-c67f-4b55-a3b0-03fe791303d6",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
