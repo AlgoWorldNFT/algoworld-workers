@@ -182,13 +182,6 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 950717346,
-        "influence": 0,
-        "name": "AWC #271 - Lae, Papua New Guinea",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifc2fjbkega7s2nt4ue67gpf7lnokxe2oixcvdpzjgjfyen6qooum"
-    },
-    {
         "index": 963841729,
         "influence": 0,
         "name": "AWC #287 - Ninh Binh, Vietnam",
@@ -1489,6 +1482,13 @@
         "name": "AWC #270 - Santo Antonio, ST",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeif6pjyqe72atpspjverlczexo2evmympawuckknumb7fulqo66aqy"
+    },
+    {
+        "index": 950717346,
+        "influence": 3000,
+        "name": "AWC #271 - Lae, Papua New Guinea",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifc2fjbkega7s2nt4ue67gpf7lnokxe2oixcvdpzjgjfyen6qooum"
     },
     {
         "index": 950717524,
