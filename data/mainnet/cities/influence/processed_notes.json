@@ -609,6 +609,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "880ebafe-a77f-403b-9d70-085648eb0eac": {
+        "acfg_txn": "XRY4NMD7UR4OON36QSOWN7J4HZYJJOZ7TFERIFCFOXGXSRAXZWGQ",
+        "asset_id": 1012510888,
+        "asset_name": "AWC #307 - Benghazi, Libya",
+        "block": 26288721,
+        "deposit": 3000,
+        "id": "880ebafe-a77f-403b-9d70-085648eb0eac",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "8a5190ba-fb72-47d9-b2d7-2944307d2d31": {
         "acfg_txn": "NNP6CU7JWPWRAZQHJUQRT4IPLOL4K4LYSQAFAB6EP46FYU2WGA6Q",
         "asset_id": 939521922,
