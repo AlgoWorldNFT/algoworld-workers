@@ -341,5 +341,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #94"
+    },
+    {
+        "contract": "BiAKBOgHAQDJlKvFA9vt27wDnpuG7ALBnczLA6OkgMcDByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "7YJA3LFEHGWXVEL57MDBKCXGM6DV7FBJ7URSSRVWROR2HA25P2LNFXLJYY",
+        "id": 95,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 950717001,
+                "title": "AWC #269 - Antwerp, Belgium",
+                "url": "ipfs://bafybeibbiy5xbr74ahh7pjkeeuovvth7xkmn6tn5ogrg4ii3cezraqglna"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 932640475,
+                "title": "AWC #264 - Cologne, Germany",
+                "url": "ipfs://bafybeigatoqa3qa6i2srjowlk4goitvoy5uzng3um3au67gey2qqapcy3q"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 763465118,
+                "title": "AWC #194 - Hamburg, Germany",
+                "url": "ipfs://QmPbTJ5eCEXuNsPSYwvjk7j2iUJQ9UUGMkvLyisko3zAiR"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 963841729,
+                "title": "AWC #287 - Ninh Binh, Vietnam",
+                "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 954208803,
+                "title": "AWC #250 - Lafayette, LA, USA",
+                "url": "ipfs://bafybeifkz467fpyh7xptkzylxi6fwn66m5klv6xyii36otjvyybnzshsem"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #95"
     }
 ]
