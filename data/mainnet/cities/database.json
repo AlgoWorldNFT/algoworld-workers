@@ -1890,13 +1890,6 @@
         "url": "ipfs://bafybeif3o2osd5s2zw4b3pjsdzvv65zvmb7vhxef6bdzumkjcgcfil7p5q"
     },
     {
-        "index": 1010430364,
-        "influence": 3006,
-        "name": "AWC #306 - Bruges, Belgium",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://bafybeid2ooqrhwq3awbumpkdblx57jvf5kf323fze4ltkxltgmtxpvwhee"
-    },
-    {
         "index": 641281413,
         "influence": 3007,
         "name": "AWC #143 - Dili, East Timor",
@@ -2098,6 +2091,13 @@
         "name": "AWC #36 - Povarenka, Russia",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmSXD1ELw2tjGnTRdiZgvQvfkHaHucDyokoHMWiGdaePdJ"
+    },
+    {
+        "index": 1010430364,
+        "influence": 23006,
+        "name": "AWC #306 - Bruges, Belgium",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeid2ooqrhwq3awbumpkdblx57jvf5kf323fze4ltkxltgmtxpvwhee"
     },
     {
         "index": 648095401,
