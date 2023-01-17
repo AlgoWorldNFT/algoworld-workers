@@ -289,6 +289,16 @@
         "influence": 5000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "418c82f9-38b4-4ffb-8af3-2e49d32a8045": {
+        "acfg_txn": "VCETMJO76INPOMUEZIJGACAITI7V36SEHHRIVRD2JM5VPFBKGSNQ",
+        "asset_id": 1010430364,
+        "asset_name": "AWC #306 - Bruges, Belgium",
+        "block": 26332740,
+        "deposit": 450,
+        "id": "418c82f9-38b4-4ffb-8af3-2e49d32a8045",
+        "influence": 23456,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "42bc2e86-f975-4a97-8056-a2cf8d4ae8f0": {
         "acfg_txn": "MGRDEWFROAT75QDKY2HPE2QFZXUX4VJIH52SUTESUV4HYOP6SUUQ",
         "asset_id": 950717682,
