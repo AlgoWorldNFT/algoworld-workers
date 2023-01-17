@@ -292,5 +292,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #89"
+    },
+    {
+        "contract": "BiAKBOgHAQCytJvjA8jZs7cC5qLAnAHDqcCcAeO/s5kCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "6EDYDAD7Z6EQRUGOFXFDRT2HWO4AE4MX4HEHOU52UDUZ2E76EGVHQSMNAA",
+        "id": 90,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1013373490,
+                "title": "AWC #308 - Sabha, Libya",
+                "url": "ipfs://bafybeiae77jbey74cffftcko35pfrffeolyy7s5jxg3btcbjr7yugaghx4"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 653061320,
+                "title": "AWC #147 - Yamoussoukro, CI",
+                "url": "ipfs://QmPpZj9bEmnJsGAAuEbUmXhfENKfDdsJZYzxw1aejyiAkT"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 328208742,
+                "title": "AWC #34 - Kathmandu, Nepal",
+                "url": "ipfs://QmYsXU8EU8fqfN7GRCfut22RqdEWHUsCMksC3s9WE8gSMf"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 328209603,
+                "title": "AWC #41 - Dubrovnik, Croatia",
+                "url": "ipfs://Qma6VhjGnLghEVkqh5ffMiHjdVs9rVVUh2Lziv6PSGk3ED"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 590143459,
+                "title": "AWC #110 - Dallas, TX, USA",
+                "url": "ipfs://QmVQyfnH5PVhC5wzPoSPWviiPbEt7QbJX1Y1NQTpkXehrj"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #90"
     }
 ]
