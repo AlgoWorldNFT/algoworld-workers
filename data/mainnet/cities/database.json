@@ -112,6 +112,13 @@
         "url": "ipfs://QmSeZGW7ArLFweQNGRpYBTo8xvu6dnP3R2c4PKEPXHwQdc"
     },
     {
+        "index": 468120245,
+        "influence": 0,
+        "name": "AWC #74 - Minneapolis, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmPjcXDKumzoX8Qut6foLDafMyENgFQx14k7UnoMjp4dQ6"
+    },
+    {
         "index": 587886470,
         "influence": 0,
         "name": "AWC #121 - Taipei, Taiwan",
@@ -1664,13 +1671,6 @@
         "name": "AWC #65 - Panama City, Panama",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmfVAia3cDENBVo1LodmN9z3vW5RzEQviKGKpFgfGDLYTW"
-    },
-    {
-        "index": 468120245,
-        "influence": 3001,
-        "name": "AWC #74 - Minneapolis, USA",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmPjcXDKumzoX8Qut6foLDafMyENgFQx14k7UnoMjp4dQ6"
     },
     {
         "index": 472615106,
