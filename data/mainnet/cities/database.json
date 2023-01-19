@@ -833,20 +833,6 @@
         "url": "ipfs://bafybeiazgj4e7jyfraq4uz3ywo3bzpgy7ixmexhzoom5rm2slrkerqbf4q"
     },
     {
-        "index": 1014122396,
-        "influence": 1650,
-        "name": "AWC #309 - Kampala, Uganda",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeidnkb5xv4ryod5hvjmsbmac5wc4i67in2akkvckn42kmovhhafowq"
-    },
-    {
-        "index": 1014122432,
-        "influence": 1650,
-        "name": "AWC #310 - Malaga, Spain",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeif2pmoiio7dqqpb53wzirpbr6lr5xpc2t7hiw2mqhazfvi3mjykk4"
-    },
-    {
         "index": 304986937,
         "influence": 2000,
         "name": "AWC #25 - Barcelona, Spain",
@@ -866,6 +852,20 @@
         "name": "AWC #223 - Williamsburg, VA, USA",
         "status": "AlgoWorld Platinum City",
         "url": "ipfs://bafybeig7sygjufyss53ejiu6hsii4qv7xdabpaie2qculi4ebjbsqlpi6m"
+    },
+    {
+        "index": 1014122396,
+        "influence": 2000,
+        "name": "AWC #309 - Kampala, Uganda",
+        "status": "AlgoWorld Platinum City",
+        "url": "ipfs://bafybeidnkb5xv4ryod5hvjmsbmac5wc4i67in2akkvckn42kmovhhafowq"
+    },
+    {
+        "index": 1014122432,
+        "influence": 2000,
+        "name": "AWC #310 - Malaga, Spain",
+        "status": "AlgoWorld Platinum City",
+        "url": "ipfs://bafybeif2pmoiio7dqqpb53wzirpbr6lr5xpc2t7hiw2mqhazfvi3mjykk4"
     },
     {
         "index": 587679910,
