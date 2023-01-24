@@ -79,6 +79,16 @@
         "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "0c83a954-3250-44a7-b793-cb12c6c4c07f": {
+        "acfg_txn": "3WRGH42QSP4JVILNOSNDNEZ6BOZMWSSXWDNFIU7MHMP7TWS45EUA",
+        "asset_id": 1014122432,
+        "asset_name": "AWC #310 - Malaga, Spain",
+        "block": 26492916,
+        "deposit": 380,
+        "id": "0c83a954-3250-44a7-b793-cb12c6c4c07f",
+        "influence": 2380,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "0f408e7c-0a9d-491a-9d4f-4bd5896b0092": {
         "acfg_txn": "L6MUZVUNMXZSQFXYRYCXTM336U26LBGBANDQALJOS56RHKRS7NKA",
         "asset_id": 931153112,
@@ -1187,6 +1197,16 @@
         "deposit": 2750,
         "id": "f04f3a8a-c2e7-45f5-b32f-c1212dd5ac2f",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "f0f8b3e6-efaf-4b4c-9d2f-fdf4f102c8e8": {
+        "acfg_txn": "YUV42ITYXBQLV4PSU4DLZ3LDXXDVCNTR3ALK5JYGC6VGJQ3VL3RA",
+        "asset_id": 1014122396,
+        "asset_name": "AWC #309 - Kampala, Uganda",
+        "block": 26492918,
+        "deposit": 380,
+        "id": "f0f8b3e6-efaf-4b4c-9d2f-fdf4f102c8e8",
+        "influence": 2380,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "f4ea11b1-fa41-41ce-82c6-e2365feedb7f": {
