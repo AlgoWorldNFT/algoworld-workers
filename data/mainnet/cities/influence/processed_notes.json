@@ -979,6 +979,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "c4358d6b-3021-411d-9014-f0ac81735acd": {
+        "acfg_txn": "QPJ7S4OTKJLEL7XNKDJDV3NSPKZGAFL3623YEE27JTVRAUP77SZA",
+        "asset_id": 1023246580,
+        "asset_name": "AWC #312 - Pristina, Kosovo",
+        "block": 26577562,
+        "deposit": 3000,
+        "id": "c4358d6b-3021-411d-9014-f0ac81735acd",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "c4f9caad-0d52-4446-abd0-5d4001477d23": {
         "acfg_txn": "Q2Q7V7TXGQMEWDCCFH33KI36DIRPURADCIBTRMVW7OZD335ORC7A",
         "asset_id": 931348874,
