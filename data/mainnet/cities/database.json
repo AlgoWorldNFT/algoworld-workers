@@ -112,13 +112,6 @@
         "url": "ipfs://QmSeZGW7ArLFweQNGRpYBTo8xvu6dnP3R2c4PKEPXHwQdc"
     },
     {
-        "index": 536230295,
-        "influence": 0,
-        "name": "AWC #88 - Bogota, Colombia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmQexQ9LVFCQiYk9pjd5aAXSqH1iQJvmcht2Dyvvzo5CLC"
-    },
-    {
         "index": 587886470,
         "influence": 0,
         "name": "AWC #121 - Taipei, Taiwan",
@@ -929,6 +922,13 @@
         "name": "AWC #83 - Port Moresby, PNG",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmZvUk1SVqdnrRCt4wwwW4ENQBfxYP82qZ3zXFc8EUYa1C"
+    },
+    {
+        "index": 536230295,
+        "influence": 3000,
+        "name": "AWC #88 - Bogota, Colombia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmQexQ9LVFCQiYk9pjd5aAXSqH1iQJvmcht2Dyvvzo5CLC"
     },
     {
         "index": 547971682,
