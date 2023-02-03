@@ -203,13 +203,6 @@
         "url": "ipfs://bafybeibg7vmzvpwu4mbbesqiyt7wszonandbav27cyvty22ultcbovzzmm"
     },
     {
-        "index": 1029165058,
-        "influence": 0,
-        "name": "AWC #313 - Pripyat, Ukraine",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeif2vd2hfedr27rd3vxclgxrbnrmmsdbzvhypznpprhnvsson2y7ea"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -1923,6 +1916,13 @@
         "name": "AWC #304 - Riga, Latvia",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeif3o2osd5s2zw4b3pjsdzvv65zvmb7vhxef6bdzumkjcgcfil7p5q"
+    },
+    {
+        "index": 1029165058,
+        "influence": 3006,
+        "name": "AWC #313 - Pripyat, Ukraine",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeif2vd2hfedr27rd3vxclgxrbnrmmsdbzvhypznpprhnvsson2y7ea"
     },
     {
         "index": 641281413,

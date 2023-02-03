@@ -269,6 +269,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "38fa57f1-dac9-44e2-bccc-bcd28c2ad379": {
+        "acfg_txn": "LMQXEZQXDO3L5HEO53AAGQVB4FO3CDEPPYOG7G53SBZFXO4OKVVQ",
+        "asset_id": 1029165058,
+        "asset_name": "AWC #313 - Pripyat, Ukraine",
+        "block": 26729718,
+        "deposit": 3006,
+        "id": "38fa57f1-dac9-44e2-bccc-bcd28c2ad379",
+        "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3aab6e69-0dae-46b9-85e9-66d2dbf523af": {
         "acfg_txn": "ZUOW56FIWCOFP2A7JPCDXWOFY5FB2HTM3MIU4T43WMSCMXHURNPA",
         "asset_id": 1014122432,
