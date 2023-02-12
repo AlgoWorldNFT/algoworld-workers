@@ -199,6 +199,16 @@
         "influence": 2500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "206954a6-d2ea-49fa-9761-11209facc26e": {
+        "acfg_txn": "QOG7N5FHY43DJ6UVCVVV74OLOV2EENOUTEGX2SE7DCF6T3NNWPBQ",
+        "asset_id": 1014122396,
+        "asset_name": "AWC #309 - Kampala, Uganda",
+        "block": 26940369,
+        "deposit": 500,
+        "id": "206954a6-d2ea-49fa-9761-11209facc26e",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "222d0822-3566-4caa-b207-21079a12cfa3": {
         "acfg_txn": "TPJFXDVLVJ5G374Y22YTEHYNWK2TBK4S6PO6Y3RIIS2YXBWU2FQA",
         "asset_id": 805072145,
@@ -266,6 +276,16 @@
         "block": 26234881,
         "deposit": 3000,
         "id": "3218537b-ea7c-4e08-8222-f4c097a6bc83",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "3639eaa8-9532-4e3b-a0ab-062744f51424": {
+        "acfg_txn": "M2CV4W6WAVR4YVVIDYTN76ZVV5S72IKOVYF4KFOVN66A7GEN45EQ",
+        "asset_id": 1014122432,
+        "asset_name": "AWC #310 - Malaga, Spain",
+        "block": 26940367,
+        "deposit": 500,
+        "id": "3639eaa8-9532-4e3b-a0ab-062744f51424",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
@@ -417,6 +437,16 @@
         "deposit": 3000,
         "id": "4c09fdaf-6a20-403f-8fd4-230b8b21dbbf",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "4d596874-c628-4030-9088-b29d23e5f3ef": {
+        "acfg_txn": "5JMVPYJFEZ4JQH44OPWAHJNQMCEORX722JH4KZBTD4KVPVZNKIJQ",
+        "asset_id": 1036587203,
+        "asset_name": "AWC #314 - Halifax, Canada",
+        "block": 26940363,
+        "deposit": 500,
+        "id": "4d596874-c628-4030-9088-b29d23e5f3ef",
+        "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "4ee021b2-2611-4158-8e82-89af7ab93ffe": {
@@ -807,6 +837,16 @@
         "deposit": 250,
         "id": "a14adec7-4deb-4cda-8030-a51623f0c4ce",
         "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "a232ade0-01a1-4be9-be37-b5cced8f473b": {
+        "acfg_txn": "YPIY5S4UQHOS4PVOUBNFSN6FFUT2E3EELALITRVUXRLPG6PDC52A",
+        "asset_id": 1036587326,
+        "asset_name": "AWC #315 - Plovdiv, Bulgaria",
+        "block": 26940365,
+        "deposit": 500,
+        "id": "a232ade0-01a1-4be9-be37-b5cced8f473b",
+        "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "a483d6fd-1213-4e5d-83eb-1ba06cb42f3a": {
