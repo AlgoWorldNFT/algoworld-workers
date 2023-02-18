@@ -62,7 +62,6 @@ def test_get_max_id(mocker):
 
 
 def test_create_city_pack_below_threshold(mocker, monkeypatch):
-
     # Arrange
     manager_wallet_mock = mocker.Mock()
     load_packs_mock = mocker.patch("src.cities.packs.create.load_packs")
@@ -200,7 +199,6 @@ def test_create_city_pack_below_threshold(mocker, monkeypatch):
 
 
 def test_create_city_pack_above_threshold(mocker, monkeypatch):
-
     # Arrange
     manager_wallet_mock = mocker.Mock()
     load_packs_mock = mocker.patch("src.cities.packs.create.load_packs")

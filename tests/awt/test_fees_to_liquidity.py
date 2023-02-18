@@ -5,7 +5,6 @@ from src.awt.fees_to_liquidity import fees_to_awt_liquidity
 
 
 def test_fees_to_awt_liquidity_below_trigger(mocker):
-
     # Arrange
     swap_rewards_wallet_mock = mocker.Mock()
     tinyman_client_mock = mocker.Mock()
@@ -29,7 +28,6 @@ def test_fees_to_awt_liquidity_below_trigger(mocker):
 
 # TODO: refine
 def test_fees_to_awt_liquidity_above_trigger(mocker):
-
     # Arrange
     swap_rewards_wallet_mock = mocker.Mock()
     mint_quote_mock = mocker.Mock()

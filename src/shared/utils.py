@@ -226,7 +226,6 @@ def get_onchain_arc(indexer: IndexerClient, address: str, asset_index: int):
 
 
 def get_onchain_influence(arc_note: ARC69Record):
-
     if not arc_note:
         return 0
 
@@ -238,7 +237,6 @@ def get_onchain_influence(arc_note: ARC69Record):
 
 
 def get_onchain_city_status(arc_note: ARC69Record):
-
     if not arc_note:
         return None
 
@@ -291,7 +289,6 @@ def get_all_cities(
     all_cities = []
 
     for asset in all_assets:
-
         try:
             pretty_print(
                 f'Loading potential city asset under {asset["index"]} and {asset["params"]["name"]}'
@@ -427,7 +424,6 @@ def swapper_deposit(
 
     deposit_txs = {}
     for asset_id, asset_amount in assets.items():
-
         deposit_asa_txn = AssetTransferTxn(
             sender=swap_creator.public_key,
             sp=params,

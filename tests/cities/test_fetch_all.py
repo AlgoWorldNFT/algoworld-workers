@@ -4,7 +4,6 @@ from src.shared.models import AlgoWorldCityAsset
 
 
 def test_fetch_aw_cities(mocker):
-
     # Arrange
     indexer_mock = mocker.Mock()
 

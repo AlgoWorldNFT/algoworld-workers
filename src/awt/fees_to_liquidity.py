@@ -14,7 +14,6 @@ def fees_to_awt_liquidity(
     tinyman_client: TinymanClient,
     algod_client: AlgodClient,
 ):
-
     AWT_ID = 51363057 if LEDGER_TYPE.lower() == "testnet" else 233939122
     AWT = tinyman_client.fetch_asset(AWT_ID)
     TMP_POOL = tinyman_client.fetch_asset(552685784)  # TODO: fix for testnet as well

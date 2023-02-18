@@ -9,7 +9,6 @@ from src.countries.fetch_all import (
 
 
 def test_fetch_country_image_txns(mocker):
-
     # Arrange
     indexer_mock = mocker.patch(
         "src.countries.fetch_all.indexer",
@@ -27,7 +26,6 @@ def test_fetch_country_image_txns(mocker):
 
 
 def test_fetch_country_image_txns_empty(mocker):
-
     # Arrange
     indexer_mock = mocker.patch(
         "src.countries.fetch_all.indexer",
@@ -42,7 +40,6 @@ def test_fetch_country_image_txns_empty(mocker):
 
 
 def test_fetch_country_image_url(mocker):
-
     # Arrange
     indexer_mock = mocker.Mock()
     expected_note_url = "ipfs://testcid"
@@ -59,7 +56,6 @@ def test_fetch_country_image_url(mocker):
 
 
 def test_fetch_country_image_url_exception(mocker):
-
     # Arrange
     indexer_mock = mocker.Mock()
     mocker.patch(
@@ -78,7 +74,6 @@ def test_fetch_country_image_url_exception(mocker):
 
 
 def test_fetch_aw_countries(mocker):
-
     # Arrange
     indexer_mock = mocker.Mock()
 
