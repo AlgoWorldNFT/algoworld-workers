@@ -24,5 +24,8 @@
     },
     "python": {
         "enabled": false
+    },
+    "pre-commit": {
+        "enabled": true
     }
 }

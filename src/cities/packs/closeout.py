@@ -84,7 +84,6 @@ def search_transactions(
             break
 
         except Exception as e:
-
             if chunk_size <= 10:
                 raise e
 
@@ -226,7 +225,6 @@ for pack_purchase_txn in latest_pack_purchase_txns:
 
     pack_purchase_note = decode_city_pack_note(pack_purchase_txn["note"])
     if pack_purchase_note:
-
         sender_mismatch = (
             pack_purchase_txn["sender"] != pack_purchase_note.buyer_address
         )

@@ -195,7 +195,6 @@ def process_influence_txns():
         pretty_print(axfer_txn)
         axfer_txn_note = decode_note(axfer_txn["note"])
         if axfer_txn_note:
-
             axfer_receiver_addr = axfer_txn["asset-transfer-transaction"]["receiver"]
 
             receiver_mismatch = axfer_receiver_addr != axfer_txn_note.receiver
@@ -259,7 +258,6 @@ def process_influence_txns():
                 )
 
                 if confirmed_round:
-
                     pretty_print(
                         f'WARNING: already processed deposit of {axfer_txn_note.influence_deposit} for {axfer_txn_note.asset_id} from {axfer_txn["sender"]} at round {confirmed_round} with txid {axfer_txn["id"]}'
                     ) if transaction_already_processed else pretty_print(

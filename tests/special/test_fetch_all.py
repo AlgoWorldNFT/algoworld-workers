@@ -3,7 +3,6 @@ from src.special.fetch_all import fetch_aw_special_cards
 
 
 def test_fetch_aw_special_cards(mocker):
-
     # Arrange
     indexer_mock = mocker.Mock()
 

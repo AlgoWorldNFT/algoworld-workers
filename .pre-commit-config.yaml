@@ -1,24 +1,24 @@
 repos:
     - repo: https://github.com/pre-commit/pre-commit-hooks
-      rev: v4.1.0
+      rev: v4.4.0
       hooks:
           - id: check-yaml
           - id: end-of-file-fixer
           - id: trailing-whitespace
 
     - repo: https://github.com/psf/black
-      rev: 22.6.0
+      rev: 23.1.0
       hooks:
           - id: black
 
     - repo: https://github.com/pycqa/isort
-      rev: 5.10.1
+      rev: 5.12.0
       hooks:
           - id: isort
             args: ["--profile", "black"]
 
     - repo: https://github.com/myint/autoflake
-      rev: v1.4
+      rev: v2.0.1
       hooks:
           - id: autoflake
             args:
@@ -29,7 +29,7 @@ repos:
                 - --ignore-init-module-imports
 
     - repo: https://github.com/myint/eradicate
-      rev: v2.0.0
+      rev: v2.1.0
       hooks:
           - id: eradicate
             args:
