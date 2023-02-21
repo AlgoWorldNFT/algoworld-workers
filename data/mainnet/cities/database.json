@@ -119,6 +119,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 601649762,
+        "influence": 0,
+        "name": "AWC #104 - Tel Aviv, Israel",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmXqACvh5VkqnhU14MtXthkZ9VGnabyQQH1nVLRfiV7VMg"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -992,13 +999,6 @@
         "name": "AWC #109 - Valletta, Malta",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmWJcqRPCSa5bLccSpk2cyEZc2iAphfj4fZm6nDT8uaCrm"
-    },
-    {
-        "index": 601649762,
-        "influence": 3000,
-        "name": "AWC #104 - Tel Aviv, Israel",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmXqACvh5VkqnhU14MtXthkZ9VGnabyQQH1nVLRfiV7VMg"
     },
     {
         "index": 622401303,
