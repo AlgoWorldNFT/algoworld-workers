@@ -199,6 +199,16 @@
         "influence": 2500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "1d977ff3-2bb1-47fe-9e18-7834be43e277": {
+        "acfg_txn": "ZP3P3HSX634WBP5FQ6XMOQAIL3DHBLYY5DXTBK53ESJ6NYN2QDMA",
+        "asset_id": 1036587326,
+        "asset_name": "AWC #315 - Plovdiv, Bulgaria",
+        "block": 27399256,
+        "deposit": 1000,
+        "id": "1d977ff3-2bb1-47fe-9e18-7834be43e277",
+        "influence": 1500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "206954a6-d2ea-49fa-9761-11209facc26e": {
         "acfg_txn": "QOG7N5FHY43DJ6UVCVVV74OLOV2EENOUTEGX2SE7DCF6T3NNWPBQ",
         "asset_id": 1014122396,
@@ -1317,6 +1327,16 @@
         "deposit": 120,
         "id": "f8bb4652-a48b-455c-8cf4-dcaccddf4228",
         "influence": 2500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "fedffc82-b051-4ca3-a34f-5a6e54f2dff1": {
+        "acfg_txn": "PDUR4CEIZEVHAUTFP2TK6RF3MFJNMGPUDRN6BXTKHF3RZO5XJB5Q",
+        "asset_id": 1036587203,
+        "asset_name": "AWC #314 - Halifax, Canada",
+        "block": 27399254,
+        "deposit": 1000,
+        "id": "fedffc82-b051-4ca3-a34f-5a6e54f2dff1",
+        "influence": 1500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     }
 }

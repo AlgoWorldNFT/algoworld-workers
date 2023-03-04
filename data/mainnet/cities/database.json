@@ -623,20 +623,6 @@
         "url": "ipfs://bafybeifgkzj4drzx7n6nqq5popabjek3tr7hpvwa6rfd7uockyzcl6fpjm"
     },
     {
-        "index": 1036587203,
-        "influence": 500,
-        "name": "AWC #314 - Halifax, Canada",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://bafybeibrbvlo5z3fn23mozyz4ubtmsbjgq3p6d4v2r3c7tvbkagn33yrpu"
-    },
-    {
-        "index": 1036587326,
-        "influence": 500,
-        "name": "AWC #315 - Plovdiv, Bulgaria",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://bafybeihldwayxezl5oba33wkgw73m6qh6x6ye4p63uorolaxhn7o3wdhz4"
-    },
-    {
         "index": 702534632,
         "influence": 501,
         "name": "AWC #168 - Warsaw, Poland",
@@ -838,6 +824,20 @@
         "name": "AWC #129 - Lissone, Italy",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
+    },
+    {
+        "index": 1036587203,
+        "influence": 1500,
+        "name": "AWC #314 - Halifax, Canada",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeibrbvlo5z3fn23mozyz4ubtmsbjgq3p6d4v2r3c7tvbkagn33yrpu"
+    },
+    {
+        "index": 1036587326,
+        "influence": 1500,
+        "name": "AWC #315 - Plovdiv, Bulgaria",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeihldwayxezl5oba33wkgw73m6qh6x6ye4p63uorolaxhn7o3wdhz4"
     },
     {
         "index": 882525222,
