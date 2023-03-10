@@ -112,13 +112,6 @@
         "url": "ipfs://QmSeZGW7ArLFweQNGRpYBTo8xvu6dnP3R2c4PKEPXHwQdc"
     },
     {
-        "index": 461384320,
-        "influence": 0,
-        "name": "AWC #77 - Conakry, Guinea",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://Qmf3bS93s56gMbPTxwvm4uD3HC5GtYdhw1dmEK6g4rnPUa"
-    },
-    {
         "index": 587886470,
         "influence": 0,
         "name": "AWC #121 - Taipei, Taiwan",
@@ -922,6 +915,13 @@
         "name": "AWC #70 - Lome, Togo",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmV49wLb8YbWELrjwDGRUMw8h5RaStQ6XroMYPHAWbpG5x"
+    },
+    {
+        "index": 461384320,
+        "influence": 3000,
+        "name": "AWC #77 - Conakry, Guinea",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://Qmf3bS93s56gMbPTxwvm4uD3HC5GtYdhw1dmEK6g4rnPUa"
     },
     {
         "index": 512463384,
