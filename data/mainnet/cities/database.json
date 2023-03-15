@@ -119,13 +119,6 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
-        "index": 688196882,
-        "influence": 0,
-        "name": "AWC #158 - Jamestown, VA, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmPc2M4JeqCYiQuB8wHANxrZUBPkAQScuG677gHLN5ASmT"
-    },
-    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -1153,6 +1146,13 @@
         "name": "AWC #154 - Luxembourg, LU",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmeiTJmEqsdJ1G6SBFhsgtH7e1dLPU1BRgdAuj46HLruFJ"
+    },
+    {
+        "index": 688196882,
+        "influence": 3000,
+        "name": "AWC #158 - Jamestown, VA, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmPc2M4JeqCYiQuB8wHANxrZUBPkAQScuG677gHLN5ASmT"
     },
     {
         "index": 689134399,
