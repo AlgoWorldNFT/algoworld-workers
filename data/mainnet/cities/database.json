@@ -224,20 +224,6 @@
         "url": "ipfs://bafybeie27hjhaadcp726b6j26cyx27likt5jwyzvieyolb4ntauhfxofsq"
     },
     {
-        "index": 1058598883,
-        "influence": 0,
-        "name": "AWC #319 - Cambridge, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigsakwsldldpz4v3ac4nqyn4jyp6yehhpjorsle4vwvgh6jy26oau"
-    },
-    {
-        "index": 1058599004,
-        "influence": 0,
-        "name": "AWC #320 - Naples, Italy",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeif5v2fkuxl4kpvvx75jolbze2yk7tx4uurafrngvbhykl3tzw73be"
-    },
-    {
         "index": 1059339545,
         "influence": 0,
         "name": "AWC #321 - Essen, Germany",
@@ -2007,6 +1993,20 @@
         "name": "AWC #313 - Pripyat, Ukraine",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeif2vd2hfedr27rd3vxclgxrbnrmmsdbzvhypznpprhnvsson2y7ea"
+    },
+    {
+        "index": 1058598883,
+        "influence": 3006,
+        "name": "AWC #319 - Cambridge, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeigsakwsldldpz4v3ac4nqyn4jyp6yehhpjorsle4vwvgh6jy26oau"
+    },
+    {
+        "index": 1058599004,
+        "influence": 3006,
+        "name": "AWC #320 - Naples, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeif5v2fkuxl4kpvvx75jolbze2yk7tx4uurafrngvbhykl3tzw73be"
     },
     {
         "index": 641281413,

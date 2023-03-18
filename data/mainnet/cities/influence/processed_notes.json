@@ -479,6 +479,16 @@
         "influence": 1500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "585dff90-7c2f-4281-89c0-1b9372bd9760": {
+        "acfg_txn": "2O7CSOGAA6GPMITG4UXR3LC6SFVNPWMLWOLIVFSVDPBEO6MNTW7A",
+        "asset_id": 1058599004,
+        "asset_name": "AWC #320 - Naples, Italy",
+        "block": 27720717,
+        "deposit": 3006,
+        "id": "585dff90-7c2f-4281-89c0-1b9372bd9760",
+        "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "58c00561-d483-4a33-ad5b-1b2e118db152": {
         "acfg_txn": "CH5SIIGDQCRU45MYI73O57XY6CHJCYQCWPUZT4WECLK2QYI7J5UQ",
         "asset_id": 971627738,
@@ -597,6 +607,16 @@
         "deposit": 3000,
         "id": "73f9257e-97b5-4809-9812-8a1e1bc7e8fd",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "750ff169-aa71-4ecb-89d1-79de69b02534": {
+        "acfg_txn": "DNKQXVQVJKYVCIT6BLLKMY4SFIMTAJS5DC63XK6IAC7UAWOVDVOQ",
+        "asset_id": 1058598883,
+        "asset_name": "AWC #319 - Cambridge, UK",
+        "block": 27720719,
+        "deposit": 3006,
+        "id": "750ff169-aa71-4ecb-89d1-79de69b02534",
+        "influence": 3006,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "7a0a2991-7cb0-4b99-96bb-82f13426ba07": {
