@@ -2163,13 +2163,6 @@
         "url": "ipfs://bafybeic5bess4vxob4hww6zccsmfq3oaopth6siqfvx3w74kf43xpbpi5e"
     },
     {
-        "index": 271518216,
-        "influence": 5000,
-        "name": "AWC #9 - Paris, France",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmWN6EdntVzpZ1B5xwGba2bGquKHyRrGBM21jn3tRrXZQ1"
-    },
-    {
         "index": 750529484,
         "influence": 5101,
         "name": "AWC #192 - Florence, Italy",
@@ -2224,6 +2217,13 @@
         "name": "AWC #146 - Porto Seguro, BR",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmV7cm3AsKXzdbwkrAxNJTUpPJ4Jbn7KpNRrAAiLgCJJZg"
+    },
+    {
+        "index": 271518216,
+        "influence": 30000,
+        "name": "AWC #9 - Paris, France",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmWN6EdntVzpZ1B5xwGba2bGquKHyRrGBM21jn3tRrXZQ1"
     },
     {
         "index": 304870825,

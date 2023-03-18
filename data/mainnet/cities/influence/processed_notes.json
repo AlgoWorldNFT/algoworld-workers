@@ -179,6 +179,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "18a44c42-dfa7-482f-aa02-f968cb81aad4": {
+        "acfg_txn": "KPVQNWUBGALPMWROG4WPZBCDANMKQMUDVATBFDBBJYM5BQHMJQ3A",
+        "asset_id": 271518216,
+        "asset_name": "AWC #9 - Paris, France",
+        "block": 27735132,
+        "deposit": 25000,
+        "id": "18a44c42-dfa7-482f-aa02-f968cb81aad4",
+        "influence": 30000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "1a6c2061-fb4d-40ef-a9e1-3b7761125a11": {
         "acfg_txn": "QRAATCWHD4CQDA4MM5XWFUHUAHM33FTJLORBZ3VJYYX355ABNDGQ",
         "asset_id": 996513437,
