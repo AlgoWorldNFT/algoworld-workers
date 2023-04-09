@@ -119,13 +119,6 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
-        "index": 603705419,
-        "influence": 0,
-        "name": "AWC #123 - San Marino, SM",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmRN396xTGc6LVPPsPH5jfZ9gGih8C5ek75XSyKYmMy7QE"
-    },
-    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -887,6 +880,13 @@
         "name": "AWC #172 - Puerto Iguazu, AR",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmYcwvDBeq9MQPxHCDt9RmmGsXLkHtsYqmPhs6b6jT7qXf"
+    },
+    {
+        "index": 603705419,
+        "influence": 1189,
+        "name": "AWC #123 - San Marino, SM",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://QmRN396xTGc6LVPPsPH5jfZ9gGih8C5ek75XSyKYmMy7QE"
     },
     {
         "index": 708720520,
