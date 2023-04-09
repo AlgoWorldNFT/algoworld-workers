@@ -189,13 +189,6 @@
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
     },
     {
-        "index": 1003568488,
-        "influence": 0,
-        "name": "AWC #303 - Dakar, Senegal",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidinelazh3up7m6zbq6z5wfhllukkjcjtr2kszsssbdyaqfiix2gq"
-    },
-    {
         "index": 1013373490,
         "influence": 0,
         "name": "AWC #308 - Sabha, Libya",
@@ -1713,6 +1706,13 @@
         "name": "AWC #300 - Sparta, Greece",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeieaqrqung6sxpluo3227lyk6cd6wcwu47xgg3zbpgqgmcmqtwxhzy"
+    },
+    {
+        "index": 1003568488,
+        "influence": 3000,
+        "name": "AWC #303 - Dakar, Senegal",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeidinelazh3up7m6zbq6z5wfhllukkjcjtr2kszsssbdyaqfiix2gq"
     },
     {
         "index": 1009557337,
