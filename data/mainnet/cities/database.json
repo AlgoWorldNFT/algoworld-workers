@@ -119,13 +119,6 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
-        "index": 653061320,
-        "influence": 0,
-        "name": "AWC #147 - Yamoussoukro, CI",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmPpZj9bEmnJsGAAuEbUmXhfENKfDdsJZYzxw1aejyiAkT"
-    },
-    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -593,6 +586,13 @@
         "name": "AWC #127 - Milan, Italy",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://QmZA3smfYoEeFLX6XVzwsfCuRkHibE1uj4CCfiTKxkYyuW"
+    },
+    {
+        "index": 653061320,
+        "influence": 500,
+        "name": "AWC #147 - Yamoussoukro, CI",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://QmPpZj9bEmnJsGAAuEbUmXhfENKfDdsJZYzxw1aejyiAkT"
     },
     {
         "index": 678462284,
