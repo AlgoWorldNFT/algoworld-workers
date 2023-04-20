@@ -273,25 +273,11 @@
         "url": "ipfs://bafybeie6a63qgwvvsuakd6iowpsxrofxhuy53bdih45b5yz6a7rt7vi4pi"
     },
     {
-        "index": 1084567526,
-        "influence": 0,
-        "name": "AWC #331 - Maribor, Slovenia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeictnmrjm3flzzrc6xtlhfkbl77mi2khgbpajgpwffkviwmzbeqev4"
-    },
-    {
         "index": 1084570803,
         "influence": 0,
         "name": "AWC #328 - Galway, Ireland",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeidegmukroq5gx64o6xok44o6rqukmfphh2gf73xscgov7ya3halz4"
-    },
-    {
-        "index": 1085661866,
-        "influence": 0,
-        "name": "AWC #332 - Izola, Slovenia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifwhcnmga5hbhz6a7vjhklmpvtfl7cvp3tw4rkuipov64w2gh5oke"
     },
     {
         "index": 1085661918,
@@ -306,62 +292,6 @@
         "name": "AWC #334 - Dhaka, Bangladesh",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeifo3asnhtfhhxjkebjwcdzbq6m3leqsqhsijzkcdibjui7rmtzn6a"
-    },
-    {
-        "index": 1086567022,
-        "influence": 0,
-        "name": "AWC #329 - Rijeka, Croatia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidirelsrikt6gcu54n5q3fxiqnrczfc7lfnbfqqueisey5vam5l3i"
-    },
-    {
-        "index": 1086567058,
-        "influence": 0,
-        "name": "AWC #335 - Opatija, Croatia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeib3pwhpcheja2jt5evmoyoz2zrwqa2kfvmhew5jt27nzv5vprs2ki"
-    },
-    {
-        "index": 1086567151,
-        "influence": 0,
-        "name": "AWC #336 - Vukovar, Croatia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeicm2apgpydcywxyszuanoxy5eg5tbijffwwsw37vx53lvnqb2clbu"
-    },
-    {
-        "index": 1086567202,
-        "influence": 0,
-        "name": "AWC #337 - Trieste, Italy",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigddvldt2qfwtncjutovxednrgpqhy6dwjiau32bjynjg2wpdwiu4"
-    },
-    {
-        "index": 1086567236,
-        "influence": 0,
-        "name": "AWC #340 - Sarajevo, BA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeia2rqtuju2j3zxpxmg7utbguhtojmlyogkloxyrkwi6cdvdojrmli"
-    },
-    {
-        "index": 1086567267,
-        "influence": 0,
-        "name": "AWC #341 - Mostar, BA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigcwdpso3iqpap225h3cycczvppkm357lvtne7jvrjiyowga2637a"
-    },
-    {
-        "index": 1086567308,
-        "influence": 0,
-        "name": "AWC #343 - Baikonur, Kazakhstan",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidqul7ea2m2rtpnbjlndtn4cqdm2vw7llm66lnynr6ihz6tqlmyl4"
-    },
-    {
-        "index": 1086567339,
-        "influence": 0,
-        "name": "AWC #344 - Wuppertal, Germany",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeicyznobxy6dchouxralhrq253xlna7yau3ttwju7fbehr45zww6nm"
     },
     {
         "index": 271159971,
@@ -539,6 +469,62 @@
         "url": "ipfs://Qme1zyNZjM53EBe75vDRx6d8wDTBXTXyWZ1YuGRUxAk6H3"
     },
     {
+        "index": 1084567526,
+        "influence": 100,
+        "name": "AWC #331 - Maribor, Slovenia",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeictnmrjm3flzzrc6xtlhfkbl77mi2khgbpajgpwffkviwmzbeqev4"
+    },
+    {
+        "index": 1085661866,
+        "influence": 100,
+        "name": "AWC #332 - Izola, Slovenia",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeifwhcnmga5hbhz6a7vjhklmpvtfl7cvp3tw4rkuipov64w2gh5oke"
+    },
+    {
+        "index": 1086567058,
+        "influence": 100,
+        "name": "AWC #335 - Opatija, Croatia",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeib3pwhpcheja2jt5evmoyoz2zrwqa2kfvmhew5jt27nzv5vprs2ki"
+    },
+    {
+        "index": 1086567151,
+        "influence": 100,
+        "name": "AWC #336 - Vukovar, Croatia",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeicm2apgpydcywxyszuanoxy5eg5tbijffwwsw37vx53lvnqb2clbu"
+    },
+    {
+        "index": 1086567202,
+        "influence": 100,
+        "name": "AWC #337 - Trieste, Italy",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeigddvldt2qfwtncjutovxednrgpqhy6dwjiau32bjynjg2wpdwiu4"
+    },
+    {
+        "index": 1086567267,
+        "influence": 100,
+        "name": "AWC #341 - Mostar, BA",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeigcwdpso3iqpap225h3cycczvppkm357lvtne7jvrjiyowga2637a"
+    },
+    {
+        "index": 1086567308,
+        "influence": 100,
+        "name": "AWC #343 - Baikonur, Kazakhstan",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeidqul7ea2m2rtpnbjlndtn4cqdm2vw7llm66lnynr6ihz6tqlmyl4"
+    },
+    {
+        "index": 1086567339,
+        "influence": 100,
+        "name": "AWC #344 - Wuppertal, Germany",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeicyznobxy6dchouxralhrq253xlna7yau3ttwju7fbehr45zww6nm"
+    },
+    {
         "index": 393262263,
         "influence": 101,
         "name": "AWC #64 - Naypyidaw, Myanmar",
@@ -579,6 +565,20 @@
         "name": "AWC #53 - Oslo, Norway",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmbS48spqM1vci343B4cMeo9TdkcgTukvcs1kN7D1e9k5H"
+    },
+    {
+        "index": 1086567022,
+        "influence": 300,
+        "name": "AWC #329 - Rijeka, Croatia",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeidirelsrikt6gcu54n5q3fxiqnrczfc7lfnbfqqueisey5vam5l3i"
+    },
+    {
+        "index": 1086567236,
+        "influence": 300,
+        "name": "AWC #340 - Sarajevo, BA",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeia2rqtuju2j3zxpxmg7utbguhtojmlyogkloxyrkwi6cdvdojrmli"
     },
     {
         "index": 272357734,
