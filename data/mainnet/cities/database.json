@@ -777,13 +777,6 @@
         "url": "ipfs://bafybeidirelsrikt6gcu54n5q3fxiqnrczfc7lfnbfqqueisey5vam5l3i"
     },
     {
-        "index": 1086567236,
-        "influence": 500,
-        "name": "AWC #340 - Sarajevo, BA",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://bafybeia2rqtuju2j3zxpxmg7utbguhtojmlyogkloxyrkwi6cdvdojrmli"
-    },
-    {
         "index": 702534632,
         "influence": 501,
         "name": "AWC #168 - Warsaw, Poland",
@@ -1839,6 +1832,13 @@
         "name": "AWC #312 - Pristina, Kosovo",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeihobqoidbjjnaxnjxfd3ina66sgxldwcrfmqcdcacvzk3s34y4vqu"
+    },
+    {
+        "index": 1086567236,
+        "influence": 3000,
+        "name": "AWC #340 - Sarajevo, BA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeia2rqtuju2j3zxpxmg7utbguhtojmlyogkloxyrkwi6cdvdojrmli"
     },
     {
         "index": 377742761,

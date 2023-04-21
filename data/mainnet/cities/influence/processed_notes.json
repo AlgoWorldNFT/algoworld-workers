@@ -519,6 +519,16 @@
         "influence": 3111,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "4b2b969a-3a2e-4819-874f-ec563cec5932": {
+        "acfg_txn": "HRZFAPEIMGXTUZ5QGEVJUPKCRTB3JL64M7GUS3DZPJQJZU3F37AA",
+        "asset_id": 1086567236,
+        "asset_name": "AWC #340 - Sarajevo, BA",
+        "block": 28525264,
+        "deposit": 2500,
+        "id": "4b2b969a-3a2e-4819-874f-ec563cec5932",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "4b903cf6-39da-4616-860a-036df8735243": {
         "acfg_txn": "FPP6UEAX566GJF64XURFXTISMFISKB455BMKFMIIHSHVO3TMF7OA",
         "asset_id": 996513056,
