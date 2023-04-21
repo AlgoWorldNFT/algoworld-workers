@@ -462,13 +462,6 @@
         "url": "ipfs://bafybeifwhcnmga5hbhz6a7vjhklmpvtfl7cvp3tw4rkuipov64w2gh5oke"
     },
     {
-        "index": 1086567202,
-        "influence": 100,
-        "name": "AWC #337 - Trieste, Italy",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeigddvldt2qfwtncjutovxednrgpqhy6dwjiau32bjynjg2wpdwiu4"
-    },
-    {
         "index": 1086567339,
         "influence": 100,
         "name": "AWC #344 - Wuppertal, Germany",
@@ -1834,13 +1827,6 @@
         "url": "ipfs://bafybeihobqoidbjjnaxnjxfd3ina66sgxldwcrfmqcdcacvzk3s34y4vqu"
     },
     {
-        "index": 1086567236,
-        "influence": 3000,
-        "name": "AWC #340 - Sarajevo, BA",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://bafybeia2rqtuju2j3zxpxmg7utbguhtojmlyogkloxyrkwi6cdvdojrmli"
-    },
-    {
         "index": 377742761,
         "influence": 3001,
         "name": "AWC #50 - Ottawa, Canada",
@@ -2156,6 +2142,13 @@
         "url": "ipfs://QmVd6RafkhaZuFnQ1QGNC3WsNd2emKv16RmDiDE7MGQdp5"
     },
     {
+        "index": 1086567202,
+        "influence": 3032,
+        "name": "AWC #337 - Trieste, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeigddvldt2qfwtncjutovxednrgpqhy6dwjiau32bjynjg2wpdwiu4"
+    },
+    {
         "index": 323680686,
         "influence": 3037,
         "name": "AWC #35 - Berlin, Germany",
@@ -2245,6 +2238,13 @@
         "name": "AWC #250 - Lafayette, LA, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeifkz467fpyh7xptkzylxi6fwn66m5klv6xyii36otjvyybnzshsem"
+    },
+    {
+        "index": 1086567236,
+        "influence": 3334,
+        "name": "AWC #340 - Sarajevo, BA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeia2rqtuju2j3zxpxmg7utbguhtojmlyogkloxyrkwi6cdvdojrmli"
     },
     {
         "index": 689523661,

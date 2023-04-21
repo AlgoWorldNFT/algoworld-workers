@@ -139,6 +139,16 @@
         "influence": 2850,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "1175713c-df62-433b-9731-33fe86773a0a": {
+        "acfg_txn": "CGUX3AFO4DRX6JM5DOECOWJYKSE4QSSJWRDPF3H3OXYADNAZIXKA",
+        "asset_id": 1086567236,
+        "asset_name": "AWC #340 - Sarajevo, BA",
+        "block": 28527229,
+        "deposit": 334,
+        "id": "1175713c-df62-433b-9731-33fe86773a0a",
+        "influence": 3334,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "11ca2aaf-a934-4bf8-abe9-c0ce65844c65": {
         "acfg_txn": "A7V4FVQIBB3SQIEW2KLN43473R2G2F3U3JEQON4K4DZA2EUT6NIQ",
         "asset_id": 689523661,
@@ -1327,6 +1337,16 @@
         "deposit": 3003,
         "id": "cfb53dab-39dd-4210-a803-be9cf01e1805",
         "influence": 3003,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "d0aa452e-0ad7-4bc3-8cc1-9d86e88ca832": {
+        "acfg_txn": "PMIXK7QYJCAYZRNFRF3DW2OIYEQYESOAPE5FYPDIG7OOE6SZK74Q",
+        "asset_id": 1086567202,
+        "asset_name": "AWC #337 - Trieste, Italy",
+        "block": 28527231,
+        "deposit": 2932,
+        "id": "d0aa452e-0ad7-4bc3-8cc1-9d86e88ca832",
+        "influence": 3032,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "d2932697-bdd2-4c34-8ae4-d42353c776c5": {
