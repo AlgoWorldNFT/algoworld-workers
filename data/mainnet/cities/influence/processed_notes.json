@@ -259,6 +259,16 @@
         "influence": 100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "1b3624d7-88c0-42cd-8396-4cd87622f0ab": {
+        "acfg_txn": "HTTVE4ZP4WZUCNS7DDRWMYOTIXMUPYK5ATSLXCM5QSHJMGCOXOQA",
+        "asset_id": 1086567022,
+        "asset_name": "AWC #329 - Rijeka, Croatia",
+        "block": 28555574,
+        "deposit": 1500,
+        "id": "1b3624d7-88c0-42cd-8396-4cd87622f0ab",
+        "influence": 2000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "1b45b782-6e62-427c-b1fb-93dd7878237d": {
         "acfg_txn": "FJVK6PUY6YVVNYWKDAME4T2LAT3RWU5FINA355IJWWUELF2UDB3A",
         "asset_id": 945535824,
@@ -357,6 +367,16 @@
         "deposit": 250,
         "id": "29bef777-5c7d-4486-8f5e-14241561c254",
         "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "2ade5941-83aa-473d-bc59-8e58956075a7": {
+        "acfg_txn": "EPNQT55KA7G3MQ66TSDYASPPQ5OJVT5HUWHK5FBSV5UG42MAMBZQ",
+        "asset_id": 1086567058,
+        "asset_name": "AWC #335 - Opatija, Croatia",
+        "block": 28555576,
+        "deposit": 1000,
+        "id": "2ade5941-83aa-473d-bc59-8e58956075a7",
+        "influence": 2000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "3000a886-c739-4105-bfc4-514dae0e8867": {
@@ -579,6 +599,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "4d501a38-59aa-4aa7-abf4-5a9d5fe72e7a": {
+        "acfg_txn": "CXBMXEXKA52IP2VKP4PWCXKC2ICEJWTHLVULFB6WU4VLY66JSJ7Q",
+        "asset_id": 1086567308,
+        "asset_name": "AWC #343 - Baikonur, Kazakhstan",
+        "block": 28555578,
+        "deposit": 1000,
+        "id": "4d501a38-59aa-4aa7-abf4-5a9d5fe72e7a",
+        "influence": 2000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "4d596874-c628-4030-9088-b29d23e5f3ef": {
         "acfg_txn": "5JMVPYJFEZ4JQH44OPWAHJNQMCEORX722JH4KZBTD4KVPVZNKIJQ",
         "asset_id": 1036587203,
@@ -789,6 +819,16 @@
         "influence": 3006,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "779de7c9-3d8a-40b3-b0e2-09585276d0db": {
+        "acfg_txn": "UGHJOC2IUV7OEXMAMTT4K5BWPR5ZSP2GQT72GYO5AVOE452ZJRMA",
+        "asset_id": 1086567151,
+        "asset_name": "AWC #336 - Vukovar, Croatia",
+        "block": 28555570,
+        "deposit": 500,
+        "id": "779de7c9-3d8a-40b3-b0e2-09585276d0db",
+        "influence": 1000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7a0a2991-7cb0-4b99-96bb-82f13426ba07": {
         "acfg_txn": "HAJWJYXROUDPNSWLSFMWSMU34BOPWGO4X5OZ6DGEZOXHG6RWWWNQ",
         "asset_id": 950717524,
@@ -837,6 +877,16 @@
         "deposit": 250,
         "id": "7ea9b66f-6925-4191-82a9-72405be41a57",
         "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "7f691433-b240-4c5b-8748-adebfdb3dd7a": {
+        "acfg_txn": "6HBXHQTPU724XXLAXC5RUGZ5XAS4EXMC6ZVNM4THWG3EA3CB4FUQ",
+        "asset_id": 1084567526,
+        "asset_name": "AWC #331 - Maribor, Slovenia",
+        "block": 28555572,
+        "deposit": 500,
+        "id": "7f691433-b240-4c5b-8748-adebfdb3dd7a",
+        "influence": 1000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "7fab88d2-4037-4e21-8841-05801e1d58e4": {
