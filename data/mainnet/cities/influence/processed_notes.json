@@ -509,6 +509,16 @@
         "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "46bba588-5799-49c4-9f58-b6eb579155ff": {
+        "acfg_txn": "53RGY3S6SXARZUSC2EGRW2I2L6RIDKFO4RV6A6I3IUYYCO4LH4KQ",
+        "asset_id": 1090604680,
+        "asset_name": "AWC #351 - Buckeburg, Germany",
+        "block": 28580054,
+        "deposit": 300,
+        "id": "46bba588-5799-49c4-9f58-b6eb579155ff",
+        "influence": 300,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "46d31da3-de15-44cc-bca4-09123f11c4e5": {
         "acfg_txn": "UEVBQWCBIPO43MDMYD3VRHNDND5JUATZVQCIPFXHAWKFW5NGKCXQ",
         "asset_id": 1086567022,
@@ -657,6 +667,16 @@
         "deposit": 3006,
         "id": "585dff90-7c2f-4281-89c0-1b9372bd9760",
         "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "588df8bc-5372-424e-9d1c-42b8ea36e65c": {
+        "acfg_txn": "TPX5QRHSXSHC6Y6BZTUSPRGQVPFN6RR7WWQEXKEX7SBG3JPZ2CGQ",
+        "asset_id": 1090604478,
+        "asset_name": "AWC #330 - Capljina, BA",
+        "block": 28580046,
+        "deposit": 300,
+        "id": "588df8bc-5372-424e-9d1c-42b8ea36e65c",
+        "influence": 300,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "58c00561-d483-4a33-ad5b-1b2e118db152": {
@@ -879,6 +899,16 @@
         "influence": 250,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "7f4a8de5-768b-4523-a11a-57b883046bd2": {
+        "acfg_txn": "XS2KE46UQUZTIOB6AXGS77OCEKLCNDGXIKYXYR3LOJOAZKGFNYPQ",
+        "asset_id": 1090604645,
+        "asset_name": "AWC #342 - Palermo, Italy",
+        "block": 28580052,
+        "deposit": 100,
+        "id": "7f4a8de5-768b-4523-a11a-57b883046bd2",
+        "influence": 100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "7f691433-b240-4c5b-8748-adebfdb3dd7a": {
         "acfg_txn": "6HBXHQTPU724XXLAXC5RUGZ5XAS4EXMC6ZVNM4THWG3EA3CB4FUQ",
         "asset_id": 1084567526,
@@ -977,6 +1007,16 @@
         "deposit": 3000,
         "id": "8c677903-e5e1-4286-98c5-715133f246cc",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "8cfe570c-ac8b-4d84-9098-7e8dbe12b782": {
+        "acfg_txn": "WH56XLQRJSNY6RQIRNAQKHIBRE6UMXUXLFNCDCP3GZEH4ARKPUGQ",
+        "asset_id": 1090604729,
+        "asset_name": "AWC #356 - Plesetsk, Russia",
+        "block": 28580056,
+        "deposit": 1000,
+        "id": "8cfe570c-ac8b-4d84-9098-7e8dbe12b782",
+        "influence": 1000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "8d792af2-7f84-4d78-a14e-5dfebc7c5ab9": {
@@ -1489,6 +1529,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "df1fca29-0cdb-4253-8717-231d91ba5e47": {
+        "acfg_txn": "NWNZNG5HL32QNHKVAG5BT5MJRZ3ABT3RNZUM7LKURAQRGG2WDWPQ",
+        "asset_id": 1090604539,
+        "asset_name": "AWC #338 - Tirana, Albania",
+        "block": 28580048,
+        "deposit": 500,
+        "id": "df1fca29-0cdb-4253-8717-231d91ba5e47",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "df904c5d-0f96-4682-87c5-8960df2651cf": {
         "acfg_txn": "KWOBPG2WQXSKN6PGNNWOS6UDXUIOYV6KBQLCYCP7KGLAUKGO5JCQ",
         "asset_id": 750529484,
@@ -1527,6 +1577,16 @@
         "deposit": 3000,
         "id": "e4d6ee4b-af2b-4808-99e6-e0d9f283c120",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "e7672ab7-735f-4687-a9d1-a6a185c0092a": {
+        "acfg_txn": "6M4YKDJRRFUCBSMT4GMRDY67DD4MLPWUFXP6EK3F53L3FUADMNMQ",
+        "asset_id": 1090604806,
+        "asset_name": "AWC #357 - Vostochny, Russia",
+        "block": 28580058,
+        "deposit": 1000,
+        "id": "e7672ab7-735f-4687-a9d1-a6a185c0092a",
+        "influence": 1000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "e862d4c5-5519-42a7-bde7-d6a4fb43c334": {
@@ -1597,6 +1657,16 @@
         "deposit": 2750,
         "id": "f04f3a8a-c2e7-45f5-b32f-c1212dd5ac2f",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "f0bdded8-9ff5-4c83-8491-f8b44b739587": {
+        "acfg_txn": "7ZQZ6II4EWV6VBPLOUZH47KMDVYBEL3MTAMQQT4AWAF7RTXB7SWQ",
+        "asset_id": 1090604586,
+        "asset_name": "AWC #339 - Podgorica, Montenegro",
+        "block": 28580050,
+        "deposit": 500,
+        "id": "f0bdded8-9ff5-4c83-8491-f8b44b739587",
+        "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "f0f8b3e6-efaf-4b4c-9d2f-fdf4f102c8e8": {
