@@ -299,6 +299,16 @@
         "influence": 1500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "1fb240dc-c254-4b04-8d12-f1958db4380e": {
+        "acfg_txn": "2OPRU7K5L4RHGH4WT52TUSLBURMI3HG3Z5OX6RRERI4SAKGGRWFA",
+        "asset_id": 1086567308,
+        "asset_name": "AWC #343 - Baikonur, Kazakhstan",
+        "block": 28593717,
+        "deposit": 1000,
+        "id": "1fb240dc-c254-4b04-8d12-f1958db4380e",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "206954a6-d2ea-49fa-9761-11209facc26e": {
         "acfg_txn": "QOG7N5FHY43DJ6UVCVVV74OLOV2EENOUTEGX2SE7DCF6T3NNWPBQ",
         "asset_id": 1014122396,

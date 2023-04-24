@@ -1057,13 +1057,6 @@
         "url": "ipfs://bafybeigcwdpso3iqpap225h3cycczvppkm357lvtne7jvrjiyowga2637a"
     },
     {
-        "index": 1086567308,
-        "influence": 2000,
-        "name": "AWC #343 - Baikonur, Kazakhstan",
-        "status": "AlgoWorld Platinum City",
-        "url": "ipfs://bafybeidqul7ea2m2rtpnbjlndtn4cqdm2vw7llm66lnynr6ihz6tqlmyl4"
-    },
-    {
         "index": 587679910,
         "influence": 2001,
         "name": "AWC #112 - Havana, Cuba",
@@ -1874,6 +1867,13 @@
         "name": "AWC #312 - Pristina, Kosovo",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeihobqoidbjjnaxnjxfd3ina66sgxldwcrfmqcdcacvzk3s34y4vqu"
+    },
+    {
+        "index": 1086567308,
+        "influence": 3000,
+        "name": "AWC #343 - Baikonur, Kazakhstan",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeidqul7ea2m2rtpnbjlndtn4cqdm2vw7llm66lnynr6ihz6tqlmyl4"
     },
     {
         "index": 377742761,
