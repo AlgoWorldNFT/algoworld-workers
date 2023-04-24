@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-      
+
       - name: Commit files
         id: commit_files
         run: |
