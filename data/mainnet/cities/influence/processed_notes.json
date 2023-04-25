@@ -239,6 +239,16 @@
         "influence": 30000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "1a19f097-11fa-46f7-b81e-d78c005a6a76": {
+        "acfg_txn": "H6GS2ENURZBFREH55ZHQ2PX4PA6DRRBTSAQ5TCNNSM6AUPQPDBDA",
+        "asset_id": 1036587326,
+        "asset_name": "AWC #315 - Plovdiv, Bulgaria",
+        "block": 28625972,
+        "deposit": 1500,
+        "id": "1a19f097-11fa-46f7-b81e-d78c005a6a76",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "1a6c2061-fb4d-40ef-a9e1-3b7761125a11": {
         "acfg_txn": "QRAATCWHD4CQDA4MM5XWFUHUAHM33FTJLORBZ3VJYYX355ABNDGQ",
         "asset_id": 996513437,
@@ -439,6 +449,16 @@
         "influence": 3006,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "39d302a2-d196-4109-b784-fa52e9d85a31": {
+        "acfg_txn": "G6H3AQ3OFDGB6DUUHTE3GHK2ZR2KTGYDHGUMEJ53HLPZ6VGUSZ3A",
+        "asset_id": 1052346621,
+        "asset_name": "AWC #316 - Bergen, Norway",
+        "block": 28625974,
+        "deposit": 3000,
+        "id": "39d302a2-d196-4109-b784-fa52e9d85a31",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3aab6e69-0dae-46b9-85e9-66d2dbf523af": {
         "acfg_txn": "ZUOW56FIWCOFP2A7JPCDXWOFY5FB2HTM3MIU4T43WMSCMXHURNPA",
         "asset_id": 1014122432,
@@ -497,6 +517,16 @@
         "deposit": 100,
         "id": "42bc2e86-f975-4a97-8056-a2cf8d4ae8f0",
         "influence": 100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "437ab2ea-060c-47ed-ae1b-cbbc2e0d453f": {
+        "acfg_txn": "U4Y2AEMBM7WAYXT7ZZD67BH3TWZSX7BZGIK64AENGRRSRMRTE4TA",
+        "asset_id": 1036587203,
+        "asset_name": "AWC #314 - Halifax, Canada",
+        "block": 28625970,
+        "deposit": 1500,
+        "id": "437ab2ea-060c-47ed-ae1b-cbbc2e0d453f",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "43afda70-ff92-405f-9c13-cb49d951d132": {
