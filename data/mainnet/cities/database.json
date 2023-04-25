@@ -105,13 +105,6 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
-        "index": 603741490,
-        "influence": 0,
-        "name": "AWC #126 - Tiraspol,Transnistria",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmXSYJVvm6EWqUAW58PTcnTmjsBHHTud8U1p9MvDykNRKP"
-    },
-    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -614,6 +607,13 @@
         "name": "AWC #122 - Pretoria, S. Africa",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://QmRrtjGocDVX1ZFVSEQRw6VicnMEdr9N6Gkq2E94JSmUzE"
+    },
+    {
+        "index": 603741490,
+        "influence": 500,
+        "name": "AWC #126 - Tiraspol,Transnistria",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://QmXSYJVvm6EWqUAW58PTcnTmjsBHHTud8U1p9MvDykNRKP"
     },
     {
         "index": 609073965,
