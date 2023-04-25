@@ -469,13 +469,6 @@
         "url": "ipfs://bafybeicyznobxy6dchouxralhrq253xlna7yau3ttwju7fbehr45zww6nm"
     },
     {
-        "index": 1090604645,
-        "influence": 100,
-        "name": "AWC #342 - Palermo, Italy",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeihaevw4vdqz4dua4zjzjo7cn33aqwshacgpud2o75omqhdpinx4xq"
-    },
-    {
         "index": 393262263,
         "influence": 101,
         "name": "AWC #64 - Naypyidaw, Myanmar",
@@ -2210,6 +2203,13 @@
         "name": "AWC #99 - Shanghai, China",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmPupRoZz9QrzHCq4vfgoy1HsvM3G68BZy5FD8YRJE53Rp"
+    },
+    {
+        "index": 1090604645,
+        "influence": 3069,
+        "name": "AWC #342 - Palermo, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeihaevw4vdqz4dua4zjzjo7cn33aqwshacgpud2o75omqhdpinx4xq"
     },
     {
         "index": 344621457,

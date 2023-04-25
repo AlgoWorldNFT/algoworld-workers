@@ -609,6 +609,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "4bd57460-5bbf-4477-87c3-55cee1dd38f4": {
+        "acfg_txn": "WV4XEV4MBZQ7FMDJ2U4I5LVNCR5DQTEMBXZJMKRMOY2OCWV4NA5A",
+        "asset_id": 1090604645,
+        "asset_name": "AWC #342 - Palermo, Italy",
+        "block": 28607676,
+        "deposit": 2969,
+        "id": "4bd57460-5bbf-4477-87c3-55cee1dd38f4",
+        "influence": 3069,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "4c09fdaf-6a20-403f-8fd4-230b8b21dbbf": {
         "acfg_txn": "4NDY6FTD5Z6FQ3OLIVX7W5JGK5I7J2SQDKW6ZMQAIHA3RZUX7QRA",
         "asset_id": 977485556,
