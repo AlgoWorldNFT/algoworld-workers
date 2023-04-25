@@ -1599,6 +1599,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "e6fb4b63-c042-408d-92e2-e54b8a5703d9": {
+        "acfg_txn": "OZHUPWNBYFNZRII3XVZFZKXLMXAOXRNW65AOVDCMUYV7ORAL6TFA",
+        "asset_id": 1090604806,
+        "asset_name": "AWC #357 - Vostochny, Russia",
+        "block": 28622076,
+        "deposit": 1000,
+        "id": "e6fb4b63-c042-408d-92e2-e54b8a5703d9",
+        "influence": 2000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "e7672ab7-735f-4687-a9d1-a6a185c0092a": {
         "acfg_txn": "6M4YKDJRRFUCBSMT4GMRDY67DD4MLPWUFXP6EK3F53L3FUADMNMQ",
         "asset_id": 1090604806,
@@ -1737,6 +1747,16 @@
         "deposit": 120,
         "id": "f8bb4652-a48b-455c-8cf4-dcaccddf4228",
         "influence": 2500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "f8f8113b-00fe-4d8e-85c3-95fdcfcdb4d1": {
+        "acfg_txn": "OZSAVKYFEDHN6TJXW6NYDYAXLE5UZIVJ5VU3UB6IIHRSTLHTOPQA",
+        "asset_id": 1090604729,
+        "asset_name": "AWC #356 - Plesetsk, Russia",
+        "block": 28622074,
+        "deposit": 1000,
+        "id": "f8f8113b-00fe-4d8e-85c3-95fdcfcdb4d1",
+        "influence": 2000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "fe07fb1e-cd8b-4bf4-b788-32a7af2cff39": {

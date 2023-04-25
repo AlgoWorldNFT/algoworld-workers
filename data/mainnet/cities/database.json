@@ -924,20 +924,6 @@
         "url": "ipfs://bafybeicm2apgpydcywxyszuanoxy5eg5tbijffwwsw37vx53lvnqb2clbu"
     },
     {
-        "index": 1090604729,
-        "influence": 1000,
-        "name": "AWC #356 - Plesetsk, Russia",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeibbaivh5xa25bhvaqb66ehtds75jm3efhidnnr2fff44u7ed2d6p4"
-    },
-    {
-        "index": 1090604806,
-        "influence": 1000,
-        "name": "AWC #357 - Vostochny, Russia",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeied6gd6l37trpo3wptj3dqsbaej2q4wu5p2x4uvteweh7aofmolae"
-    },
-    {
         "index": 444205880,
         "influence": 1001,
         "name": "AWC #62 - Bonanza, USA",
@@ -1048,6 +1034,20 @@
         "name": "AWC #341 - Mostar, BA",
         "status": "AlgoWorld Platinum City",
         "url": "ipfs://bafybeigcwdpso3iqpap225h3cycczvppkm357lvtne7jvrjiyowga2637a"
+    },
+    {
+        "index": 1090604729,
+        "influence": 2000,
+        "name": "AWC #356 - Plesetsk, Russia",
+        "status": "AlgoWorld Platinum City",
+        "url": "ipfs://bafybeibbaivh5xa25bhvaqb66ehtds75jm3efhidnnr2fff44u7ed2d6p4"
+    },
+    {
+        "index": 1090604806,
+        "influence": 2000,
+        "name": "AWC #357 - Vostochny, Russia",
+        "status": "AlgoWorld Platinum City",
+        "url": "ipfs://bafybeied6gd6l37trpo3wptj3dqsbaej2q4wu5p2x4uvteweh7aofmolae"
     },
     {
         "index": 587679910,
