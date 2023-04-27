@@ -1015,20 +1015,6 @@
         "url": "ipfs://bafybeigcwdpso3iqpap225h3cycczvppkm357lvtne7jvrjiyowga2637a"
     },
     {
-        "index": 1090604729,
-        "influence": 2000,
-        "name": "AWC #356 - Plesetsk, Russia",
-        "status": "AlgoWorld Platinum City",
-        "url": "ipfs://bafybeibbaivh5xa25bhvaqb66ehtds75jm3efhidnnr2fff44u7ed2d6p4"
-    },
-    {
-        "index": 1090604806,
-        "influence": 2000,
-        "name": "AWC #357 - Vostochny, Russia",
-        "status": "AlgoWorld Platinum City",
-        "url": "ipfs://bafybeied6gd6l37trpo3wptj3dqsbaej2q4wu5p2x4uvteweh7aofmolae"
-    },
-    {
         "index": 587679910,
         "influence": 2001,
         "name": "AWC #112 - Havana, Cuba",
@@ -1867,6 +1853,20 @@
         "name": "AWC #343 - Baikonur, Kazakhstan",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeidqul7ea2m2rtpnbjlndtn4cqdm2vw7llm66lnynr6ihz6tqlmyl4"
+    },
+    {
+        "index": 1090604729,
+        "influence": 3000,
+        "name": "AWC #356 - Plesetsk, Russia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeibbaivh5xa25bhvaqb66ehtds75jm3efhidnnr2fff44u7ed2d6p4"
+    },
+    {
+        "index": 1090604806,
+        "influence": 3000,
+        "name": "AWC #357 - Vostochny, Russia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeied6gd6l37trpo3wptj3dqsbaej2q4wu5p2x4uvteweh7aofmolae"
     },
     {
         "index": 377742761,
