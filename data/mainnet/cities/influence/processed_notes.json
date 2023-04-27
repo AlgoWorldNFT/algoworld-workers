@@ -149,6 +149,16 @@
         "influence": 2850,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "11188842-fbc2-4cdd-ad5d-a55eb9c718df": {
+        "acfg_txn": "MBOWM37ZCUHUKJDXM65FVSAKIA2E3F27YPKEZTQLCLT5KGK6AS6Q",
+        "asset_id": 1058598717,
+        "asset_name": "AWC #317 - Cusco, Peru",
+        "block": 28674722,
+        "deposit": 3000,
+        "id": "11188842-fbc2-4cdd-ad5d-a55eb9c718df",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "1175713c-df62-433b-9731-33fe86773a0a": {
         "acfg_txn": "CGUX3AFO4DRX6JM5DOECOWJYKSE4QSSJWRDPF3H3OXYADNAZIXKA",
         "asset_id": 1086567236,
@@ -517,6 +527,16 @@
         "deposit": 450,
         "id": "418c82f9-38b4-4ffb-8af3-2e49d32a8045",
         "influence": 23456,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "419a0d5e-5793-47bb-a363-0d40fe7f2ddf": {
+        "acfg_txn": "CAUV2O6HMIXN6HZK5ECCIV6QI6N3P77W4RRKNQYTUKBHQKIVLUFQ",
+        "asset_id": 1058598817,
+        "asset_name": "AWC #318 - Quebec, Canada",
+        "block": 28674724,
+        "deposit": 1500,
+        "id": "419a0d5e-5793-47bb-a363-0d40fe7f2ddf",
+        "influence": 1500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "42bc2e86-f975-4a97-8056-a2cf8d4ae8f0": {

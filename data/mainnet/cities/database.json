@@ -189,20 +189,6 @@
         "url": "ipfs://bafybeibg7vmzvpwu4mbbesqiyt7wszonandbav27cyvty22ultcbovzzmm"
     },
     {
-        "index": 1058598717,
-        "influence": 0,
-        "name": "AWC #317 - Cusco, Peru",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeic7ci5fiwy5ulgjvibbva6ldjjx5bspmk4c53authjjog2najlqyu"
-    },
-    {
-        "index": 1058598817,
-        "influence": 0,
-        "name": "AWC #318 - Quebec, Canada",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeie27hjhaadcp726b6j26cyx27likt5jwyzvieyolb4ntauhfxofsq"
-    },
-    {
         "index": 1059339545,
         "influence": 0,
         "name": "AWC #321 - Essen, Germany",
@@ -271,6 +257,41 @@
         "name": "AWC #334 - Dhaka, Bangladesh",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeifo3asnhtfhhxjkebjwcdzbq6m3leqsqhsijzkcdibjui7rmtzn6a"
+    },
+    {
+        "index": 1093485441,
+        "influence": 0,
+        "name": "AWC #349 - Vandenberg, CA, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeic6xfc2g2lrxgxkcibd4ogvenyyor33goywdmxvvct6dqc7r3wxdm"
+    },
+    {
+        "index": 1093485472,
+        "influence": 0,
+        "name": "AWC #350 - La Paz, Bolivia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeihto7zty6xcspp32kzelm4wficmzhdkfetm3iyydxbpbzune7gwvm"
+    },
+    {
+        "index": 1093485508,
+        "influence": 0,
+        "name": "AWC #362 - Split, Croatia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiamtus6g3hc2rlsqbcc7cdlngablkaypqbsjt5ordqil7lrgkg4ty"
+    },
+    {
+        "index": 1093485588,
+        "influence": 0,
+        "name": "AWC #367 - Medjugorje, BA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidqyytwhtop5y7z6jfby7uz6b5cthmjtgfibqwcdzr53wciasaanu"
+    },
+    {
+        "index": 1093485626,
+        "influence": 0,
+        "name": "AWC #377 - Assisi, Italy",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiaktwiamjag3byilnhoiqv6tlxax5edcidvq5iq5jluc525m27zka"
     },
     {
         "index": 271159971,
@@ -964,6 +985,13 @@
         "name": "AWC #129 - Lissone, Italy",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
+    },
+    {
+        "index": 1058598817,
+        "influence": 1500,
+        "name": "AWC #318 - Quebec, Canada",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeie27hjhaadcp726b6j26cyx27likt5jwyzvieyolb4ntauhfxofsq"
     },
     {
         "index": 882525222,
@@ -1846,6 +1874,13 @@
         "name": "AWC #316 - Bergen, Norway",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeid7omg7puj5l32auhhlcensky3fhw3phnzwhkunsvjnzkpb4knoya"
+    },
+    {
+        "index": 1058598717,
+        "influence": 3000,
+        "name": "AWC #317 - Cusco, Peru",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeic7ci5fiwy5ulgjvibbva6ldjjx5bspmk4c53authjjog2najlqyu"
     },
     {
         "index": 1086567308,
