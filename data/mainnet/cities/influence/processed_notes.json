@@ -1,4 +1,14 @@
 {
+    "0330fb0d-e79c-4443-a470-1344be6fbe59": {
+        "acfg_txn": "XU27MKUXV4BD544MAI5IFCXBZKFH6MYB3AHVRUYFKUC2PNDSZF5A",
+        "asset_id": 1058598817,
+        "asset_name": "AWC #318 - Quebec, Canada",
+        "block": 28675692,
+        "deposit": 1500,
+        "id": "0330fb0d-e79c-4443-a470-1344be6fbe59",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "0409b208-66be-4352-afbd-4d91004f2540": {
         "acfg_txn": "6UHQ2SV7AMEOZG3WJPVJNL4UU2SRWK4JJ5WLAQ3CSAOS3OHDVZKA",
         "asset_id": 1086567339,
@@ -476,6 +486,16 @@
         "block": 28625974,
         "deposit": 3000,
         "id": "39d302a2-d196-4109-b784-fa52e9d85a31",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "3a453b7a-1f1b-415b-845a-c54058fcbe78": {
+        "acfg_txn": "PW62VHPJYZ2TO6VQGJ6TVRVXKO7LUYHE7ADUW6LYWQCCFCDOAFUA",
+        "asset_id": 1084570803,
+        "asset_name": "AWC #328 - Galway, Ireland",
+        "block": 28675702,
+        "deposit": 3000,
+        "id": "3a453b7a-1f1b-415b-845a-c54058fcbe78",
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
@@ -1159,6 +1179,16 @@
         "influence": 1000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "95dd79de-97df-4002-b863-e57d9468a8e8": {
+        "acfg_txn": "5UNBANLSUC3Q5HSCJTKVA7CNR2BJG3VXI47TSCFUN7F5QC6QBGQA",
+        "asset_id": 1076868284,
+        "asset_name": "AWC #326 - Maastricht, NL",
+        "block": 28675694,
+        "deposit": 3000,
+        "id": "95dd79de-97df-4002-b863-e57d9468a8e8",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "968eb9d2-a9ad-401e-b5ee-a228a28db703": {
         "acfg_txn": "ZMFBKUBR7LZMHUB4NPRVV7JYMDN3OQOY25NURLA7TGCA5O57YS7A",
         "asset_id": 931155339,
@@ -1377,6 +1407,16 @@
         "deposit": 500,
         "id": "b85ea28f-2aa8-4266-9d01-2c2833cdd1a7",
         "influence": 1000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "b9316b21-3e90-4d9d-8f8e-45c34a09f7c2": {
+        "acfg_txn": "QZEW53DPZWTXY3GTZWMCUDKRATZTHYA46CQZQF23LQXMS7BND3UQ",
+        "asset_id": 1085661956,
+        "asset_name": "AWC #334 - Dhaka, Bangladesh",
+        "block": 28675698,
+        "deposit": 3000,
+        "id": "b9316b21-3e90-4d9d-8f8e-45c34a09f7c2",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "ba3256af-65c3-42f7-bbce-1c9aac5643ae": {
@@ -1619,6 +1659,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "deca7f7e-53a5-430e-ba5e-665eaf416b1d": {
+        "acfg_txn": "HUWBVGRPL6IODOCDHKNCXDTJNKMP76AP62DWCZI3RCM7CTSTLAAA",
+        "asset_id": 1085661918,
+        "asset_name": "AWC #333 - Osaka, Japan",
+        "block": 28675700,
+        "deposit": 3000,
+        "id": "deca7f7e-53a5-430e-ba5e-665eaf416b1d",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "df1fca29-0cdb-4253-8717-231d91ba5e47": {
         "acfg_txn": "NWNZNG5HL32QNHKVAG5BT5MJRZ3ABT3RNZUM7LKURAQRGG2WDWPQ",
         "asset_id": 1090604539,
@@ -1627,6 +1677,16 @@
         "deposit": 500,
         "id": "df1fca29-0cdb-4253-8717-231d91ba5e47",
         "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "df46b861-1d3b-430a-a744-964a21d177e7": {
+        "acfg_txn": "WMIMEFVKC4CHOJYRMUIDPKBJAVUA74TXVDTH5Y3EY7LXCZEDPVAA",
+        "asset_id": 1076868393,
+        "asset_name": "AWC #327 - Zaandam, Netherlands",
+        "block": 28675696,
+        "deposit": 3000,
+        "id": "df46b861-1d3b-430a-a744-964a21d177e7",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "df904c5d-0f96-4682-87c5-8960df2651cf": {
