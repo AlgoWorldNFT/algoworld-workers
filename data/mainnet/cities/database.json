@@ -238,13 +238,6 @@
         "url": "ipfs://bafybeihto7zty6xcspp32kzelm4wficmzhdkfetm3iyydxbpbzune7gwvm"
     },
     {
-        "index": 1093485508,
-        "influence": 0,
-        "name": "AWC #362 - Split, Croatia",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiamtus6g3hc2rlsqbcc7cdlngablkaypqbsjt5ordqil7lrgkg4ty"
-    },
-    {
         "index": 1093485588,
         "influence": 0,
         "name": "AWC #367 - Medjugorje, BA",
@@ -2175,6 +2168,13 @@
         "name": "AWC #320 - Naples, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeif5v2fkuxl4kpvvx75jolbze2yk7tx4uurafrngvbhykl3tzw73be"
+    },
+    {
+        "index": 1093485508,
+        "influence": 3006,
+        "name": "AWC #362 - Split, Croatia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiamtus6g3hc2rlsqbcc7cdlngablkaypqbsjt5ordqil7lrgkg4ty"
     },
     {
         "index": 641281413,

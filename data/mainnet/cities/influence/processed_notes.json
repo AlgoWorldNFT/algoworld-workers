@@ -929,6 +929,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "74c45858-27b3-4c71-8b67-a633e43939be": {
+        "acfg_txn": "YDNVXH5TLAGSSK3G3L7YEX72TZ5ILWI6GRRDDK7VTIDNGIJHJQCA",
+        "asset_id": 1093485508,
+        "asset_name": "AWC #362 - Split, Croatia",
+        "block": 28691051,
+        "deposit": 3006,
+        "id": "74c45858-27b3-4c71-8b67-a633e43939be",
+        "influence": 3006,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "750ff169-aa71-4ecb-89d1-79de69b02534": {
         "acfg_txn": "DNKQXVQVJKYVCIT6BLLKMY4SFIMTAJS5DC63XK6IAC7UAWOVDVOQ",
         "asset_id": 1058598883,
