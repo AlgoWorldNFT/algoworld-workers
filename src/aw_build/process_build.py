@@ -1,5 +1,4 @@
 import math
-import string
 from dataclasses import asdict
 from json import dumps
 
@@ -38,15 +37,10 @@ from src.shared.utils import (
 note = "awebuild_{manager_addr}_{asset_id}_{deposit}_{object_id}_{tx_id}"
 note_tr = note.encode()
 
-awt_testnet_index = 51363057
-card_index = 18725886
-
-
 manager_account = Wallet(
     mnemonic.to_private_key(BUILD_MANAGER_PASSPHRASE),
     mnemonic.to_public_key(BUILD_MANAGER_PASSPHRASE),
 )
-
 
 processed_notes = load_notes(BUILD_PROCESSED_NOTES_PATH)
 processed_notes: dict[str, StorageProcessedBuildNote] = (
@@ -73,46 +67,43 @@ def update_arc_tags(
     cur_arc_note: ARC69Record,
     deposit_txn: str = None,
 ):
-    attributes = []
-
-    object_attribute = ARC69Attribute(
-        trait_type="Object",
-        value=str(object_id),
+    attributes = (
+        [
+            attribute
+            for attribute in cur_arc_note.attributes
+            if attribute.trait_type.lower() not in ["object", "builder", "cost"]
+        ]
+        if cur_arc_note
+        else []
     )
 
-    builder_attribute = ARC69Attribute(trait_type="Builder", value=sender_address)
-
-    cost_attribute = ARC69Attribute(trait_type="Cost", value=str(deposit))
+    attributes.extend(
+        [
+            ARC69Attribute(trait_type="Object", value=str(object_id)),
+            ARC69Attribute(trait_type="Builder", value=sender_address),
+            ARC69Attribute(trait_type="Cost", value=str(deposit)),
+        ]
+    )
 
     pretty_print(f"New object {object_id} for {asset_index}")
     pretty_print(f"New builder {sender_address} for {asset_index}")
 
-    if cur_arc_note:
-        attributes = [
-            attribute
-            for attribute in cur_arc_note.attributes
-            if (
-                attribute.trait_type.lower() != "object"
-                and attribute.trait_type.lower() != "builder"
-                and attribute.trait_type.lower() != "cost"
-            )
-        ]
-    attributes.extend([object_attribute, builder_attribute, cost_attribute])
-    arc_note = ARC69Record(
-        standard="arc69",
-        external_url="https://www.algoworld.io",
-        attributes=attributes,
-    )
-
     params = algod_client.suggested_params()
-
     arc_update_txn = AssetConfigTxn(
         sender=account.public_key,
         sp=params,
         index=BUILD_ASSET[asset_index - 1],
         manager=account.public_key,
         strict_empty_address_check=False,
-        note=dumps(asdict(arc_note)),
+        note=dumps(
+            asdict(
+                ARC69Record(
+                    standard="arc69",
+                    external_url="https://www.algoworld.io",
+                    attributes=attributes,
+                )
+            )
+        ),
     )
 
     try:
@@ -138,36 +129,8 @@ def update_arc_tags(
         return None
 
 
-def extract_update_arc_tags(
-    account: Wallet,
-    sender_address: string,
-    asset_index: int,
-    object_index: int,
-    deposit: int,
-    build_deposit_txid: str,
-):
-    cur_arc_note = extract_arc_build(
-        account.public_key,
-        asset_index,
-    )
-
-    return update_arc_tags(
-        account=account,
-        sender_address=sender_address,
-        asset_index=asset_index,
-        object_id=object_index,
-        deposit=deposit,
-        cur_arc_note=cur_arc_note,
-        deposit_txn=build_deposit_txid,
-    )
-
-
-def extract_arc_build(
-    address: string,
-    asset_index: int,
-):
-    cur_arc_note = get_onchain_arc(indexer, address, asset_index)
-    return cur_arc_note
+def extract_arc_build(address: str, asset_index: int):
+    return get_onchain_arc(indexer, address, asset_index)
 
 
 def process_build_txns():
@@ -179,7 +142,6 @@ def process_build_txns():
         max_round=params.first,
         txn_type="axfer",
     )
-
     if len(latest_txns["transactions"]) == 0:
         pretty_print("No new transactions to process")
         storage_metadata.last_processed_block = params.first
@@ -197,6 +159,7 @@ def process_build_txns():
                 math.floor(axfer_txn_note.deposit * OWNER_FEE_PC)
                 != axfer_txn["asset-transfer-transaction"]["amount"]
             )
+
             processed_deposit_txns = indexer.search_transactions(
                 note_prefix=f"awebuild_id_{axfer_txn['id']}".encode(),
                 min_round=storage_metadata.last_processed_block,
@@ -234,13 +197,18 @@ def process_build_txns():
                         processed_deposit_txns["transactions"][0],
                     )
                     if transaction_already_processed
-                    else extract_update_arc_tags(
+                    else update_arc_tags(
                         account=manager_account,
                         sender_address=axfer_txn["sender"],
                         asset_index=axfer_txn_note.asset_id,
-                        object_index=axfer_txn_note.object_id,
+                        object_id=axfer_txn_note.object_id,
                         deposit=axfer_txn_note.deposit,
-                        build_deposit_txid=axfer_txn["id"],
+                        cur_arc_note=get_onchain_arc(
+                            indexer,
+                            manager_account.public_key,
+                            axfer_txn_note.asset_id,
+                        ),
+                        deposit_txn=axfer_txn["id"],
                     )
                 )
                 confirmed_round = (
@@ -253,7 +221,6 @@ def process_build_txns():
                     ) if transaction_already_processed else pretty_print(
                         f"successfully processed deposit of {axfer_txn_note.deposit} for {axfer_txn_note.asset_id} from {axfer_txn['sender']} at round {confirmed_round}"
                     )
-
                     processed_notes[axfer_txn_note.note_id] = asdict(
                         StorageProcessedBuildNote(
                             tx[1]["confirmed-round"],
