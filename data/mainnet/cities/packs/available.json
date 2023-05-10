@@ -439,5 +439,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #109"
+    },
+    {
+        "contract": "BiAKBOgHAQDauafPA5n6kPkDrOKSrQGmkZ2YApyPyeMDByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "77JD3NQ2NWXGVEQ7F3GI5FBHGCMQLKSJNKBHZE5WDEH46PEUWH6Y2RH52Y",
+        "id": 110,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 971627738,
+                "title": "AWC #289 - Innsbruck, Austria",
+                "url": "ipfs://bafybeidyimdcjow7g5x5ulddmbfls6qcnr3rh7fxnzqalcu5w64ek4hp5m"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1059339545,
+                "title": "AWC #321 - Essen, Germany",
+                "url": "ipfs://bafybeicqriwj2xbzlhmmxit2luuzfhi74v7lxz3jcv637hwaerk2kzqbbi"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 363114796,
+                "title": "AWC #53 - Oslo, Norway",
+                "url": "ipfs://QmbS48spqM1vci343B4cMeo9TdkcgTukvcs1kN7D1e9k5H"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 587679910,
+                "title": "AWC #112 - Havana, Cuba",
+                "url": "ipfs://QmYRn5Lc4HEWbTuyBJ2KxHuNHQUQTsKaPpiEZAnAGTUWFm"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1014122396,
+                "title": "AWC #309 - Kampala, Uganda",
+                "url": "ipfs://bafybeidnkb5xv4ryod5hvjmsbmac5wc4i67in2akkvckn42kmovhhafowq"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #110"
     }
 ]
