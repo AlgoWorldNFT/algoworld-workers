@@ -390,5 +390,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #108"
+    },
+    {
+        "contract": "BiAKBOgHAQDj5o6GBKOlpoEBwZ3MywPg/9KDAd6D+vUCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "UEPACXWM2RYY6BMU2F4SYBDPCX2CEBEFZW6GWKGNZG6ZBOKGOQGBDFJFSM",
+        "id": 109,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1086567267,
+                "title": "AWC #341 - Mostar, BA",
+                "url": "ipfs://bafybeigcwdpso3iqpap225h3cycczvppkm357lvtne7jvrjiyowga2637a"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 271159971,
+                "title": "AWC #2 - Bangkok, Thailand",
+                "url": "ipfs://QmX7HBEKUk1xR7MXmtoZcAXJzvuGjfEVRoKDU5ME5kMkiu"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 963841729,
+                "title": "AWC #287 - Ninh Binh, Vietnam",
+                "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 276086752,
+                "title": "AWC #10 - Washington D.C., USA",
+                "url": "ipfs://QmRGwB1EFmGurdBL6Qjx5SYZf7Tk8fxRaAVWtKftqBWeZq"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 784237022,
+                "title": "AWC #211 - Gottingen, Germany",
+                "url": "ipfs://QmX7m4oM6G4xnJ7ryFtATVdTCqJjZMZC1crFAntKyCJv2G"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #109"
     }
 ]
