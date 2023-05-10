@@ -1409,6 +1409,16 @@
         "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "b626d330-af06-4e8c-af41-ec812d0b5f12": {
+        "acfg_txn": "E7CHPQVAXC2LFUGEN6HADZNASH5WAW5TVIOSP4NVFYUAW33KZHTQ",
+        "asset_id": 1101558265,
+        "asset_name": "AWC #355 - Pa O Don Chai, TH",
+        "block": 28971962,
+        "deposit": 3069,
+        "id": "b626d330-af06-4e8c-af41-ec812d0b5f12",
+        "influence": 3069,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "b85ea28f-2aa8-4266-9d01-2c2833cdd1a7": {
         "acfg_txn": "22JJ2EMUVEXQGUVIDNJLIBTOBCDABCB4NEBND55KHTSZRKAV5BEA",
         "asset_id": 365126402,
@@ -1599,6 +1609,16 @@
         "influence": 115,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "d64ed698-ef90-4af9-acc7-47870b57020c": {
+        "acfg_txn": "REB3CFYGUHIUWFAEQFM5RQYYVUMBYI4QZS3DLXNABEUGNHIHDJXQ",
+        "asset_id": 1101558179,
+        "asset_name": "AWC #354 - Lampang, Thailand",
+        "block": 28971964,
+        "deposit": 3069,
+        "id": "d64ed698-ef90-4af9-acc7-47870b57020c",
+        "influence": 3069,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "d719f15a-ec07-4dd8-9718-d00ec1b6053f": {
         "acfg_txn": "FING5WL45K3MECXBGZ7BCDZ3CHQNR2NY7XPDMXANPVSVA66BMNEA",
         "asset_id": 1010430364,
@@ -1657,6 +1677,16 @@
         "deposit": 3018,
         "id": "dcd5063a-2088-41e2-bf4e-a0457d2b86b9",
         "influence": 3018,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "dd8a99c7-6551-4f0f-8ea4-dd1ed79abfee": {
+        "acfg_txn": "MOJBDTXHHZ6BHYXZNXMKOOZ57HLCVMU4ZBSN3P6QWWUMJ7ARKNYA",
+        "asset_id": 1101557863,
+        "asset_name": "AWC #352 - Ayutthaya, Thailand",
+        "block": 28971966,
+        "deposit": 3069,
+        "id": "dd8a99c7-6551-4f0f-8ea4-dd1ed79abfee",
+        "influence": 3069,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "de942f36-ca80-4f64-94e2-6bfa533deb0e": {

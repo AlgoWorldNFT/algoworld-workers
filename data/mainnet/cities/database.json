@@ -273,27 +273,6 @@
         "url": "ipfs://bafybeih3haldg7w6xgkul27ssj43nikbmwrqicestqumkxbye55et4u2hq"
     },
     {
-        "index": 1101557863,
-        "influence": 0,
-        "name": "AWC #352 - Ayutthaya, Thailand",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeihg6mg3sapawlwkofmu6kleqdvupk6x4hqqb2ycb3cjzhzyaa65pu"
-    },
-    {
-        "index": 1101558179,
-        "influence": 0,
-        "name": "AWC #354 - Lampang, Thailand",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeihfjbiioipwq65aywacrah5d46pto26pt5yrabauepbctvllqcmmq"
-    },
-    {
-        "index": 1101558265,
-        "influence": 0,
-        "name": "AWC #355 - Pa O Don Chai, TH",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeig7vkzcqykrkzdicg4xjrs2boort4c2tx5tiosd7fzw6xbbdtiqyy"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -2287,6 +2266,27 @@
         "name": "AWC #342 - Palermo, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeihaevw4vdqz4dua4zjzjo7cn33aqwshacgpud2o75omqhdpinx4xq"
+    },
+    {
+        "index": 1101557863,
+        "influence": 3069,
+        "name": "AWC #352 - Ayutthaya, Thailand",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeihg6mg3sapawlwkofmu6kleqdvupk6x4hqqb2ycb3cjzhzyaa65pu"
+    },
+    {
+        "index": 1101558179,
+        "influence": 3069,
+        "name": "AWC #354 - Lampang, Thailand",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeihfjbiioipwq65aywacrah5d46pto26pt5yrabauepbctvllqcmmq"
+    },
+    {
+        "index": 1101558265,
+        "influence": 3069,
+        "name": "AWC #355 - Pa O Don Chai, TH",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeig7vkzcqykrkzdicg4xjrs2boort4c2tx5tiosd7fzw6xbbdtiqyy"
     },
     {
         "index": 344621457,
