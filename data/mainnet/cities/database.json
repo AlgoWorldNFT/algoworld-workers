@@ -1,19 +1,5 @@
 [
     {
-        "index": 271106498,
-        "influence": 0,
-        "name": "AWC #1 - New York City, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
-    },
-    {
-        "index": 271160293,
-        "influence": 0,
-        "name": "AWC #12 - Madrid, Spain",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmVR6z9eKKS32gvonCXmVg6SgRm4TjazszHJBVETnUgJLD"
-    },
-    {
         "index": 273858422,
         "influence": 0,
         "name": "AWC #4 - Beijing, China",
@@ -180,13 +166,6 @@
         "name": "AWC #249 - Mogadishu, Somalia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
-    },
-    {
-        "index": 950717524,
-        "influence": 0,
-        "name": "AWC #272 - Oranjestad, NL",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiaf73qt6mdgxuvninoec3weavc3eu6diwhaeows2mb6cyya626io4"
     },
     {
         "index": 963841729,
@@ -817,6 +796,13 @@
         "name": "AWC #6 - Chicago, USA",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmdNR3DtTpqLqdcP8vzU2ZUcZx4J2Eag89ejSsRLoexV2w"
+    },
+    {
+        "index": 271160293,
+        "influence": 1000,
+        "name": "AWC #12 - Madrid, Spain",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://QmVR6z9eKKS32gvonCXmVg6SgRm4TjazszHJBVETnUgJLD"
     },
     {
         "index": 337460615,
@@ -1694,6 +1680,13 @@
         "url": "ipfs://bafybeifc2fjbkega7s2nt4ue67gpf7lnokxe2oixcvdpzjgjfyen6qooum"
     },
     {
+        "index": 950717524,
+        "influence": 3000,
+        "name": "AWC #272 - Oranjestad, NL",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiaf73qt6mdgxuvninoec3weavc3eu6diwhaeows2mb6cyya626io4"
+    },
+    {
         "index": 950717682,
         "influence": 3000,
         "name": "AWC #273 - Kralendijk, NL",
@@ -2483,5 +2476,12 @@
         "name": "AWC #18 - Jerusalem, Israel",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
+    },
+    {
+        "index": 271106498,
+        "influence": 69420,
+        "name": "AWC #1 - New York City, USA",
+        "status": "AlgoWorld Capital",
+        "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
     }
 ]
