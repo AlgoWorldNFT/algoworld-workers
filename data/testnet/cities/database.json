@@ -84,6 +84,13 @@
         "url": "www.algoworld-nft.com"
     },
     {
+        "index": 18893084,
+        "influence": 0,
+        "name": "AWC #11 - Athens, Greece",
+        "status": "AlgoWorld Regular City",
+        "url": "www.algoworld-nft.com"
+    },
+    {
         "index": 18986847,
         "influence": 0,
         "name": "AWC #1 - test, test",
@@ -96,13 +103,6 @@
         "name": "AWC #16 - Moscow, Russia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmR67mQvRAB2Dvf5x6z1YNdmHK95YApZFmVsJH9ANq35bf"
-    },
-    {
-        "index": 22889023,
-        "influence": 0,
-        "name": "AWC #18 - Jerusalem, Israel",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
     },
     {
         "index": 38094508,
@@ -203,13 +203,6 @@
         "url": "www.algoworld-nft.com"
     },
     {
-        "index": 18893084,
-        "influence": 2,
-        "name": "AWC #11 - Athens, Greece",
-        "status": "AlgoWorld Regular City",
-        "url": "www.algoworld-nft.com"
-    },
-    {
         "index": 22889001,
         "influence": 2,
         "name": "AWC #17 - Mont-St-Michel, France",
@@ -229,6 +222,13 @@
         "name": "AWC #94 - Ljubljana, Slovenia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+    },
+    {
+        "index": 22889023,
+        "influence": 500,
+        "name": "AWC #18 - Jerusalem, Israel",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://QmRpWLRf2iHFRDSqW3JdBQPQjZ9PSw2i36jWxKttbnuPxo"
     },
     {
         "index": 18725967,
@@ -325,7 +325,7 @@
         "index": 18725876,
         "influence": 200013,
         "name": "AWC #1 - New York City, USA",
-        "status": "AlgoWorld Diamond City",
+        "status": "AlgoWorld Capital",
         "url": "www.algoworld-nft.com"
     },
     {
