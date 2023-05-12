@@ -119,6 +119,9 @@ BUILD_ASSET = (
     ]
 )
 
+KEYLIST_MAP = ["Meadow", "Forest", "Water", "House", "Castle"]
+AWT_TOTAL_REWARDS = 1000
+
 ## City influence
 CITY_INFLUENCE_FOLDER_PATH = f"{CITY_FOLDER_PATH}/influence"
 CITY_INFLUENCE_PROCESSED_NOTES_PATH = (

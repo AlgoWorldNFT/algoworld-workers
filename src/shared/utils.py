@@ -111,6 +111,13 @@ def save_tiles_assets(path: str, assets: list[BuildAsset]):
     return save(path, [asdict(asset) for asset in assets])
 
 
+def load_tiles_assets(path: str) -> list[BuildAsset]:
+    tiles = [BuildAsset(**tile) for tile in load(path)]
+    if not tiles:
+        return []
+    return tiles
+
+
 def load_aw_cities(path: str) -> list[AlgoWorldCityAsset]:
     cities = [AlgoWorldCityAsset(**city) for city in load(path)]
     if not cities:
