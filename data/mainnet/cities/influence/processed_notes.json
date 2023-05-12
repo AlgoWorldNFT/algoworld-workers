@@ -1539,6 +1539,16 @@
         "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "c69b42cd-5806-44ec-afee-6b6672113ade": {
+        "acfg_txn": "SS5SPJKZ3VYNOY3352EUQI6UFB6TAMFGQZ5V2LMHWGHKOXO6YWOQ",
+        "asset_id": 1102788409,
+        "asset_name": "AWC #353 - Phetchabun, Thailand",
+        "block": 29019635,
+        "deposit": 3069,
+        "id": "c69b42cd-5806-44ec-afee-6b6672113ade",
+        "influence": 3069,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "c6a8f901-ee6d-44e7-9f71-c9754bbd6718": {
         "acfg_txn": "K6O2FBZDFR5O7IKBAGPIC3EGF4D4HL4MCG7WEWJZWQJGF5BK6YCA",
         "asset_id": 750529484,

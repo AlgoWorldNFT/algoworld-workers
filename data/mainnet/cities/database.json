@@ -273,13 +273,6 @@
         "url": "ipfs://bafybeih3haldg7w6xgkul27ssj43nikbmwrqicestqumkxbye55et4u2hq"
     },
     {
-        "index": 1102788409,
-        "influence": 0,
-        "name": "AWC #353 - Phetchabun, Thailand",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeif5i3ajali733thpypllz46prlhi75syvfixit4z7gpxgqtvdcrey"
-    },
-    {
         "index": 1102788426,
         "influence": 0,
         "name": "AWC #389 - Cincinnati, OH, USA",
@@ -2301,6 +2294,13 @@
         "name": "AWC #355 - Pa O Don Chai, TH",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeig7vkzcqykrkzdicg4xjrs2boort4c2tx5tiosd7fzw6xbbdtiqyy"
+    },
+    {
+        "index": 1102788409,
+        "influence": 3069,
+        "name": "AWC #353 - Phetchabun, Thailand",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeif5i3ajali733thpypllz46prlhi75syvfixit4z7gpxgqtvdcrey"
     },
     {
         "index": 344621457,
