@@ -177,7 +177,7 @@ def decode_build_note(raw_note: str):
             "receiver": splitted_note[1],
             "asset_id": int(splitted_note[2]),
             "deposit": int(splitted_note[3]),
-            "object_id": int(splitted_note[4]),
+            "object_id": splitted_note[4],
             "note_id": splitted_note[5],
         }
 
@@ -300,7 +300,7 @@ def get_onchain_object(arc_note: ARC69Record):
 
     for attribute in arc_note.attributes:
         if attribute.trait_type.lower() == "object":
-            return int(attribute.value)
+            return attribute.value
 
     return -1
 

@@ -68,7 +68,7 @@ def update_arc_tags(
     account: Wallet,
     sender_address: str,
     asset_index: int,
-    object_id: int,
+    object_id: str,
     deposit: int,
     cur_arc_note: ARC69Record,
     deposit_txn: str = None,
@@ -77,7 +77,7 @@ def update_arc_tags(
 
     object_attribute = ARC69Attribute(
         trait_type="Object",
-        value=str(object_id),
+        value=object_id,
     )
 
     builder_attribute = ARC69Attribute(trait_type="Builder", value=sender_address)

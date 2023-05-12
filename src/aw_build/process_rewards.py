@@ -61,12 +61,12 @@ def list_builders():
 
     for tile in all_tiles:
         if tile.builder in all_builders:
-            all_builders[tile.builder][KEYLIST_MAP[tile.object - 1]] = (
-                all_builders[tile.builder][KEYLIST_MAP[tile.object - 1]] + 1
+            all_builders[tile.builder][tile.object] = (
+                all_builders[tile.builder][tile.object] + 1
             )
         else:
             all_builders[tile.builder] = dict.fromkeys(KEYLIST_MAP, 0)
-            all_builders[tile.builder][KEYLIST_MAP[tile.object - 1]] = 1
+            all_builders[tile.builder][tile.object] = 1
 
     return all_builders
 
