@@ -7,6 +7,9 @@ from algosdk.v2client import algod, indexer
 LEDGER_TYPE = environ.get("LEDGER_TYPE", "TestNet")
 
 MANAGER_PASSPHRASE = os.environ.get("MANAGER_PASSPHRASE")
+BUILD_MANAGER_PASSPHRASE = os.environ.get("BUILD_MANAGER_PASSPHRASE")
+
+AWT_ID = 51363057 if LEDGER_TYPE.lower() == "testnet" else 233939122
 
 INDEXER_URL = (
     "https://testnet-idx.algonode.cloud"
@@ -29,6 +32,92 @@ DATA_FOLDER_PATH = str(Path(Path.cwd()).joinpath("data").joinpath(LEDGER_TYPE.lo
 # Cities
 CITY_FOLDER_PATH = f"{DATA_FOLDER_PATH}/cities"
 CITY_ASSET_DB_PATH = f"{CITY_FOLDER_PATH}/database.json"
+
+# Build
+OWNER_FEE_PC = 0.5
+BUILD_FOLDER_PATH = f"{DATA_FOLDER_PATH}/aw_build"
+BUILD_ASSET_DB_PATH = f"{BUILD_FOLDER_PATH}/database.json"
+BUILD_PROCESSED_NOTES_PATH = f"{BUILD_FOLDER_PATH}/processed_notes.json"
+BUILD_METADATA_PATH = f"{BUILD_FOLDER_PATH}/metadata.json"
+BUILD_ASSET = (
+    [
+        177557560,
+        177557582,
+        177557595,
+        177559380,
+        177559832,
+        177559940,
+        177559954,
+        177559983,
+        177560021,
+        177560043,
+        177560071,
+        177560097,
+        177560140,
+        177560162,
+        177560205,
+        177560233,
+        177560249,
+        177560282,
+        177560321,
+        177560350,
+        177560385,
+        177560400,
+        177560426,
+        177560465,
+        177560478,
+        177560507,
+        177560548,
+        177560731,
+        177562637,
+        177562849,
+        177562892,
+        177562911,
+        177562951,
+        177562977,
+        177562985,
+        177563023,
+    ]
+    if LEDGER_TYPE.lower() == "testnet"
+    else [
+        177557560,
+        177557582,
+        177557595,
+        177559380,
+        177559832,
+        177559940,
+        177559954,
+        177559983,
+        177560021,
+        177560043,
+        177560071,
+        177560097,
+        177560140,
+        177560162,
+        177560205,
+        177560233,
+        177560249,
+        177560282,
+        177560321,
+        177560350,
+        177560385,
+        177560400,
+        177560426,
+        177560465,
+        177560478,
+        177560507,
+        177560548,
+        177560731,
+        177562637,
+        177562849,
+        177562892,
+        177562911,
+        177562951,
+        177562977,
+        177562985,
+        177563023,
+    ]
+)
 
 ## City influence
 CITY_INFLUENCE_FOLDER_PATH = f"{CITY_FOLDER_PATH}/influence"
