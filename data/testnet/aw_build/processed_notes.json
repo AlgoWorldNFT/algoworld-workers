@@ -89,6 +89,15 @@
         "object_id": 1,
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "4e2fd615-04b7-469e-802a-204c5c7ca79f": {
+        "acfg_txn": "ISYMAAF47GBYRLNSGG5HKPYRUDHPYJ6RPWGUL3LI6NEHIFGEXCKA",
+        "asset_id": 1,
+        "block": 29830362,
+        "deposit": 100,
+        "id": "4e2fd615-04b7-469e-802a-204c5c7ca79f",
+        "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "511c7294-28cd-41c5-989a-12f52a6b9bba": {
         "acfg_txn": "WRATIVR6VABTDNXQJB2FIAFTVOVKURVTA6TGLZ7UYI4GOXC6SJXA",
         "asset_id": 4,
