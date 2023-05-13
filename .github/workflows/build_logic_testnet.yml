@@ -37,11 +37,11 @@ jobs:
 
       - name: Fetch new build tx
         run: |
-          PYTHONPATH="." poetry run python src/build/process_build.py
+          PYTHONPATH="." poetry run python src/aw_build/process_build.py
 
       - name: Fetch tiles config tx
         run: |
-          PYTHONPATH="." poetry run python src/build/fetch_tiles.py
+          PYTHONPATH="." poetry run python src/aw_build/fetch_tiles.py
 
       - name: setup git config
         run: |
