@@ -6,32 +6,21 @@ from src.shared.utils import get_all_tiles, save_tiles_assets
 
 def find_list_awt_accounts(indexer: IndexerClient):
     list_account_awt = []
+    next_token = None
 
-    account_info_first = indexer.indexer_request(
-        "GET", "/assets/" + str(AWT_ID) + "/balances"
-    )
-
-    for account in account_info_first["balances"]:
-        list_account_awt.append(account["address"])
-
-    next_token = account_info_first["next-token"]
-
-    flag = 0
-
-    while flag == 0:
+    while True:
+        params = {"next": next_token} if next_token else {}
         account_info = indexer.indexer_request(
-            "GET",
-            "/assets/" + str(AWT_ID) + "/balances",
-            {"next": next_token},
+            "GET", f"/assets/{AWT_ID}/balances", params
         )
 
         for account in account_info["balances"]:
             list_account_awt.append(account["address"])
 
-        if "next-token" in account_info:
+        if "next-token" in account_info and account_info["next-token"]:
             next_token = account_info["next-token"]
         else:
-            flag = 1
+            break
 
     return list_account_awt
 
@@ -42,21 +31,22 @@ def fetch_tiles(indexer: IndexerClient, manager_address: str):
 
     list_account_awt = find_list_awt_accounts(indexer)
 
-    for i in range(len(BUILD_ASSET)):
-        created_assets = indexer.search_assets(asset_id=BUILD_ASSET[i])
+    for asset_id in BUILD_ASSET:
+        created_assets = indexer.search_assets(asset_id=asset_id)
         all_assets.extend(
-            [asset for asset in created_assets["assets"] if asset["deleted"] == False]
+            asset for asset in created_assets["assets"] if not asset["deleted"]
         )
 
-        response = indexer.asset_balances(asset_id=BUILD_ASSET[i])
+        response = indexer.asset_balances(asset_id=asset_id)
         accounts = response["balances"]
 
         for account in accounts:
             if account["amount"] > 0:
-                if account["address"] in list_account_awt:
-                    all_owners.append(account["address"])
+                address = account["address"]
+                if address in list_account_awt:
+                    all_owners.append(address)
                 else:
-                    print(f"Unable to find AWT in owner wallet {account['address']}")
+                    print(f"Unable to find AWT in owner wallet {address}")
                     all_owners.append(manager_address)
 
     all_tiles = get_all_tiles(indexer, manager_address, all_assets, all_owners)
@@ -68,9 +58,5 @@ def main():  # pragma: no cover
     fetch_tiles(indexer, manager_address)
 
 
-def init():
-    if __name__ == "__main__":
-        main()
-
-
-init()
+if __name__ == "__main__":
+    main()
