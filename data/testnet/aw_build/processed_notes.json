@@ -17,6 +17,15 @@
         "object_id": 1,
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "0830f1ae-9811-452a-968d-2913581ddefd": {
+        "acfg_txn": "Z5BQJLIQICZI46PTIMXNX4W6FEYHL3PSTXGZ5OCOSTAXZYB6SRAQ",
+        "asset_id": 32,
+        "block": 29837293,
+        "deposit": 100,
+        "id": "0830f1ae-9811-452a-968d-2913581ddefd",
+        "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "09be3fa9-3c0b-455b-85d7-a947b3415092": {
         "acfg_txn": "A36ZMN5DZIV74BJT5WQ5EQ2BDXRUBEDVEWLKUVTRLSCGAARIHXIA",
         "asset_id": 10,
@@ -206,6 +215,15 @@
         "object_id": 4,
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "6ca0ad03-bb2e-4d3c-b518-0b661d594633": {
+        "acfg_txn": "W6IHIPZ7FLPY6HKBORHLNDQXJ6WD5O6HO3AKAJYAOJ7AYYNJYWFA",
+        "asset_id": 33,
+        "block": 29837295,
+        "deposit": 100,
+        "id": "6ca0ad03-bb2e-4d3c-b518-0b661d594633",
+        "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "7458e868-df34-4992-b051-d0d7ee3705f8": {
         "acfg_txn": "QRUIED476WHNKTCULJE2AY5XBOSSV66N7Z2XC4CAKVGXADUR7GGQ",
         "asset_id": 31,
@@ -240,6 +258,15 @@
         "deposit": 100,
         "id": "80cadec0-5f56-49e0-b5dd-f5cc70a67cee",
         "object_id": "Forest",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "85dbc5d6-42e7-4fc4-a4f2-c6be1be7dd80": {
+        "acfg_txn": "35TBIBM47LGWD6V6XYU4TZMXJYVLCMJARWWJ2W5FYKABFJZZVNWA",
+        "asset_id": 6,
+        "block": 29837297,
+        "deposit": 100,
+        "id": "85dbc5d6-42e7-4fc4-a4f2-c6be1be7dd80",
+        "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "86986dc6-518e-4f93-a3b0-887921528d4c": {
