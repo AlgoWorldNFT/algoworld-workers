@@ -4996,5 +4996,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #109"
+    },
+    {
+        "contract": "BiAKBOgHAQCv5sK7Acupu80BuvKw1AL2/sqCAZGDqqQBByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "OACKZJ56IFF7VD4MT45BR62ICKGHQVMATICJ4ADYFF2S5KTXUGN3N6A25U",
+        "id": 104,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 393261871,
+                "title": "AWC #63 - Lisbon, Portugal",
+                "url": "ipfs://QmaeEzDVe54UeKQq5vyNcqK1sR5nNc1SZ13R7Nxc154scJ"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 430888139,
+                "title": "AWC #55 - Nicosia, Cyprus",
+                "url": "ipfs://QmXzR3D7PEcEG97MC46CxrYpEW4FdgPWhq8uz8hPC42Mpb"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 713832762,
+                "title": "AWC #172 - Puerto Iguazu, AR",
+                "url": "ipfs://QmYcwvDBeq9MQPxHCDt9RmmGsXLkHtsYqmPhs6b6jT7qXf"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 273858422,
+                "title": "AWC #4 - Beijing, China",
+                "url": "ipfs://QmQQ2UTYPtMXBNaMyLNMqfaTLkkFeSbAUvXgRmwmyNLrJs"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 344621457,
+                "title": "AWC #39 - Tbilisi, Georgia",
+                "url": "ipfs://QmSdt6tHtYodVvqexGdgwGZZmjATe78YQQgxhmBi5oGNhw"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #104"
     }
 ]
