@@ -21,8 +21,10 @@ from src.shared.models import (
     AlgoWorldCityAsset,
     ARC69Attribute,
     ARC69Record,
+    AWEBuildNotePrefix,
     AWECityPackPurchaseNotePrefix,
     AWENotePrefix,
+    BuildAsset,
     CityPack,
     LogicSigWallet,
     StorageMetadata,
@@ -105,6 +107,17 @@ def save_aw_assets(path: str, assets: list[AlgoWorldAsset]):
     return save(path, [asdict(asset) for asset in assets])
 
 
+def save_tiles_assets(path: str, assets: list[BuildAsset]):
+    return save(path, [asdict(asset) for asset in assets])
+
+
+def load_tiles_assets(path: str) -> list[BuildAsset]:
+    tiles = [BuildAsset(**tile) for tile in load(path)]
+    if not tiles:
+        return []
+    return tiles
+
+
 def load_aw_cities(path: str) -> list[AlgoWorldCityAsset]:
     cities = [AlgoWorldCityAsset(**city) for city in load(path)]
     if not cities:
@@ -146,6 +159,29 @@ def decode_note(raw_note: str):
         }
 
         return AWENotePrefix(**note)
+    except Exception as e:
+        pretty_print(e)
+        return None
+
+
+def decode_build_note(raw_note: str):
+    """
+    Decodes a note into a dict.
+    """
+    try:
+        decoded_note = base64.b64decode(raw_note).decode()
+
+        splitted_note = decoded_note.split("_")
+        note = {
+            "prefix": splitted_note[0],
+            "receiver": splitted_note[1],
+            "asset_id": int(splitted_note[2]),
+            "deposit": int(splitted_note[3]),
+            "object_id": splitted_note[4],
+            "note_id": splitted_note[5],
+        }
+
+        return AWEBuildNotePrefix(**note)
     except Exception as e:
         pretty_print(e)
         return None
@@ -247,6 +283,39 @@ def get_onchain_city_status(arc_note: ARC69Record):
     return None
 
 
+def get_onchain_builder(arc_note: ARC69Record):
+    if not arc_note:
+        return None
+
+    for attribute in arc_note.attributes:
+        if attribute.trait_type.lower() == "builder":
+            return attribute.value
+
+    return None
+
+
+def get_onchain_object(arc_note: ARC69Record):
+    if not arc_note:
+        return 0
+
+    for attribute in arc_note.attributes:
+        if attribute.trait_type.lower() == "object":
+            return attribute.value
+
+    return -1
+
+
+def get_onchain_cost(arc_note: ARC69Record):
+    if not arc_note:
+        return 0
+
+    for attribute in arc_note.attributes:
+        if attribute.trait_type.lower() == "cost":
+            return int(attribute.value)
+
+    return -1
+
+
 def filter_empty_balance_cities(
     indexer: IndexerClient, manager_address: str, all_cities: list[AlgoWorldCityAsset]
 ):
@@ -278,6 +347,47 @@ def filter_empty_balance_cities(
                 filtered_cities.append(parsed_city)
 
     return filtered_cities
+
+
+def get_all_tiles(
+    indexer: IndexerClient,
+    manager_address: str,
+    all_assets: list[dict],
+    all_owners: list,
+):
+    all_tiles = []
+    index_asset = 0
+
+    pretty_print(f"Size of all_assets {len(all_assets)}")
+    pretty_print(f"Size of all_owners {len(all_owners)}")
+
+    for asset in all_assets:
+        try:
+            pretty_print(
+                f'Loading tile asset under {asset["index"]} and {asset["params"]["name"]}'
+            )
+            asset_index = asset["index"]
+
+            cur_arc_note = get_onchain_arc(indexer, manager_address, asset_index)
+            cur_builder = get_onchain_builder(cur_arc_note)
+            cur_object = get_onchain_object(cur_arc_note)
+            cur_cost = get_onchain_cost(cur_arc_note)
+
+            tile = BuildAsset(
+                **{
+                    "index": (index_asset + 1),
+                    "object": cur_object,
+                    "builder": cur_builder,
+                    "owner": all_owners[index_asset],
+                    "cost": cur_cost,
+                }
+            )
+            all_tiles.append(tile)
+            index_asset = index_asset + 1
+        except Exception as exp:
+            pretty_print(f"Unable to parse asset: {asset} {exp}. Skipping...")
+
+    return all_tiles
 
 
 def get_all_cities(

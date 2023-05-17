@@ -24,11 +24,14 @@ def notify_citypack_purchase(city_pack: CityPack):
             "parse_mode": "HTML",
         }
         requests.post(
-            f"https://api.telegram.org/bot{TELEGRAM_API_KEY}/sendMessage", data
+            f"https://api.telegram.org/bot{TELEGRAM_API_KEY}/sendMessage",
+            data,
+            timeout=10,
         )
 
         requests.post(
             DISCORD_WEBHOOK_URL,
+            timeout=10,
             json={
                 "avatar_url": "https://i.imgur.com/0qGJ2um.png",
                 "embeds": [
@@ -57,11 +60,14 @@ def notify_influence_deposit(sender_address: str, influence: int, city_name: str
             "parse_mode": "HTML",
         }
         requests.post(
-            f"https://api.telegram.org/bot{TELEGRAM_API_KEY}/sendMessage", data
+            f"https://api.telegram.org/bot{TELEGRAM_API_KEY}/sendMessage",
+            data,
+            timeout=10,
         )
 
         requests.post(
             DISCORD_WEBHOOK_URL,
+            timeout=10,
             json={
                 "avatar_url": "https://i.imgur.com/0qGJ2um.png",
                 "embeds": [

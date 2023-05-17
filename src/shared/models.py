@@ -25,6 +25,16 @@ class AWENotePrefix:
 
 
 @dataclass
+class AWEBuildNotePrefix:
+    prefix: str
+    receiver: str
+    asset_id: int
+    deposit: int
+    object_id: int
+    note_id: str
+
+
+@dataclass
 class AWECityPackPurchaseNotePrefix:
     prefix: str
     operation: str
@@ -45,6 +55,17 @@ class StorageProcessedNote:
 
 
 @dataclass
+class StorageProcessedBuildNote:
+    block: int
+    acfg_txn: str
+    id: str
+    deposit: int
+    object_id: int
+    asset_id: str
+    sender_address: str
+
+
+@dataclass
 class StorageMetadata:
     last_processed_block: int
 
@@ -54,6 +75,15 @@ class AlgoWorldAsset:
     index: int
     name: str
     url: str
+
+
+@dataclass
+class BuildAsset:
+    index: int
+    object: str
+    builder: str
+    owner: str
+    cost: int
 
 
 @dataclass
