@@ -1,4 +1,4 @@
-name: Process building feature (TestNet)
+name: Process building feature (MainNet)
 
 on:
     schedule:
@@ -15,12 +15,12 @@ jobs:
         runs-on: ubuntu-latest
         env:
             BUILD_MANAGER_PASSPHRASE: ${{ secrets.BUILD_MANAGER_PASSPHRASE }}
-            LEDGER_TYPE: TestNet
+            LEDGER_TYPE: MainNet
 
         steps:
             - uses: actions/checkout@v3
               with:
-                  ref: testnet
+                  ref: mainnet
 
             - name: Set up Python
               uses: actions/setup-python@v4
@@ -67,4 +67,4 @@ jobs:
               if: env.HAS_COMMITS != false
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: testnet
+                  branch: mainnet

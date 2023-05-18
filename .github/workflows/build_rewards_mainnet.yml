@@ -1,0 +1,40 @@
+name: Process building feature rewards (MainNet)
+
+on:
+  schedule:
+  - cron: '0 0 * * *'
+
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.head_ref || github.ref_name }}
+
+jobs:
+  process_deposits:
+    name: Run building feature worker
+    runs-on: ubuntu-latest
+    env:
+      BUILD_MANAGER_PASSPHRASE: ${{ secrets.BUILD_MANAGER_PASSPHRASE }}
+      LEDGER_TYPE: MainNet
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: mainnet
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10.8
+
+      - name: Set up Poetry
+        uses: abatilo/actions-poetry@v2.3.0
+        with:
+          poetry-version: 1.3.2
+
+      - name: Install python dependencies
+        run: poetry install
+
+      - name: Send rewards
+        run: |
+          PYTHONPATH="." poetry run python src/aw_build/process_rewards.py
