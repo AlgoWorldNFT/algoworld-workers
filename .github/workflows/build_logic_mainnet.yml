@@ -2,7 +2,7 @@ name: Process building feature (MainNet)
 
 on:
   schedule:
-  - cron: '15 */2 * * *'
+  - cron: '30 */2 * * *'
 
   workflow_dispatch:
 
