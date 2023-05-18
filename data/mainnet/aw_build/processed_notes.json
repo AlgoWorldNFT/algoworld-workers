@@ -62,6 +62,15 @@
         "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "3ff8a5e8-af91-40b8-a95a-9fe73ecb15f5": {
+        "acfg_txn": "DIFVDWNXI3YOBSDWFUAOYOH2HKLA5BTU5PHG62EDBE2DXXE6PFMQ",
+        "asset_id": 2,
+        "block": 29154853,
+        "deposit": 100,
+        "id": "3ff8a5e8-af91-40b8-a95a-9fe73ecb15f5",
+        "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "4a9b5da3-32d1-4fb1-83cc-5621fecdb707": {
         "acfg_txn": "DODUE5424G4KQ5JLBCEIO6LJEE4Y4HKJXFQC3NO7WRUJU4TUIEFA",
         "asset_id": 8,
