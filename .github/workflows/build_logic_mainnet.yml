@@ -1,70 +1,70 @@
 name: Process building feature (MainNet)
 
 on:
-  schedule:
-  - cron: '15 */2 * * *'
+    schedule:
+        - cron: "35 */2 * * *"
 
-  workflow_dispatch:
+    workflow_dispatch:
 
 concurrency:
-  group: ${{ github.head_ref || github.ref_name }}
+    group: ${{ github.head_ref || github.ref_name }}
 
 jobs:
-  process_deposits:
-    name: Run building feature worker
-    runs-on: ubuntu-latest
-    env:
-      BUILD_MANAGER_PASSPHRASE: ${{ secrets.BUILD_MANAGER_PASSPHRASE }}
-      LEDGER_TYPE: MainNet
+    process_deposits:
+        name: Run building feature worker
+        runs-on: ubuntu-latest
+        env:
+            BUILD_MANAGER_PASSPHRASE: ${{ secrets.BUILD_MANAGER_PASSPHRASE }}
+            LEDGER_TYPE: MainNet
 
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: mainnet
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  ref: mainnet
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.10.8
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: 3.10.8
 
-      - name: Set up Poetry
-        uses: abatilo/actions-poetry@v2.3.0
-        with:
-          poetry-version: 1.3.2
+            - name: Set up Poetry
+              uses: abatilo/actions-poetry@v2.3.0
+              with:
+                  poetry-version: 1.3.2
 
-      - name: Install python dependencies
-        run: poetry install
+            - name: Install python dependencies
+              run: poetry install
 
-      - name: Fetch new build tx
-        run: |
-          PYTHONPATH="." poetry run python src/aw_build/process_build.py
+            - name: Fetch new build tx
+              run: |
+                  PYTHONPATH="." poetry run python src/aw_build/process_build.py
 
-      - name: Fetch tiles config tx
-        run: |
-          PYTHONPATH="." poetry run python src/aw_build/fetch_tiles.py
+            - name: Fetch tiles config tx
+              run: |
+                  PYTHONPATH="." poetry run python src/aw_build/fetch_tiles.py
 
-      - name: setup git config
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+            - name: setup git config
+              run: |
+                  git config user.name "GitHub Actions Bot"
+                  git config user.email "<>"
 
-      - name: Commit files
-        id: commit_files
-        if: always()
-        run: |
-          git config --local user.email "millionalgos@pm.me"
-          git config --local user.name "github-actions[bot]"
-          if [ -n "$(git status --porcelain)" ]; then
-            git commit -m "chore: refreshed building data 🤖" -a
-            echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
-          else
-            echo "no changes - skipping "
-            echo "HAS_COMMITS=false" >> "$GITHUB_ENV"
-          fi
+            - name: Commit files
+              id: commit_files
+              if: always()
+              run: |
+                  git config --local user.email "millionalgos@pm.me"
+                  git config --local user.name "github-actions[bot]"
+                  if [ -n "$(git status --porcelain)" ]; then
+                    git commit -m "chore: refreshed building data 🤖" -a
+                    echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
+                  else
+                    echo "no changes - skipping "
+                    echo "HAS_COMMITS=false" >> "$GITHUB_ENV"
+                  fi
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        if: env.HAS_COMMITS != false
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: mainnet
+            - name: Push changes
+              uses: ad-m/github-push-action@master
+              if: env.HAS_COMMITS != false
+              with:
+                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  branch: mainnet
