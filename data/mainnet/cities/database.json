@@ -105,13 +105,6 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
-        "index": 739208507,
-        "influence": 0,
-        "name": "AWC #182 - Unalaska, AK, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://Qmb8rTsRhPgh7pWTnTrhxeWjkPY4ynjqFbEMCtBA3yY4Mv"
-    },
-    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -1328,6 +1321,13 @@
         "name": "AWC #180 - El Paso, TX, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmcgyryhVodoXRkJSwFhehE4YGyjt97yWJXM9uUkzMKoZu"
+    },
+    {
+        "index": 739208507,
+        "influence": 3000,
+        "name": "AWC #182 - Unalaska, AK, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://Qmb8rTsRhPgh7pWTnTrhxeWjkPY4ynjqFbEMCtBA3yY4Mv"
     },
     {
         "index": 739208997,
