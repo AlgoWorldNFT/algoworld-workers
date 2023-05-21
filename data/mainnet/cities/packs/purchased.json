@@ -5045,5 +5045,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #104"
+    },
+    {
+        "contract": "BiAKBOgHAQC59raRAYjv+NECuJbo0wHAzYyEA6HWvI8DByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "F3276VUH6EOZ3EZQAM7WW3TB4RCQJ5IQ23YMPEUOHQL4NRUNOVUUULBHMM",
+        "id": 99,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304986937,
+                "title": "AWC #25 - Barcelona, Spain",
+                "url": "ipfs://QmdmyRE5QawNfeiWMRoB4VCk4SPgd4PKjQrXeW5eBmDyjg"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 708720520,
+                "title": "AWC #129 - Lissone, Italy",
+                "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 444205880,
+                "title": "AWC #62 - Bonanza, USA",
+                "url": "ipfs://QmZm1zxvL77w3t4q5YWYSuRRgnwySbWBopHTYhDeJB3LpW"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 813901504,
+                "title": "AWC #233 - Plymouth, UK",
+                "url": "ipfs://bafybeifxlddffkz4e5vw6dc45yzplsvzu36yr7zasmxdcs2qq72uz5y3xm"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 837757729,
+                "title": "AWC #235 - Montreal, Canada",
+                "url": "ipfs://bafybeifhikbl3oqknkrjfclck4j2qrtx5dcahlgxic2uyc3ukjhrqlnbge"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #99"
     }
 ]
