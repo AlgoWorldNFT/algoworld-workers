@@ -548,6 +548,15 @@
         "object_id": "House",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "d87f87c1-83de-448a-ba73-aa5fea545d11": {
+        "acfg_txn": "6ER2IHPKWJH5YWRFD5G4GGFXKCRGMR72ZUHN2GKHKD53ORQNN3IA",
+        "asset_id": 31,
+        "block": 29237906,
+        "deposit": 100,
+        "id": "d87f87c1-83de-448a-ba73-aa5fea545d11",
+        "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "dd892a1d-e629-4347-815d-626787897bd9": {
         "acfg_txn": "56MIGMI7GR7D3Q2ILWSMIYUWBXBHCWM3TFKXEPE3S2KH4R4F6EQQ",
         "asset_id": 16,
