@@ -439,5 +439,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #117"
+    },
+    {
+        "contract": "BiAKBOgHAQDu5I6GBLaXlZIDke7bvAOp+5D5A82FzOwCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "HYQZ6R6XYFIAAAEIH7YMDVMLN4UW3HWZ4DZQO5J6SZNNQ6KXFKDY5O7TSY",
+        "id": 118,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1086567022,
+                "title": "AWC #329 - Rijeka, Croatia",
+                "url": "ipfs://bafybeidirelsrikt6gcu54n5q3fxiqnrczfc7lfnbfqqueisey5vam5l3i"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 843402166,
+                "title": "AWC #241 - Klitmoller, Denmark",
+                "url": "ipfs://bafybeigqkyqkuij2tejq74id4vk6h6wty4pchmvh2ig4q6l3qbsqmlud2e"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 932640529,
+                "title": "AWC #265 - Minsk, Belarus",
+                "url": "ipfs://bafybeidhezgrxephd4ytudgx4dfhbnxak7uguvsarpp6xdywjrhyf4sgby"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1059339689,
+                "title": "AWC #323 - Antalya, Turkey",
+                "url": "ipfs://bafybeihuijm2bxbugtvx4t6pwknhnbejdwkocen7cufpagcu25o4oung74"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 764609229,
+                "title": "AWC #195 - Fort Worth, TX, USA",
+                "url": "ipfs://QmZrkg3mbqBzwJiiRjBxG9a8HaNcsjvJr2GkGCJsxEEWnm"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #118"
     }
 ]
