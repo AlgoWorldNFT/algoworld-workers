@@ -459,6 +459,16 @@
         "influence": 100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "352d322f-88cd-48f2-b549-105ac7977d01": {
+        "acfg_txn": "ZYC3UQ6F2OOVLL4X5DZ5K2A64DK3P7FEYQBA4QXOPLSR6H6YLJNQ",
+        "asset_id": 1102788426,
+        "asset_name": "AWC #389 - Cincinnati, OH, USA",
+        "block": 29260470,
+        "deposit": 3000,
+        "id": "352d322f-88cd-48f2-b549-105ac7977d01",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3639eaa8-9532-4e3b-a0ab-062744f51424": {
         "acfg_txn": "M2CV4W6WAVR4YVVIDYTN76ZVV5S72IKOVYF4KFOVN66A7GEN45EQ",
         "asset_id": 1014122432,

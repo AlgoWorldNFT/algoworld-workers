@@ -273,13 +273,6 @@
         "url": "ipfs://bafybeih3haldg7w6xgkul27ssj43nikbmwrqicestqumkxbye55et4u2hq"
     },
     {
-        "index": 1102788426,
-        "influence": 0,
-        "name": "AWC #389 - Cincinnati, OH, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeieadmdbi7xxq6dtglf3strrpuldpu5zg3vrkc5hxwbhqhm4ev5fhe"
-    },
-    {
         "index": 1105482512,
         "influence": 0,
         "name": "AWC #391 - Howth, Ireland",
@@ -1930,6 +1923,13 @@
         "name": "AWC #357 - Vostochny, Russia",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeied6gd6l37trpo3wptj3dqsbaej2q4wu5p2x4uvteweh7aofmolae"
+    },
+    {
+        "index": 1102788426,
+        "influence": 3000,
+        "name": "AWC #389 - Cincinnati, OH, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeieadmdbi7xxq6dtglf3strrpuldpu5zg3vrkc5hxwbhqhm4ev5fhe"
     },
     {
         "index": 377742761,
