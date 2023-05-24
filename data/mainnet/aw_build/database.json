@@ -3,7 +3,7 @@
         "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
         "cost": 100,
         "index": 1,
-        "object": "Castle",
+        "object": "Water",
         "owner": "MIOECQYZACMV4DVZHFMP2KIDC43SKZHPQIMFOM6MMXGHYF7YQA76RXKYKQ"
     },
     {
@@ -45,7 +45,7 @@
         "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
         "cost": 100,
         "index": 7,
-        "object": "Castle",
+        "object": "House",
         "owner": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA"
     },
     {
@@ -66,7 +66,7 @@
         "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
         "cost": 100,
         "index": 10,
-        "object": "Castle",
+        "object": "Meadow",
         "owner": "MIOECQYZACMV4DVZHFMP2KIDC43SKZHPQIMFOM6MMXGHYF7YQA76RXKYKQ"
     },
     {
@@ -122,7 +122,7 @@
         "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
         "cost": 100,
         "index": 18,
-        "object": "Castle",
+        "object": "Meadow",
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
@@ -171,7 +171,7 @@
         "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
         "cost": 100,
         "index": 25,
-        "object": "Castle",
+        "object": "Meadow",
         "owner": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA"
     },
     {
