@@ -125,10 +125,10 @@ KEYLIST_MAP = [
     "Water",
     "House",
     "Castle",
-    "City_Block",
-    "Arc_de_Triomphe",
-    "White_House",
-    "Mount_Rushmore",
+    "CityBlock",
+    "ArcdeTriomphe",
+    "WhiteHouse",
+    "MountRushmore",
     "Colosseum",
 ]
 AWT_TOTAL_REWARDS = 1000
