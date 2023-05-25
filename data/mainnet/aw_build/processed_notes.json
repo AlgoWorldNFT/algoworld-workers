@@ -1169,6 +1169,15 @@
         "object_id": "Castle",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "ab0abee5-2c22-4751-88fa-3d83d0cfe9c0": {
+        "acfg_txn": "4NDRBS4ZR6E72PJUXJPYCKABDSNYSSAGF7TQAFI7BRFBQDUZEI5A",
+        "asset_id": 34,
+        "block": 29327964,
+        "deposit": 100,
+        "id": "ab0abee5-2c22-4751-88fa-3d83d0cfe9c0",
+        "object_id": "WhiteHouse",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "abcdff4d-89f9-4cf4-bb2a-55d3a528acd6": {
         "acfg_txn": "N6SZKIVBQH5NJUQGQK36QF4MYHZVXONMADCW5M7RUCY5WGLAPENA",
         "asset_id": 12,
