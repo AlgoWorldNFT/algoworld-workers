@@ -119,7 +119,18 @@ BUILD_ASSET = (
     ]
 )
 
-KEYLIST_MAP = ["Meadow", "Forest", "Water", "House", "Castle"]
+KEYLIST_MAP = [
+    "Meadow",
+    "Forest",
+    "Water",
+    "House",
+    "Castle",
+    "City_Block",
+    "Arc_de_Triomphe",
+    "White_House",
+    "Mount_Rushmore",
+    "Colosseum",
+]
 AWT_TOTAL_REWARDS = 1000
 
 ## City influence
