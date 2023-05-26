@@ -980,6 +980,15 @@
         "object_id": "Forest",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "8bad79fc-23cb-4db1-9c5f-5aa71ed9beb3": {
+        "acfg_txn": "5MSGH3W47AHDKG5EKJQLIECNTYW6BFYVH2BSEBNCDAZRC4YGA7NA",
+        "asset_id": 2,
+        "block": 29330159,
+        "deposit": 100,
+        "id": "8bad79fc-23cb-4db1-9c5f-5aa71ed9beb3",
+        "object_id": "WhiteHouse",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "8dcf732e-63bf-4169-a56f-b9db62afa115": {
         "acfg_txn": "DYV3N6GHWPDFNGEGUVWZZRUCY554HCY4KWPBNOJNAX52EGVQNXPQ",
         "asset_id": 19,
