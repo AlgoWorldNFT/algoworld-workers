@@ -301,13 +301,6 @@
         "url": "ipfs://bafybeidcsbvntx42qwklq5yt6tiiffyhfrhd3ivmyjobucukyshafcrgnq"
     },
     {
-        "index": 1111377829,
-        "influence": 0,
-        "name": "AWC #394 - Orlando, FL, USA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeibphqs3ef3pzu6hdegjvp64aw2uzrtzgarr6lprpurritifbjy4lq"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -950,6 +943,13 @@
         "name": "AWC #336 - Vukovar, Croatia",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://bafybeicm2apgpydcywxyszuanoxy5eg5tbijffwwsw37vx53lvnqb2clbu"
+    },
+    {
+        "index": 1111377829,
+        "influence": 1000,
+        "name": "AWC #394 - Orlando, FL, USA",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeibphqs3ef3pzu6hdegjvp64aw2uzrtzgarr6lprpurritifbjy4lq"
     },
     {
         "index": 444205880,
