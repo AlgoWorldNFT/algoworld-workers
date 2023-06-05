@@ -1691,6 +1691,15 @@
         "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "d62fbf0d-c972-4fbd-a852-7df5a6bf672c": {
+        "acfg_txn": "MLTPGGZU6WSHDDMP23N5R5ILYRFBSXDABU6O6V6DQQ2BSO3BBZ2A",
+        "asset_id": 2,
+        "block": 29559778,
+        "deposit": 100,
+        "id": "d62fbf0d-c972-4fbd-a852-7df5a6bf672c",
+        "object_id": "WhiteHouse",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "d6ec38d8-7d59-4919-8954-fb72293aec60": {
         "acfg_txn": "TR7V5UN3KW52EOP2UXZLMYYGNIGTSFYBIWMF6DBWLW357VCAYY4A",
         "asset_id": 19,
