@@ -105,13 +105,6 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
-        "index": 653862485,
-        "influence": 0,
-        "name": "AWC #149 - Bangui, CF",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmNYAPN1cTvzEwfZJ83NW6cFPsGmVpNuiXcqDXGdHU5JE4"
-    },
-    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -2154,6 +2147,13 @@
         "name": "AWC #131 - Hanoi, Vietnam",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmdCXxnwmY9oDW4LurXBbGXmKUCZPbPKmCBUXyzsZKAuDY"
+    },
+    {
+        "index": 653862485,
+        "influence": 3006,
+        "name": "AWC #149 - Bangui, CF",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmNYAPN1cTvzEwfZJ83NW6cFPsGmVpNuiXcqDXGdHU5JE4"
     },
     {
         "index": 655500972,
