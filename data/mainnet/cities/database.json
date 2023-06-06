@@ -168,13 +168,6 @@
         "url": "ipfs://bafybeieq32gkckk4jodiwhngv2jhpnsojd7arsmdz66cjhcnz5yjpxjl5m"
     },
     {
-        "index": 954209296,
-        "influence": 0,
-        "name": "AWC #276 - Sao Francisco, BR",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiexwoydt7dpsmgbz7t6ctzs56o45jibybmdwt2nshwbmvzpqbu2ky"
-    },
-    {
         "index": 963841729,
         "influence": 0,
         "name": "AWC #287 - Ninh Binh, Vietnam",
@@ -1790,6 +1783,13 @@
         "name": "AWC #275 - Natal, Brazil",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeihatklsuzzcm4v6hj5sjvwanaa4qeray4cxgnb3xrfehylp24hl5e"
+    },
+    {
+        "index": 954209296,
+        "influence": 3000,
+        "name": "AWC #276 - Sao Francisco, BR",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiexwoydt7dpsmgbz7t6ctzs56o45jibybmdwt2nshwbmvzpqbu2ky"
     },
     {
         "index": 954209410,
