@@ -2015,6 +2015,15 @@
         "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "fb6c5112-1a44-4955-8f21-76c11dfe2fa9": {
+        "acfg_txn": "TCDKJQWISINQ6YXBQKBD7SZRLD2OM4WRFT5MXMS4XUNIGXCEWGTQ",
+        "asset_id": 14,
+        "block": 29611204,
+        "deposit": 100,
+        "id": "fb6c5112-1a44-4955-8f21-76c11dfe2fa9",
+        "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "fc7d7d37-0199-48ab-b2b1-768b6b7ee454": {
         "acfg_txn": "KVLYXLOR2IZ3AGOMZ7N3KEP4WEYYRIORMJ2XRSDIVIACF6NJEF4A",
         "asset_id": 20,
