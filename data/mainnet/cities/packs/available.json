@@ -292,5 +292,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #121"
+    },
+    {
+        "contract": "BiAKBOgHAQC7lNyYAcn8kPkD5uvCqAPMsaOBAanSuPUCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "LBVG5UC43CXKITRYUCZG4HNGCBX32FLBN6UWN4GXUMTW7WZBMSNLC7OF3U",
+        "id": 122,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 320277051,
+                "title": "AWC #29 - Montevideo, Uruguay",
+                "url": "ipfs://QmeTMtVunRZPksovc2QVx8zr5jcT25QQQPfyvkU1QtJrQN"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1059339849,
+                "title": "AWC #325 - Seattle, WA, USA",
+                "url": "ipfs://bafybeif2wp4qowxjnixtfnklfunpz4frqar2pxlne4zkciju2nwj5wmw74"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 890287590,
+                "title": "AWC #223 - Williamsburg, VA, USA",
+                "url": "ipfs://bafybeig7sygjufyss53ejiu6hsii4qv7xdabpaie2qculi4ebjbsqlpi6m"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 271112396,
+                "title": "AWC #6 - Chicago, USA",
+                "url": "ipfs://QmdNR3DtTpqLqdcP8vzU2ZUcZx4J2Eag89ejSsRLoexV2w"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 783165737,
+                "title": "AWC #198 - Nur-Sultan, KZ",
+                "url": "ipfs://QmQKuhtsCRRzYc1G9nDwLrAG3KxPuKzgbbVMYuvUPwKdq5"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #122"
     }
 ]
