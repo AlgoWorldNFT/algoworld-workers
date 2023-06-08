@@ -439,5 +439,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #124"
+    },
+    {
+        "contract": "BiAKBOgHAQDS1rO3Apf8kPkDt+nCuwGI7/jRAsT079QCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "SSI4BRNBSHHAVFPXVJJQG3TAXV2N36CDCYVXUNTMPBWZIEHXBGCNQAUAFA",
+        "id": 125,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 653060946,
+                "title": "AWC #137 - Perth, Australia",
+                "url": "ipfs://Qme1zyNZjM53EBe75vDRx6d8wDTBXTXyWZ1YuGRUxAk6H3"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1059339799,
+                "title": "AWC #324 - Alexandria, Egypt",
+                "url": "ipfs://bafybeifh5l4eknkk363wygihrmktii5q4k2nl22prv7s6gswdfc2o4ohre"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 393262263,
+                "title": "AWC #64 - Naypyidaw, Myanmar",
+                "url": "ipfs://QmcEsX1U2X9R4QaH3LSZJXz23HywKkLxPbXBLZkBvedTR5"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 708720520,
+                "title": "AWC #129 - Lissone, Italy",
+                "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 714865220,
+                "title": "AWC #175 - Philadelphia, PA, USA",
+                "url": "ipfs://QmXFv4bK4w9redRnjveQgXrBYdwvEv23PWZis67tFC1fi1"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #125"
     }
 ]
