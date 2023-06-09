@@ -1,254 +1,254 @@
 [
     {
-        "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 1,
-        "object": "Water",
+        "object": 0,
         "owner": "MIOECQYZACMV4DVZHFMP2KIDC43SKZHPQIMFOM6MMXGHYF7YQA76RXKYKQ"
     },
     {
-        "builder": "JSX6FJD7NMR23IWB5MVQ6YTORFGTZKA3YPGQ5AXERTQJTF6GO5ALSKH5IQ",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 2,
-        "object": "WhiteHouse",
+        "object": 0,
         "owner": "JSX6FJD7NMR23IWB5MVQ6YTORFGTZKA3YPGQ5AXERTQJTF6GO5ALSKH5IQ"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 3,
-        "object": "Forest",
+        "object": 0,
         "owner": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI"
     },
     {
-        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 4,
-        "object": "Meadow",
+        "object": 0,
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 5,
-        "object": "Forest",
+        "object": 0,
         "owner": "V6CX3GJ4RUBL5VS6ADRUTPJ5W4G5FSFY7CPNVBF6BXHMMUKBOFDXDDYXBI"
     },
     {
-        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 6,
-        "object": "Forest",
+        "object": 0,
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
-        "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 7,
-        "object": "House",
+        "object": 0,
         "owner": "7V4LPKOUF2J33AEM2L6LFYZJTE6DPDDWUALWLTAM5XL7PATBQS6YEGMAFU"
     },
     {
-        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 8,
-        "object": "Water",
+        "object": 0,
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 9,
-        "object": "Forest",
+        "object": 0,
         "owner": "C5PQ23PTNQYRQG3KOAS325ZBMOLKQWJ2FSZWVOJGPFCDAQWY4RSWWA2QI4"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 10,
-        "object": "Colosseum",
+        "object": 0,
         "owner": "MIOECQYZACMV4DVZHFMP2KIDC43SKZHPQIMFOM6MMXGHYF7YQA76RXKYKQ"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 11,
-        "object": "Forest",
+        "object": 0,
         "owner": "WHKQNOW2IKUJ4EPPQEOWXZ2N7SDZPLCZH2AM2GVOFI3VQETJETBQQ4PZBQ"
     },
     {
-        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 12,
-        "object": "Forest",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 13,
-        "object": "Meadow",
+        "object": 0,
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
-        "builder": "WCPDQL7FAXEEQTSGTMQUTHVMURXD64KT6P5U2KT7TCGGCMMSNWDJVKYZWY",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 14,
-        "object": "Castle",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 500,
+        "builder": null,
+        "cost": 0,
         "index": 15,
-        "object": "Forest",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 500,
+        "builder": null,
+        "cost": 0,
         "index": 16,
-        "object": "Forest",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
-        "cost": 500,
+        "builder": null,
+        "cost": 0,
         "index": 17,
-        "object": "Castle",
+        "object": 0,
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
-        "builder": "V6CX3GJ4RUBL5VS6ADRUTPJ5W4G5FSFY7CPNVBF6BXHMMUKBOFDXDDYXBI",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 18,
-        "object": "Castle",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 19,
-        "object": "Castle",
+        "object": 0,
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
-        "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 20,
-        "object": "Water",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 500,
+        "builder": null,
+        "cost": 0,
         "index": 21,
-        "object": "Forest",
+        "object": 0,
         "owner": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU"
     },
     {
-        "builder": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU",
-        "cost": 1000,
+        "builder": null,
+        "cost": 0,
         "index": 22,
-        "object": "Forest",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "2FWQ762M2QWQCWRC7M6YZ5DC3AQPVP7Q4I66RZ3KNTJLBTA73JXH4JKV5Q",
-        "cost": 1000,
+        "builder": null,
+        "cost": 0,
         "index": 23,
-        "object": "House",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "V6CX3GJ4RUBL5VS6ADRUTPJ5W4G5FSFY7CPNVBF6BXHMMUKBOFDXDDYXBI",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 24,
-        "object": "CityBlock",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "4LR3R7VSH5WWIUSSVOHHPCTRABCOJJA7ICHBEJ5XDYEVUDU3LONBSC2TZE",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 25,
-        "object": "Castle",
+        "object": 0,
         "owner": "7V4LPKOUF2J33AEM2L6LFYZJTE6DPDDWUALWLTAM5XL7PATBQS6YEGMAFU"
     },
     {
-        "builder": "4LR3R7VSH5WWIUSSVOHHPCTRABCOJJA7ICHBEJ5XDYEVUDU3LONBSC2TZE",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 26,
-        "object": "Forest",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
-        "cost": 500,
+        "builder": null,
+        "cost": 0,
         "index": 27,
-        "object": "Meadow",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
-        "cost": 1000,
+        "builder": null,
+        "cost": 0,
         "index": 28,
-        "object": "Forest",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "XHYGORNI7QMV2N4DSVKDSVQAHNY5OJHRIMWM62QET4XMQNZJ5UANXVVDUA",
-        "cost": 1000,
+        "builder": null,
+        "cost": 0,
         "index": 29,
-        "object": "Water",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "V6CX3GJ4RUBL5VS6ADRUTPJ5W4G5FSFY7CPNVBF6BXHMMUKBOFDXDDYXBI",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 30,
-        "object": "Colosseum",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "4LR3R7VSH5WWIUSSVOHHPCTRABCOJJA7ICHBEJ5XDYEVUDU3LONBSC2TZE",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 31,
-        "object": "Colosseum",
+        "object": 0,
         "owner": "4LR3R7VSH5WWIUSSVOHHPCTRABCOJJA7ICHBEJ5XDYEVUDU3LONBSC2TZE"
     },
     {
-        "builder": "4LR3R7VSH5WWIUSSVOHHPCTRABCOJJA7ICHBEJ5XDYEVUDU3LONBSC2TZE",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 32,
-        "object": "House",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "V6CX3GJ4RUBL5VS6ADRUTPJ5W4G5FSFY7CPNVBF6BXHMMUKBOFDXDDYXBI",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 33,
-        "object": "MountRushmore",
+        "object": 0,
         "owner": "WHKQNOW2IKUJ4EPPQEOWXZ2N7SDZPLCZH2AM2GVOFI3VQETJETBQQ4PZBQ"
     },
     {
-        "builder": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 34,
-        "object": "Meadow",
+        "object": 0,
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 35,
-        "object": "Forest",
+        "object": 0,
         "owner": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI"
     },
     {
-        "builder": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI",
-        "cost": 100,
+        "builder": null,
+        "cost": 0,
         "index": 36,
-        "object": "Castle",
+        "object": 0,
         "owner": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI"
     }
 ]
