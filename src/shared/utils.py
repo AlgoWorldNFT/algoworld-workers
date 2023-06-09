@@ -1,8 +1,10 @@
 import base64
 import json
 from dataclasses import asdict
+import math
 from os.path import exists
 from sys import maxsize
+from time import sleep
 
 from algosdk.future.transaction import (
     AssetTransferTxn,
@@ -15,6 +17,7 @@ from algosdk.future.transaction import (
 )
 from algosdk.v2client.algod import AlgodClient
 from algosdk.v2client.indexer import IndexerClient
+from src.shared.common import indexer
 
 from src.shared.models import (
     AlgoWorldAsset,
@@ -230,13 +233,13 @@ def wait_for_confirmation(client, txid):
 
 def get_onchain_arc(indexer: IndexerClient, address: str, asset_index: int):
     try:
-        response = indexer.search_transactions(
+        response = search_transactions_generic(
             address=address,
             txn_type="acfg",
             asset_id=asset_index,
         )
 
-        if response and "transactions" in response and response["transactions"]:
+        if response:
             try:
                 asset_config_tx = response["transactions"][0]
                 arc_note = ARC69Record(
@@ -551,3 +554,62 @@ def swapper_deposit(
         )
 
     return deposit_txs
+
+
+def search_transactions_generic(
+    note_prefix: str = None,
+    min_round: int = None,
+    max_round: int = None,
+    min_amount: int = None,
+    txn_type: str = None,
+    limit: int = None,
+    address: str = None,
+    asset_id: int = None,
+    chunk_size: int = 10000
+):
+    if min_round > max_round:
+     raise ValueError(f"min_round ({min_round}) > max_round ({max_round})")
+
+    transactions = []
+    last_min = min_round
+
+    while True:
+        try:
+            # Iterate through the rounds in chunks
+            for start in range(min_round, max_round + 1, chunk_size):
+                end = start + chunk_size - 1
+                response = indexer.search_transactions(
+                    note_prefix=note_prefix,
+                    min_round=start,
+                    max_round=end,
+                    min_amount=min_amount,
+                    txn_type=txn_type,
+                    limit=limit,
+                    address=address,
+                    asset_id=asset_id,
+                )
+                chunk_transactions = (
+                    response["transactions"] if "transactions" in response else []
+                )
+
+                last_min = start
+
+                if len(chunk_transactions) == 0:
+                    continue
+                else:
+                    transactions.extend(chunk_transactions)
+
+                print("Fetched transactions from round", start, "to", end)
+
+            break
+
+        except Exception as e:
+            if chunk_size <= 10:
+                raise e
+
+            chunk_size = math.ceil(chunk_size // 2)  # Decrease the chunk size
+            min_round = last_min
+            sleep(1)  # to prevent making too many requests in a short time
+            continue  # Retry with the smaller chunk size
+
+    return transactions
