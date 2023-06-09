@@ -1,7 +1,7 @@
 import base64
 import json
-from dataclasses import asdict
 import math
+from dataclasses import asdict
 from os.path import exists
 from sys import maxsize
 from time import sleep
@@ -17,8 +17,8 @@ from algosdk.future.transaction import (
 )
 from algosdk.v2client.algod import AlgodClient
 from algosdk.v2client.indexer import IndexerClient
-from src.shared.common import indexer
 
+from src.shared.common import indexer
 from src.shared.models import (
     AlgoWorldAsset,
     AlgoWorldCityAsset,
@@ -565,10 +565,10 @@ def search_transactions_generic(
     limit: int = None,
     address: str = None,
     asset_id: int = None,
-    chunk_size: int = 10000
+    chunk_size: int = 10000,
 ):
     if min_round > max_round:
-     raise ValueError(f"min_round ({min_round}) > max_round ({max_round})")
+        raise ValueError(f"min_round ({min_round}) > max_round ({max_round})")
 
     transactions = []
     last_min = min_round
