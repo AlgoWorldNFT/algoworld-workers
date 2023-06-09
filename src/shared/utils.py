@@ -333,7 +333,7 @@ def filter_empty_balance_cities(
 
     while "next-token" in created_assets:
         fetched_cities.extend(
-            [asset for asset in created_assets["assets"] if asset["deleted"] == False]
+            [asset for asset in created_assets["assets"] if asset["deleted"] is False]
         )
 
         created_assets = indexer.search_assets(
