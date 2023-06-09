@@ -1,4 +1,5 @@
 import math
+from time import sleep
 
 from algosdk import mnemonic
 from algosdk.future.transaction import AssetTransferTxn
@@ -14,7 +15,7 @@ from src.shared.common import (
     indexer,
 )
 from src.shared.models import Wallet
-from src.shared.utils import load_tiles_assets, pretty_print, sign_send_wait
+from src.shared.utils import load_tiles_assets, pretty_print
 
 manager_account = Wallet(
     mnemonic.to_private_key(BUILD_MANAGER_PASSPHRASE),
@@ -109,7 +110,7 @@ def send_rewards(all_builders: dict, account: Wallet):
                 note=validation_note.encode(),
             )
             pretty_print(f"{reward} AWT sent to {builder}")
-            sign_send_wait(algod_client, account, reward_txn)
+            sleep(2)
 
 
 def main():  # pragma: no cover
