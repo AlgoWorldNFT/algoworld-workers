@@ -62,7 +62,7 @@ def fetch_aw_countries(indexer: IndexerClient, creator_address: str):
                     asset["index"], asset["params"]["name"], asset["params"]["url"]
                 )
                 for asset in created_assets["assets"]
-                if asset["deleted"] == False
+                if not asset["deleted"]
                 and "name" in asset["params"]
                 and asset["params"]["name"].startswith("AW #")
             ]
