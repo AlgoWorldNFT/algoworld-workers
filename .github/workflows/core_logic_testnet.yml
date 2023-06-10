@@ -1,8 +1,8 @@
 name: Process influence and packs (TestNet)
 
 on:
-    # schedule:
-    # - cron: '5 * * * *'
+    schedule:
+        - cron: "5 * * * *"
     workflow_dispatch:
 
 concurrency:

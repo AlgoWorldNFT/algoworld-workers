@@ -1,8 +1,8 @@
 name: Process building feature rewards (MainNet)
 
 on:
-    # schedule:
-    # - cron: '0 0 * * *
+    schedule:
+        - cron: "0 0 * * *"
     workflow_dispatch:
 
 concurrency:
@@ -37,29 +37,3 @@ jobs:
             - name: Send rewards
               run: |
                   PYTHONPATH="." poetry run python src/aw_build/process_rewards.py
-
-            - name: setup git config
-              run: |
-                  git config user.name "GitHub Actions Bot"
-                  git config user.email "<>"
-
-            - name: Commit files
-              id: commit_files
-              if: always()
-              run: |
-                  git config --local user.email "millionalgos@pm.me"
-                  git config --local user.name "github-actions[bot]"
-                  if [ -n "$(git status --porcelain)" ]; then
-                  git commit -m "chore(mainnet): build rewards timestamp 🤖" -a
-                  echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
-                  else
-                  echo "no changes - skipping "
-                  echo "HAS_COMMITS=false" >> "$GITHUB_ENV"
-                  fi
-
-            - name: Push changes
-              uses: ad-m/github-push-action@master
-              if: env.HAS_COMMITS != false
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: mainnet
