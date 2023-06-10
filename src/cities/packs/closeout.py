@@ -6,7 +6,6 @@ from algosdk.future.transaction import AssetTransferTxn, LogicSig, PaymentTxn
 from retry import retry
 
 from src.shared.common import (
-    CITY_INFLUENCE_METADATA_PATH,
     CITY_PACK_AVAILABLE_PATH,
     CITY_PACK_METADATA_PATH,
     CITY_PACK_PURCHASED_PATH,
@@ -214,7 +213,7 @@ if len(latest_pack_purchase_txns) == 0:
     exit(0)
 
 
-for pack_purchase_txn in latest_pack_purchase_txns:
+for index, pack_purchase_txn in enumerate(latest_pack_purchase_txns):
     available_packs = load_packs(CITY_PACK_AVAILABLE_PATH)
     purchased_packs = load_packs(CITY_PACK_PURCHASED_PATH)
 
@@ -299,7 +298,7 @@ for pack_purchase_txn in latest_pack_purchase_txns:
                     available_packs.remove(pack_to_close)
                     save_packs(CITY_PACK_AVAILABLE_PATH, available_packs)
                     save_packs(CITY_PACK_PURCHASED_PATH, purchased_packs)
-                    save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
+                    save_metadata(CITY_PACK_METADATA_PATH, storage_metadata)
 
                     try:
                         notify_citypack_purchase(pack_to_close)
