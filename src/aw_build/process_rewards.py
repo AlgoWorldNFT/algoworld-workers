@@ -109,8 +109,8 @@ def send_rewards(all_builders: dict, account: Wallet):
                 index=AWT_ID,
                 note=validation_note.encode(),
             )
-            pretty_print(f"{reward} AWT sent to {builder}")
             sleep(2)
+            pretty_print(f"{reward} AWT sent to {builder}")
 
 
 def main():  # pragma: no cover

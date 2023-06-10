@@ -233,7 +233,7 @@ def wait_for_confirmation(client, txid):
 
 def get_onchain_arc(indexer: IndexerClient, address: str, asset_index: int):
     try:
-        response = search_transactions_generic(
+        response = indexer.search_transactions(
             address=address,
             txn_type="acfg",
             asset_id=asset_index,
@@ -557,9 +557,9 @@ def swapper_deposit(
 
 
 def search_transactions_generic(
+    min_round: int,
+    max_round: int,
     note_prefix: str = None,
-    min_round: int = None,
-    max_round: int = None,
     min_amount: int = None,
     txn_type: str = None,
     limit: int = None,

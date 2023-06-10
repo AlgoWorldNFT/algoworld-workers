@@ -4,7 +4,7 @@ from algosdk.v2client.indexer import IndexerClient
 
 from src.shared.common import COUNTRY_ASSET_DB_PATH, indexer
 from src.shared.models import AlgoWorldAsset
-from src.shared.utils import pretty_print, save_aw_assets, search_transactions_generic
+from src.shared.utils import pretty_print, save_aw_assets
 
 
 def fetch_country_image_txns(
@@ -15,7 +15,7 @@ def fetch_country_image_txns(
     response = []
     max_round = 13312110 + 5000000
 
-    note_txns = search_transactions_generic(
+    note_txns = indexer.search_transactions(
         address=creator_address,
         limit=100,
         min_amount=0,

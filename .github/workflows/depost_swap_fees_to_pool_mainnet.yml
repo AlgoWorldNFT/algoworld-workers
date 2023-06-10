@@ -1,42 +1,41 @@
 name: Check swap fees wallet and deposit to AWT liquidity if threshold reached (MainNet)
 
 on:
-  schedule:
-  - cron: '0 */7 * * *'
-
-  workflow_dispatch:
+    # schedule:
+    # - cron: '0 */7 * * *'
+    workflow_dispatch:
 
 jobs:
-  deposit_swap_fees_to_pool:
-    name: Run city influence worker
-    runs-on: ubuntu-latest
-    env:
-      SWAP_REWARDS_PASSPHRASE: ${{ secrets.SWAP_REWARDS_PASSPHRASE }}
-      LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
+    deposit_swap_fees_to_pool:
+        name: Run city influence worker
+        runs-on: ubuntu-latest
+        env:
+            SWAP_REWARDS_PASSPHRASE: ${{ secrets.SWAP_REWARDS_PASSPHRASE }}
+            LEDGER_TYPE: ${{ secrets.LEDGER_TYPE }}
 
-    steps:
-      - uses: actions/checkout@v3
-        with:
-          ref: mainnet
+        steps:
+            - uses: actions/checkout@v3
+              with:
+                  ref: mainnet
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: 3.10.8
+            - name: Set up Python
+              uses: actions/setup-python@v4
+              with:
+                  python-version: 3.10.8
 
-      - name: Set up Poetry
-        uses: abatilo/actions-poetry@v2.3.0
-        with:
-          poetry-version: 1.3.2
+            - name: Set up Poetry
+              uses: abatilo/actions-poetry@v2.3.0
+              with:
+                  poetry-version: 1.3.2
 
-      - name: Install python dependencies
-        run: poetry install
+            - name: Install python dependencies
+              run: poetry install
 
-      - uses: pre-commit/action@v3.0.0
-        name: "Linters and formatters check"
-        with:
-          extra_args: --all-files --show-diff-on-failure
+            - uses: pre-commit/action@v3.0.0
+              name: "Linters and formatters check"
+              with:
+                  extra_args: --all-files --show-diff-on-failure
 
-      - name: Check and update ALGO/AWT tinyman liquditiy
-        run: |
-          PYTHONPATH="." LEDGER_TYPE="MainNet" poetry run python src/awt/fees_to_liquidity.py
+            - name: Check and update ALGO/AWT tinyman liquditiy
+              run: |
+                  PYTHONPATH="." LEDGER_TYPE="MainNet" poetry run python src/awt/fees_to_liquidity.py
