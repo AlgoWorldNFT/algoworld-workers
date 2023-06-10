@@ -10,15 +10,15 @@ from src.countries.fetch_all import (
 
 def test_fetch_country_image_txns(mocker):
     # Arrange
-    search_transactions_generic = mocker.patch(
-        "src.countries.fetch_all.search_transactions_generic",
+    indexer_mock = mocker.patch(
+        "src.countries.fetch_all.indexer",
     )
-    search_transactions_generic.return_value = {
+    indexer_mock.search_transactions.return_value = {
         "transactions": [{"note": "test"}, {"not_note": "test"}]
     }
 
     # Act
-    processed_txns = fetch_country_image_txns(search_transactions_generic, "test", 1)
+    processed_txns = fetch_country_image_txns(indexer_mock, "test", 1)
 
     # Assert
     assert len(processed_txns) == 1
@@ -27,13 +27,13 @@ def test_fetch_country_image_txns(mocker):
 
 def test_fetch_country_image_txns_empty(mocker):
     # Arrange
-    search_transactions_generic = mocker.patch(
-        "src.countries.fetch_all.search_transactions_generic",
+    indexer_mock = mocker.patch(
+        "src.countries.fetch_all.indexer",
     )
-    search_transactions_generic.return_value = {}
+    indexer_mock.search_transactions.return_value = {}
 
     # Act
-    processed_txns = fetch_country_image_txns(search_transactions_generic, "test", 1)
+    processed_txns = fetch_country_image_txns(indexer_mock, "test", 1)
 
     # Assert
     assert not processed_txns
