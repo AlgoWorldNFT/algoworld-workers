@@ -1,4 +1,5 @@
 from random import sample
+from time import sleep
 
 from algosdk import mnemonic
 from algoworld_contracts.swapper.asas_to_algo_swapper import (
@@ -95,6 +96,8 @@ def create_city_pack(manager_wallet: Wallet):
             assets=[city.index for city in packs_content],
             funding_amount=CITY_PACK_BASE_OPTIN_FEE * len(packs_content),
         )
+
+        sleep(5)
 
         swapper_deposit(
             algod=algod_client,
