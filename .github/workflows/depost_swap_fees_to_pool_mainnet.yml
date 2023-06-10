@@ -1,8 +1,8 @@
 name: Check swap fees wallet and deposit to AWT liquidity if threshold reached (MainNet)
 
 on:
-    # schedule:
-    # - cron: '0 */7 * * *'
+    schedule:
+        - cron: "0 */7 * * *"
     workflow_dispatch:
 
 jobs:
