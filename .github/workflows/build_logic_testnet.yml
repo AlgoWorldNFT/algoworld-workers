@@ -54,7 +54,7 @@ jobs:
                   git config --local user.email "millionalgos@pm.me"
                   git config --local user.name "github-actions[bot]"
                   if [ -n "$(git status --porcelain)" ]; then
-                    git commit -m "chore: refreshed building data 🤖" -a
+                    git commit -m "chore(testnet): refreshed building data 🤖" -a
                     echo "HAS_COMMITS=true" >> "$GITHUB_ENV"
                   else
                     echo "no changes - skipping "

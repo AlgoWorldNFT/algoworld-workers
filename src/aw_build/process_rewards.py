@@ -1,3 +1,4 @@
+import datetime
 import math
 from time import sleep
 
@@ -10,17 +11,36 @@ from src.shared.common import (
     AWT_TOTAL_REWARDS,
     BUILD_ASSET_DB_PATH,
     BUILD_MANAGER_PASSPHRASE,
+    BUILD_REWARDS_TIMESTAMP,
     KEYLIST_MAP,
     algod_client,
     indexer,
 )
 from src.shared.models import Wallet
-from src.shared.utils import load_tiles_assets, pretty_print
+from src.shared.utils import load_tiles_assets, pretty_print, sign_send_wait
 
 manager_account = Wallet(
     mnemonic.to_private_key(BUILD_MANAGER_PASSPHRASE),
     mnemonic.to_public_key(BUILD_MANAGER_PASSPHRASE),
 )
+
+
+def has_script_run_today():
+    # Load the last run timestamp
+    try:
+        with open(BUILD_REWARDS_TIMESTAMP, "r") as f:
+            last_run = datetime.datetime.strptime(f.read(), "%Y-%m-%d")
+    except FileNotFoundError:
+        # If file doesn't exist, this is first run
+        return False
+    # Compare the last run date to today's date
+    return last_run.date() == datetime.datetime.today().date()
+
+
+def update_last_run():
+    # Write the current datetime into the file
+    with open(BUILD_REWARDS_TIMESTAMP, "w") as f:
+        f.write(datetime.datetime.now().strftime("%Y-%m-%d"))
 
 
 def find_list_awt_accounts(indexer: IndexerClient):
@@ -111,11 +131,18 @@ def send_rewards(all_builders: dict, account: Wallet):
             )
             sleep(2)
             pretty_print(f"{reward} AWT sent to {builder}")
+            sign_send_wait(algod_client, account, reward_txn)
 
 
 def main():  # pragma: no cover
+    if has_script_run_today():
+        print("Script has already run today. Exiting.")
+        return
+
     all_builders = list_builders()
     send_rewards(all_builders, manager_account)
+
+    update_last_run()
 
 
 def init():
