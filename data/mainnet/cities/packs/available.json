@@ -292,5 +292,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #132"
+    },
+    {
+        "contract": "BiAKBOgHAQCG36mYAvmO+5UC6uCakgTlp6aBAcSHtYkEByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "YVHGBEGO5UPJI6G5M3SDF4O4C42XSD2RL2BMV7UDF6X6CCRYPNLQQTWOIQ",
+        "id": 133,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 587886470,
+                "title": "AWC #121 - Taipei, Taiwan",
+                "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 582928249,
+                "title": "AWC #106 - Ulaanbaatar, MN",
+                "url": "ipfs://QmUp5udxGnfswDTAVboWcni8sc2329DMMRGYmzE6Jy2BUY"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1111928938,
+                "title": "AWC #348 - Kourou, France",
+                "url": "ipfs://bafybeicwwi33erif5vclqycnobbdikvoww53xd35lwcu5zxgnn2djgrq5a"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 271160293,
+                "title": "AWC #12 - Madrid, Spain",
+                "url": "ipfs://QmVR6z9eKKS32gvonCXmVg6SgRm4TjazszHJBVETnUgJLD"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1093485508,
+                "title": "AWC #362 - Split, Croatia",
+                "url": "ipfs://bafybeiamtus6g3hc2rlsqbcc7cdlngablkaypqbsjt5ordqil7lrgkg4ty"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #133"
     }
 ]
