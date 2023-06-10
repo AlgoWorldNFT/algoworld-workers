@@ -1629,6 +1629,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "d49d3b66-5c9f-479f-adb8-6be533e10595": {
+        "acfg_txn": "M3FWQD5AOTM7BKFW6AFDHURTMO2UORUDLZ7WACDII5L4IGEYB4YA",
+        "asset_id": 576002647,
+        "asset_name": "AWC #69 - Las Vegas, NV, USA",
+        "block": 29691260,
+        "deposit": 1,
+        "id": "d49d3b66-5c9f-479f-adb8-6be533e10595",
+        "influence": 6970,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "d5dd73eb-d5f3-4bc4-854c-2e6e176754a3": {
         "acfg_txn": "7VZVITRKD22R2P5B7HBBGJJDXMQ734F7B4MOBFF37FN2OWN2RTLQ",
         "asset_id": 276086752,
@@ -1837,6 +1847,16 @@
         "deposit": 1,
         "id": "e98edb4b-9378-4bcb-9ea5-043f930ef686",
         "influence": 1,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "eab2b9bd-68c3-4082-bb6f-ce47c4c969a0": {
+        "acfg_txn": "DCOPSPHWA7MAV45PVCCL6TCWDNPK2BJ2NITPP4TSMYUISSJG6VYA",
+        "asset_id": 271518216,
+        "asset_name": "AWC #9 - Paris, France",
+        "block": 29691257,
+        "deposit": 10,
+        "id": "eab2b9bd-68c3-4082-bb6f-ce47c4c969a0",
+        "influence": 30010,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "ebee897e-1616-4454-9e41-2644478c7a82": {
