@@ -1,6 +1,7 @@
 import base64
 import json
 import math
+import time
 from dataclasses import asdict
 from os.path import exists
 from sys import maxsize
@@ -216,19 +217,34 @@ def wait_for_confirmation(client, txid):
     Utility function to wait until the transaction is
     confirmed before proceeding.
     """
-    last_round = client.status().get("last-round")
-    txinfo = client.pending_transaction_info(txid)
-    while not (txinfo.get("confirmed-round") and txinfo.get("confirmed-round") > 0):
-        pretty_print("Waiting for confirmation")
-        last_round += 1
-        client.status_after_block(last_round)
-        txinfo = client.pending_transaction_info(txid)
-    pretty_print(
-        "Transaction {} confirmed in round {}.".format(
-            txid, txinfo.get("confirmed-round")
-        )
-    )
-    return txinfo
+    time.sleep(5)  # Sleep for 5 seconds before starting
+    for attempt in range(3):  # Retry mechanism for 3 times
+        try:
+            last_round = client.status().get("last-round")
+            txinfo = client.pending_transaction_info(txid)
+            while not (
+                txinfo.get("confirmed-round") and txinfo.get("confirmed-round") > 0
+            ):
+                pretty_print("Waiting for confirmation")
+                last_round += 1
+                client.status_after_block(last_round)
+                txinfo = client.pending_transaction_info(txid)
+            pretty_print(
+                "Transaction {} confirmed in round {}.".format(
+                    txid, txinfo.get("confirmed-round")
+                )
+            )
+            return txinfo
+        except Exception:
+            if (
+                attempt < 2
+            ):  # It will try again if the number of attempts is less than 3
+                pretty_print(
+                    f"Attempt {attempt + 1} failed - trying again in 5 seconds."
+                )
+                time.sleep(5)  # Sleep for 5 seconds before retrying
+            else:
+                pretty_print("All attempts failed.")
 
 
 def get_onchain_arc(indexer: IndexerClient, address: str, asset_index: int):

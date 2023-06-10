@@ -13,7 +13,7 @@ def fetch_aw_cities(indexer: IndexerClient, manager_address: str):
 
     while "next-token" in created_assets:
         all_assets.extend(
-            [asset for asset in created_assets["assets"] if asset["deleted"] == False]
+            [asset for asset in created_assets["assets"] if asset["deleted"] is False]
         )
 
         created_assets = indexer.search_assets(
