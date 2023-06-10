@@ -27,7 +27,7 @@ def fees_to_awt_liquidity(
 
     if account_info_algo_balance < 3 * 1e6:
         pretty_print(
-            f"Not enough ALGO to deposit liquidity. Need at least 3 ALGO. Skipping..."
+            "Not enough ALGO to deposit liquidity. Need at least 3 ALGO. Skipping..."
         )
         exit(0)
 
