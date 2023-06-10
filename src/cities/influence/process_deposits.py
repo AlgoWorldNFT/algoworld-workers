@@ -35,6 +35,7 @@ from src.shared.utils import (
     pretty_print,
     save_metadata,
     save_notes,
+    search_transactions_generic,
     sign_send_wait,
 )
 
@@ -178,20 +179,20 @@ def extract_arc_influence(
 def process_influence_txns():
     awe_prefix = f"awe_{manager_account.public_key}".encode()
     params = algod_client.suggested_params()
-    latest_txns = indexer.search_transactions(
+    latest_txns = search_transactions_generic(
         note_prefix=awe_prefix,
         min_round=storage_metadata.last_processed_block,
         max_round=params.first,
         txn_type="axfer",
     )
 
-    if len(latest_txns["transactions"]) == 0:
+    if len(latest_txns) == 0:
         pretty_print("No new transactions to process")
         storage_metadata.last_processed_block = params.first
         save_metadata(CITY_INFLUENCE_METADATA_PATH, storage_metadata)
         return
 
-    for axfer_txn in latest_txns["transactions"]:
+    for axfer_txn in latest_txns:
         pretty_print(axfer_txn)
         axfer_txn_note = decode_note(axfer_txn["note"])
         if axfer_txn_note:

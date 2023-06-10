@@ -1,4 +1,5 @@
 import math
+from time import sleep
 
 from algosdk import mnemonic
 from algosdk.future.transaction import AssetTransferTxn
@@ -14,7 +15,7 @@ from src.shared.common import (
     indexer,
 )
 from src.shared.models import Wallet
-from src.shared.utils import load_tiles_assets, pretty_print, sign_send_wait
+from src.shared.utils import load_tiles_assets, pretty_print
 
 manager_account = Wallet(
     mnemonic.to_private_key(BUILD_MANAGER_PASSPHRASE),
@@ -74,7 +75,7 @@ def list_builders():
 def send_rewards(all_builders: dict, account: Wallet):
     list_account_awt = find_list_awt_accounts(indexer)
     sum_factors = 0
-    validation_note = f"Congratulations! You get this AWT reward thanks to your buildings on the AlgoWorld map."
+    validation_note = "Congratulations! You get this AWT reward thanks to your buildings on the AlgoWorld map."
     params = algod_client.suggested_params()
 
     for builder in all_builders:
@@ -108,8 +109,8 @@ def send_rewards(all_builders: dict, account: Wallet):
                 index=AWT_ID,
                 note=validation_note.encode(),
             )
+            sleep(2)
             pretty_print(f"{reward} AWT sent to {builder}")
-            sign_send_wait(algod_client, account, reward_txn)
 
 
 def main():  # pragma: no cover
