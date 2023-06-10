@@ -223,6 +223,19 @@ for index, pack_purchase_txn in enumerate(latest_pack_purchase_txns):
     pretty_print(f"Running against {LEDGER_TYPE}")
 
     pack_purchase_note = decode_city_pack_note(pack_purchase_txn["note"])
+
+    if len(latest_pack_purchase_txns) - 1 == index:
+        confirmed_round = (
+            pack_purchase_txn["confirmed-round"]
+            if "confirmed-round" in pack_purchase_txn
+            else pack_purchase_txn["transaction"]["confirmed-round"]
+            if "confirmed-round" in pack_purchase_txn["transaction"]
+            else None
+        )
+        if confirmed_round:
+            storage_metadata.last_processed_block = confirmed_round
+            save_metadata(CITY_PACK_METADATA_PATH, storage_metadata)
+
     if pack_purchase_note:
         sender_mismatch = (
             pack_purchase_txn["sender"] != pack_purchase_note.buyer_address

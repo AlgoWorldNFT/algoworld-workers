@@ -546,6 +546,7 @@ def swapper_deposit(
         )
 
         tx_id, _ = sign_send_wait(algod, swap_creator, deposit_asa_txn)
+        sleep(5)
         deposit_txs[asset_id] = tx_id
 
         pretty_print(
