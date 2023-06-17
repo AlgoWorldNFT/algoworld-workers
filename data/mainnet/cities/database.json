@@ -1022,13 +1022,6 @@
         "url": "ipfs://bafybeicm2apgpydcywxyszuanoxy5eg5tbijffwwsw37vx53lvnqb2clbu"
     },
     {
-        "index": 1111377829,
-        "influence": 1000,
-        "name": "AWC #394 - Orlando, FL, USA",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeibphqs3ef3pzu6hdegjvp64aw2uzrtzgarr6lprpurritifbjy4lq"
-    },
-    {
         "index": 444205880,
         "influence": 1001,
         "name": "AWC #62 - Bonanza, USA",
@@ -2518,6 +2511,13 @@
         "name": "AWC #252 - Santiago, Chile",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeic5bess4vxob4hww6zccsmfq3oaopth6siqfvx3w74kf43xpbpi5e"
+    },
+    {
+        "index": 1111377829,
+        "influence": 3734,
+        "name": "AWC #394 - Orlando, FL, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeibphqs3ef3pzu6hdegjvp64aw2uzrtzgarr6lprpurritifbjy4lq"
     },
     {
         "index": 750529484,

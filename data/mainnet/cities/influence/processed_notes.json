@@ -439,6 +439,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "31410935-3cf7-4311-b27b-18676bffe079": {
+        "acfg_txn": "N6VQ3DVJTGAYEFSQUJKOA42GIIT7OYTMD6VXERUWL4DZD5WNNRDA",
+        "asset_id": 1111377829,
+        "asset_name": "AWC #394 - Orlando, FL, USA",
+        "block": 29838491,
+        "deposit": 2734,
+        "id": "31410935-3cf7-4311-b27b-18676bffe079",
+        "influence": 3734,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3218537b-ea7c-4e08-8222-f4c097a6bc83": {
         "acfg_txn": "PMWHBGDSSP477BEPDO2PXLONKQKTPFIWP2FKDI2W6YNPURBVAYWQ",
         "asset_id": 1009557337,
