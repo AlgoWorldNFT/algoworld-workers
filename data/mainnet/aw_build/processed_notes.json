@@ -107,6 +107,15 @@
         "object_id": "ArcdeTriomphe",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "6f8746e3-53f2-4925-8f86-9cccf80db3dd": {
+        "acfg_txn": "FFSIZHMTLDTVRMCATPNZCYKBOHYPGRKOZFEHIIPHWU6EKU6QYGZA",
+        "asset_id": 17,
+        "block": 29927215,
+        "deposit": 500,
+        "id": "6f8746e3-53f2-4925-8f86-9cccf80db3dd",
+        "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "719feb40-d2d6-4b41-9099-4b078580820f": {
         "acfg_txn": "ADUCYVOOGUPHL6RKYHPFBES3L2NBAP46PADWENQNYEDJFOE7ZQSA",
         "asset_id": 15,
