@@ -112,6 +112,13 @@
         "url": "ipfs://QmVmXNBVJ5NtrDFTCAWgeCAc16hUBu7u7B64JhFE9DNJDA"
     },
     {
+        "index": 811909339,
+        "influence": 0,
+        "name": "AWC #232 - Auckland, New Zealand",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmX7zWEkt9V76QeJNSfMdndhRFtQ961JBMUtuuZcV5i3xu"
+    },
+    {
         "index": 813901504,
         "influence": 0,
         "name": "AWC #233 - Plymouth, UK",
@@ -2231,13 +2238,6 @@
         "name": "AWC #219 - Sedona, AZ, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmV5vNcJKAG5nqLbVVuLayPdytnnNbibo7bzVkFsThXkRe"
-    },
-    {
-        "index": 811909339,
-        "influence": 3006,
-        "name": "AWC #232 - Auckland, New Zealand",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmX7zWEkt9V76QeJNSfMdndhRFtQ961JBMUtuuZcV5i3xu"
     },
     {
         "index": 837757729,
