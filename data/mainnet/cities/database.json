@@ -105,6 +105,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 714865220,
+        "influence": 0,
+        "name": "AWC #175 - Philadelphia, PA, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmXFv4bK4w9redRnjveQgXrBYdwvEv23PWZis67tFC1fi1"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -2469,13 +2476,6 @@
         "name": "AWC #217 - Tunis, Tunisia",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmYvG5e5ZswSTiar9A38Y73FddNJKgzzhqWr9KBxWKvq5z"
-    },
-    {
-        "index": 714865220,
-        "influence": 3300,
-        "name": "AWC #175 - Philadelphia, PA, USA",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmXFv4bK4w9redRnjveQgXrBYdwvEv23PWZis67tFC1fi1"
     },
     {
         "index": 954208803,
