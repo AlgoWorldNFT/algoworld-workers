@@ -105,6 +105,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 628474975,
+        "influence": 0,
+        "name": "AWC #95 - SF, CA, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmXNLffwdT98RbVaLSmnL1brqwAVe3USGg9Y9aQEgfrb56"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -866,13 +873,6 @@
         "name": "AWC #128 - Bushmills, UK",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://QmUzSdVZ6KogAD7AY66Rx6eDRHro73SZG85zRQ2yym4SdC"
-    },
-    {
-        "index": 628474975,
-        "influence": 650,
-        "name": "AWC #95 - SF, CA, USA",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://QmXNLffwdT98RbVaLSmnL1brqwAVe3USGg9Y9aQEgfrb56"
     },
     {
         "index": 791628165,
