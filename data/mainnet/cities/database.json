@@ -84,13 +84,6 @@
         "url": "ipfs://QmVwt97hvLoKnQgXreoWfScgM3oqQDA384HwJL41gkLZey"
     },
     {
-        "index": 365126919,
-        "influence": 0,
-        "name": "AWC #61 - Agra, India",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmX723UJWxkENLowhddgSJ8T67JweuSnCRhFfPJpn6YFcM"
-    },
-    {
         "index": 412950804,
         "influence": 0,
         "name": "AWC #59 - Newark, USA",
@@ -488,6 +481,13 @@
         "name": "AWC #56 - Stockholm, Sweden",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmenjdVcN98gCBfCSwE67s9TN5w5LCeN11waktsW9x5qCs"
+    },
+    {
+        "index": 365126919,
+        "influence": 100,
+        "name": "AWC #61 - Agra, India",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://QmX723UJWxkENLowhddgSJ8T67JweuSnCRhFfPJpn6YFcM"
     },
     {
         "index": 377726897,
