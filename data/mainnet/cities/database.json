@@ -105,6 +105,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 622417030,
+        "influence": 0,
+        "name": "AWC #134 - Accra, Ghana",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmaebSRGw7TmkfNE2YdnoS3YrSgTUa1Yekrk3K3MVciJef"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -2070,13 +2077,6 @@
         "name": "AWC #133 - Freetown, SL",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmaZtFKz9HvY6BwcxwqJXgwkYLK7fH73DJZTu44Gnv1fZP"
-    },
-    {
-        "index": 622417030,
-        "influence": 3001,
-        "name": "AWC #134 - Accra, Ghana",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmaebSRGw7TmkfNE2YdnoS3YrSgTUa1Yekrk3K3MVciJef"
     },
     {
         "index": 695033716,
