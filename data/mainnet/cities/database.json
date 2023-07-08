@@ -98,13 +98,6 @@
         "url": "ipfs://QmSeZGW7ArLFweQNGRpYBTo8xvu6dnP3R2c4PKEPXHwQdc"
     },
     {
-        "index": 475638290,
-        "influence": 0,
-        "name": "AWC #82 - Pyongyang, North Korea",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmaDnhK46SCuGQfXe3AprzD1EcKuF3fdEXqwXw8qLRrRni"
-    },
-    {
         "index": 587886470,
         "influence": 0,
         "name": "AWC #121 - Taipei, Taiwan",
@@ -1048,6 +1041,13 @@
         "name": "AWC #42 - Reykjavik, Iceland",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmbCgyDX2tBydCLf9YMjoR182NJCJJPNMnVifMsB1Gfn6f"
+    },
+    {
+        "index": 475638290,
+        "influence": 1069,
+        "name": "AWC #82 - Pyongyang, North Korea",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://QmaDnhK46SCuGQfXe3AprzD1EcKuF3fdEXqwXw8qLRrRni"
     },
     {
         "index": 713832762,
