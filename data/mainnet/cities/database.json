@@ -84,6 +84,13 @@
         "url": "ipfs://QmVwt97hvLoKnQgXreoWfScgM3oqQDA384HwJL41gkLZey"
     },
     {
+        "index": 363115012,
+        "influence": 0,
+        "name": "AWC #54 - Addis Ababa, Ethiopia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmaQZPqTd5FBcPf2r1CPUWbLKUb5NY4w96MJLDWut6kzJ8"
+    },
+    {
         "index": 412950804,
         "influence": 0,
         "name": "AWC #59 - Newark, USA",
@@ -1146,13 +1153,6 @@
         "name": "AWC #45 - Zurich, Switzerland",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmSgChzPcxpCzajHxtvBudYRE6qZrANFsFdvJ9LDF1QfUP"
-    },
-    {
-        "index": 363115012,
-        "influence": 3000,
-        "name": "AWC #54 - Addis Ababa, Ethiopia",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmaQZPqTd5FBcPf2r1CPUWbLKUb5NY4w96MJLDWut6kzJ8"
     },
     {
         "index": 393262941,
