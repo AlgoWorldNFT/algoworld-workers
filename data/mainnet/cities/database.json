@@ -105,6 +105,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 763469327,
+        "influence": 0,
+        "name": "AWC #197 - Aracaju, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmNoRGYza1kvhgpSrRNY78gZLMrRtp8NCanmFERwn7yvz1"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -1475,13 +1482,6 @@
         "name": "AWC #196 - Hobbiton, New Zealand",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmWQNtcvA62QpYqeZt6QQhD3uvsccKgvYQUUQnL2mpvy4q"
-    },
-    {
-        "index": 763469327,
-        "influence": 3000,
-        "name": "AWC #197 - Aracaju, Brazil",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmNoRGYza1kvhgpSrRNY78gZLMrRtp8NCanmFERwn7yvz1"
     },
     {
         "index": 763469648,
