@@ -422,6 +422,15 @@
         "object_id": "Meadow",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "6008f7d5-8f7f-49c2-aabb-9ba7292ee6b3": {
+        "acfg_txn": "22OZ5IFXFLDLFMB4R2LEI542XJYI4XYUYGFH4PYVR2WBNZ4DKQIQ",
+        "asset_id": 4,
+        "block": 30608956,
+        "deposit": 100,
+        "id": "6008f7d5-8f7f-49c2-aabb-9ba7292ee6b3",
+        "object_id": "Meadow",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "6162b8df-638c-42ea-a38f-816e423be98f": {
         "acfg_txn": "HV7VXMBUO2AMSGO52T5DTW3UR54YKVLQA6IOS6XJZSSWFMDNTNFQ",
         "asset_id": 9,
@@ -483,6 +492,15 @@
         "deposit": 100,
         "id": "678ee4fa-4b45-4a1c-834e-0fd7818cc159",
         "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "6be55736-4abb-4981-8b71-3304a3a11547": {
+        "acfg_txn": "3NPIUWRC6TNYQRXMP2BQWEAUUHI4VUI5IZXYCSPMR6YVIXDF2Y5Q",
+        "asset_id": 13,
+        "block": 30608964,
+        "deposit": 100,
+        "id": "6be55736-4abb-4981-8b71-3304a3a11547",
+        "object_id": "Forest",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "6e74a427-6130-4bde-98c2-e6339750d1d9": {
@@ -665,6 +683,24 @@
         "object_id": "House",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "98eaefe8-f3a8-45b4-8b50-bfff5b29b3f5": {
+        "acfg_txn": "T6ZVWRV3HBLFKKBOEODU6227H4UPD6TVAOI2XT32ZYUNDJ6PZHAQ",
+        "asset_id": 8,
+        "block": 30608961,
+        "deposit": 100,
+        "id": "98eaefe8-f3a8-45b4-8b50-bfff5b29b3f5",
+        "object_id": "Water",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "9989f44b-33a4-47d7-a17f-cd21ae8729d6": {
+        "acfg_txn": "KGVQVQZB6QULRRCPV7EJSWUXILAKKULPVIEQZJNQ36YUX5VVCSTQ",
+        "asset_id": 12,
+        "block": 30608958,
+        "deposit": 100,
+        "id": "9989f44b-33a4-47d7-a17f-cd21ae8729d6",
+        "object_id": "Water",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "9e3de603-3b81-4859-9c3b-214e77b8129e": {
         "acfg_txn": "73TW5YCPBICSNRZIEREPCTDSQ5ZFCLYADWLIFMI4XRTL3ZEB272A",
         "asset_id": 33,
@@ -717,6 +753,15 @@
         "deposit": 100,
         "id": "a9152905-21c7-4043-aa80-8e8924c846eb",
         "object_id": "Forest",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "aa26a04b-057f-4e6b-97d9-6d970ebcd1e4": {
+        "acfg_txn": "B4GE4QQE4HFY3FYKMOJXGWIP4CVU5XYI37WG2CDYYCNTVHNPE32A",
+        "asset_id": 6,
+        "block": 30608954,
+        "deposit": 100,
+        "id": "aa26a04b-057f-4e6b-97d9-6d970ebcd1e4",
+        "object_id": "Meadow",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "ae9a110e-1cfc-4107-8814-7b1e7c3402a0": {
@@ -1320,6 +1365,15 @@
         "deposit": 100,
         "id": "e75918e6-0f25-4d53-96c4-92caac45abab",
         "object_id": "MountRushmore",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "e794fb41-a01c-4c7f-af90-fc4847a1555b": {
+        "acfg_txn": "G4Z436MLUV6XXZP6VZBNLIXYJYHHW4V3SYBZMR7YY2LUZTMHH3RA",
+        "asset_id": 19,
+        "block": 30608967,
+        "deposit": 100,
+        "id": "e794fb41-a01c-4c7f-af90-fc4847a1555b",
+        "object_id": "Forest",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "e7f4e4c9-141b-4e2b-8995-c44d33b31351": {
