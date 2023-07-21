@@ -28,6 +28,13 @@
         "url": "ipfs://QmR67mQvRAB2Dvf5x6z1YNdmHK95YApZFmVsJH9ANq35bf"
     },
     {
+        "index": 304870932,
+        "influence": 0,
+        "name": "AWC #21 - Manama, Bahrain",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmV2z9qHieGPWSZKAo6WwjV44iUKdrDfqU41mUY396jAEB"
+    },
+    {
         "index": 304871176,
         "influence": 0,
         "name": "AWC #23 - Mexico City, Mexico",
@@ -432,13 +439,6 @@
         "name": "AWC #11 - Athens, Greece",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmPjv2yKsHxpof8dCS3rj6PLGDLPWaxvEgjdzgfEnBe48d"
-    },
-    {
-        "index": 304870932,
-        "influence": 100,
-        "name": "AWC #21 - Manama, Bahrain",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://QmV2z9qHieGPWSZKAo6WwjV44iUKdrDfqU41mUY396jAEB"
     },
     {
         "index": 304871045,
