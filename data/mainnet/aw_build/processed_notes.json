@@ -404,6 +404,15 @@
         "object_id": "House",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "55d4c39f-639b-43cb-9f35-82ee655d0335": {
+        "acfg_txn": "HKWNOCRCRLAS7GKR2X6EKBHP4NB4SIMJASTUYNBZDC4VMDM6JX6A",
+        "asset_id": 34,
+        "block": 31072875,
+        "deposit": 100,
+        "id": "55d4c39f-639b-43cb-9f35-82ee655d0335",
+        "object_id": "Meadow",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "5a04a831-5063-42c2-b313-e69511493e23": {
         "acfg_txn": "SAE3SEMUXLQBG4KCPSET7X3IS5A2OJGY33UBXXFY7LJGHXLIUYKA",
         "asset_id": 18,
