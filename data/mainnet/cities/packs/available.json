@@ -439,5 +439,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #138"
+    },
+    {
+        "contract": "BiAKBOgHAQCBh7WJBPDY5pYCiO6vkQGP36SWBNvFudACByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "QAGTUFYPRYSFPCQ2Q5K54NYCXNVCMWCN6HNEPJTKECFJFBKJE2R7FQNJQA",
+        "id": 139,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1093485441,
+                "title": "AWC #349 - Vandenberg, CA, USA",
+                "url": "ipfs://bafybeic6xfc2g2lrxgxkcibd4ogvenyyor33goywdmxvvct6dqc7r3wxdm"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 584690800,
+                "title": "AWC #114 - Seville, Spain",
+                "url": "ipfs://Qma1C21NoFaVvnH6ptVmtCdTqxVRyJJveJ7DTupS8eLd2Q"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 304871176,
+                "title": "AWC #23 - Mexico City, Mexico",
+                "url": "ipfs://QmPEM7yupC9Zdn9m7hMNwffY9K6pxXK9QjRty39wzDuvgG"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1120481167,
+                "title": "AWC #399 - Salem, OR, USA",
+                "url": "ipfs://bafybeicerykodcl2q772cyvvgn2ry7nj7dl7t4ymqwcakq2rkypoti6wzm"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 705585883,
+                "title": "AWC #164 - Denver, CO, USA",
+                "url": "ipfs://QmPeQfpoDU1CistPqNKmXqiNe5kXtCMKDVm9BR3NZxJv6A"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #139"
     }
 ]
