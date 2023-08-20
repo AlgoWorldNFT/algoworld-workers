@@ -509,6 +509,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "359a5747-035a-4356-a193-39d3aeabfadf": {
+        "acfg_txn": "26NLJONOTXAND7RGKI2RDNJIWQKWXW54WN4MGKJEIYLBEH46QP4Q",
+        "asset_id": 1111377810,
+        "asset_name": "AWC #390 - Gibraltar, UK",
+        "block": 31443773,
+        "deposit": 3000,
+        "id": "359a5747-035a-4356-a193-39d3aeabfadf",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "3639eaa8-9532-4e3b-a0ab-062744f51424": {
         "acfg_txn": "M2CV4W6WAVR4YVVIDYTN76ZVV5S72IKOVYF4KFOVN66A7GEN45EQ",
         "asset_id": 1014122432,
@@ -827,6 +837,16 @@
         "deposit": 100,
         "id": "505cf1a1-853e-44e7-92d2-670de5eaed3c",
         "influence": 100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "53adfb8c-fad4-4a7d-9bb5-ddc36966ac5e": {
+        "acfg_txn": "5XFN4KUQS77CXWCJH3MRQIHWERIBMQI5SLRI663OYIJ3VLRULVOQ",
+        "asset_id": 1093485626,
+        "asset_name": "AWC #377 - Assisi, Italy",
+        "block": 31443770,
+        "deposit": 3000,
+        "id": "53adfb8c-fad4-4a7d-9bb5-ddc36966ac5e",
+        "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "554c13dc-b017-43b1-b554-a24bd66e4d45": {

@@ -245,13 +245,6 @@
         "url": "ipfs://bafybeidqyytwhtop5y7z6jfby7uz6b5cthmjtgfibqwcdzr53wciasaanu"
     },
     {
-        "index": 1093485626,
-        "influence": 0,
-        "name": "AWC #377 - Assisi, Italy",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiaktwiamjag3byilnhoiqv6tlxax5edcidvq5iq5jluc525m27zka"
-    },
-    {
         "index": 1095086660,
         "influence": 0,
         "name": "AWC #363 - Motovun, Croatia",
@@ -285,13 +278,6 @@
         "name": "AWC #368 - Rovinj, Croatia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeieclzodu35g5quhs7wvwuyoeoitlssucarfvavy4dcujwvuf53n3y"
-    },
-    {
-        "index": 1111377810,
-        "influence": 0,
-        "name": "AWC #390 - Gibraltar, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidcsbvntx42qwklq5yt6tiiffyhfrhd3ivmyjobucukyshafcrgnq"
     },
     {
         "index": 1111928938,
@@ -2156,11 +2142,25 @@
         "url": "ipfs://bafybeied6gd6l37trpo3wptj3dqsbaej2q4wu5p2x4uvteweh7aofmolae"
     },
     {
+        "index": 1093485626,
+        "influence": 3000,
+        "name": "AWC #377 - Assisi, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiaktwiamjag3byilnhoiqv6tlxax5edcidvq5iq5jluc525m27zka"
+    },
+    {
         "index": 1102788426,
         "influence": 3000,
         "name": "AWC #389 - Cincinnati, OH, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeieadmdbi7xxq6dtglf3strrpuldpu5zg3vrkc5hxwbhqhm4ev5fhe"
+    },
+    {
+        "index": 1111377810,
+        "influence": 3000,
+        "name": "AWC #390 - Gibraltar, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeidcsbvntx42qwklq5yt6tiiffyhfrhd3ivmyjobucukyshafcrgnq"
     },
     {
         "index": 1174083223,
