@@ -434,13 +434,6 @@
         "url": "ipfs://bafybeib4or47p5tgtdjjzzkpiu6ur5h6hslp6lshe72ta5ykcx2m5ebst4"
     },
     {
-        "index": 1174083223,
-        "influence": 0,
-        "name": "AWC #419 - Pompei, Italy",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifpmujm2bngca3unbku26ild47rgsvl22ov2omj2obucu3huno4hm"
-    },
-    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -2168,6 +2161,13 @@
         "name": "AWC #389 - Cincinnati, OH, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeieadmdbi7xxq6dtglf3strrpuldpu5zg3vrkc5hxwbhqhm4ev5fhe"
+    },
+    {
+        "index": 1174083223,
+        "influence": 3000,
+        "name": "AWC #419 - Pompei, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifpmujm2bngca3unbku26ild47rgsvl22ov2omj2obucu3huno4hm"
     },
     {
         "index": 377742761,

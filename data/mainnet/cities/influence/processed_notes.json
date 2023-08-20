@@ -1829,6 +1829,16 @@
         "influence": 3069,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "ddfdca91-69a0-406f-80f8-d9a32eb8bc41": {
+        "acfg_txn": "FTXEN7KWHIUYRFPJIBSR4Q7Q5ZBD2EOXS36FGM57MIOCER7ZFS2Q",
+        "asset_id": 1174083223,
+        "asset_name": "AWC #419 - Pompei, Italy",
+        "block": 31442712,
+        "deposit": 3000,
+        "id": "ddfdca91-69a0-406f-80f8-d9a32eb8bc41",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "de740283-6cd1-4185-a0f9-a006e9934036": {
         "acfg_txn": "J4EIINWDRUBDUE6JICVTG3IBXGQMDNC7RICDK7VLFOMJ5D5NXRXQ",
         "asset_id": 1154137605,
