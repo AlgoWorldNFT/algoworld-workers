@@ -1439,6 +1439,16 @@
         "influence": 3006,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "a50cd74f-b969-40ae-927c-63af4e7503c7": {
+        "acfg_txn": "YBYZB2KR6655MFUICGUUXJRRGGHTOX6LM5LKNCKBFZLTMYYSB56Q",
+        "asset_id": 271106498,
+        "asset_name": "AWC #1 - New York City, USA",
+        "block": 31558195,
+        "deposit": 1,
+        "id": "a50cd74f-b969-40ae-927c-63af4e7503c7",
+        "influence": 69421,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "a5581d80-cf16-4167-ac26-a7143652151e": {
         "acfg_txn": "Q37NWA4JKUVOVSDVKTRFR7XMTCMJTI4VKCIG3FDKXGSGUKSB3XGQ",
         "asset_id": 954213103,
