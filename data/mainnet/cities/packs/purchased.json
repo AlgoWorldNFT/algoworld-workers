@@ -6711,5 +6711,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #136"
+    },
+    {
+        "contract": "BiAKBOgHAQCfsoDHA5/znOIC6Kf/zgL66quaAaHf4/gDByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "KIFU2YVIL2NSJ3LOJWWZHH5USBI43V5RKD4JAPB2MEMZW5J26HVUAY4BQI",
+        "id": 143,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 954210591,
+                "title": "AWC #280 - Lucerne, CH",
+                "url": "ipfs://bafybeigysbtgrzu7kliynh2cx5o5hjeui7guoggcdjqjnpxf6zxzdv4ffy"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 742865311,
+                "title": "AWC #185 - Neufchatel, France",
+                "url": "ipfs://QmW96yvUfjMNTwjbgpUcnbGWcGqedzjeQuFCXZZSq9m4G1"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 702534632,
+                "title": "AWC #168 - Warsaw, Poland",
+                "url": "ipfs://QmUuNg1R1NB8MHdtQ2vQAv1P7WRu9B8pXDqzGqJzNp7RNM"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 323679610,
+                "title": "AWC #27 - Mal\u00e9, Maldives",
+                "url": "ipfs://QmacTAqwjuvU2hPLintgGrSVURVyM9rrJsS2ypmLJfw8Rb"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1058598817,
+                "title": "AWC #318 - Quebec, Canada",
+                "url": "ipfs://bafybeie27hjhaadcp726b6j26cyx27likt5jwyzvieyolb4ntauhfxofsq"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #143"
     }
 ]
