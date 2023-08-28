@@ -6760,5 +6760,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #143"
+    },
+    {
+        "contract": "BiAKBOgHAQCA7+yAAsDTvJQEifuQ+QOkh9ySBKzi5KgCByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "VUABHQ4VFN5GX3A5SMYST3SXYVGNXKJ75XZMWLDCYCPUPK2CNPA7ZRWLBA",
+        "id": 148,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 538654592,
+                "title": "AWC #90 - Hong Kong, China",
+                "url": "ipfs://Qmcgai3r2NAryad9DVsVwtKQWAD3kXeHHNUwQRoygPi4Ho"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1116678592,
+                "title": "AWC #397 - Cartagena, Colombia",
+                "url": "ipfs://bafybeif7nn5atbibk2iaf3qwbpugwgq2u7fvndspx5nmoawg627x4zokgu"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1059339657,
+                "title": "AWC #322 - Phuket, Thailand",
+                "url": "ipfs://bafybeieeiudnkfljwoy7p4qslnyyuzq6x65ttopldvemsw22v65db2wndy"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1112998820,
+                "title": "AWC #369 - Sibenik, Croatia",
+                "url": "ipfs://bafybeih4nq3j53ppilbsuubop4fyvx7ogq3i23y32s5eaw5c3efnk3h5gy"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 622407980,
+                "title": "AWC #133 - Freetown, SL",
+                "url": "ipfs://QmaZtFKz9HvY6BwcxwqJXgwkYLK7fH73DJZTu44Gnv1fZP"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #148"
     }
 ]
