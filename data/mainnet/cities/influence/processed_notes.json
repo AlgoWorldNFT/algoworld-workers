@@ -279,6 +279,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "184c5add-31c6-4f1a-94d0-6da23b305638": {
+        "acfg_txn": "HZGTMTDWNLLCXNSU3CCWDY54GWHY7QLKFTXLSQGNS52OGYUQYQZQ",
+        "asset_id": 1178006959,
+        "asset_name": "AWC #371 - Berchtesgaden, DE",
+        "block": 31760601,
+        "deposit": 600,
+        "id": "184c5add-31c6-4f1a-94d0-6da23b305638",
+        "influence": 600,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "18a44c42-dfa7-482f-aa02-f968cb81aad4": {
         "acfg_txn": "KPVQNWUBGALPMWROG4WPZBCDANMKQMUDVATBFDBBJYM5BQHMJQ3A",
         "asset_id": 271518216,
@@ -927,6 +937,16 @@
         "deposit": 300,
         "id": "5dd3bbb2-5d5c-49c1-a319-17733dcaac07",
         "influence": 300,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "5e8d9c8b-4e29-4b6e-8b97-7e4b6a43152e": {
+        "acfg_txn": "UK5UNNP2LH5OWAVXL5RW6HEBYBSU47EMAF2XVUETWBBXTUYSNKFA",
+        "asset_id": 1178006831,
+        "asset_name": "AWC #346 - Goheung, South Korea",
+        "block": 31760610,
+        "deposit": 600,
+        "id": "5e8d9c8b-4e29-4b6e-8b97-7e4b6a43152e",
+        "influence": 600,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "605980c3-f967-4db6-aa0b-54fbbbf0a5bb": {
