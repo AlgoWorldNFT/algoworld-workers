@@ -462,13 +462,6 @@
         "url": "ipfs://bafybeih76xdgwrd4ybw6miib4uwktf2yr47vraox42akav5hbkl7x36ma4"
     },
     {
-        "index": 1184124847,
-        "influence": 0,
-        "name": "AWC #426 - Belfast, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeif3edtr4qu4g4krkd2gvt4k4tqtgs3sppk4nzslrfnsudpzo6s4eq"
-    },
-    {
         "index": 1184124913,
         "influence": 0,
         "name": "AWC #427 - Luanda, Angola",
@@ -481,20 +474,6 @@
         "name": "AWC #428 - Portland, OR, USA",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeiaejgbm7vzwwencomyv7fg4remdvnnphian4salg6fgsbrrzu6s5a"
-    },
-    {
-        "index": 1186134050,
-        "influence": 0,
-        "name": "AWC #429 - Esch-sur-Alzette, LU",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeihnb7kc6i2ati7d3f2gwp7aq2qwjbj5fuqccru4cjc5p475xcd4fa"
-    },
-    {
-        "index": 1189953818,
-        "influence": 0,
-        "name": "AWC #430 - Barranquilla, CO",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidmfsc5u65am3ozk6glrwgyozptkbrxumjbg7nrav7hoyfln54key"
     },
     {
         "index": 271159971,
@@ -1230,6 +1209,27 @@
         "name": "AWC #336 - Vukovar, Croatia",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://bafybeicm2apgpydcywxyszuanoxy5eg5tbijffwwsw37vx53lvnqb2clbu"
+    },
+    {
+        "index": 1184124847,
+        "influence": 1000,
+        "name": "AWC #426 - Belfast, UK",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeif3edtr4qu4g4krkd2gvt4k4tqtgs3sppk4nzslrfnsudpzo6s4eq"
+    },
+    {
+        "index": 1186134050,
+        "influence": 1000,
+        "name": "AWC #429 - Esch-sur-Alzette, LU",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeihnb7kc6i2ati7d3f2gwp7aq2qwjbj5fuqccru4cjc5p475xcd4fa"
+    },
+    {
+        "index": 1189953818,
+        "influence": 1000,
+        "name": "AWC #430 - Barranquilla, CO",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeidmfsc5u65am3ozk6glrwgyozptkbrxumjbg7nrav7hoyfln54key"
     },
     {
         "index": 444205880,

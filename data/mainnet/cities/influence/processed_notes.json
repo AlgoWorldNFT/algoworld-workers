@@ -209,6 +209,16 @@
         "influence": 3501,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "11db9fa2-5202-4089-b5ab-115ea95ea799": {
+        "acfg_txn": "477YIBVHMATOMFCQA27HTKZXYVMGGQCC3Z3GIGXK3BGCHKHMAT6A",
+        "asset_id": 1189953818,
+        "asset_name": "AWC #430 - Barranquilla, CO",
+        "block": 32049248,
+        "deposit": 1000,
+        "id": "11db9fa2-5202-4089-b5ab-115ea95ea799",
+        "influence": 1000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "12342ec7-65e6-4ad7-accc-7c13857757bd": {
         "acfg_txn": "QXXJKYEBJX4V2NIV5KMQRJWE23IALBIYKLA32WOKXO3WYOGVLLBQ",
         "asset_id": 981721855,
@@ -267,6 +277,16 @@
         "deposit": 250,
         "id": "163c2475-3863-4b81-a83e-edf88b54b26d",
         "influence": 250,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "1797888d-ade6-4b19-9655-adb1bc9942a9": {
+        "acfg_txn": "AKRJVJKBDT57ZZHERYNOHAAXNK77WVWHS5LKGFTNPDZFB3KSK76A",
+        "asset_id": 1186134050,
+        "asset_name": "AWC #429 - Esch-sur-Alzette, LU",
+        "block": 32049244,
+        "deposit": 1000,
+        "id": "1797888d-ade6-4b19-9655-adb1bc9942a9",
+        "influence": 1000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "17b7a0aa-ba54-402d-8c2e-2ee026eb0b26": {
@@ -847,6 +867,16 @@
         "deposit": 100,
         "id": "505cf1a1-853e-44e7-92d2-670de5eaed3c",
         "influence": 100,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "521024cb-b837-4b1d-ab06-9f3ca35f05fc": {
+        "acfg_txn": "BN2HGWNVCMUWTUUTCLRW7TDJDOTILC3HX3XX2KLTDG7IBVMMXZUA",
+        "asset_id": 1184124847,
+        "asset_name": "AWC #426 - Belfast, UK",
+        "block": 32049241,
+        "deposit": 1000,
+        "id": "521024cb-b837-4b1d-ab06-9f3ca35f05fc",
+        "influence": 1000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "53adfb8c-fad4-4a7d-9bb5-ddc36966ac5e": {
