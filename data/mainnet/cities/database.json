@@ -105,6 +105,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 708720520,
+        "influence": 0,
+        "name": "AWC #129 - Lissone, Italy",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -1272,13 +1279,6 @@
         "name": "AWC #123 - San Marino, SM",
         "status": "AlgoWorld Gold City",
         "url": "ipfs://QmRN396xTGc6LVPPsPH5jfZ9gGih8C5ek75XSyKYmMy7QE"
-    },
-    {
-        "index": 708720520,
-        "influence": 1400,
-        "name": "AWC #129 - Lissone, Italy",
-        "status": "AlgoWorld Gold City",
-        "url": "ipfs://QmQkStwHKxzXezHPC7EpT8HgM1zJzuYDaeXjNm6J1eLAhe"
     },
     {
         "index": 882525222,
