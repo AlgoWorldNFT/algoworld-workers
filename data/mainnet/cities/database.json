@@ -476,13 +476,6 @@
         "url": "ipfs://bafybeiaejgbm7vzwwencomyv7fg4remdvnnphian4salg6fgsbrrzu6s5a"
     },
     {
-        "index": 1194580812,
-        "influence": 0,
-        "name": "AWC #431 - Kolkata, India",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeifym4vuwexdp54fiee4dp4vnuno35woukkfpurlx2sqkxxqeuo4u4"
-    },
-    {
         "index": 1194580836,
         "influence": 0,
         "name": "AWC #432 - Tenby, UK",
@@ -2273,6 +2266,13 @@
         "name": "AWC #419 - Pompei, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeifpmujm2bngca3unbku26ild47rgsvl22ov2omj2obucu3huno4hm"
+    },
+    {
+        "index": 1194580812,
+        "influence": 3000,
+        "name": "AWC #431 - Kolkata, India",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifym4vuwexdp54fiee4dp4vnuno35woukkfpurlx2sqkxxqeuo4u4"
     },
     {
         "index": 377742761,
