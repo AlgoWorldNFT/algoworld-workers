@@ -483,6 +483,20 @@
         "url": "ipfs://bafybeiebw2wre2qg3ejhuyljf2afjgkmdegs5m7wm6o4jtzrudnx5dc34i"
     },
     {
+        "index": 1201435427,
+        "influence": 0,
+        "name": "AWC #433 - Melbourne, Australia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiefuu6i6vabk6qetr23alrfaoqzhdda5mud7m3kiz5ac73pckvm64"
+    },
+    {
+        "index": 1201435460,
+        "influence": 0,
+        "name": "AWC #434 - Kelowna, Canada",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidecgikzffgujivtbq4ay43oikt5seo65jbvwa6lgdkxagldrqpj4"
+    },
+    {
         "index": 271159971,
         "influence": 100,
         "name": "AWC #2 - Bangkok, Thailand",
@@ -1048,20 +1062,6 @@
         "name": "AWC #128 - Bushmills, UK",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://QmUzSdVZ6KogAD7AY66Rx6eDRHro73SZG85zRQ2yym4SdC"
-    },
-    {
-        "index": 1178006831,
-        "influence": 600,
-        "name": "AWC #346 - Goheung, South Korea",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://bafybeihvbo7h7ss5ifsselalbjc6twoyjp3elma22idyyojmbdeyvi4aaa"
-    },
-    {
-        "index": 1178006959,
-        "influence": 600,
-        "name": "AWC #371 - Berchtesgaden, DE",
-        "status": "AlgoWorld Silver City",
-        "url": "ipfs://bafybeibsx2hnwlfiz6viwg2n4x4tjztd3xuzeb4lrosool353dep2me6di"
     },
     {
         "index": 628474975,
@@ -2266,6 +2266,20 @@
         "name": "AWC #419 - Pompei, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeifpmujm2bngca3unbku26ild47rgsvl22ov2omj2obucu3huno4hm"
+    },
+    {
+        "index": 1178006831,
+        "influence": 3000,
+        "name": "AWC #346 - Goheung, South Korea",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeihvbo7h7ss5ifsselalbjc6twoyjp3elma22idyyojmbdeyvi4aaa"
+    },
+    {
+        "index": 1178006959,
+        "influence": 3000,
+        "name": "AWC #371 - Berchtesgaden, DE",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeibsx2hnwlfiz6viwg2n4x4tjztd3xuzeb4lrosool353dep2me6di"
     },
     {
         "index": 1194580812,
