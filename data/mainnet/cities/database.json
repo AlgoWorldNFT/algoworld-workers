@@ -2303,13 +2303,6 @@
         "url": "ipfs://bafybeibsx2hnwlfiz6viwg2n4x4tjztd3xuzeb4lrosool353dep2me6di"
     },
     {
-        "index": 1194580812,
-        "influence": 3000,
-        "name": "AWC #431 - Kolkata, India",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://bafybeifym4vuwexdp54fiee4dp4vnuno35woukkfpurlx2sqkxxqeuo4u4"
-    },
-    {
         "index": 377742761,
         "influence": 3001,
         "name": "AWC #50 - Ottawa, Canada",
@@ -2875,5 +2868,12 @@
         "name": "AWC #1 - New York City, USA",
         "status": "AlgoWorld Capital",
         "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
+    },
+    {
+        "index": 1194580812,
+        "influence": 70000,
+        "name": "AWC #431 - Kolkata, India",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifym4vuwexdp54fiee4dp4vnuno35woukkfpurlx2sqkxxqeuo4u4"
     }
 ]
