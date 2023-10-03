@@ -399,6 +399,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "1fd9bada-416b-44ae-b620-e1bd5915362c": {
+        "acfg_txn": "CR5AVA7LVZC55OGZ5KWNRO645BWJQUHZPM3A55NXPKFYOSC7A7RA",
+        "asset_id": 1154137605,
+        "asset_name": "AWC #406 - Guadalajara, MX",
+        "block": 32557474,
+        "deposit": 400,
+        "id": "1fd9bada-416b-44ae-b620-e1bd5915362c",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "206954a6-d2ea-49fa-9761-11209facc26e": {
         "acfg_txn": "QOG7N5FHY43DJ6UVCVVV74OLOV2EENOUTEGX2SE7DCF6T3NNWPBQ",
         "asset_id": 1014122396,
@@ -1567,6 +1577,16 @@
         "deposit": 2750,
         "id": "a6962992-f1f6-41ec-b4a9-9e2f2dec6c11",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "a6cfccfd-9bec-4321-884b-55e85f6133b1": {
+        "acfg_txn": "7EU7TCPQQPZ5BI76NUVWXZPYE55KT7ZXW52LZCLBNJ3MWZEQLLCQ",
+        "asset_id": 1120481122,
+        "asset_name": "AWC #398 - IJmuiden, Netherlands",
+        "block": 32557476,
+        "deposit": 400,
+        "id": "a6cfccfd-9bec-4321-884b-55e85f6133b1",
+        "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "a76a3fa5-bbda-464e-9ee3-f9ad6b372d16": {

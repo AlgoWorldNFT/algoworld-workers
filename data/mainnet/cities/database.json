@@ -735,13 +735,6 @@
         "url": "ipfs://bafybeiaij2vhcnj63somynkzbfnklnej5nq5vrnp6wnn2ff4wt66u3s5zi"
     },
     {
-        "index": 1120481122,
-        "influence": 100,
-        "name": "AWC #398 - IJmuiden, Netherlands",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeieasgs4grwvrznqfpgyfwcywitnoiboyzr5akoodicaxk37fsco5q"
-    },
-    {
         "index": 1154137458,
         "influence": 100,
         "name": "AWC #403 - Klagenfurt, Austria",
@@ -761,13 +754,6 @@
         "name": "AWC #405 - Calgary, Canada",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://bafybeif75ogczbterhabd7jlzckl46s6r3bpyauetszuzwkinw6aj2ou5a"
-    },
-    {
-        "index": 1154137605,
-        "influence": 100,
-        "name": "AWC #406 - Guadalajara, MX",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeiaygj37pi4rlcv3vdpexx7gkmnz5ez5dxllbpf223pncl6nzfoyxe"
     },
     {
         "index": 1154137655,
@@ -1076,6 +1062,20 @@
         "name": "AWC #339 - Podgorica, Montenegro",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://bafybeihf7f56dct2kszey4nrmd7ge7fny2ew6yzeuickoiqu4ko6jagfbq"
+    },
+    {
+        "index": 1120481122,
+        "influence": 500,
+        "name": "AWC #398 - IJmuiden, Netherlands",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeieasgs4grwvrznqfpgyfwcywitnoiboyzr5akoodicaxk37fsco5q"
+    },
+    {
+        "index": 1154137605,
+        "influence": 500,
+        "name": "AWC #406 - Guadalajara, MX",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeiaygj37pi4rlcv3vdpexx7gkmnz5ez5dxllbpf223pncl6nzfoyxe"
     },
     {
         "index": 702534632,
