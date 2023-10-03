@@ -448,13 +448,6 @@
         "url": "ipfs://bafybeifowrjn4gwy7hpf4akby5gyfw72alztdj7p2pvamag4enwp37lfoa"
     },
     {
-        "index": 1181926475,
-        "influence": 0,
-        "name": "AWC #425 - Llanfairpwll, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeih76xdgwrd4ybw6miib4uwktf2yr47vraox42akav5hbkl7x36ma4"
-    },
-    {
         "index": 1184124913,
         "influence": 0,
         "name": "AWC #427 - Luanda, Angola",
@@ -2805,6 +2798,13 @@
         "name": "AWC #394 - Orlando, FL, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeibphqs3ef3pzu6hdegjvp64aw2uzrtzgarr6lprpurritifbjy4lq"
+    },
+    {
+        "index": 1181926475,
+        "influence": 5000,
+        "name": "AWC #425 - Llanfairpwll, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeih76xdgwrd4ybw6miib4uwktf2yr47vraox42akav5hbkl7x36ma4"
     },
     {
         "index": 996513685,

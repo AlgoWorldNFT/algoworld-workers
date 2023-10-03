@@ -1829,6 +1829,16 @@
         "influence": 5100,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "c6da647b-d1d8-4ada-899a-04559154660e": {
+        "acfg_txn": "6666LDMZUCRGWMKNRBPV5YUQU4C2YP6YDKMOZXVRZPU32DXKHMXQ",
+        "asset_id": 1181926475,
+        "asset_name": "AWC #425 - Llanfairpwll, UK",
+        "block": 32559255,
+        "deposit": 5000,
+        "id": "c6da647b-d1d8-4ada-899a-04559154660e",
+        "influence": 5000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "cd9698d0-484a-4041-ae96-eaed4778d42c": {
         "acfg_txn": "H7WV7MZH3GAQMKMYRV6QFZRQ3E6W4Y6465CWQLHWY4KJZWHDGKYA",
         "asset_id": 1086567058,
