@@ -413,13 +413,6 @@
         "url": "ipfs://bafybeibjnaix2zuatjze3l42sb4473s2u4slx7x6fuc7kyvawohyk5pa6e"
     },
     {
-        "index": 1168613213,
-        "influence": 0,
-        "name": "AWC #418 - Carcassonne, France",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeib4or47p5tgtdjjzzkpiu6ur5h6hslp6lshe72ta5ykcx2m5ebst4"
-    },
-    {
         "index": 1179393379,
         "influence": 0,
         "name": "AWC #420 - Manaus, Brazil",
@@ -1076,6 +1069,13 @@
         "name": "AWC #406 - Guadalajara, MX",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://bafybeiaygj37pi4rlcv3vdpexx7gkmnz5ez5dxllbpf223pncl6nzfoyxe"
+    },
+    {
+        "index": 1168613213,
+        "influence": 500,
+        "name": "AWC #418 - Carcassonne, France",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeib4or47p5tgtdjjzzkpiu6ur5h6hslp6lshe72ta5ykcx2m5ebst4"
     },
     {
         "index": 702534632,

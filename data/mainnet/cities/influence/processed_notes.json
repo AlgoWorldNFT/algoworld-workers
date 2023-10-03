@@ -149,6 +149,16 @@
         "influence": 2380,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "0cb064bc-6172-485e-8199-6a8b00f41e67": {
+        "acfg_txn": "XFQZ723U7WZZ2ESCN5PR6X5R4TUIS5RVRHAP2S3FY6YQ5F5RQAYQ",
+        "asset_id": 1168613213,
+        "asset_name": "AWC #418 - Carcassonne, France",
+        "block": 32558253,
+        "deposit": 500,
+        "id": "0cb064bc-6172-485e-8199-6a8b00f41e67",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "0f408e7c-0a9d-491a-9d4f-4bd5896b0092": {
         "acfg_txn": "L6MUZVUNMXZSQFXYRYCXTM336U26LBGBANDQALJOS56RHKRS7NKA",
         "asset_id": 931153112,
