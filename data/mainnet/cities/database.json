@@ -378,27 +378,6 @@
         "url": "ipfs://bafybeidna3a7i2pyawiiopksp4tjszfphc47htmyuxltwbftktds3nxwve"
     },
     {
-        "index": 1168613070,
-        "influence": 0,
-        "name": "AWC #415 - Chengdu, China",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeibop46iyniv2if5ucrfiehwv7unnsdsfyvpu2vuh3e73qpe3aqe7u"
-    },
-    {
-        "index": 1168613132,
-        "influence": 0,
-        "name": "AWC #416 - Bangalore, India",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiakb6lspmlnuadzb2ziac3cy7k2zrdagep3brlz6yru5gmhjq5qhm"
-    },
-    {
-        "index": 1168613183,
-        "influence": 0,
-        "name": "AWC #417 - New Delhi, India",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeibjnaix2zuatjze3l42sb4473s2u4slx7x6fuc7kyvawohyk5pa6e"
-    },
-    {
         "index": 1179393379,
         "influence": 0,
         "name": "AWC #420 - Manaus, Brazil",
@@ -1062,6 +1041,27 @@
         "name": "AWC #412 - Tianjin, China",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://bafybeidv76iqqds33s47d4efcjybk7qqqn7fogqan5gcrs7llpwi4a6uem"
+    },
+    {
+        "index": 1168613070,
+        "influence": 500,
+        "name": "AWC #415 - Chengdu, China",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeibop46iyniv2if5ucrfiehwv7unnsdsfyvpu2vuh3e73qpe3aqe7u"
+    },
+    {
+        "index": 1168613132,
+        "influence": 500,
+        "name": "AWC #416 - Bangalore, India",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeiakb6lspmlnuadzb2ziac3cy7k2zrdagep3brlz6yru5gmhjq5qhm"
+    },
+    {
+        "index": 1168613183,
+        "influence": 500,
+        "name": "AWC #417 - New Delhi, India",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeibjnaix2zuatjze3l42sb4473s2u4slx7x6fuc7kyvawohyk5pa6e"
     },
     {
         "index": 1168613213,

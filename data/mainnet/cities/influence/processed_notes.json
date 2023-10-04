@@ -319,6 +319,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "17bfe3f3-773f-40a7-ab27-394bb7d7c7e9": {
+        "acfg_txn": "KSEUTMGSBRAVE6QMZPXDKC3RXYFZSKOGF2EBHCO4Z62DBFFA3YKQ",
+        "asset_id": 1168613183,
+        "asset_name": "AWC #417 - New Delhi, India",
+        "block": 32597725,
+        "deposit": 500,
+        "id": "17bfe3f3-773f-40a7-ab27-394bb7d7c7e9",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "184c5add-31c6-4f1a-94d0-6da23b305638": {
         "acfg_txn": "HZGTMTDWNLLCXNSU3CCWDY54GWHY7QLKFTXLSQGNS52OGYUQYQZQ",
         "asset_id": 1178006959,
@@ -1059,6 +1069,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "6be1d073-233b-4025-8404-af94d43cf5cc": {
+        "acfg_txn": "XN77FO6AKFLQQRS46BJZUWCOPN3DQGPNDUE4XVOXNIKEC5QSCS5A",
+        "asset_id": 1168613132,
+        "asset_name": "AWC #416 - Bangalore, India",
+        "block": 32597723,
+        "deposit": 500,
+        "id": "6be1d073-233b-4025-8404-af94d43cf5cc",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "6c16e912-a95f-4ec0-9e0a-0637d0b4637d": {
         "acfg_txn": "2NU2JTL5Q37NSJZXPH47AOUCAQ7PWUX73AFXF57DJTEVRGX5IRGA",
         "asset_id": 1194580812,
@@ -1666,6 +1686,16 @@
         "block": 32596653,
         "deposit": 400,
         "id": "ad19cd85-5058-4eee-9ff6-f7f612295762",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "af1fa29b-94f0-4c53-af3c-bb58a9233781": {
+        "acfg_txn": "XE5BE5DFL2HF2AWSNLFBK3EFKQM2G23OVUPNKE2IDF2OZWG6ALTA",
+        "asset_id": 1168613070,
+        "asset_name": "AWC #415 - Chengdu, China",
+        "block": 32597720,
+        "deposit": 500,
+        "id": "af1fa29b-94f0-4c53-af3c-bb58a9233781",
         "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
