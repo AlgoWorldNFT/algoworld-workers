@@ -119,6 +119,16 @@
         "influence": 288,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "09b21e1a-4e69-49c4-92ac-11c2343658da": {
+        "acfg_txn": "ACOTNX5DETVOT626ZPSEAQ7RNV4AEBUAB6V4OZWETQTCI3C5BKLA",
+        "asset_id": 1168612727,
+        "asset_name": "AWC #412 - Tianjin, China",
+        "block": 32596660,
+        "deposit": 500,
+        "id": "09b21e1a-4e69-49c4-92ac-11c2343658da",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "09c45a79-dedf-4111-ba77-399583f4d356": {
         "acfg_txn": "SWBMPOCG4H5WX5HXEAM23IIUHOV7ZNA3IK2KAR5OO77Y2XT333SA",
         "asset_id": 1086567236,
@@ -1119,6 +1129,16 @@
         "influence": 400,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "73cbdd53-56d3-4607-8811-8fd42b5441c8": {
+        "acfg_txn": "HY5UC3X4GJXAI4JLPQN6VASLDQPWLEXU4QU3UUCSE75WJB64S42Q",
+        "asset_id": 1168612679,
+        "asset_name": "AWC #411 - Karachi, Pakistan",
+        "block": 32596658,
+        "deposit": 500,
+        "id": "73cbdd53-56d3-4607-8811-8fd42b5441c8",
+        "influence": 500,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "73f9257e-97b5-4809-9812-8a1e1bc7e8fd": {
         "acfg_txn": "GOFLZPFENXAN4YBK2HB3HQ2MMDHFUDZ5BJ6B63ZUH234E6VYS4KQ",
         "asset_id": 996513225,
@@ -1637,6 +1657,16 @@
         "deposit": 2400,
         "id": "accceb06-a6a0-4578-a3e9-ff86206900a6",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "ad19cd85-5058-4eee-9ff6-f7f612295762": {
+        "acfg_txn": "LFE34ZXCMRFVPMRZOPRWOE3SO35HCV65FO4R4LBIG5CG2KC7NOTA",
+        "asset_id": 1105482512,
+        "asset_name": "AWC #391 - Howth, Ireland",
+        "block": 32596653,
+        "deposit": 400,
+        "id": "ad19cd85-5058-4eee-9ff6-f7f612295762",
+        "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "af7fcc34-0c38-47e6-a5bb-ab811731ff56": {
@@ -2277,6 +2307,16 @@
         "deposit": 2916,
         "id": "f746887c-e052-48bd-a52c-e712976a6c42",
         "influence": 10000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "f7ba61d9-5e8f-4efa-866d-8d08fa9a2a25": {
+        "acfg_txn": "255L4S7OLNWWQEMJBP7AMFHSP5S7YMCCOYRMQZIA2X4ZAG3TGYHQ",
+        "asset_id": 1116678311,
+        "asset_name": "AWC #396 - Hallstatt, Austria",
+        "block": 32596655,
+        "deposit": 400,
+        "id": "f7ba61d9-5e8f-4efa-866d-8d08fa9a2a25",
+        "influence": 500,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "f8bb4652-a48b-455c-8cf4-dcaccddf4228": {

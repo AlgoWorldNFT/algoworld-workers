@@ -364,20 +364,6 @@
         "url": "ipfs://bafybeihrwcnx7jgfk7px7gcxb5m33j5xxw3sfcgcoqjkcbmflu33k2fe3a"
     },
     {
-        "index": 1168612679,
-        "influence": 0,
-        "name": "AWC #411 - Karachi, Pakistan",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidwh5663pykxa5ziqbd3ets5xjv45cswlnibb5uyvai6xoqndkkpe"
-    },
-    {
-        "index": 1168612727,
-        "influence": 0,
-        "name": "AWC #412 - Tianjin, China",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidv76iqqds33s47d4efcjybk7qqqn7fogqan5gcrs7llpwi4a6uem"
-    },
-    {
         "index": 1168612766,
         "influence": 0,
         "name": "AWC #413 - Wuhan, China",
@@ -705,20 +691,6 @@
         "name": "AWC #344 - Wuppertal, Germany",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://bafybeicyznobxy6dchouxralhrq253xlna7yau3ttwju7fbehr45zww6nm"
-    },
-    {
-        "index": 1105482512,
-        "influence": 100,
-        "name": "AWC #391 - Howth, Ireland",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeiehcxiwbhyac24jfbjtoreg5cgman7fsfvdbwyw35qc4kijpawts4"
-    },
-    {
-        "index": 1116678311,
-        "influence": 100,
-        "name": "AWC #396 - Hallstatt, Austria",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeiaij2vhcnj63somynkzbfnklnej5nq5vrnp6wnn2ff4wt66u3s5zi"
     },
     {
         "index": 1154137458,
@@ -1050,6 +1022,20 @@
         "url": "ipfs://bafybeihf7f56dct2kszey4nrmd7ge7fny2ew6yzeuickoiqu4ko6jagfbq"
     },
     {
+        "index": 1105482512,
+        "influence": 500,
+        "name": "AWC #391 - Howth, Ireland",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeiehcxiwbhyac24jfbjtoreg5cgman7fsfvdbwyw35qc4kijpawts4"
+    },
+    {
+        "index": 1116678311,
+        "influence": 500,
+        "name": "AWC #396 - Hallstatt, Austria",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeiaij2vhcnj63somynkzbfnklnej5nq5vrnp6wnn2ff4wt66u3s5zi"
+    },
+    {
         "index": 1120481122,
         "influence": 500,
         "name": "AWC #398 - IJmuiden, Netherlands",
@@ -1062,6 +1048,20 @@
         "name": "AWC #406 - Guadalajara, MX",
         "status": "AlgoWorld Silver City",
         "url": "ipfs://bafybeiaygj37pi4rlcv3vdpexx7gkmnz5ez5dxllbpf223pncl6nzfoyxe"
+    },
+    {
+        "index": 1168612679,
+        "influence": 500,
+        "name": "AWC #411 - Karachi, Pakistan",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeidwh5663pykxa5ziqbd3ets5xjv45cswlnibb5uyvai6xoqndkkpe"
+    },
+    {
+        "index": 1168612727,
+        "influence": 500,
+        "name": "AWC #412 - Tianjin, China",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeidv76iqqds33s47d4efcjybk7qqqn7fogqan5gcrs7llpwi4a6uem"
     },
     {
         "index": 1168613213,
