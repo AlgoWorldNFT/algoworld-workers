@@ -1069,6 +1069,16 @@
         "influence": 69420,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "6712a56f-dad7-45dc-b985-898d3e38089a": {
+        "acfg_txn": "M73FI3TJB67FMYKV4NHLAG6FUJ65DOKF7PNJJEDWYB5PENYQ73IA",
+        "asset_id": 1194580812,
+        "asset_name": "AWC #431 - Kolkata, India",
+        "block": 32655306,
+        "deposit": 20000,
+        "id": "6712a56f-dad7-45dc-b985-898d3e38089a",
+        "influence": 90000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "67e76e11-6ba5-4b54-aec0-285e1ac11474": {
         "acfg_txn": "M45VKZQHNGGEEC5G4KIRNVOI3ZM7VSGEWWEVLAADRRIR3O5KLXPA",
         "asset_id": 996513685,
