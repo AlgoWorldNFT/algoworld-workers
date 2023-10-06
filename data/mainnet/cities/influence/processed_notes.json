@@ -1,4 +1,14 @@
 {
+    "00bfa9b5-b416-485e-bd63-5f19346bdfed": {
+        "acfg_txn": "6JZFNCRNGXQFRRY6NZAR3DX5UPTIIJ6SMTBTI7NQLYNEPPB2TBVA",
+        "asset_id": 1184124940,
+        "asset_name": "AWC #428 - Portland, OR, USA",
+        "block": 32653385,
+        "deposit": 3000,
+        "id": "00bfa9b5-b416-485e-bd63-5f19346bdfed",
+        "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "02c40fba-0eb2-4943-a579-66b00ddd605c": {
         "acfg_txn": "4D6GDP2BMBG7KZSY5EGKQU3H23NSDDQJLVXJQ5PHTGZAMQMYBGVA",
         "asset_id": 1105482512,
