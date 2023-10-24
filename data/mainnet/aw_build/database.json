@@ -31,7 +31,7 @@
         "builder": "V6CX3GJ4RUBL5VS6ADRUTPJ5W4G5FSFY7CPNVBF6BXHMMUKBOFDXDDYXBI",
         "cost": 100,
         "index": 5,
-        "object": "Forest",
+        "object": "Castle",
         "owner": "V6CX3GJ4RUBL5VS6ADRUTPJ5W4G5FSFY7CPNVBF6BXHMMUKBOFDXDDYXBI"
     },
     {
@@ -63,10 +63,10 @@
         "owner": "C5PQ23PTNQYRQG3KOAS325ZBMOLKQWJ2FSZWVOJGPFCDAQWY4RSWWA2QI4"
     },
     {
-        "builder": "4LR3R7VSH5WWIUSSVOHHPCTRABCOJJA7ICHBEJ5XDYEVUDU3LONBSC2TZE",
+        "builder": "V6CX3GJ4RUBL5VS6ADRUTPJ5W4G5FSFY7CPNVBF6BXHMMUKBOFDXDDYXBI",
         "cost": 100,
         "index": 10,
-        "object": "Water",
+        "object": "Meadow",
         "owner": "MIOECQYZACMV4DVZHFMP2KIDC43SKZHPQIMFOM6MMXGHYF7YQA76RXKYKQ"
     },
     {
