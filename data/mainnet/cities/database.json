@@ -784,13 +784,6 @@
         "url": "ipfs://bafybeifwhcnmga5hbhz6a7vjhklmpvtfl7cvp3tw4rkuipov64w2gh5oke"
     },
     {
-        "index": 1086567339,
-        "influence": 100,
-        "name": "AWC #344 - Wuppertal, Germany",
-        "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeicyznobxy6dchouxralhrq253xlna7yau3ttwju7fbehr45zww6nm"
-    },
-    {
         "index": 1154137458,
         "influence": 100,
         "name": "AWC #403 - Klagenfurt, Austria",
@@ -845,6 +838,13 @@
         "name": "AWC #64 - Naypyidaw, Myanmar",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmcEsX1U2X9R4QaH3LSZJXz23HywKkLxPbXBLZkBvedTR5"
+    },
+    {
+        "index": 1086567339,
+        "influence": 101,
+        "name": "AWC #344 - Wuppertal, Germany",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeicyznobxy6dchouxralhrq253xlna7yau3ttwju7fbehr45zww6nm"
     },
     {
         "index": 538654592,
@@ -2576,13 +2576,6 @@
         "url": "ipfs://QmNYAPN1cTvzEwfZJ83NW6cFPsGmVpNuiXcqDXGdHU5JE4"
     },
     {
-        "index": 655500972,
-        "influence": 3006,
-        "name": "AWC #151 - Caernarfon, UK",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://Qmckd3Fi9h3numf1mg2jRAnrnVMVHsH9FY8KBs8evs6C6s"
-    },
-    {
         "index": 678838339,
         "influence": 3006,
         "name": "AWC #157 - Warwick, UK",
@@ -2840,6 +2833,13 @@
         "name": "AWC #186 - Turin, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmNVzAdR2dxeGgimzGTM24T8GnxkTa4xXvgvKzRsSk4jex"
+    },
+    {
+        "index": 655500972,
+        "influence": 3106,
+        "name": "AWC #151 - Caernarfon, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://Qmckd3Fi9h3numf1mg2jRAnrnVMVHsH9FY8KBs8evs6C6s"
     },
     {
         "index": 978590908,

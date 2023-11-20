@@ -609,6 +609,16 @@
         "influence": 3000,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "380e2042-95b2-4d72-b95e-b8e51dc42bb6": {
+        "acfg_txn": "T5FP6XDR3EOGIBR4HPSZRKFUZ7RLVCOR6VQF2SMQ6XMGXS5MVI3Q",
+        "asset_id": 1086567339,
+        "asset_name": "AWC #344 - Wuppertal, Germany",
+        "block": 33790006,
+        "deposit": 1,
+        "id": "380e2042-95b2-4d72-b95e-b8e51dc42bb6",
+        "influence": 101,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "38fa57f1-dac9-44e2-bccc-bcd28c2ad379": {
         "acfg_txn": "LMQXEZQXDO3L5HEO53AAGQVB4FO3CDEPPYOG7G53SBZFXO4OKVVQ",
         "asset_id": 1029165058,
@@ -2217,6 +2227,16 @@
         "deposit": 2750,
         "id": "e862d4c5-5519-42a7-bde7-d6a4fb43c334",
         "influence": 3000,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
+    "e868b583-1adc-44e2-8517-e27c1fa89b16": {
+        "acfg_txn": "5W2YZM2IHNHSYFVWC542GT4S3RK2CPRYHMQMVBC57D6IOL32WUGQ",
+        "asset_id": 655500972,
+        "asset_name": "AWC #151 - Caernarfon, UK",
+        "block": 33790009,
+        "deposit": 100,
+        "id": "e868b583-1adc-44e2-8517-e27c1fa89b16",
+        "influence": 3106,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
     "e98edb4b-9378-4bcb-9ea5-043f930ef686": {
