@@ -175,13 +175,6 @@
         "url": "ipfs://bafybeias3etffpu3ec4ge25g4zq4qspg2v5xyzph3x5k4zzgur4a65xqoe"
     },
     {
-        "index": 996513110,
-        "influence": 0,
-        "name": "AWC #296 - El Valle de Anton, PA",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeigu2v6jbfiuojncf2niwk2n3wiqps5wrsytw2v77m5zc5hvz5cria"
-    },
-    {
         "index": 1013373490,
         "influence": 0,
         "name": "AWC #308 - Sabha, Libya",
@@ -2301,6 +2294,13 @@
         "name": "AWC #295 - Altos de Campana, PA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeieqe3gwpybuea2y2cpsswmtv3hfrlgs3o3bu22hluqhiwgttebrdm"
+    },
+    {
+        "index": 996513110,
+        "influence": 3000,
+        "name": "AWC #296 - El Valle de Anton, PA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeigu2v6jbfiuojncf2niwk2n3wiqps5wrsytw2v77m5zc5hvz5cria"
     },
     {
         "index": 996513225,
