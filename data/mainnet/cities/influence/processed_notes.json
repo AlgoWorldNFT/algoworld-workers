@@ -749,6 +749,16 @@
         "influence": 3006,
         "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
     },
+    "44ee8a56-5cde-4e48-8ee6-f0aca24c23ad": {
+        "acfg_txn": "2FDCBGCCUX2GUJSOXQUJDMUM5S3WQ5CBQMIFPEJUGFZBOAJYKVSA",
+        "asset_id": 655500972,
+        "asset_name": "AWC #151 - Caernarfon, UK",
+        "block": 35174095,
+        "deposit": 65,
+        "id": "44ee8a56-5cde-4e48-8ee6-f0aca24c23ad",
+        "influence": 3171,
+        "sender_address": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE"
+    },
     "46172730-ffac-4fa1-bd92-06a49b19ad31": {
         "acfg_txn": "XE7FNX3NEKEVNDBXCP6DKTU7AXRB4KUAX6F5G2BFN7WUMMVTZZCA",
         "asset_id": 954210591,

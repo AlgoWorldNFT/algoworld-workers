@@ -3157,13 +3157,6 @@
         "url": "ipfs://QmNVzAdR2dxeGgimzGTM24T8GnxkTa4xXvgvKzRsSk4jex"
     },
     {
-        "index": 655500972,
-        "influence": 3106,
-        "name": "AWC #151 - Caernarfon, UK",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://Qmckd3Fi9h3numf1mg2jRAnrnVMVHsH9FY8KBs8evs6C6s"
-    },
-    {
         "index": 978590908,
         "influence": 3111,
         "name": "AWC #293 - Bologna, Italy",
@@ -3190,6 +3183,13 @@
         "name": "AWC #139 - The Hague, NL",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmNckfZ3ZWt14auFQb4tKr9fE22BYVZM4kpw1sfBpYb6P2"
+    },
+    {
+        "index": 655500972,
+        "influence": 3171,
+        "name": "AWC #151 - Caernarfon, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://Qmckd3Fi9h3numf1mg2jRAnrnVMVHsH9FY8KBs8evs6C6s"
     },
     {
         "index": 791628424,
