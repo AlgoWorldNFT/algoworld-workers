@@ -134,6 +134,15 @@
         "object_id": "MountRushmore",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "18048d4a-16f9-4588-8a16-08f98c611274": {
+        "acfg_txn": "ULQ4CQZ7CJH2SX6DQWUOBZBM43BAWBP5S2JNC2DYERM5LHF6CVVQ",
+        "asset_id": 19,
+        "block": 35605903,
+        "deposit": 100,
+        "id": "18048d4a-16f9-4588-8a16-08f98c611274",
+        "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "180664b0-0663-494f-aa34-12d71ca6cbb1": {
         "acfg_txn": "ALW45LCBJLB52JQZCH7JWLPHE7WUSWDW6YINECSAVLUTVQAI7FCA",
         "asset_id": 31,
@@ -384,6 +393,15 @@
         "deposit": 100,
         "id": "34dc80b0-6ffd-41fc-a4e3-16d7ab88b571",
         "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "34fd1c53-5211-4303-b886-c579d79756da": {
+        "acfg_txn": "DRZWVUQ5TEVPTJCFKLBU2HDJF6JI57RYOA32U2SLXRCBLDL26VKA",
+        "asset_id": 26,
+        "block": 35605899,
+        "deposit": 100,
+        "id": "34fd1c53-5211-4303-b886-c579d79756da",
+        "object_id": "Meadow",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "37a4f629-85bc-4350-89c0-eb73a74049f1": {
@@ -1095,6 +1113,15 @@
         "deposit": 100,
         "id": "7f7cc9a5-c456-4580-9033-586ca2885f8e",
         "object_id": "CityBlock",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "8015cc64-da81-41ab-9147-d18c6440e453": {
+        "acfg_txn": "H4NKJBVIVMFBUNFTBB3NDEZA4WIYZCO6SD2E22KA7PJYQU57FNVA",
+        "asset_id": 32,
+        "block": 35605901,
+        "deposit": 100,
+        "id": "8015cc64-da81-41ab-9147-d18c6440e453",
+        "object_id": "Forest",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "80227349-43fd-46e6-9399-7863a79ff6b8": {
