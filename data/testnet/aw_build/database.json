@@ -99,9 +99,9 @@
     },
     {
         "builder": "6MD7CUEHLXQTOMIO7W7VGDD6P7YBLQVYBIXLRST57XZFLEJY6CZTQ42KUU",
-        "cost": 500,
+        "cost": -1,
         "index": 15,
-        "object": "ArcdeTriomphe",
+        "object": "Meadow",
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
@@ -148,9 +148,9 @@
     },
     {
         "builder": "6MD7CUEHLXQTOMIO7W7VGDD6P7YBLQVYBIXLRST57XZFLEJY6CZTQ42KUU",
-        "cost": 1000,
+        "cost": 5000,
         "index": 22,
-        "object": "Water",
+        "object": "ArcdeTriomphe",
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
