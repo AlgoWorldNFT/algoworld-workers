@@ -64,7 +64,6 @@ def update_arc_tags(
     sender_address: str,
     asset_index: int,
     object_id: int,
-    deposit: int,
     cur_arc_note: ARC69Record,
     deposit_txn: str = None,
 ):
@@ -72,7 +71,7 @@ def update_arc_tags(
         [
             attribute
             for attribute in cur_arc_note.attributes
-            if attribute.trait_type.lower() not in ["object", "builder", "cost"]
+            if attribute.trait_type.lower() not in ["object", "builder"]
         ]
         if cur_arc_note
         else []
@@ -82,7 +81,6 @@ def update_arc_tags(
         [
             ARC69Attribute(trait_type="Object", value=str(object_id)),
             ARC69Attribute(trait_type="Builder", value=sender_address),
-            ARC69Attribute(trait_type="Cost", value=str(deposit)),
         ]
     )
 
@@ -203,11 +201,10 @@ def process_build_txns():
                         sender_address=axfer_txn["sender"],
                         asset_index=axfer_txn_note.asset_id,
                         object_id=axfer_txn_note.object_id,
-                        deposit=axfer_txn_note.deposit,
                         cur_arc_note=get_onchain_arc(
                             indexer,
                             manager_account.public_key,
-                            axfer_txn_note.asset_id,
+                            BUILD_ASSET[axfer_txn_note.asset_id - 1],
                         ),
                         deposit_txn=axfer_txn["id"],
                     )
