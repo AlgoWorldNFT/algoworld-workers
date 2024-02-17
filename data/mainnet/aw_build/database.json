@@ -38,7 +38,7 @@
         "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
         "cost": 100,
         "index": 6,
-        "object": "Forest",
+        "object": "WhiteHouse",
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
@@ -140,10 +140,10 @@
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
+        "builder": "KTFFTLFR44V7NDRZG3VDUUU3EYGVMZAYA7G522GUIERSQIISXKRXG4XJVI",
         "cost": 500,
         "index": 21,
-        "object": "Meadow",
+        "object": "Castle",
         "owner": "6CZNVPUSXFBXIZ3GKVTOLZMSGCUR36ZRDK3FQH35W53GBE7JDZHWJBQPIU"
     },
     {
