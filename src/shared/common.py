@@ -131,6 +131,9 @@ KEYLIST_MAP = [
     "WhiteHouse",
     "MountRushmore",
     "Colosseum",
+    "EmpireStateBuilding1",
+    "EmpireStateBuilding2",
+    "EmpireStateBuilding3",
 ]
 AWT_TOTAL_REWARDS = 1000
 
