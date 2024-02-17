@@ -22,7 +22,7 @@ jobs:
             CITY_PACK_ALGO_PRICE: ${{ secrets.CITY_PACK_ALGO_PRICE}}
 
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
               with:
                   ref: testnet
 
