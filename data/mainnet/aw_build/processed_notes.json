@@ -521,6 +521,15 @@
         "object_id": "Meadow",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "41b3b09f-9e24-4b8e-a86f-e8594cbe9c19": {
+        "acfg_txn": "KDMRN7GEB3P6RADGO5JT2E5FX4A53ZKQDS7LLVFKNFGDQXK25RSQ",
+        "asset_id": 13,
+        "block": 36228205,
+        "deposit": 100,
+        "id": "41b3b09f-9e24-4b8e-a86f-e8594cbe9c19",
+        "object_id": "Meadow",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "41dd765f-c11c-44ee-8cbf-d8bda3e9fc45": {
         "acfg_txn": "3CIDPPSPC7MH5X7JLQBEE2CRMDUWCYA5ESXDUAWS4KP5JZNTSATA",
         "asset_id": 3,
@@ -816,6 +825,15 @@
         "deposit": 100,
         "id": "5d7ad38f-aaac-4203-af46-5e74af27ac9d",
         "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "5e4b7dbf-a3fd-4a20-bd98-2c96e463862c": {
+        "acfg_txn": "7AOE6L3MHLPE7GWXYJ7QYYP5IVA7MAHSWZHATTD65IF22HHQEDJQ",
+        "asset_id": 7,
+        "block": 36228209,
+        "deposit": 100,
+        "id": "5e4b7dbf-a3fd-4a20-bd98-2c96e463862c",
+        "object_id": "EmpireStateBuilding3",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "5f12a37a-246e-44a6-83d6-09abbeb8c0ed": {
@@ -1473,6 +1491,15 @@
         "deposit": 100,
         "id": "a2da4120-2cc0-4b0e-aff6-f1a149ceff57",
         "object_id": "Forest",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "a41d55aa-cbf5-4f93-949d-e115de25413a": {
+        "acfg_txn": "WET7ASBMD47MKCKVB4VIQHIN7U6TCSGZTKHWBXAKHPHB6PHGL7RA",
+        "asset_id": 19,
+        "block": 36228203,
+        "deposit": 100,
+        "id": "a41d55aa-cbf5-4f93-949d-e115de25413a",
+        "object_id": "EmpireStateBuilding1",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "a4490ba3-ce76-484c-bd88-1c44d40c5117": {
@@ -2787,6 +2814,15 @@
         "deposit": 100,
         "id": "f75b2a14-fc5a-4a08-9606-fca190904256",
         "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "f8c62b59-c703-4e0b-878b-1c3ef14b83f4": {
+        "acfg_txn": "TTO2FHDK2QU5RCMZJBOEEFPWH5KXMY7TSNZLJN4BMHXY37JB7VJQ",
+        "asset_id": 13,
+        "block": 36228207,
+        "deposit": 100,
+        "id": "f8c62b59-c703-4e0b-878b-1c3ef14b83f4",
+        "object_id": "EmpireStateBuilding2",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "f9286187-7693-4f84-9b74-ccaab411ee3f": {

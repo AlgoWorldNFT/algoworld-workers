@@ -45,7 +45,7 @@
         "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
         "cost": 100,
         "index": 7,
-        "object": "Water",
+        "object": "EmpireStateBuilding3",
         "owner": "7V4LPKOUF2J33AEM2L6LFYZJTE6DPDDWUALWLTAM5XL7PATBQS6YEGMAFU"
     },
     {
@@ -87,7 +87,7 @@
         "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
         "cost": 100,
         "index": 13,
-        "object": "Forest",
+        "object": "EmpireStateBuilding2",
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
@@ -129,7 +129,7 @@
         "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
         "cost": 100,
         "index": 19,
-        "object": "Meadow",
+        "object": "EmpireStateBuilding1",
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
