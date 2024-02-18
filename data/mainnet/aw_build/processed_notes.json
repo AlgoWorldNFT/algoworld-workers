@@ -998,6 +998,15 @@
         "object_id": "Meadow",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "699bc71f-68de-4076-839f-bdcd6aa8c6a1": {
+        "acfg_txn": "P6SELWZKF5RA2FFFVWGXFMG4RWNHE5SALBQLFYND6KI6PCXRFCNQ",
+        "asset_id": 20,
+        "block": 36235691,
+        "deposit": 100,
+        "id": "699bc71f-68de-4076-839f-bdcd6aa8c6a1",
+        "object_id": "ArcdeTriomphe",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "6a1d5f85-e30d-4c39-8139-2877e189ba1d": {
         "acfg_txn": "ICJ2AOGMNJDJ64NKMY5CBWVND7AFWWFUUNT3VH266HMK2GCYYHKQ",
         "asset_id": 25,
@@ -1005,6 +1014,15 @@
         "deposit": 100,
         "id": "6a1d5f85-e30d-4c39-8139-2877e189ba1d",
         "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "6aa3e015-2f21-4520-9498-a4665b84b7f9": {
+        "acfg_txn": "YJNUSZPV3TUPILFO3TGM52DBZLQUXOHGOAA7I35RYV76ZADRU2EQ",
+        "asset_id": 33,
+        "block": 36235689,
+        "deposit": 100,
+        "id": "6aa3e015-2f21-4520-9498-a4665b84b7f9",
+        "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "6be55736-4abb-4981-8b71-3304a3a11547": {
