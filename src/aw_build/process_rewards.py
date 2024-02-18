@@ -99,12 +99,18 @@ def send_rewards(all_builders: dict, account: Wallet):
     params = algod_client.suggested_params()
 
     for builder in all_builders:
-        if all_builders[builder]["Castle"] > 0:
-            all_builders[builder]["factor"] = 2
-        elif all_builders[builder]["House"] > 0:
-            all_builders[builder]["factor"] = 1
-        else:
-            all_builders[builder]["factor"] = 0
+        all_builders[builder]["factor"] = (
+            all_builders[builder]["Colosseum"] * 4
+            + all_builders[builder]["ArcdeTriomphe"] * 4
+            + all_builders[builder]["WhiteHouse"] * 4
+            + all_builders[builder]["Castle"]
+            + min(
+                all_builders[builder]["EmpireStateBuilding1"],
+                all_builders[builder]["EmpireStateBuilding2"],
+                all_builders[builder]["EmpireStateBuilding3"],
+            )
+            * 1000
+        )
         bonus = (
             min(
                 all_builders[builder]["Forest"],

@@ -245,13 +245,6 @@
         "url": "ipfs://bafybeidqyytwhtop5y7z6jfby7uz6b5cthmjtgfibqwcdzr53wciasaanu"
     },
     {
-        "index": 1093485626,
-        "influence": 0,
-        "name": "AWC #377 - Assisi, Italy",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiaktwiamjag3byilnhoiqv6tlxax5edcidvq5iq5jluc525m27zka"
-    },
-    {
         "index": 1095086660,
         "influence": 0,
         "name": "AWC #363 - Motovun, Croatia",
@@ -273,13 +266,6 @@
         "url": "ipfs://bafybeih3haldg7w6xgkul27ssj43nikbmwrqicestqumkxbye55et4u2hq"
     },
     {
-        "index": 1105482512,
-        "influence": 0,
-        "name": "AWC #391 - Howth, Ireland",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiehcxiwbhyac24jfbjtoreg5cgman7fsfvdbwyw35qc4kijpawts4"
-    },
-    {
         "index": 1111377617,
         "influence": 0,
         "name": "AWC #364 - Pula, Croatia",
@@ -292,13 +278,6 @@
         "name": "AWC #368 - Rovinj, Croatia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeieclzodu35g5quhs7wvwuyoeoitlssucarfvavy4dcujwvuf53n3y"
-    },
-    {
-        "index": 1111377810,
-        "influence": 0,
-        "name": "AWC #390 - Gibraltar, UK",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeidcsbvntx42qwklq5yt6tiiffyhfrhd3ivmyjobucukyshafcrgnq"
     },
     {
         "index": 1111928938,
@@ -343,18 +322,473 @@
         "url": "ipfs://bafybeidq7glbmnam4cxs2k3a74cjlhmd4spryplb3oxelvspnlzegy7rfa"
     },
     {
-        "index": 1116678311,
-        "influence": 0,
-        "name": "AWC #396 - Hallstatt, Austria",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://bafybeiaij2vhcnj63somynkzbfnklnej5nq5vrnp6wnn2ff4wt66u3s5zi"
-    },
-    {
         "index": 1116678592,
         "influence": 0,
         "name": "AWC #397 - Cartagena, Colombia",
         "status": "AlgoWorld Regular City",
         "url": "ipfs://bafybeif7nn5atbibk2iaf3qwbpugwgq2u7fvndspx5nmoawg627x4zokgu"
+    },
+    {
+        "index": 1120481167,
+        "influence": 0,
+        "name": "AWC #399 - Salem, OR, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeicerykodcl2q772cyvvgn2ry7nj7dl7t4ymqwcakq2rkypoti6wzm"
+    },
+    {
+        "index": 1120481260,
+        "influence": 0,
+        "name": "AWC #400 - Helena, MT, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifpo6l5qajknlqwnx5zbhyg4rkzgjqozpq2d744ayq6jss4f5zs74"
+    },
+    {
+        "index": 1142945579,
+        "influence": 0,
+        "name": "AWC #395 - Hiroshima, Japan",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibn5rezbygjnt3q3gjybhsi6dhe3euqccfcfab2zzegflmpmtkkqy"
+    },
+    {
+        "index": 1149323489,
+        "influence": 0,
+        "name": "AWC #401 - South Tarawa, KI",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeid6f2coy4bvc3kzdsluah4kznobrw2hz5xx2obzkbcw6ib5s2ezva"
+    },
+    {
+        "index": 1149323564,
+        "influence": 0,
+        "name": "AWC #402 - Bishkek, Kyrgyzstan",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeihrwcnx7jgfk7px7gcxb5m33j5xxw3sfcgcoqjkcbmflu33k2fe3a"
+    },
+    {
+        "index": 1168612766,
+        "influence": 0,
+        "name": "AWC #413 - Wuhan, China",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeid3i4apvhpzyjyimd26ngwpmvkz4zxqqjtzmyho6zdpbya4k56viu"
+    },
+    {
+        "index": 1168612979,
+        "influence": 0,
+        "name": "AWC #414 - Lima, Peru",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidna3a7i2pyawiiopksp4tjszfphc47htmyuxltwbftktds3nxwve"
+    },
+    {
+        "index": 1179393379,
+        "influence": 0,
+        "name": "AWC #420 - Manaus, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiahtitapdvdjguhuaasi3t4pentml6ymqenpk3hb5azrytpvku4ke"
+    },
+    {
+        "index": 1179393417,
+        "influence": 0,
+        "name": "AWC #421 - Recife, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeia6ymbio2d6z4ohlbgbzrfzkzm7hkrjlxyoyfwc6lyiwiagj5vzae"
+    },
+    {
+        "index": 1179393432,
+        "influence": 0,
+        "name": "AWC #422 - Goiania, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeie7n4hsllcme6uq6f3h4dtxg3fjbsjjkolnqokj7p4moshliy3p6e"
+    },
+    {
+        "index": 1179393511,
+        "influence": 0,
+        "name": "AWC #423 - Campinas, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiezk7k7xznndms7utx6eo7ytk5fl4bdul65jnwj5dmklq5ivktgyi"
+    },
+    {
+        "index": 1179393598,
+        "influence": 0,
+        "name": "AWC #424 - Guarulhos, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifowrjn4gwy7hpf4akby5gyfw72alztdj7p2pvamag4enwp37lfoa"
+    },
+    {
+        "index": 1184124913,
+        "influence": 0,
+        "name": "AWC #427 - Luanda, Angola",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidjxo2o7k5kgjrao3cmlbq4s4zxarlxwccdn2y3ml4p7tfkyrvxfy"
+    },
+    {
+        "index": 1194580836,
+        "influence": 0,
+        "name": "AWC #432 - Tenby, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiebw2wre2qg3ejhuyljf2afjgkmdegs5m7wm6o4jtzrudnx5dc34i"
+    },
+    {
+        "index": 1201435427,
+        "influence": 0,
+        "name": "AWC #433 - Melbourne, Australia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiefuu6i6vabk6qetr23alrfaoqzhdda5mud7m3kiz5ac73pckvm64"
+    },
+    {
+        "index": 1201435460,
+        "influence": 0,
+        "name": "AWC #434 - Kelowna, Canada",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidecgikzffgujivtbq4ay43oikt5seo65jbvwa6lgdkxagldrqpj4"
+    },
+    {
+        "index": 1201443047,
+        "influence": 0,
+        "name": "AWC #435 - Hyderabad, Pakistan",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiee3vxcfpqwewxf4rfkbj3o6tp4l4vjtl3pesrezyovcmvxkrt6vi"
+    },
+    {
+        "index": 1201443068,
+        "influence": 0,
+        "name": "AWC #436 - Hyderabad, India",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibu3yjt3xuiutbtrtyepawwvypte4txvtqvxvizp2v6lsj5ltyjcy"
+    },
+    {
+        "index": 1201443146,
+        "influence": 0,
+        "name": "AWC #437 - Mysuru, India",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeib7j6rwfkh4n75cjxgoa6ron5kwtdr5i4ldgj33ujey76w6utdrt4"
+    },
+    {
+        "index": 1203492273,
+        "influence": 0,
+        "name": "AWC #345 - Boca Chica, TX, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidm3ylz2lmzrfw27czne2o7yzg7lcqqobjvhe4cu5bubkqkujx5gq"
+    },
+    {
+        "index": 1203492317,
+        "influence": 0,
+        "name": "AWC #381 - Mimice, Croatia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibnezfh4h45iztoyrju2q66j7loxwke4dcaugykgwjaa64vawpmku"
+    },
+    {
+        "index": 1210877518,
+        "influence": 0,
+        "name": "AWC #438 - Marseille, France",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiewrz3zyrzfzlq232gpqg7sbz2goxb6jl32r3n67m5jjfaxdvv5te"
+    },
+    {
+        "index": 1216501732,
+        "influence": 0,
+        "name": "AWC #439 - Boring, OR, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiepn4dabnlcdchz3j5uoyfbevfohqret2gdzyee6d7ncdkbszm7ze"
+    },
+    {
+        "index": 1216501841,
+        "influence": 0,
+        "name": "AWC #440 - Dull, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibnghx2i7imkmfsofkpaloydxpl7kwx62g4kphnjtfo5mdhdntjem"
+    },
+    {
+        "index": 1216501894,
+        "influence": 0,
+        "name": "AWC #441 - Auch, France",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeigjwqryn4kh44mgcwfn2ym4gvxror2tnpgwjumvxqzfcvf6hjk7ja"
+    },
+    {
+        "index": 1216501945,
+        "influence": 0,
+        "name": "AWC #442 - Douglas, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidlfodwengkwztjdsxgtggmb4hsfrvmpk6joadtus3ufoykxhxyam"
+    },
+    {
+        "index": 1216502007,
+        "influence": 0,
+        "name": "AWC #443 - St Helier, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeigjqpp3n7w6mhcygukwjcy7ofh6w3a2trrsj7xtfhd7zi2mmlzehe"
+    },
+    {
+        "index": 1216502072,
+        "influence": 0,
+        "name": "AWC #444 - St Peter Port, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeigvkwnfpttgfxhf35yarx62naw7elozbaaeaitgbxrbpkogwgswae"
+    },
+    {
+        "index": 1216502155,
+        "influence": 0,
+        "name": "AWC #445 - The Forest, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiexm56ddk7win3xgucqkaxwmz7kzaybwv4ab4vxvqck76bibfhftu"
+    },
+    {
+        "index": 1219952360,
+        "influence": 0,
+        "name": "AWC #446 - Lille, France",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiblaizkbv5ef3gmkrpihcnzjvfifqa4qmvcn7ldpj2omtuubtszwm"
+    },
+    {
+        "index": 1227103637,
+        "influence": 0,
+        "name": "AWC #447 - Zermatt, Switzerland",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeihhsai6rmxeuqob763u2avboz3cht2ksjkl46ljtz2ihvu32upboi"
+    },
+    {
+        "index": 1233108909,
+        "influence": 0,
+        "name": "AWC #448 - Reims, France",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeihxpnrcwplh3ys5m5kgdh5u6sm7a4mc7yhhmpranmylf4ojl4dciu"
+    },
+    {
+        "index": 1237847259,
+        "influence": 0,
+        "name": "AWC #449 - Gothenburg, Sweden",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidpia2je2qo3asahoqnfkxumzbh5upb5p7jbix76wto3broomb7wm"
+    },
+    {
+        "index": 1237847350,
+        "influence": 0,
+        "name": "AWC #450 - Monistrol, Spain",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiejumiyemkz23p3vwul4otziuwxmsq4gvprzdkmbs3n36lpyh5t2u"
+    },
+    {
+        "index": 1240017706,
+        "influence": 0,
+        "name": "AWC #451 - Blackpool, UK",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifxum24u3f5evhox52boeztdtpexptxd5kot7bnrgz46gaglaz3p4"
+    },
+    {
+        "index": 1241445223,
+        "influence": 0,
+        "name": "AWC #453 - Andorra la Vella, AD",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeih52ohqlva6dz6vxsjigcui4xcqk4bbinyilg4tcqldvpzjdqtt4y"
+    },
+    {
+        "index": 1241445305,
+        "influence": 0,
+        "name": "AWC #454 - St. Johns, AG",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeif6hpb6mwycnrf6elcviaylv7gd2itlftnmazo4xycru3revvpjki"
+    },
+    {
+        "index": 1241445662,
+        "influence": 0,
+        "name": "AWC #455 - Cortina d Ampezzo, IT",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibj7y3ciummzezkuxnzy3vqngyei35pnyadvwb345m4hqe7lxtn3y"
+    },
+    {
+        "index": 1247252586,
+        "influence": 0,
+        "name": "AWC #456 - Srebreno, Croatia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeih3nnztlq2asdjdzl5snjwejshg774g4dvdkjmhx4rl3eeyybpf7e"
+    },
+    {
+        "index": 1248221443,
+        "influence": 0,
+        "name": "AWC #452 - Intercourse, PA, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibopdccecjg7pssghfxykk2ukth5obszqfucapnbmmzdyojziamuu"
+    },
+    {
+        "index": 1253504124,
+        "influence": 0,
+        "name": "AWC #457 - Vilnius, Lithuania",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiajr2qugprla5ojfgn3gl2ndpfgxhlvrnnoahplkpsw47eulvawfy"
+    },
+    {
+        "index": 1253516860,
+        "influence": 0,
+        "name": "AWC #458 - Jakarta, Indonesia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeigc2ksdbgdgfkbushajpviusw2vyoryonnclparsitmxssrrarboq"
+    },
+    {
+        "index": 1262997796,
+        "influence": 0,
+        "name": "AWC #459 - San Antonio, TX, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiddwtyyd3mjkn55ihimxhozliqrmyqurp6yijn7y7l4lz5efcniou"
+    },
+    {
+        "index": 1270105281,
+        "influence": 0,
+        "name": "AWC #460 - Belmopan, Belize",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibbflugmlb7o6fzk34wmh3gyxd527wpcnt3b627ryhhsuzzv3astm"
+    },
+    {
+        "index": 1270105340,
+        "influence": 0,
+        "name": "AWC #461 - Porto-Novo, Benin",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifji4ppyrnslhwln4llq6f3yxv6bn2uzqhptg4v6jqofivhdgec4m"
+    },
+    {
+        "index": 1270105393,
+        "influence": 0,
+        "name": "AWC #462 - Gaborone, Botswana",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibhfzp2fl42x6byn2bui3suc6ajxrmwf3rh6dohyutxleivbca3rq"
+    },
+    {
+        "index": 1270105439,
+        "influence": 0,
+        "name": "AWC #463 - Sofia, Bulgaria",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeif4vhqj4xmla5uxjzj5462nqnjuybo45peazmrbk77szy23i2siuq"
+    },
+    {
+        "index": 1270105497,
+        "influence": 0,
+        "name": "AWC #464 - Ouagadougou, BF",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeihsrqesejniw7g55xkkvlvys6rqunj7c4j3bzjvaq2yvx4pvu6naq"
+    },
+    {
+        "index": 1270105578,
+        "influence": 0,
+        "name": "AWC #465 - Gitega, Burundi",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeig5timaoimapsn5iyt5bso4hz7fhqeymh7qehryz3g5p6j5fzhvpi"
+    },
+    {
+        "index": 1270105651,
+        "influence": 0,
+        "name": "AWC #466 - Bridgetown, Barbados",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeiesgw37i6hmmt5qrluvmdlvmkudzputj2sesrlg5xl4nxlkxnwzmu"
+    },
+    {
+        "index": 1305532349,
+        "influence": 0,
+        "name": "AWC #468 - Yaounde, Cameroon",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifpypacpv65fyen32xg4oem5mg5utl7tu5hu3f2hu5flyqgiojagu"
+    },
+    {
+        "index": 1305534441,
+        "influence": 0,
+        "name": "AWC #469 - Folgaria, Italy",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeid3is2dy4fw266emyx5umprhvja3xv46eo7blmy7362bfm2vn6era"
+    },
+    {
+        "index": 1305561869,
+        "influence": 0,
+        "name": "AWC #467 - Phnom Penh, Cambodia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifjekbohhbsmxmm6qn2qjbgy2gdhzotqvbvd6csbh7rnenhcv4uou"
+    },
+    {
+        "index": 1305562253,
+        "influence": 0,
+        "name": "AWC #470 - Honolulu, HI, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeigeshyw2wkuqhbs3ogoblpj5x2xxt6w3hnkdzbbqjkewoplfib5ui"
+    },
+    {
+        "index": 1367134177,
+        "influence": 0,
+        "name": "AWC #477 - New Orleans, LA, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeido25br4eaexykn4fwo3teqvmrs7teohikns4mn364klyas3hdur4"
+    },
+    {
+        "index": 1367198461,
+        "influence": 0,
+        "name": "AWC #471 - Sderot, Israel",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeicqh33rldp2eidcbfirwppdhs52g7ynjdrycwq3bdyiwmxt6xu6qy"
+    },
+    {
+        "index": 1367198646,
+        "influence": 0,
+        "name": "AWC #472 - Eilat, Israel",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeih7mlxcwn5vh23kzank4zbg3jdobmon6ad6tmojaq3gbkyp6wfeae"
+    },
+    {
+        "index": 1367199428,
+        "influence": 0,
+        "name": "AWC #473 - Tiberias, Israel",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidjj4pqj7psmpkdei6mii4rstpimmt33qisfaa4tpe3bp53wkiz3q"
+    },
+    {
+        "index": 1367199669,
+        "influence": 0,
+        "name": "AWC #474 - Karmiel, Israel",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidwzmth5mfdsqhwzntbykb7ynzla4j7zjkreyrmb6imk372ovr24u"
+    },
+    {
+        "index": 1367199755,
+        "influence": 0,
+        "name": "AWC #475 - Nahariya, Israel",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidat3vayr4cb3cdalptglejomglsjqke47tqhpvyjn46r4xjxltby"
+    },
+    {
+        "index": 1367200035,
+        "influence": 0,
+        "name": "AWC #476 - Holon, Israel",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeidziciyu76rvslkzkxusussqdhd237ixbxqkqbm6oi5hvz2pyy7xu"
+    },
+    {
+        "index": 1386910041,
+        "influence": 0,
+        "name": "AWC #478 - Tataouine, Tunisia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibkcxo2g6n6xgdxmvbbfitfvnihp6slb4sm4i36mkffjaj2q7c4yi"
+    },
+    {
+        "index": 1386910572,
+        "influence": 0,
+        "name": "AWC #479 - Tozeur, Tunisia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeihb3ou4zvuip5zxr7uhyz3bmc7jmzcsdtkx7yowosrh4cpa5bwkeq"
+    },
+    {
+        "index": 1386911027,
+        "influence": 0,
+        "name": "AWC #480 - Matmata, Tunisia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifga26jmy3lecatdbf2axm7odoap724mf5pzsccl6umiw7okg3wsm"
+    },
+    {
+        "index": 1386911176,
+        "influence": 0,
+        "name": "AWC #481 - Nefta, Tunisia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeifo2zho2iztpcudg2o4e4ogwuch2pmebaoonqrzvdear6pdepagg4"
+    },
+    {
+        "index": 1392460723,
+        "influence": 0,
+        "name": "AWC #202 - Caesarea, Israel",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeibj6p2ftmxdgrthp7lpcaic6lmdep3gi6niu4oppue24ecs2z2hga"
     },
     {
         "index": 271159971,
@@ -539,11 +973,53 @@
         "url": "ipfs://bafybeifwhcnmga5hbhz6a7vjhklmpvtfl7cvp3tw4rkuipov64w2gh5oke"
     },
     {
-        "index": 1086567339,
+        "index": 1154137458,
         "influence": 100,
-        "name": "AWC #344 - Wuppertal, Germany",
+        "name": "AWC #403 - Klagenfurt, Austria",
         "status": "AlgoWorld Bronze City",
-        "url": "ipfs://bafybeicyznobxy6dchouxralhrq253xlna7yau3ttwju7fbehr45zww6nm"
+        "url": "ipfs://bafybeibcn35ejvrudg6uzgssmau36cqxg5nawmfhcguevbutjsglil2kc4"
+    },
+    {
+        "index": 1154137490,
+        "influence": 100,
+        "name": "AWC #404 - Edmonton, Canada",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeiedrkm6beulvtbzvnljrys6ghaxnon67igmyc5hzkxfvz2xm2bnca"
+    },
+    {
+        "index": 1154137541,
+        "influence": 100,
+        "name": "AWC #405 - Calgary, Canada",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeif75ogczbterhabd7jlzckl46s6r3bpyauetszuzwkinw6aj2ou5a"
+    },
+    {
+        "index": 1154137655,
+        "influence": 100,
+        "name": "AWC #407 - Belize City, Belize",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeif5uq3m6gljg6427vwvhre6dzhacdt3jwgfefljmh7qxnmh673wci"
+    },
+    {
+        "index": 1154137680,
+        "influence": 100,
+        "name": "AWC #408 - Managua, Nicaragua",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeif3r4ab4fdi33o52ndtdfw3rljjkb5gcp5dxgbtu2m5q5kpdf7h4i"
+    },
+    {
+        "index": 1154911585,
+        "influence": 100,
+        "name": "AWC #409 - Imst, Austria",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeia2kfho5cmsejpht7nil7cqw7shteffsmz4iiptrzviltddwj4zkm"
+    },
+    {
+        "index": 1154911660,
+        "influence": 100,
+        "name": "AWC #410 - Rhenen, Netherlands",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeiaj3mp4qxmuwqanymaqhkygximzbielfwly6wzav4f4poqs5c6sju"
     },
     {
         "index": 393262263,
@@ -551,6 +1027,13 @@
         "name": "AWC #64 - Naypyidaw, Myanmar",
         "status": "AlgoWorld Bronze City",
         "url": "ipfs://QmcEsX1U2X9R4QaH3LSZJXz23HywKkLxPbXBLZkBvedTR5"
+    },
+    {
+        "index": 1086567339,
+        "influence": 101,
+        "name": "AWC #344 - Wuppertal, Germany",
+        "status": "AlgoWorld Bronze City",
+        "url": "ipfs://bafybeicyznobxy6dchouxralhrq253xlna7yau3ttwju7fbehr45zww6nm"
     },
     {
         "index": 538654592,
@@ -826,6 +1309,76 @@
         "url": "ipfs://bafybeihf7f56dct2kszey4nrmd7ge7fny2ew6yzeuickoiqu4ko6jagfbq"
     },
     {
+        "index": 1105482512,
+        "influence": 500,
+        "name": "AWC #391 - Howth, Ireland",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeiehcxiwbhyac24jfbjtoreg5cgman7fsfvdbwyw35qc4kijpawts4"
+    },
+    {
+        "index": 1116678311,
+        "influence": 500,
+        "name": "AWC #396 - Hallstatt, Austria",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeiaij2vhcnj63somynkzbfnklnej5nq5vrnp6wnn2ff4wt66u3s5zi"
+    },
+    {
+        "index": 1120481122,
+        "influence": 500,
+        "name": "AWC #398 - IJmuiden, Netherlands",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeieasgs4grwvrznqfpgyfwcywitnoiboyzr5akoodicaxk37fsco5q"
+    },
+    {
+        "index": 1154137605,
+        "influence": 500,
+        "name": "AWC #406 - Guadalajara, MX",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeiaygj37pi4rlcv3vdpexx7gkmnz5ez5dxllbpf223pncl6nzfoyxe"
+    },
+    {
+        "index": 1168612679,
+        "influence": 500,
+        "name": "AWC #411 - Karachi, Pakistan",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeidwh5663pykxa5ziqbd3ets5xjv45cswlnibb5uyvai6xoqndkkpe"
+    },
+    {
+        "index": 1168612727,
+        "influence": 500,
+        "name": "AWC #412 - Tianjin, China",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeidv76iqqds33s47d4efcjybk7qqqn7fogqan5gcrs7llpwi4a6uem"
+    },
+    {
+        "index": 1168613070,
+        "influence": 500,
+        "name": "AWC #415 - Chengdu, China",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeibop46iyniv2if5ucrfiehwv7unnsdsfyvpu2vuh3e73qpe3aqe7u"
+    },
+    {
+        "index": 1168613132,
+        "influence": 500,
+        "name": "AWC #416 - Bangalore, India",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeiakb6lspmlnuadzb2ziac3cy7k2zrdagep3brlz6yru5gmhjq5qhm"
+    },
+    {
+        "index": 1168613183,
+        "influence": 500,
+        "name": "AWC #417 - New Delhi, India",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeibjnaix2zuatjze3l42sb4473s2u4slx7x6fuc7kyvawohyk5pa6e"
+    },
+    {
+        "index": 1168613213,
+        "influence": 500,
+        "name": "AWC #418 - Carcassonne, France",
+        "status": "AlgoWorld Silver City",
+        "url": "ipfs://bafybeib4or47p5tgtdjjzzkpiu6ur5h6hslp6lshe72ta5ykcx2m5ebst4"
+    },
+    {
         "index": 702534632,
         "influence": 501,
         "name": "AWC #168 - Warsaw, Poland",
@@ -1001,11 +1554,25 @@
         "url": "ipfs://bafybeicm2apgpydcywxyszuanoxy5eg5tbijffwwsw37vx53lvnqb2clbu"
     },
     {
-        "index": 1111377829,
+        "index": 1184124847,
         "influence": 1000,
-        "name": "AWC #394 - Orlando, FL, USA",
+        "name": "AWC #426 - Belfast, UK",
         "status": "AlgoWorld Gold City",
-        "url": "ipfs://bafybeibphqs3ef3pzu6hdegjvp64aw2uzrtzgarr6lprpurritifbjy4lq"
+        "url": "ipfs://bafybeif3edtr4qu4g4krkd2gvt4k4tqtgs3sppk4nzslrfnsudpzo6s4eq"
+    },
+    {
+        "index": 1186134050,
+        "influence": 1000,
+        "name": "AWC #429 - Esch-sur-Alzette, LU",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeihnb7kc6i2ati7d3f2gwp7aq2qwjbj5fuqccru4cjc5p475xcd4fa"
+    },
+    {
+        "index": 1189953818,
+        "influence": 1000,
+        "name": "AWC #430 - Barranquilla, CO",
+        "status": "AlgoWorld Gold City",
+        "url": "ipfs://bafybeidmfsc5u65am3ozk6glrwgyozptkbrxumjbg7nrav7hoyfln54key"
     },
     {
         "index": 444205880,
@@ -2009,11 +2576,53 @@
         "url": "ipfs://bafybeied6gd6l37trpo3wptj3dqsbaej2q4wu5p2x4uvteweh7aofmolae"
     },
     {
+        "index": 1093485626,
+        "influence": 3000,
+        "name": "AWC #377 - Assisi, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiaktwiamjag3byilnhoiqv6tlxax5edcidvq5iq5jluc525m27zka"
+    },
+    {
         "index": 1102788426,
         "influence": 3000,
         "name": "AWC #389 - Cincinnati, OH, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeieadmdbi7xxq6dtglf3strrpuldpu5zg3vrkc5hxwbhqhm4ev5fhe"
+    },
+    {
+        "index": 1111377810,
+        "influence": 3000,
+        "name": "AWC #390 - Gibraltar, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeidcsbvntx42qwklq5yt6tiiffyhfrhd3ivmyjobucukyshafcrgnq"
+    },
+    {
+        "index": 1174083223,
+        "influence": 3000,
+        "name": "AWC #419 - Pompei, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeifpmujm2bngca3unbku26ild47rgsvl22ov2omj2obucu3huno4hm"
+    },
+    {
+        "index": 1178006831,
+        "influence": 3000,
+        "name": "AWC #346 - Goheung, South Korea",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeihvbo7h7ss5ifsselalbjc6twoyjp3elma22idyyojmbdeyvi4aaa"
+    },
+    {
+        "index": 1178006959,
+        "influence": 3000,
+        "name": "AWC #371 - Berchtesgaden, DE",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeibsx2hnwlfiz6viwg2n4x4tjztd3xuzeb4lrosool353dep2me6di"
+    },
+    {
+        "index": 1184124940,
+        "influence": 3000,
+        "name": "AWC #428 - Portland, OR, USA",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeiaejgbm7vzwwencomyv7fg4remdvnnphian4salg6fgsbrrzu6s5a"
     },
     {
         "index": 377742761,
@@ -2154,13 +2763,6 @@
         "name": "AWC #149 - Bangui, CF",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmNYAPN1cTvzEwfZJ83NW6cFPsGmVpNuiXcqDXGdHU5JE4"
-    },
-    {
-        "index": 655500972,
-        "influence": 3006,
-        "name": "AWC #151 - Caernarfon, UK",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://Qmckd3Fi9h3numf1mg2jRAnrnVMVHsH9FY8KBs8evs6C6s"
     },
     {
         "index": 678838339,
@@ -2422,6 +3024,13 @@
         "url": "ipfs://QmNVzAdR2dxeGgimzGTM24T8GnxkTa4xXvgvKzRsSk4jex"
     },
     {
+        "index": 655500972,
+        "influence": 3106,
+        "name": "AWC #151 - Caernarfon, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://Qmckd3Fi9h3numf1mg2jRAnrnVMVHsH9FY8KBs8evs6C6s"
+    },
+    {
         "index": 978590908,
         "influence": 3111,
         "name": "AWC #293 - Bologna, Italy",
@@ -2499,11 +3108,18 @@
         "url": "ipfs://bafybeic5bess4vxob4hww6zccsmfq3oaopth6siqfvx3w74kf43xpbpi5e"
     },
     {
-        "index": 750529484,
-        "influence": 5101,
-        "name": "AWC #192 - Florence, Italy",
+        "index": 1111377829,
+        "influence": 3734,
+        "name": "AWC #394 - Orlando, FL, USA",
         "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmefgFgc7X1E3KK9MCyFE9C9k5GUoKwtAVth49QymJrSkK"
+        "url": "ipfs://bafybeibphqs3ef3pzu6hdegjvp64aw2uzrtzgarr6lprpurritifbjy4lq"
+    },
+    {
+        "index": 1181926475,
+        "influence": 5000,
+        "name": "AWC #425 - Llanfairpwll, UK",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://bafybeih76xdgwrd4ybw6miib4uwktf2yr47vraox42akav5hbkl7x36ma4"
     },
     {
         "index": 996513685,
@@ -2514,10 +3130,17 @@
     },
     {
         "index": 576002647,
-        "influence": 6969,
+        "influence": 6970,
         "name": "AWC #69 - Las Vegas, NV, USA",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmSK4B5gqx2daLiYJLKMgxhWq9czLKKQR2auj8xMkpGRiv"
+    },
+    {
+        "index": 750529484,
+        "influence": 7000,
+        "name": "AWC #192 - Florence, Italy",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmefgFgc7X1E3KK9MCyFE9C9k5GUoKwtAVth49QymJrSkK"
     },
     {
         "index": 629170949,
@@ -2525,13 +3148,6 @@
         "name": "AWC #136 - Kyiv, Ukraine",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmZT78FoN6nnecebx8gRTZ41u1tXn2Dykhoh2ftgoHqEzY"
-    },
-    {
-        "index": 560284517,
-        "influence": 15079,
-        "name": "AWC #94 - Ljubljana, Slovenia",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
     },
     {
         "index": 323680959,
@@ -2556,7 +3172,7 @@
     },
     {
         "index": 271518216,
-        "influence": 30000,
+        "influence": 30010,
         "name": "AWC #9 - Paris, France",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmWN6EdntVzpZ1B5xwGba2bGquKHyRrGBM21jn3tRrXZQ1"
@@ -2570,9 +3186,23 @@
     },
     {
         "index": 271106498,
-        "influence": 69420,
+        "influence": 69421,
         "name": "AWC #1 - New York City, USA",
-        "status": "AlgoWorld Capital",
+        "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmXjMschwpGJCdJk8fMYVA4mUCYfaXdFTtL5hDEcL2Crra"
+    },
+    {
+        "index": 560284517,
+        "influence": 71709,
+        "name": "AWC #94 - Ljubljana, Slovenia",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmcfHWQPS9wYQg2qQPhiQffoP68nzPysfbuQFrAmLps3C9"
+    },
+    {
+        "index": 1194580812,
+        "influence": 90000,
+        "name": "AWC #431 - Kolkata, India",
+        "status": "AlgoWorld Capital",
+        "url": "ipfs://bafybeifym4vuwexdp54fiee4dp4vnuno35woukkfpurlx2sqkxxqeuo4u4"
     }
 ]
