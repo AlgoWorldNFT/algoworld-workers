@@ -3023,6 +3023,15 @@
         "object_id": "Forest",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "f6478bb3-abd2-4162-8b96-6a0ca5db81f5": {
+        "acfg_txn": "M6IHSVWYWKLZYCNLTCHXHRJFQSKBMZEL3EDJHRMDEEAT3YRSSRNA",
+        "asset_id": 34,
+        "block": 36255612,
+        "deposit": 100,
+        "id": "f6478bb3-abd2-4162-8b96-6a0ca5db81f5",
+        "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "f7414568-5f68-4081-8795-be97582f0e43": {
         "acfg_txn": "SN2YYBL75OR5ZMDSLR4BFNDXLQWAF4K7XZ7VI4XYFBNCG62PIGKA",
         "asset_id": 31,
