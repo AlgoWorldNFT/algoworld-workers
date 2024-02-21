@@ -17,7 +17,7 @@
         "builder": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI",
         "cost": 100,
         "index": 3,
-        "object": "Water",
+        "object": "Castle",
         "owner": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI"
     },
     {
@@ -241,7 +241,7 @@
         "builder": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI",
         "cost": 100,
         "index": 35,
-        "object": "Forest",
+        "object": "Castle",
         "owner": "5IZEZRV72RBA4BOLRIAP4SLPP3NIZQSVI24ZYURP4GWRVFORG7CT4GZHUI"
     },
     {
