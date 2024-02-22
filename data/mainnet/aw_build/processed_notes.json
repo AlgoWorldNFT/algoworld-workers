@@ -1331,6 +1331,15 @@
         "object_id": "CityBlock",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "8306ec83-7bdb-4c87-ac4b-5c3c60a099e4": {
+        "acfg_txn": "PPQ2S457GG7DYHNICY7O5CN4BQH2KRSIANURTJ6SGOQROKE65TZA",
+        "asset_id": 12,
+        "block": 36380170,
+        "deposit": 100,
+        "id": "8306ec83-7bdb-4c87-ac4b-5c3c60a099e4",
+        "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "8342b82b-0cc5-48ae-b8bc-54d968d8a807": {
         "acfg_txn": "5LU2MN4VP6MA27PNGBQQ3KPDTXVLRYXBXWZJVBZFDJ6HGFFQ3NCA",
         "asset_id": 18,
@@ -1601,6 +1610,15 @@
         "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "9c5f0ee6-00e6-46b5-aab2-6dafe587f92c": {
+        "acfg_txn": "WJUGYJ4AWLIZRSIKOZQAVR7CIVJR7BP3JUH7BJSE6CSSXGQRGRNQ",
+        "asset_id": 20,
+        "block": 36380165,
+        "deposit": 100,
+        "id": "9c5f0ee6-00e6-46b5-aab2-6dafe587f92c",
+        "object_id": "Castle",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "9cd28c65-0bb8-4189-9790-ff5c119f0eab": {
         "acfg_txn": "UGVHE55YJAOA5LAX4QURHQ6RX6PTZJ5HTMYNA73UVSP7X3WESXSQ",
         "asset_id": 30,
@@ -1617,6 +1635,15 @@
         "deposit": 100,
         "id": "9e3de603-3b81-4859-9c3b-214e77b8129e",
         "object_id": "MountRushmore",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "9e8496ae-ad0f-4fd7-8eb0-760ccd85e7fe": {
+        "acfg_txn": "RON3HXP4ASPJC3TPCMZQMUSO62FKDXS3KMXZHDFJNLANYM7MRVUQ",
+        "asset_id": 6,
+        "block": 36380168,
+        "deposit": 100,
+        "id": "9e8496ae-ad0f-4fd7-8eb0-760ccd85e7fe",
+        "object_id": "ArcdeTriomphe",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "9fd0b53b-ddc8-4a73-b41a-63fe602cfba6": {
