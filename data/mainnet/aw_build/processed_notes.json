@@ -35,6 +35,15 @@
         "object_id": "WhiteHouse",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "07e83d28-6249-4146-88b0-375bd2186626": {
+        "acfg_txn": "UN5OB43QTOSIJT7ITP2X3AZAWSSZX26SHYXXTXZSO2P2XJOOGS7Q",
+        "asset_id": 7,
+        "block": 36559894,
+        "deposit": 100,
+        "id": "07e83d28-6249-4146-88b0-375bd2186626",
+        "object_id": "EmpireStateBuilding3",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "088fa479-f78f-47d5-8072-5fb4c381ffe2": {
         "acfg_txn": "QJJ2HKF4L2KAWY35HAKG6QETYVRBJJAPSJRRP3AHRSYT7DSW6FAA",
         "asset_id": 28,
