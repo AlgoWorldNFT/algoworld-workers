@@ -8,6 +8,15 @@
         "object_id": "Meadow",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "00880200-f3fa-4f65-bbe0-45b65ab6dbd0": {
+        "acfg_txn": "P37U5NFLPKG5JFIDLRUDI2TMPJB5AREOCAADFCJIO6YCQHAR573A",
+        "asset_id": 17,
+        "block": 36717468,
+        "deposit": 500,
+        "id": "00880200-f3fa-4f65-bbe0-45b65ab6dbd0",
+        "object_id": "EmpireStateBuilding3",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "00ab1bc2-c5d5-412a-960b-3b39f9224399": {
         "acfg_txn": "LYGQASHNZYUEON2JFL7E5XKPEEJMOWX5446PMB57MOP63U227DVQ",
         "asset_id": 32,
@@ -1248,6 +1257,15 @@
         "deposit": 500,
         "id": "6f8746e3-53f2-4925-8f86-9cccf80db3dd",
         "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "6fb8d361-e667-4216-80d1-45996524b55d": {
+        "acfg_txn": "QMQNY3OM4HE2LT25ANSDWY6QOVO2UT6PGBXRYWJLQ3Y7Z5HUICDQ",
+        "asset_id": 17,
+        "block": 36717466,
+        "deposit": 500,
+        "id": "6fb8d361-e667-4216-80d1-45996524b55d",
+        "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "70c7d3df-a642-46de-b6ec-f19afcb7c574": {
