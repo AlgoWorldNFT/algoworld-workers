@@ -105,6 +105,13 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
+        "index": 609072964,
+        "influence": 0,
+        "name": "AWC #125 - Tallinn, Estonia",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmbFpSSY6iceUKhDoZjdo8R6iKU2ePzXK43UWtMwLm2ZAC"
+    },
+    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -3169,13 +3176,6 @@
         "name": "AWC #143 - Dili, East Timor",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://Qmb4L4vsUwDnP393vfbGiLV8xPVxHnoftD9RV44C3jhrMB"
-    },
-    {
-        "index": 609072964,
-        "influence": 3009,
-        "name": "AWC #125 - Tallinn, Estonia",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmbFpSSY6iceUKhDoZjdo8R6iKU2ePzXK43UWtMwLm2ZAC"
     },
     {
         "index": 639430324,
