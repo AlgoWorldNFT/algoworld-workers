@@ -7,7 +7,7 @@
         "owner": "MIOECQYZACMV4DVZHFMP2KIDC43SKZHPQIMFOM6MMXGHYF7YQA76RXKYKQ"
     },
     {
-        "builder": "4SMZV7RDMBIG2MP7IP3NW2YGZFMT5A36MW7NCDMAXCFQBRFEITKCS7ZDYI",
+        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
         "cost": 100,
         "index": 2,
         "object": "Castle",
@@ -52,7 +52,7 @@
         "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
         "cost": 100,
         "index": 8,
-        "object": "Castle",
+        "object": "WhiteHouse",
         "owner": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU"
     },
     {
@@ -189,10 +189,10 @@
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
-        "builder": "KI4SE23EYIKSGOJ5QDKPNLJKHROT37OYH4S4RK5LPEJZWCAE53JXRRSX4E",
+        "builder": "MIKE666IZ52H7VUSX3HWJA6MUDXULGTN6X5K3O6C3CA4P6C6BPOPYGKIYU",
         "cost": 1000,
         "index": 28,
-        "object": "WhiteHouse",
+        "object": "Castle",
         "owner": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     {
