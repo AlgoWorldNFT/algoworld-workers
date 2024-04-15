@@ -107,6 +107,15 @@
         "object_id": "Castle",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "0d2edde9-60d0-49c4-a0a9-fb9ffc2ede60": {
+        "acfg_txn": "TDFEWFNIGI7OCOS3NPISH6HB6HYF2WNTNU2KPYWMT4EIN5I7TIWQ",
+        "asset_id": 9,
+        "block": 37945106,
+        "deposit": 100,
+        "id": "0d2edde9-60d0-49c4-a0a9-fb9ffc2ede60",
+        "object_id": "EmpireStateBuilding3",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "0df381d5-ca91-42e2-a951-a2f849d41de3": {
         "acfg_txn": "WRCCMVUVUL722GQS7SBBF734JNHKYH2RMEFTVSHASNHDEQFFDUAA",
         "asset_id": 29,
