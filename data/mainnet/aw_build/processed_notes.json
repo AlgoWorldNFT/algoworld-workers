@@ -1592,6 +1592,15 @@
         "object_id": "Forest",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "86f3df74-b4de-40a6-9e84-45c862dbd13f": {
+        "acfg_txn": "3XJBRZV7GUFNHNMEVOW7ZKSL6ABVFB3DTOX5O6YYNEM7FUTSKRUQ",
+        "asset_id": 9,
+        "block": 38045113,
+        "deposit": 100,
+        "id": "86f3df74-b4de-40a6-9e84-45c862dbd13f",
+        "object_id": "EmpireStateBuilding3",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "8861b8c8-3f6d-45a6-8482-384cd689a80b": {
         "acfg_txn": "DFKJOEFQDGMP4LWHH25W2UV7BPBW3GAPTRLYSBNUGC2QW3OPS4SA",
         "asset_id": 6,
