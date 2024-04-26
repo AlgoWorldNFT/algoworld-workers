@@ -71,6 +71,15 @@
         "object_id": "Colosseum",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "0926a0dc-1183-46a3-acd7-01aa701151b0": {
+        "acfg_txn": "UEPXKRY33V5LDR53RQ6H5OIRP6I6VXONOBGZ5M7F23NLN7WL4H7Q",
+        "asset_id": 9,
+        "block": 38288236,
+        "deposit": 500,
+        "id": "0926a0dc-1183-46a3-acd7-01aa701151b0",
+        "object_id": "EmpireStateBuilding3",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "0a57cb01-d88d-4df4-8b68-1a0ad86b066c": {
         "acfg_txn": "UAX6YM6UVFJPJCD4ARVVOQAAFYC2BEXSH4X23IRSBD6PYA4NEYJQ",
         "asset_id": 3,
@@ -1878,6 +1887,15 @@
         "deposit": 100,
         "id": "9989f44b-33a4-47d7-a17f-cd21ae8729d6",
         "object_id": "Water",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "9b99b29e-891d-4817-8897-fb6867ddfa55": {
+        "acfg_txn": "KRECY7K7OOY6FFDRFO3I4XMFM7SM7GMUR3AEUCVK2PGI3TQZGPBQ",
+        "asset_id": 15,
+        "block": 38288234,
+        "deposit": 500,
+        "id": "9b99b29e-891d-4817-8897-fb6867ddfa55",
+        "object_id": "EmpireStateBuilding2",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "9c5f0ee6-00e6-46b5-aab2-6dafe587f92c": {
