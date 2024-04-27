@@ -2303,6 +2303,15 @@
         "object_id": "Colosseum",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "bb023bbe-6ce4-4fdb-8a4d-1ad91d36fd60": {
+        "acfg_txn": "HCY7VKE5SJ6JFRV6KS5BRU4HPUHONYO4HESSODUIXXULEXFDDC3Q",
+        "asset_id": 9,
+        "block": 38310614,
+        "deposit": 100,
+        "id": "bb023bbe-6ce4-4fdb-8a4d-1ad91d36fd60",
+        "object_id": "EmpireStateBuilding3",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "bb31e51c-f463-498b-a9d9-8e67c3242c08": {
         "acfg_txn": "OFLDTP3DAPXS63QN4WQAMXGCLQLLXRQGG4VSMBCRYWCAFF7UE7WA",
         "asset_id": 29,
