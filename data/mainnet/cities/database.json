@@ -112,13 +112,6 @@
         "url": "ipfs://QmVmXNBVJ5NtrDFTCAWgeCAc16hUBu7u7B64JhFE9DNJDA"
     },
     {
-        "index": 809412220,
-        "influence": 0,
-        "name": "AWC #231 - Veenendaal, NL",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmdzS6C1z5GK6hcPi7dothWPeyWfMFkqiVTXyKoJEeErvj"
-    },
-    {
         "index": 813901504,
         "influence": 0,
         "name": "AWC #233 - Plymouth, UK",
@@ -2469,6 +2462,13 @@
         "name": "AWC #229 - Curitiba, Brazil",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmXJAR9hWho6NPYJVKE6Gp3G3RxPz35Md8cYZdQfmNTfYz"
+    },
+    {
+        "index": 809412220,
+        "influence": 3000,
+        "name": "AWC #231 - Veenendaal, NL",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmdzS6C1z5GK6hcPi7dothWPeyWfMFkqiVTXyKoJEeErvj"
     },
     {
         "index": 842361837,
