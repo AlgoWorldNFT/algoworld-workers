@@ -53,6 +53,15 @@
         "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
+    "06601b0e-f39e-4805-8c5d-cb377e254877": {
+        "acfg_txn": "GXAFCFX45AA3YTFCPJOLP4A4LCS4HNFUSCLHVY357B3VGCALIWVA",
+        "asset_id": 9,
+        "block": 38598679,
+        "deposit": 100,
+        "id": "06601b0e-f39e-4805-8c5d-cb377e254877",
+        "object_id": "Forest",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
     "06b38e16-1ede-4f4d-a6b7-8cec82d26543": {
         "acfg_txn": "254HF3FPQNOC2FTWF2XYTRSEQSNGYWXOY3JHSMO5JFLVM2YRZLSQ",
         "asset_id": 6,
@@ -501,6 +510,15 @@
         "deposit": 100,
         "id": "303c9dae-84bb-43a2-8c7f-287f54e045a2",
         "object_id": "House",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "30473a2a-608f-477a-8ec9-e24d3618e83f": {
+        "acfg_txn": "TVV3UV6HA76UT535TMSFKNHUR75SS3AHFXU6JAKOPLXZKI53Z7LA",
+        "asset_id": 15,
+        "block": 38598682,
+        "deposit": 500,
+        "id": "30473a2a-608f-477a-8ec9-e24d3618e83f",
+        "object_id": "Forest",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "305921f1-8143-4e39-be0e-af7b3aa847f9": {
@@ -1113,6 +1131,15 @@
         "deposit": 100,
         "id": "5e4b7dbf-a3fd-4a20-bd98-2c96e463862c",
         "object_id": "EmpireStateBuilding3",
+        "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
+    },
+    "5f0cd570-e2e7-4407-80fa-705c78e70144": {
+        "acfg_txn": "KB52WMPHSAZ7SCEFY3FWOS54PZ5BMX25UOMHE2QIQX7EDUBGAS5Q",
+        "asset_id": 21,
+        "block": 38598684,
+        "deposit": 500,
+        "id": "5f0cd570-e2e7-4407-80fa-705c78e70144",
+        "object_id": "Water",
         "sender_address": "75BMV3IXUMULXWV4JCCEET3OXZQU5J32J5CZ62A4DOH4HHF3KTFFX56ZZQ"
     },
     "5f12a37a-246e-44a6-83d6-09abbeb8c0ed": {
