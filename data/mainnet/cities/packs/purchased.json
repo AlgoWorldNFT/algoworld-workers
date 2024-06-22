@@ -7740,5 +7740,54 @@
         "requested_algo_amount": 10000000,
         "requested_algo_wallet": null,
         "title": "AW City Pack #167"
+    },
+    {
+        "contract": "BiAKBOgHAQC74ZqSBMunwJwBsrSb4wOp+5D5A8DP2ZICByYBIJywPraVTleA7YMuZAqKVxjPvIAjHQEaDBadPqqxtTiPMgSBBhIzABAkEhAzARAiEhAzAhAiEhAzAxAiEhAzBBAiEhAzBRAiEhBAAoQyBCEJEjMAECQSEDMBECQSEDMCECISEDMDECISEDMEECISEDMFECISEDMGECISEEABIzIEIQkSMwAQIhIQMwEQIhIQMwIQIhIQMwMQIhIQMwQQIhIQMwUQJBIQMwYQJBIQQAABADMAASMOMwEBIw4QMwIBIw4QMwMBIw4QMwQBIw4QMwAgMgMSEDMBIDIDEhAzAiAyAxIQMwMgMgMSEDMEIDIDEhAzABMyAxIQMwETMgMSEDMCEzIDEhAzAxMyAxIQMwQTMgMSEDMFASMOMwUgMgMSEBAzABEhBBIQMwERIQUSEDMCESEGEhAzAxEhBxIQMwQRIQgSEDMAFCgSEDMBFCgSEDMCFCgSEDMDFCgSEDMEFCgSEDMAFSgSEDMBFSgSEDMCFSgSEDMDFSgSEDMEFSgSEDMFBygSEDMFCSgSEDMGACgSEDMGBygSEDMGCCUSEEIB4jMCASMOMwMBIw4QMwQBIw4QMwUBIw4QMwYBIw4QMwIgMgMSEDMDIDIDEhAzBCAyAxIQMwUgMgMSEDMGIDIDEhAzAhMyAxIQMwMTMgMSEDMEEzIDEhAzBRMyAxIQMwYTMgMSEDMCFTIDEhAzAxUyAxIQMwQVMgMSEDMFFTIDEhAzBhUyAxIQMwAHgCCKaxNJ5pPcb9t1+hmc6CDAgBtvAussZRHPAQiO5V1OjRIQMwAIJRIQMwEIgYCt4gQSEDMBBygSEDMCESEEEhAzAxEhBRIQMwQRIQYSEDMFESEHEhAzBhEhCBIQMwISJBIQMwMSJBIQMwQSJBIQMwUSJBIQMwYSJBIQMwIUMwEAEhAzAxQzAQASEDMEFDMBABIQMwUUMwEAEhAzBhQzAQASEEIAszMAACgSMwAIgZCLQA8QMwABIw4QMwAgMgMSEDMACTIDEhAzAQAzAAcSEDMCADMABxIQMwMAMwAHEhAzBAAzAAcSEDMFADMABxIQMwERIQQSEDMCESEFEhAzAxEhBhIQMwQRIQcSEDMFESEIEhAzAQAzARQSEDMCADMCFBIQMwMAMwMUEhAzBAAzBBQSEDMFADMFFBIQMwESJRIQMwISJRIQMwMSJRIQMwQSJRIQMwUSJRIQQw==",
+        "creator": "TSYD5NUVJZLYB3MDFZSAVCSXDDH3ZABDDUARUDAWTU7KVMNVHCH2NQOYWE",
+        "escrow": "4ZGR4ZH6DAEMDIRSBCUDXO4S7JS3QIZQRIJCZHNNHGW7HOYPW5RNOFX4CY",
+        "id": 168,
+        "is_active": true,
+        "is_closed": false,
+        "last_swap_tx": null,
+        "offered_asas": [
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1111929019,
+                "title": "AWC #373 - Zadar, Croatia",
+                "url": "ipfs://bafybeihj7lwrhbe6l5uogjnpqjoujqmtwj7s5l4ewuqmiyko7nifjqxjje"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 328209355,
+                "title": "AWC #40 - Prague, Czech Republic",
+                "url": "ipfs://QmNxT1PgMznyuFuxzwLhyQxKbTy2Rrj8xNSEQ25mGo4vPv"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1013373490,
+                "title": "AWC #308 - Sabha, Libya",
+                "url": "ipfs://bafybeiae77jbey74cffftcko35pfrffeolyy7s5jxg3btcbjr7yugaghx4"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 1059339689,
+                "title": "AWC #323 - Antalya, Turkey",
+                "url": "ipfs://bafybeihuijm2bxbugtvx4t6pwknhnbejdwkocen7cufpagcu25o4oung74"
+            },
+            {
+                "amount": 1,
+                "decimals": 0,
+                "id": 576088000,
+                "title": "AWC #100 - Scranton, PA, USA",
+                "url": "ipfs://QmSp7bGVnvGq3CV5zo1LsBKtgdR4FqjYjt1ba9wpMvUqja"
+            }
+        ],
+        "requested_algo_amount": 10000000,
+        "requested_algo_wallet": null,
+        "title": "AW City Pack #168"
     }
 ]
