@@ -266,6 +266,13 @@
         "url": "ipfs://bafybeih3haldg7w6xgkul27ssj43nikbmwrqicestqumkxbye55et4u2hq"
     },
     {
+        "index": 1102788426,
+        "influence": 0,
+        "name": "AWC #389 - Cincinnati, OH, USA",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://bafybeieadmdbi7xxq6dtglf3strrpuldpu5zg3vrkc5hxwbhqhm4ev5fhe"
+    },
+    {
         "index": 1111377617,
         "influence": 0,
         "name": "AWC #364 - Pula, Croatia",
@@ -2959,13 +2966,6 @@
         "name": "AWC #377 - Assisi, Italy",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://bafybeiaktwiamjag3byilnhoiqv6tlxax5edcidvq5iq5jluc525m27zka"
-    },
-    {
-        "index": 1102788426,
-        "influence": 3000,
-        "name": "AWC #389 - Cincinnati, OH, USA",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://bafybeieadmdbi7xxq6dtglf3strrpuldpu5zg3vrkc5hxwbhqhm4ev5fhe"
     },
     {
         "index": 1111377810,
