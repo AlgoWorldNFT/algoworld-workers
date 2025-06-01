@@ -28,7 +28,7 @@ repos:
                 - --ignore-init-module-imports
 
     - repo: https://github.com/myint/eradicate
-      rev: 2.2.0
+      rev: 3.0.0
       hooks:
           - id: eradicate
             args:
