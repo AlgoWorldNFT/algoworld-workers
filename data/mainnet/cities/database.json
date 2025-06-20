@@ -112,6 +112,13 @@
         "url": "ipfs://QmVmXNBVJ5NtrDFTCAWgeCAc16hUBu7u7B64JhFE9DNJDA"
     },
     {
+        "index": 795871524,
+        "influence": 0,
+        "name": "AWC #229 - Curitiba, Brazil",
+        "status": "AlgoWorld Regular City",
+        "url": "ipfs://QmXJAR9hWho6NPYJVKE6Gp3G3RxPz35Md8cYZdQfmNTfYz"
+    },
+    {
         "index": 813901504,
         "influence": 0,
         "name": "AWC #233 - Plymouth, UK",
@@ -2539,13 +2546,6 @@
         "name": "AWC #228 - Vianden, Luxembourg",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmVzw8zRM2BH7LgAeWNFBep1FsHEtkXXFomeDDtkkpoTwc"
-    },
-    {
-        "index": 795871524,
-        "influence": 3000,
-        "name": "AWC #229 - Curitiba, Brazil",
-        "status": "AlgoWorld Diamond City",
-        "url": "ipfs://QmXJAR9hWho6NPYJVKE6Gp3G3RxPz35Md8cYZdQfmNTfYz"
     },
     {
         "index": 809412220,
