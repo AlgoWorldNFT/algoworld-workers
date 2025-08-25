@@ -105,13 +105,6 @@
         "url": "ipfs://Qma6iQMhd2ADZfmvcYTdBhA8Biwu1TTdHpPCh2Fj4KgbPU"
     },
     {
-        "index": 731937096,
-        "influence": 0,
-        "name": "AWC #179 - Cape Town, S. Africa",
-        "status": "AlgoWorld Regular City",
-        "url": "ipfs://QmTxbpCcqCSDVqY6akiRvh1fRrSV3HNCBzW9F2VPxijST6"
-    },
-    {
         "index": 766770681,
         "influence": 0,
         "name": "AWC #205 - Anchorage, AK, USA",
@@ -2329,6 +2322,13 @@
         "name": "AWC #176 - Kharkiv, Ukraine",
         "status": "AlgoWorld Diamond City",
         "url": "ipfs://QmXCp1Cn4Vuj4Uk1Ld2BsPhwTUSQ7b5aKw8jX3NwfLiLqA"
+    },
+    {
+        "index": 731937096,
+        "influence": 3000,
+        "name": "AWC #179 - Cape Town, S. Africa",
+        "status": "AlgoWorld Diamond City",
+        "url": "ipfs://QmTxbpCcqCSDVqY6akiRvh1fRrSV3HNCBzW9F2VPxijST6"
     },
     {
         "index": 732142185,
